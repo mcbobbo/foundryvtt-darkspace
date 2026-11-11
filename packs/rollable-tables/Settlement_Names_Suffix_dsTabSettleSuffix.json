@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabSettleSuffix",
+  "name": "Settlement Names: Suffix",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Ending syllable of outpost or colony.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt6008d01585e411",
+      "name": "nar",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "nar",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt6008d01585e411"
+    },
+    {
+      "_id": "rt3dacce54e44f75",
+      "name": "dak",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "dak",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt3dacce54e44f75"
+    },
+    {
+      "_id": "rtfe72e2f12f57a1",
+      "name": "tor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "tor",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rtfe72e2f12f57a1"
+    },
+    {
+      "_id": "rt61fb8962b727c9",
+      "name": "garr",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "garr",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt61fb8962b727c9"
+    },
+    {
+      "_id": "rt57175bd5415a09",
+      "name": "k",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "k",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt57175bd5415a09"
+    },
+    {
+      "_id": "rta01d9d991731d0",
+      "name": "helm",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "helm",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rta01d9d991731d0"
+    },
+    {
+      "_id": "rtb0e2a13a76d9bc",
+      "name": "lon",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "lon",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rtb0e2a13a76d9bc"
+    },
+    {
+      "_id": "rt416571d10faac5",
+      "name": "os",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "os",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt416571d10faac5"
+    },
+    {
+      "_id": "rtff477e00c68cae",
+      "name": "ris",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ris",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rtff477e00c68cae"
+    },
+    {
+      "_id": "rtc9f4d30a5c70d8",
+      "name": "us",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "us",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rtc9f4d30a5c70d8"
+    },
+    {
+      "_id": "rte58858e00f828f",
+      "name": "an",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "an",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rte58858e00f828f"
+    },
+    {
+      "_id": "rt540480dd603c3e",
+      "name": "tin",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "tin",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt540480dd603c3e"
+    },
+    {
+      "_id": "rt75a22b46d931d3",
+      "name": "ram",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ram",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt75a22b46d931d3"
+    },
+    {
+      "_id": "rt02d9759fc69d48",
+      "name": "en",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "en",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt02d9759fc69d48"
+    },
+    {
+      "_id": "rte22eaf284c3a78",
+      "name": "a",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "a",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rte22eaf284c3a78"
+    },
+    {
+      "_id": "rt00b8fb58ea8030",
+      "name": "ia",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ia",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt00b8fb58ea8030"
+    },
+    {
+      "_id": "rt74eb973c3873e3",
+      "name": "is",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "is",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt74eb973c3873e3"
+    },
+    {
+      "_id": "rtdfc85407af3346",
+      "name": "on",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "on",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rtdfc85407af3346"
+    },
+    {
+      "_id": "rt92ba3d503df0d6",
+      "name": "ius",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ius",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rt92ba3d503df0d6"
+    },
+    {
+      "_id": "rta86f76a17e68d2",
+      "name": "polis",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "polis",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleSuffix.rta86f76a17e68d2"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabSettleSuffix"
+}

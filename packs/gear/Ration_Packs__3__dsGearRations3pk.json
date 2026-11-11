@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearRations3pk",
+  "name": "Ration Packs (3)",
+  "type": "Basic",
+  "img": "icons/consumables/food/plate-fish-cooked- garnished.webp",
+  "system": {
+    "description": "<p>Packaged food and water for one day. Comes in three-packs that take up 1 gear slot.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 5,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 3,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 3,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearRations3pk"
+}

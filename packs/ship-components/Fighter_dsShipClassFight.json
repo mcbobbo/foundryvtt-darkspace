@@ -1,0 +1,29 @@
+{
+  "_id": "dsShipClassFight",
+  "name": "Fighter",
+  "type": "darkspace.ShipClass",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "description": "<p>Interceptors, dogfighters, escorts, and strikers. Fighters are the razor's edge of fleet combat, delivering the killing blow with speed and precision.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "systemSlots": 10,
+    "featureSlots": 3,
+    "hpDie": "d6",
+    "freeComponents": [
+      "Compendium.darkspace.ship-components.Item.W5fmn1YN4HybiHq1",
+      "Compendium.darkspace.weapons.Item.dsShipWpLasrLght"
+    ],
+    "classTalents": [
+      "Compendium.darkspace.talents.Item.dsShTalDogfightg",
+      "Compendium.darkspace.talents.Item.dsShTalIntercept",
+      "Compendium.darkspace.talents.Item.dsShTalSupManeuv"
+    ],
+    "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabFighter"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipClassFight"
+}

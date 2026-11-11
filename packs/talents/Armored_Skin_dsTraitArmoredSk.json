@@ -1,0 +1,50 @@
+{
+  "_id": "dsTraitArmoredSk",
+  "name": "Armored Skin",
+  "type": "Talent",
+  "img": "icons/magic/defensive/armor-stone-skin.webp",
+  "system": {
+    "description": "<p>Gain +1 to your AC when not wearing armor.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [
+    {
+      "_id": "ef2909c9fef32332",
+      "name": "Armored Skin",
+      "type": "base",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "changes": [
+        {
+          "key": "system.attributes.ac.unarmored",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsTraitArmoredSk.ef2909c9fef32332"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitArmoredSk"
+}

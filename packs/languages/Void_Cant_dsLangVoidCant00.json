@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangVoidCant00",
+  "name": "Void Cant",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Encrypted syndicate code and pirate sign used in the criminal underworld.</p>",
+    "predefinedEffects": "",
+    "rarity": "rare",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangVoidCant00"
+}

@@ -1,0 +1,354 @@
+{
+  "_id": "dsStockExpScarabPat",
+  "name": "Explorer - ERD-3 'Scarab' (Scout Patrol)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 6,
+        "mod": -2
+      },
+      "dex": {
+        "value": 16,
+        "mod": 3
+      },
+      "con": {
+        "value": 6,
+        "mod": -2
+      },
+      "int": {
+        "value": 12,
+        "mod": 1
+      },
+      "wis": {
+        "value": 14,
+        "mod": 2
+      },
+      "cha": {
+        "value": 10,
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "coins": {
+      "gp": 10000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassExplo",
+    "notes": "<p>Up-armored scout patrol ship armed with a projectile cannon.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shClb66908e5cdd3",
+      "name": "Explorer",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Scouts, trailblazers, surveyors, and cartographers. Explorers are the eyes that pierce the endless night, charting the paths for others to follow.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 8,
+        "featureSlots": 7,
+        "hpDie": "d4",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.4flHzfW1AVHjeO43"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalLongRange",
+          "Compendium.darkspace.talents.Item.dsShTalMade2Last",
+          "Compendium.darkspace.talents.Item.dsShTalStarblaze"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabExplore"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shClb66908e5cdd3"
+    },
+    {
+      "_id": "shCp259f7b39a9f6",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shCp259f7b39a9f6"
+    },
+    {
+      "_id": "shCpef05059090ba",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shCpef05059090ba"
+    },
+    {
+      "_id": "shCpf8dead5efad5",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shCpf8dead5efad5"
+    },
+    {
+      "_id": "shCp44a261ac7019",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shCp44a261ac7019"
+    },
+    {
+      "_id": "shCpa9a84ecd65d3",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shCpa9a84ecd65d3"
+    },
+    {
+      "_id": "shCp5bdbc6377907",
+      "name": "Weapons Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with weapons. Each weapon requires a gunner to use it. Fire-linked arrays require only one gunner.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 100,
+          "repair": 50
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shCp5bdbc6377907"
+    },
+    {
+      "_id": "shAr98d64600ebff",
+      "name": "Armor Plating, Light",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>Ph.</b> 11 + Ship DEX modifier (+1 AC vs Projectile and Energy).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 1,
+        "acEnergy": 1,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shAr98d64600ebff"
+    },
+    {
+      "_id": "shWp451a53511ad7",
+      "name": "Projectile Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale medium projectile cannon. Requires ammo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.Tg2j6CxrmNwtvdWI"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 200,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d6",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "near",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Projectile",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shWp451a53511ad7"
+    },
+    {
+      "_id": "shTl975f4fe3c0ed",
+      "name": "Long Range Sensors",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>While the Sensor Array is online, all DCs for detecting hazards and threats are reduced by 3.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shTl975f4fe3c0ed"
+    },
+    {
+      "_id": "shTla7b83d8dbe4c",
+      "name": "Made to Last",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on CON checks to resist damage from hazards and extreme conditions.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shTla7b83d8dbe4c"
+    },
+    {
+      "_id": "shTlef801b23bfe6",
+      "name": "Starblazer",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is designed for finding new navigational routes even through treacherous regions of space. Astrogation Mishap rolls are made with advantage to determine the outcome.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpScarabPat.shTlef801b23bfe6"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockExpScarabPat"
+}

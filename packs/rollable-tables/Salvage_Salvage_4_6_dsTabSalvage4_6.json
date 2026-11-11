@@ -1,0 +1,779 @@
+{
+  "_id": "dsTabSalvage4_6",
+  "name": "Salvage: Salvage 4-6",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Random salvage found in SALVAGE 4-6 threat areas.</p>",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt60903b345e8d48",
+      "name": "3 CredChits on the ground",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "3 CredChits on the ground",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt60903b345e8d48"
+    },
+    {
+      "_id": "rtb66c190b842494",
+      "name": "Data Chip with Encrypted Schematics (5cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Data Chip with Encrypted Schematics (5cr)",
+      "drawn": false,
+      "range": [
+        2,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtb66c190b842494"
+    },
+    {
+      "_id": "rt7abbca28bf109b",
+      "name": "Restricted Access Keycard (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Restricted Access Keycard (1cr)",
+      "drawn": false,
+      "range": [
+        4,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt7abbca28bf109b"
+    },
+    {
+      "_id": "rt3e9a4f390cc05a",
+      "name": "Commando Helmet (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Commando Helmet (10cr)",
+      "drawn": false,
+      "range": [
+        6,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt3e9a4f390cc05a"
+    },
+    {
+      "_id": "rt099efc13216e53",
+      "name": "Platinum ID Tag with Holographic Emblem (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Platinum ID Tag with Holographic Emblem (10cr)",
+      "drawn": false,
+      "range": [
+        8,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt099efc13216e53"
+    },
+    {
+      "_id": "rt305ecba6a42734",
+      "name": "Case of 20 crystalline data module fragments (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Case of 20 crystalline data module fragments (10cr)",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt305ecba6a42734"
+    },
+    {
+      "_id": "rt8d56c22b7436d5",
+      "name": "Heavy Serrated Vibrosword (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Heavy Serrated Vibrosword (15cr)",
+      "drawn": false,
+      "range": [
+        12,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt8d56c22b7436d5"
+    },
+    {
+      "_id": "rt3e1f95dc609596",
+      "name": "3 light force javelins (5cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "3 light force javelins (5cr each)",
+      "drawn": false,
+      "range": [
+        14,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt3e1f95dc609596"
+    },
+    {
+      "_id": "rt6ffe7c397d5c95",
+      "name": "A small container of illegal spice (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A small container of illegal spice (15cr)",
+      "drawn": false,
+      "range": [
+        16,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt6ffe7c397d5c95"
+    },
+    {
+      "_id": "rt7c83f3d405d498",
+      "name": "Vaporizer crafted from rare meteorite (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vaporizer crafted from rare meteorite (15cr)",
+      "drawn": false,
+      "range": [
+        18,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt7c83f3d405d498"
+    },
+    {
+      "_id": "rtc6643a898b21af",
+      "name": "Set of polished silver chance cubes (25cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Set of polished silver chance cubes (25cr)",
+      "drawn": false,
+      "range": [
+        20,
+        21
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtc6643a898b21af"
+    },
+    {
+      "_id": "rt0f6f8adc8de215",
+      "name": "Titanium flask with luminescent engraving (30cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Titanium flask with luminescent engraving (30cr)",
+      "drawn": false,
+      "range": [
+        22,
+        23
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt0f6f8adc8de215"
+    },
+    {
+      "_id": "rt7b3973be669cfd",
+      "name": "Automata optical sensor (30cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Automata optical sensor (30cr)",
+      "drawn": false,
+      "range": [
+        24,
+        25
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt7b3973be669cfd"
+    },
+    {
+      "_id": "rt8c1fef7d125f53",
+      "name": "Ballistic case with 3 StimPaks inside (10cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ballistic case with 3 StimPaks inside (10cr each)",
+      "drawn": false,
+      "range": [
+        26,
+        27
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt8c1fef7d125f53"
+    },
+    {
+      "_id": "rt208136fb39e59f",
+      "name": "Holographic portrait of a ship officer (35cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Holographic portrait of a ship officer (35cr)",
+      "drawn": false,
+      "range": [
+        28,
+        29
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt208136fb39e59f"
+    },
+    {
+      "_id": "rt401003b722797a",
+      "name": "Strange, alien pearl (40cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Strange, alien pearl (40cr)",
+      "drawn": false,
+      "range": [
+        30,
+        31
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt401003b722797a"
+    },
+    {
+      "_id": "rtc141edf3de9dd6",
+      "name": "Gilded ceremonial forcehammer (40cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gilded ceremonial forcehammer (40cr)",
+      "drawn": false,
+      "range": [
+        32,
+        33
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtc141edf3de9dd6"
+    },
+    {
+      "_id": "rt2c0f65b48a1c50",
+      "name": "Silver code cylinder with emerald crystal matrix (40cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Silver code cylinder with emerald crystal matrix (40cr)",
+      "drawn": false,
+      "range": [
+        34,
+        35
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt2c0f65b48a1c50"
+    },
+    {
+      "_id": "rt595f660098e383",
+      "name": "Holographic tapestry projector (45cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Holographic tapestry projector (45cr)",
+      "drawn": false,
+      "range": [
+        36,
+        37
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt595f660098e383"
+    },
+    {
+      "_id": "rte95f2d4c5617c4",
+      "name": "Tiny rudimentary automata in the shape of a dragon (45cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Tiny rudimentary automata in the shape of a dragon (45cr)",
+      "drawn": false,
+      "range": [
+        38,
+        39
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rte95f2d4c5617c4"
+    },
+    {
+      "_id": "rt7dac9829d134f2",
+      "name": "Half-assembled medium exosuit frame (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Half-assembled medium exosuit frame (50cr)",
+      "drawn": false,
+      "range": [
+        40,
+        41
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt7dac9829d134f2"
+    },
+    {
+      "_id": "rta9596ecd5bd8f3",
+      "name": "Forcemace inlaid with gold alien markings (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Forcemace inlaid with gold alien markings (50cr)",
+      "drawn": false,
+      "range": [
+        42,
+        43
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rta9596ecd5bd8f3"
+    },
+    {
+      "_id": "rt5fccb79934c799",
+      "name": "Delicate vase from a defunct starcruiser (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Delicate vase from a defunct starcruiser (50cr)",
+      "drawn": false,
+      "range": [
+        44,
+        45
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt5fccb79934c799"
+    },
+    {
+      "_id": "rt5dd8aeb3debfd9",
+      "name": "Automata restraining module (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Automata restraining module (50cr)",
+      "drawn": false,
+      "range": [
+        46,
+        47
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt5dd8aeb3debfd9"
+    },
+    {
+      "_id": "rt31c5a0451bbd32",
+      "name": "Severed bio-mechanical hoof (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Severed bio-mechanical hoof (50cr)",
+      "drawn": false,
+      "range": [
+        48,
+        49
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt31c5a0451bbd32"
+    },
+    {
+      "_id": "rtb8fc31ced61fbe",
+      "name": "Heavy vibroblade with stellar pearl set in pommel (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Heavy vibroblade with stellar pearl set in pommel (50cr)",
+      "drawn": false,
+      "range": [
+        50,
+        51
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtb8fc31ced61fbe"
+    },
+    {
+      "_id": "rtd3055d690575d1",
+      "name": "Meteoric glass sculpture of a cosmic horror (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Meteoric glass sculpture of a cosmic horror (50cr)",
+      "drawn": false,
+      "range": [
+        52,
+        53
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtd3055d690575d1"
+    },
+    {
+      "_id": "rtf628075697d07e",
+      "name": "Crystalline data module containing religious texts (55cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crystalline data module containing religious texts (55cr)",
+      "drawn": false,
+      "range": [
+        54,
+        55
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtf628075697d07e"
+    },
+    {
+      "_id": "rtf471fe7cae6019",
+      "name": "Case of six glowrods, no energy cells (10cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Case of six glowrods, no energy cells (10cr each)",
+      "drawn": false,
+      "range": [
+        56,
+        57
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtf471fe7cae6019"
+    },
+    {
+      "_id": "rt09f5d2cfda5045",
+      "name": "Nanoweave bodysuit, superior medium armor (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nanoweave bodysuit, superior medium armor (60cr)",
+      "drawn": false,
+      "range": [
+        58,
+        59
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt09f5d2cfda5045"
+    },
+    {
+      "_id": "rtc1f9c1642133c0",
+      "name": "Projectile Pistol, finely crafted and gold inlaid (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Projectile Pistol, finely crafted and gold inlaid (60cr)",
+      "drawn": false,
+      "range": [
+        60,
+        61
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtc1f9c1642133c0"
+    },
+    {
+      "_id": "rtd48f272ad3c2e1",
+      "name": "Incomplete suit of heavy armor (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Incomplete suit of heavy armor (60cr)",
+      "drawn": false,
+      "range": [
+        62,
+        63
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtd48f272ad3c2e1"
+    },
+    {
+      "_id": "rt817b1eb4ef580b",
+      "name": "Magnetic, iridescent chunk of meteorite (70cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Magnetic, iridescent chunk of meteorite (70cr)",
+      "drawn": false,
+      "range": [
+        64,
+        65
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt817b1eb4ef580b"
+    },
+    {
+      "_id": "rtca1d5c3790cbbd",
+      "name": "Holographic display for a surveillance system (70cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Holographic display for a surveillance system (70cr)",
+      "drawn": false,
+      "range": [
+        66,
+        67
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtca1d5c3790cbbd"
+    },
+    {
+      "_id": "rt32ab2f4e08ef88",
+      "name": "Preserved alien specimen (75cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Preserved alien specimen (75cr)",
+      "drawn": false,
+      "range": [
+        68,
+        69
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt32ab2f4e08ef88"
+    },
+    {
+      "_id": "rt7b5ad0a4dd5ab2",
+      "name": "A rare blue hypercrystal (75cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A rare blue hypercrystal (75cr)",
+      "drawn": false,
+      "range": [
+        70,
+        71
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt7b5ad0a4dd5ab2"
+    },
+    {
+      "_id": "rtd9aa88652afbe6",
+      "name": "A fine vibrachord instrument from a defunct luxury starcruiser (75cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A fine vibrachord instrument from a defunct luxury starcruiser (75cr)",
+      "drawn": false,
+      "range": [
+        72,
+        73
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rtd9aa88652afbe6"
+    },
+    {
+      "_id": "rt90133a10891ef1",
+      "name": "A belt dweller tooth carved with historical imagery (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A belt dweller tooth carved with historical imagery (80cr)",
+      "drawn": false,
+      "range": [
+        74,
+        75
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt90133a10891ef1"
+    },
+    {
+      "_id": "rt259379d5962a97",
+      "name": "Titanium ballistic shield with glowing blue crystals (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Titanium ballistic shield with glowing blue crystals (80cr)",
+      "drawn": false,
+      "range": [
+        76,
+        77
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt259379d5962a97"
+    },
+    {
+      "_id": "rt657a58762a313a",
+      "name": "Two cryo-preserved gene-crafted animal embryos (40cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Two cryo-preserved gene-crafted animal embryos (40cr each)",
+      "drawn": false,
+      "range": [
+        78,
+        79
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt657a58762a313a"
+    },
+    {
+      "_id": "rt574eb641cb79bc",
+      "name": "Blaster Grenade (100cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Blaster Grenade (100cr)",
+      "drawn": false,
+      "range": [
+        80,
+        81
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt574eb641cb79bc"
+    },
+    {
+      "_id": "rt0a75512d9e5c19",
+      "name": "Projectile Cannon for a ship (150cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Projectile Cannon for a ship (150cr)",
+      "drawn": false,
+      "range": [
+        82,
+        83
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt0a75512d9e5c19"
+    },
+    {
+      "_id": "rt147b11bc06f804",
+      "name": "Healing Booster (heals 2d8 hp) (150cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Healing Booster (heals 2d8 hp) (150cr)",
+      "drawn": false,
+      "range": [
+        84,
+        85
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt147b11bc06f804"
+    },
+    {
+      "_id": "rt9115beec21ae39",
+      "name": "+1 enhanced weapon (200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+1 enhanced weapon (200cr)",
+      "drawn": false,
+      "range": [
+        86,
+        87
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt9115beec21ae39"
+    },
+    {
+      "_id": "rt723afdb66c3252",
+      "name": "Schematics for a ship feature (drawback but cost is halved) (200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Schematics for a ship feature (drawback but cost is halved) (200cr)",
+      "drawn": false,
+      "range": [
+        88,
+        89
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt723afdb66c3252"
+    },
+    {
+      "_id": "rte8565dfe6e85f8",
+      "name": "Dermal Plating +2 (200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Dermal Plating +2 (200cr)",
+      "drawn": false,
+      "range": [
+        90,
+        91
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rte8565dfe6e85f8"
+    },
+    {
+      "_id": "rt3798c3506dd975",
+      "name": "Energy Shield generator for a ship (250cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Energy Shield generator for a ship (250cr)",
+      "drawn": false,
+      "range": [
+        92,
+        93
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt3798c3506dd975"
+    },
+    {
+      "_id": "rt19c9c0d2ef9d1a",
+      "name": "Spacerip Bag (250cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Spacerip Bag (250cr)",
+      "drawn": false,
+      "range": [
+        94,
+        95
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt19c9c0d2ef9d1a"
+    },
+    {
+      "_id": "rt14bb8b57df7d78",
+      "name": "+2 enhanced armor (300cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+2 enhanced armor (300cr)",
+      "drawn": false,
+      "range": [
+        96,
+        97
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt14bb8b57df7d78"
+    },
+    {
+      "_id": "rta924108f2ef1a4",
+      "name": "Optical Camouflage(300cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Optical Camouflage(300cr)",
+      "drawn": false,
+      "range": [
+        98,
+        99
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rta924108f2ef1a4"
+    },
+    {
+      "_id": "rt6ed38b343d57ba",
+      "name": "+2 enhanced weapon (drawback) (500cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+2 enhanced weapon (drawback) (500cr)",
+      "drawn": false,
+      "range": [
+        0,
+        0
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage4_6.rt6ed38b343d57ba"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabSalvage4_6"
+}

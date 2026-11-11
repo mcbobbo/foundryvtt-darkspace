@@ -1,0 +1,35 @@
+{
+  "_id": "dsCybCyberweapon",
+  "name": "Cyberware: Cyberweapon",
+  "type": "Basic",
+  "img": "icons/weapons/guns/gun-blaster-pistol-teal.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> This cybernetic implant replaces one of your ams with an integrated weapon. Weapon permanently attached and concealable.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybCyberweapon"
+}

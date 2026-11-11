@@ -1,0 +1,200 @@
+{
+  "_id": "fb21a1348323c2e5",
+  "name": "AeSAeAAeGAeIAeTAeTAeAAeRAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "mod": 6,
+        "value": 22
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": 2,
+        "value": 14
+      },
+      "wis": {
+        "mod": 3,
+        "value": 16
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 70,
+        "max": 70
+      },
+      "ac": {
+        "value": 19
+      }
+    },
+    "level": {
+      "value": 14
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "fly",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A towering biomechanical Voidreaper Centaur fused with alien circuitry. Having the upper body of a human and lower body of a horse, its lower body has plasma-charged legs, while its upper torso bends a psionic bow woven from pure light. Each shot hums through space like a comet, distorting gravity with every impact.</i></p><p><strong>Movement:</strong> DOUBLE NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 3 Psionic Bow (FAR) +9 (1d12+Gravity Warp) and 1 kick +6 (1d10 + knock)</p><p><strong>Legendary.</strong> Only damaged by enhanced weapons. Triad Powers targeting the Sagittar are DC 18.  Alien Bio fusion. Regenerates 10 HP at the start of its turn unless it took Triad or enhanced damage since its last action.</p><p><strong>Fearless.</strong> Immune to morale checks.</p><p>Gravity</p><p><strong>Warp.</strong> All creatures in NEAR to the hit target, DC 16 STR check or be pulled into the target, they land prone and stunned for 1 round.</p><p><strong>Knock.</strong> DC 15 STR or pushed a CLOSE distance and fall down.</p><p>Psionic</p><p><strong>Blast.</strong> All creatures in CLOSE, INT 14 or 2d4 damage.</p><p><strong>Trample.</strong> In place of attacks, move up to DOUBLE NEAR in a straight line and make 1 kick attack against all targets in the line. If hit, x2 damage.  &gt; \u201cIt was bred to guard the Rift Gates \u2014 part sentinel, part executioner, all defender. No one remembers who made it and once met, very few live to tell the tale.\u201d &gt; \u2014 excerpt from the Paracausal Index</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "Psionic Bow (FAR)",
+      "type": "NPC Attack",
+      "img": "icons/skills/ranged/bow-arrows-red.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "1d12+Gravity Warp"
+        },
+        "description": ""
+      },
+      "_id": "rSxU2mSFtJMXLzlE",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.rSxU2mSFtJMXLzlE",
+      "effects": []
+    },
+    {
+      "name": "kick",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 6
+        },
+        "damage": {
+          "value": "1d10 + knock"
+        },
+        "description": ""
+      },
+      "_id": "38XjMsUdYL7PQtIB",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.38XjMsUdYL7PQtIB",
+      "effects": []
+    },
+    {
+      "name": "Legendary",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Only damaged by enhanced weapons. Triad Powers targeting the Sagittar are DC 18.  Alien Bio fusion. Regenerates 10 HP at the start of its turn unless it took Triad or enhanced damage since its last action.</p></p>"
+      },
+      "_id": "sWhjwXtuGpYcko1y",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.sWhjwXtuGpYcko1y",
+      "effects": []
+    },
+    {
+      "name": "Fearless",
+      "type": "NPC Feature",
+      "img": "icons/magic/life/heart-broken-red.webp",
+      "system": {
+        "description": "<p>Immune to morale checks.</p><p>Gravity</p></p>"
+      },
+      "_id": "DboJc38ASIFjyH9p",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.DboJc38ASIFjyH9p",
+      "effects": []
+    },
+    {
+      "name": "Warp",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>All creatures in NEAR to the hit target, DC 16 STR check or be pulled into the target, they land prone and stunned for 1 round.</p></p>"
+      },
+      "_id": "gDN48EgdX8o4dPtF",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.gDN48EgdX8o4dPtF",
+      "effects": []
+    },
+    {
+      "name": "Knock",
+      "type": "NPC Feature",
+      "img": "icons/skills/movement/arrow-down-pink.webp",
+      "system": {
+        "description": "<p>DC 15 STR or pushed a CLOSE distance and fall down.</p><p>Psionic</p></p>"
+      },
+      "_id": "6BVe2T5vDbjH2uH1",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.6BVe2T5vDbjH2uH1",
+      "effects": []
+    },
+    {
+      "name": "Blast",
+      "type": "NPC Feature",
+      "img": "icons/magic/fire/blast-jet-stream-embers-red.webp",
+      "system": {
+        "description": "<p>All creatures in CLOSE, INT 14 or 2d4 damage.</p></p>"
+      },
+      "_id": "kY6NhTbKDKZulhiK",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.kY6NhTbKDKZulhiK",
+      "effects": []
+    },
+    {
+      "name": "Trample",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>In place of attacks, move up to DOUBLE NEAR in a straight line and make 1 kick attack against all targets in the line. If hit, x2 damage.  &gt; \u201cIt was bred to guard the Rift Gates \u2014 part sentinel, part executioner, all defender. No one remembers who made it and once met, very few live to tell the tale.\u201d &gt; \u2014 excerpt from the Paracausal Index</p></p>"
+      },
+      "_id": "WJWB0zl7gGmjRqt9",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fb21a1348323c2e5.WJWB0zl7gGmjRqt9",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!fb21a1348323c2e5"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "dsShipClassExplo",
+  "name": "Explorer",
+  "type": "darkspace.ShipClass",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "description": "<p>Scouts, trailblazers, surveyors, and cartographers. Explorers are the eyes that pierce the endless night, charting the paths for others to follow.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "systemSlots": 8,
+    "featureSlots": 7,
+    "hpDie": "d4",
+    "freeComponents": [
+      "Compendium.darkspace.ship-components.Item.4flHzfW1AVHjeO43"
+    ],
+    "classTalents": [
+      "Compendium.darkspace.talents.Item.dsShTalLongRange",
+      "Compendium.darkspace.talents.Item.dsShTalMade2Last",
+      "Compendium.darkspace.talents.Item.dsShTalStarblaze"
+    ],
+    "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabExplore"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipClassExplo"
+}

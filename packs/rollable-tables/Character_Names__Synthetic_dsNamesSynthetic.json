@@ -1,0 +1,314 @@
+{
+  "_id": "dsNamesSynthetic",
+  "name": "Character Names: Synthetic",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Random Character Names: Synthetic table.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtbff9c748fb70e0",
+      "name": "Unit 734",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 734",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtbff9c748fb70e0"
+    },
+    {
+      "_id": "rta8258c0c8f4aa6",
+      "name": "Axiom-9",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Axiom-9",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rta8258c0c8f4aa6"
+    },
+    {
+      "_id": "rtbfcc6057e2ecd3",
+      "name": "Vectron",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vectron",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtbfcc6057e2ecd3"
+    },
+    {
+      "_id": "rt94c673afbcde50",
+      "name": "Cy-Rex",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cy-Rex",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt94c673afbcde50"
+    },
+    {
+      "_id": "rt08423bad8b93da",
+      "name": "Unit 501",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 501",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt08423bad8b93da"
+    },
+    {
+      "_id": "rt33486ef1938834",
+      "name": "Rho-C",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rho-C",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt33486ef1938834"
+    },
+    {
+      "_id": "rtad725689c7cec0",
+      "name": "Unit 88",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 88",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtad725689c7cec0"
+    },
+    {
+      "_id": "rtd65b04885e5612",
+      "name": "J-5T",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "J-5T",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtd65b04885e5612"
+    },
+    {
+      "_id": "rtcf0d069b578533",
+      "name": "K-LON",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "K-LON",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtcf0d069b578533"
+    },
+    {
+      "_id": "rt0cd7ef0a9b80e0",
+      "name": "Unit 42",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 42",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt0cd7ef0a9b80e0"
+    },
+    {
+      "_id": "rt82fbc0ae8f820a",
+      "name": "N-D0",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "N-D0",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt82fbc0ae8f820a"
+    },
+    {
+      "_id": "rtf954d79fb55f66",
+      "name": "Unit 314",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 314",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtf954d79fb55f66"
+    },
+    {
+      "_id": "rt44c798d06becb1",
+      "name": "Hex-7",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hex-7",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt44c798d06becb1"
+    },
+    {
+      "_id": "rtd66ebfd82beaf4",
+      "name": "Unit 618",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 618",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtd66ebfd82beaf4"
+    },
+    {
+      "_id": "rt86681db54576fd",
+      "name": "T-RX",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "T-RX",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt86681db54576fd"
+    },
+    {
+      "_id": "rt4359ab3e79cc19",
+      "name": "Unit 001",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 001",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt4359ab3e79cc19"
+    },
+    {
+      "_id": "rtec92a3049cdead",
+      "name": "Z-Axis",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Z-Axis",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtec92a3049cdead"
+    },
+    {
+      "_id": "rt1fc70ab858c54e",
+      "name": "Unit 246",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 246",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt1fc70ab858c54e"
+    },
+    {
+      "_id": "rt1cff0cfab88d6b",
+      "name": "D-SYN",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "D-SYN",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rt1cff0cfab88d6b"
+    },
+    {
+      "_id": "rtbdaea691cc971d",
+      "name": "Unit 101",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unit 101",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsNamesSynthetic.rtbdaea691cc971d"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsNamesSynthetic"
+}

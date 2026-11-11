@@ -1,0 +1,285 @@
+{
+  "_id": "dsStockExpLR01",
+  "name": "Explorer (Long Range)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "mod": -1
+      },
+      "dex": {
+        "value": 12,
+        "mod": 1
+      },
+      "con": {
+        "value": 8,
+        "mod": -1
+      },
+      "int": {
+        "value": 12,
+        "mod": 1
+      },
+      "wis": {
+        "value": 14,
+        "mod": 2
+      },
+      "cha": {
+        "value": 12,
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "ac": {
+        "value": 11
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 9000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassExplo",
+    "notes": "<p>FTL-capable long-range explorer equipped for multi-system expeditions.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl8b9777d1b544",
+      "name": "Explorer",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Scouts, trailblazers, surveyors, and cartographers. Explorers are the eyes that pierce the endless night, charting the paths for others to follow.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 8,
+        "featureSlots": 7,
+        "hpDie": "d4",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.4flHzfW1AVHjeO43"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalLongRange",
+          "Compendium.darkspace.talents.Item.dsShTalMade2Last",
+          "Compendium.darkspace.talents.Item.dsShTalStarblaze"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabExplore"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shCl8b9777d1b544"
+    },
+    {
+      "_id": "shCp1068a833a2f1",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shCp1068a833a2f1"
+    },
+    {
+      "_id": "shCp099ebf81ba8e",
+      "name": "FTL Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at FTL speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 4000,
+          "repair": 2000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shCp099ebf81ba8e"
+    },
+    {
+      "_id": "shCp6b8d2fa0a63a",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shCp6b8d2fa0a63a"
+    },
+    {
+      "_id": "shCp65471781176e",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shCp65471781176e"
+    },
+    {
+      "_id": "shCp18146e2d2340",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shCp18146e2d2340"
+    },
+    {
+      "_id": "shCp2e96c6b90407",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shCp2e96c6b90407"
+    },
+    {
+      "_id": "shTlde1feba0d05a",
+      "name": "Long Range Sensors",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>While the Sensor Array is online, all DCs for detecting hazards and threats are reduced by 3.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shTlde1feba0d05a"
+    },
+    {
+      "_id": "shTle76b0ce90bab",
+      "name": "Made to Last",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on CON checks to resist damage from hazards and extreme conditions.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shTle76b0ce90bab"
+    },
+    {
+      "_id": "shTlc6d528171a3d",
+      "name": "Starblazer",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is designed for finding new navigational routes even through treacherous regions of space. Astrogation Mishap rolls are made with advantage to determine the outcome.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpLR01.shTlc6d528171a3d"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockExpLR01"
+}

@@ -27,7 +27,15 @@
     "classTalentTable": "Compendium.darkspace.rollable-tables.RollTable.d9vhfhux9OL6uoUi",
     "source": {
       "title": "darkspace"
-    }
+    },
+    "armor": [],
+    "weapons": [
+      "Compendium.darkspace.weapons.Item.WIGOGW0VrooDv17j",
+      "Compendium.darkspace.weapons.Item.TNjKEUmqzLhbs1Jh",
+      "Compendium.darkspace.weapons.Item.wVmGoDNCm3Xay6S5",
+      "Compendium.darkspace.weapons.Item.zR1HcUKjwQIPcAgt",
+      "Compendium.darkspace.weapons.Item.Z1zlh58Cq0j9bMET"
+    ]
   },
   "effects": [],
   "folder": null,

@@ -1,0 +1,152 @@
+{
+  "_id": "594cb4c936cbf106",
+  "name": "AeAAeRAeCAeHAeIAeVAeEAe AeSAeEAeRAeAAePAeHAe",
+  "type": "NPC",
+  "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 19,
+        "max": 19
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "move": "NEAR",
+    "moveNote": "fly",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": true,
+    "notes": "<p><i>Ancient digital custodians created to preserve knowledge across centuries, Archive Seraphs now drift through ruined data clusters.</i></p><p><strong>Movement:</strong> NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 2 data lance +3 (1d6) or firewall halo</p><p>Digital</p><p><strong>Entity.</strong> Has Interface stats. Only damaged by malware.</p><p>Data</p><p><strong>Sanctity.</strong> The Seraph cannot willingly destroy information. Even in combat, it attempts to preserve and record rather than annihilate.</p><p>Firewall</p><p><strong>Halo.</strong> All targets within NEAR, DC 12 NET or pushed to FAR and 1d6 damage.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "data lance",
+      "type": "NPC Attack",
+      "img": "icons/magic/death/skull-energy-light-purple.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "3Cht9G608RVULsIB",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!594cb4c936cbf106.3Cht9G608RVULsIB",
+      "effects": []
+    },
+    {
+      "name": "Firewall halo",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/light/projectile-halo-teal.webp",
+      "system": {
+        "description": "<p>Special attack: firewall halo</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "FwSxLiPhOxLa3F0P",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!594cb4c936cbf106.FwSxLiPhOxLa3F0P",
+      "effects": []
+    },
+    {
+      "name": "Entity",
+      "type": "NPC Feature",
+      "img": "icons/magic/death/skull-energy-light-white.webp",
+      "system": {
+        "description": "<p>Has Interface stats. Only damaged by malware.</p><p>Data</p></p>"
+      },
+      "_id": "2bd2xQDGw3DrCIKy",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!594cb4c936cbf106.2bd2xQDGw3DrCIKy",
+      "effects": []
+    },
+    {
+      "name": "Sanctity",
+      "type": "NPC Feature",
+      "img": "icons/magic/death/skull-energy-light-white.webp",
+      "system": {
+        "description": "<p>The Seraph cannot willingly destroy information. Even in combat, it attempts to preserve and record rather than annihilate.</p><p>Firewall</p></p>"
+      },
+      "_id": "qmNCOtBS0KG1mkAX",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!594cb4c936cbf106.qmNCOtBS0KG1mkAX",
+      "effects": []
+    },
+    {
+      "name": "Halo",
+      "type": "NPC Feature",
+      "img": "icons/magic/death/skull-energy-light-purple.webp",
+      "system": {
+        "description": "<p>All targets within NEAR, DC 12 NET or pushed to FAR and 1d6 damage.</p></p>"
+      },
+      "_id": "i0cF1FnquYlRBKKC",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!594cb4c936cbf106.i0cF1FnquYlRBKKC",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!594cb4c936cbf106"
+}

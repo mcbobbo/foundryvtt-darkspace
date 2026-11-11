@@ -1,0 +1,27 @@
+{
+  "_id": "dsShipClassYacht",
+  "name": "Yacht",
+  "type": "darkspace.ShipClass",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "description": "<p>Couriers, pleasure cruisers, diplomatic barges, and vanity ships. Yachts are the glittering jewels of the void, symbols of power and influence.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "systemSlots": 5,
+    "featureSlots": 10,
+    "hpDie": "d6",
+    "freeComponents": [
+      "Compendium.darkspace.ship-components.Item.BpduI3uZURG8DP1i"
+    ],
+    "classTalents": [
+      "Compendium.darkspace.talents.Item.dsShTalLuxuryDes",
+      "Compendium.darkspace.talents.Item.dsShTalRichAccom"
+    ],
+    "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabYacht00"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipClassYacht"
+}

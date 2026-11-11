@@ -1,0 +1,35 @@
+{
+  "_id": "dsProgCrash00000",
+  "name": "Program: Crash",
+  "type": "Basic",
+  "img": "icons/magic/lightning/bolt-strike-purple.webp",
+  "system": {
+    "description": "<p><b>Hacking Program.</b> Forces a target node or IC to make a DC 12 CON/CTL check or shut down for 1d4 rounds.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 75,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsProgCrash00000"
+}

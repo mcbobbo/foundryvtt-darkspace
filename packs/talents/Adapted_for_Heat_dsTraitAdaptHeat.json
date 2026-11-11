@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitAdaptHeat",
+  "name": "Adapted for Heat",
+  "type": "Talent",
+  "img": "icons/magic/fire/flame-burning-hand-orange.webp",
+  "system": {
+    "description": "<p>Can survive in hot environments. Half damage from fire or heat.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitAdaptHeat"
+}

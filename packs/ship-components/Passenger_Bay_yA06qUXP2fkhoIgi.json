@@ -11,7 +11,11 @@
     "type": "Feature",
     "online": true,
     "damaged": false,
-    "slots": 1
+    "slots": 1,
+    "cost": {
+      "initial": 1000,
+      "repair": 500
+    }
   },
   "effects": [],
   "folder": null,

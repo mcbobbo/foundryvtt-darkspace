@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangXenogloss0",
+  "name": "Xenogloss",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Non-humanoid vocal and clicks/harmonics used by deep-space alien species.</p>",
+    "predefinedEffects": "",
+    "rarity": "rare",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangXenogloss0"
+}

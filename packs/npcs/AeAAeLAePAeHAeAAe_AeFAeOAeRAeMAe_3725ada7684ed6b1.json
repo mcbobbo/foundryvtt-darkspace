@@ -1,0 +1,122 @@
+{
+  "_id": "3725ada7684ed6b1",
+  "name": "AeAAeLAePAeHAeAAe AeFAeOAeRAeMAe",
+  "type": "NPC",
+  "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 48,
+        "max": 48
+      },
+      "ac": {
+        "value": 15
+      }
+    },
+    "level": {
+      "value": 10
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>The first form looks like a large, bulky robot with strong crushing claws.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 3 claws +7 (2d8 + crush) or metaformation</p><p><strong>Crush.</strong> Deals an extra die of damage if it hits the same target with two attacks. Attacks deal double damage against objects.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "claws",
+      "type": "NPC Attack",
+      "img": "icons/commodities/claws/talon-red.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 7
+        },
+        "damage": {
+          "value": "2d8 + crush"
+        },
+        "description": ""
+      },
+      "_id": "2aftJcmr62Eos97t",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3725ada7684ed6b1.2aftJcmr62Eos97t",
+      "effects": []
+    },
+    {
+      "name": "Metaformation",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: metaformation</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "lRRPdyZ6DevBAsm8",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3725ada7684ed6b1.lRRPdyZ6DevBAsm8",
+      "effects": []
+    },
+    {
+      "name": "Crush",
+      "type": "NPC Feature",
+      "img": "icons/weapons/fist/hook.webp",
+      "system": {
+        "description": "<p>Deals an extra die of damage if it hits the same target with two attacks. Attacks deal double damage against objects.</p></p>"
+      },
+      "_id": "XvPBlzBXYxa7cKOz",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3725ada7684ed6b1.XvPBlzBXYxa7cKOz",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!3725ada7684ed6b1"
+}

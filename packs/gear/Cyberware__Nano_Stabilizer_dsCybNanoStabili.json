@@ -1,0 +1,35 @@
+{
+  "_id": "dsCybNanoStabili",
+  "name": "Cyberware: Nano Stabilizer",
+  "type": "Basic",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> Nanobots repair damage. DC 18 CON upon death to be unconscious instead.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybNanoStabili"
+}

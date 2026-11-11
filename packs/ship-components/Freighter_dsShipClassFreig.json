@@ -1,0 +1,28 @@
+{
+  "_id": "dsShipClassFreig",
+  "name": "Freighter",
+  "type": "darkspace.ShipClass",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "description": "<p>Grunts, haulers, tugs, and barges. Freighters are the muscle that carry the galaxy on their shoulders.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "systemSlots": 6,
+    "featureSlots": 9,
+    "hpDie": "d8",
+    "freeComponents": [
+      "Compendium.darkspace.ship-components.Item.LqDnwywd1partj36"
+    ],
+    "classTalents": [
+      "Compendium.darkspace.talents.Item.dsShTalSpaceHaul",
+      "Compendium.darkspace.talents.Item.dsShTalLowProfil",
+      "Compendium.darkspace.talents.Item.dsShTalStructRes"
+    ],
+    "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabFreight"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipClassFreig"
+}

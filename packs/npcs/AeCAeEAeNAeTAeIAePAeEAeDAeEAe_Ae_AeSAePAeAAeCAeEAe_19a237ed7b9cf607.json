@@ -1,0 +1,125 @@
+{
+  "_id": "19a237ed7b9cf607",
+  "name": "AeCAeEAeNAeTAeIAePAeEAeDAeEAe,Ae AeSAePAeAAeCAeEAe",
+  "type": "NPC",
+  "img": "icons/creatures/invertebrates/centipede-brown.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": -3,
+        "value": 4
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": -3,
+        "value": 4
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "move": "NEAR",
+    "moveNote": "starglide",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Chittering, opalescent centipedes the size of cargo containers, often found living in asteroids and on rocky planets.</i></p><p><strong>Movement:</strong> NEAR (starglide)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 bite +3 (1d6) and 1 tentacles +3 (1d8 + toxin)</p><p><strong>Toxin.</strong> DC 12 CON or paralyzed 1d4 rounds.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/magic/death/mouth-bite-fangs-vampire.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "CO9mEsh1PhiE4MAW",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!19a237ed7b9cf607.CO9mEsh1PhiE4MAW",
+      "effects": []
+    },
+    {
+      "name": "tentacles",
+      "type": "NPC Attack",
+      "img": "icons/creatures/tentacles/tentacle-earth-green.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d8 + toxin"
+        },
+        "description": ""
+      },
+      "_id": "gWkBVXQ8aIh75dBU",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!19a237ed7b9cf607.gWkBVXQ8aIh75dBU",
+      "effects": []
+    },
+    {
+      "name": "Toxin",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>DC 12 CON or paralyzed 1d4 rounds.</p></p>"
+      },
+      "_id": "jolocepsA7hNPuaA",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!19a237ed7b9cf607.jolocepsA7hNPuaA",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!19a237ed7b9cf607"
+}

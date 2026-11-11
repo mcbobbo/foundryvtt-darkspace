@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadSoulLifeT",
+  "name": "Triad (Soul): Life Transfer",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Soul (WIS).</b> Drain vitality from a target or transfer your own life force to restore an ally.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadSoulLifeT"
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadSoulTelep",
+  "name": "Triad (Soul): Telepathy",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Soul (WIS).</b> Read surface thoughts or establish a silent mental link with creatures within range.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadSoulTelep"
+}

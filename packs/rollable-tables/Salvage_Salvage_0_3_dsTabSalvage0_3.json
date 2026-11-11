@@ -1,0 +1,779 @@
+{
+  "_id": "dsTabSalvage0_3",
+  "name": "Salvage: Salvage 0-3",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Random salvage found in SALVAGE 0-3 threat areas.</p>",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt29f6abbf878ae4",
+      "name": "Bent, titanium spork (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bent, titanium spork (1cr)",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt29f6abbf878ae4"
+    },
+    {
+      "_id": "rt6e9e3973684ae0",
+      "name": "Carbon rod (2cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Carbon rod (2cr)",
+      "drawn": false,
+      "range": [
+        2,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt6e9e3973684ae0"
+    },
+    {
+      "_id": "rtcea2f7a1b6c578",
+      "name": "Bag of smooth metallic spheres (2cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bag of smooth metallic spheres (2cr)",
+      "drawn": false,
+      "range": [
+        4,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtcea2f7a1b6c578"
+    },
+    {
+      "_id": "rtd9cafa2b982627",
+      "name": "Empty Energy Cell (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Empty Energy Cell (1cr)",
+      "drawn": false,
+      "range": [
+        6,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtd9cafa2b982627"
+    },
+    {
+      "_id": "rt04bc7f4f0e2148",
+      "name": "Handheld plasma torch with a cracked lens (1 energy cell)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Handheld plasma torch with a cracked lens (1 energy cell)",
+      "drawn": false,
+      "range": [
+        8,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt04bc7f4f0e2148"
+    },
+    {
+      "_id": "rt6fcbcc5c65b74f",
+      "name": "Cybernetic tooth (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cybernetic tooth (1cr)",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt6fcbcc5c65b74f"
+    },
+    {
+      "_id": "rtef9585cd7bf66f",
+      "name": "Sparking Vibroknife (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sparking Vibroknife (1cr)",
+      "drawn": false,
+      "range": [
+        12,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtef9585cd7bf66f"
+    },
+    {
+      "_id": "rtec5a57ea87d050",
+      "name": "Two empty Stimpak injectors (6cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Two empty Stimpak injectors (6cr)",
+      "drawn": false,
+      "range": [
+        14,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtec5a57ea87d050"
+    },
+    {
+      "_id": "rt01990a83220948",
+      "name": "60 microchips in a worn-out spacers glove (6cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "60 microchips in a worn-out spacers glove (6cr)",
+      "drawn": false,
+      "range": [
+        16,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt01990a83220948"
+    },
+    {
+      "_id": "rt1f10ae973ca94a",
+      "name": "Cracked, handheld holo-mirror (8cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cracked, handheld holo-mirror (8cr)",
+      "drawn": false,
+      "range": [
+        18,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt1f10ae973ca94a"
+    },
+    {
+      "_id": "rtedbacc715d7725",
+      "name": "Heavy vibroaxe with a cracked handle (9cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Heavy vibroaxe with a cracked handle (9cr)",
+      "drawn": false,
+      "range": [
+        20,
+        21
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtedbacc715d7725"
+    },
+    {
+      "_id": "rt1673dd762d7235",
+      "name": "10 CredChits in a smelly, plastisteel box",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "10 CredChits in a smelly, plastisteel box",
+      "drawn": false,
+      "range": [
+        22,
+        23
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt1673dd762d7235"
+    },
+    {
+      "_id": "rt3381e45a2e8e8e",
+      "name": "Fragment of a rare ochre data crystal (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Fragment of a rare ochre data crystal (10cr)",
+      "drawn": false,
+      "range": [
+        24,
+        25
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt3381e45a2e8e8e"
+    },
+    {
+      "_id": "rta9ca08cca84cf5",
+      "name": "Blaster rifle with cracked scope (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Blaster rifle with cracked scope (10cr)",
+      "drawn": false,
+      "range": [
+        26,
+        27
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rta9ca08cca84cf5"
+    },
+    {
+      "_id": "rt12fecab2ec93de",
+      "name": "Dusty, light armor with cracked plates (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Dusty, light armor with cracked plates (10cr)",
+      "drawn": false,
+      "range": [
+        28,
+        29
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt12fecab2ec93de"
+    },
+    {
+      "_id": "rt2e22f2f7cf3c09",
+      "name": "Scuffed, reinforced ballistic shield (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Scuffed, reinforced ballistic shield (10cr)",
+      "drawn": false,
+      "range": [
+        30,
+        31
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt2e22f2f7cf3c09"
+    },
+    {
+      "_id": "rt9b90315d1c98bd",
+      "name": "Simple, well-crafted vibrosword (10cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Simple, well-crafted vibrosword (10cr)",
+      "drawn": false,
+      "range": [
+        32,
+        33
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt9b90315d1c98bd"
+    },
+    {
+      "_id": "rtf8b84833da79f2",
+      "name": "12 CredChits in the pocket of a torn jumpsuit",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "12 CredChits in the pocket of a torn jumpsuit",
+      "drawn": false,
+      "range": [
+        34,
+        35
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtf8b84833da79f2"
+    },
+    {
+      "_id": "rt16edc717c5701f",
+      "name": "Blaster Pistol with flickering emitter (12cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Blaster Pistol with flickering emitter (12cr)",
+      "drawn": false,
+      "range": [
+        36,
+        37
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt16edc717c5701f"
+    },
+    {
+      "_id": "rt2805d30bc4e2d9",
+      "name": "Pair of custom twin vibroknives (14cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Pair of custom twin vibroknives (14cr)",
+      "drawn": false,
+      "range": [
+        38,
+        39
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt2805d30bc4e2d9"
+    },
+    {
+      "_id": "rt1e9458363e30d9",
+      "name": "Gold-plated dish from a defunct luxury starcruiser (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gold-plated dish from a defunct luxury starcruiser (15cr)",
+      "drawn": false,
+      "range": [
+        40,
+        41
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt1e9458363e30d9"
+    },
+    {
+      "_id": "rt63857aae6d3ac6",
+      "name": "Dark stone statuette of an unknown deity (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Dark stone statuette of an unknown deity (15cr)",
+      "drawn": false,
+      "range": [
+        42,
+        43
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt63857aae6d3ac6"
+    },
+    {
+      "_id": "rt7669fed620b2fd",
+      "name": "Undersized pearl from a bio-engineered mollusk (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Undersized pearl from a bio-engineered mollusk (20cr)",
+      "drawn": false,
+      "range": [
+        44,
+        45
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt7669fed620b2fd"
+    },
+    {
+      "_id": "rt65c5185b5a816d",
+      "name": "Jade-and-gold comm pin (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Jade-and-gold comm pin (20cr)",
+      "drawn": false,
+      "range": [
+        46,
+        47
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt65c5185b5a816d"
+    },
+    {
+      "_id": "rtb018c1f0ee0308",
+      "name": "Bag of 10 ionized alloy spikes (2cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bag of 10 ionized alloy spikes (2cr each)",
+      "drawn": false,
+      "range": [
+        48,
+        49
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtb018c1f0ee0308"
+    },
+    {
+      "_id": "rt94def1a265623d",
+      "name": "Locket with an encoded holo image (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Locket with an encoded holo image (20cr)",
+      "drawn": false,
+      "range": [
+        50,
+        51
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt94def1a265623d"
+    },
+    {
+      "_id": "rt0b7c968e6ba7d0",
+      "name": "A pair of gold-plated gaming dice on a chain (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A pair of gold-plated gaming dice on a chain (20cr)",
+      "drawn": false,
+      "range": [
+        52,
+        53
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt0b7c968e6ba7d0"
+    },
+    {
+      "_id": "rt72dab3eb659177",
+      "name": "A well-made ballistic shield (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A well-made ballistic shield (20cr)",
+      "drawn": false,
+      "range": [
+        54,
+        55
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt72dab3eb659177"
+    },
+    {
+      "_id": "rt4d02322305f056",
+      "name": "Pair of custom silver-plated combat knives (10cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Pair of custom silver-plated combat knives (10cr each)",
+      "drawn": false,
+      "range": [
+        56,
+        57
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt4d02322305f056"
+    },
+    {
+      "_id": "rt88a8b5c07024f7",
+      "name": "Ancient drinking implements with alien markings (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ancient drinking implements with alien markings (20cr)",
+      "drawn": false,
+      "range": [
+        58,
+        59
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt88a8b5c07024f7"
+    },
+    {
+      "_id": "rt15dd1f15096397",
+      "name": "Bundle of five hull repair plates (5cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bundle of five hull repair plates (5cr each)",
+      "drawn": false,
+      "range": [
+        60,
+        61
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt15dd1f15096397"
+    },
+    {
+      "_id": "rt559d6d62fb3795",
+      "name": "Lightweight adaptive thermal cloak (25cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lightweight adaptive thermal cloak (25cr)",
+      "drawn": false,
+      "range": [
+        62,
+        63
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt559d6d62fb3795"
+    },
+    {
+      "_id": "rtbeeb5fb0a673f7",
+      "name": "Precision cut holo etched game pieces (25cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Precision cut holo etched game pieces (25cr)",
+      "drawn": false,
+      "range": [
+        64,
+        65
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtbeeb5fb0a673f7"
+    },
+    {
+      "_id": "rt624e671d9093e8",
+      "name": "Half-assembled light exosuit frame (30cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Half-assembled light exosuit frame (30cr)",
+      "drawn": false,
+      "range": [
+        66,
+        67
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt624e671d9093e8"
+    },
+    {
+      "_id": "rt7f2cb1431fbfc3",
+      "name": "Set of three antique light pistols (10cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Set of three antique light pistols (10cr each)",
+      "drawn": false,
+      "range": [
+        68,
+        69
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt7f2cb1431fbfc3"
+    },
+    {
+      "_id": "rta0e0d4fe8648e8",
+      "name": "Fragment of a rare blue hypercrystal (30cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Fragment of a rare blue hypercrystal (30cr)",
+      "drawn": false,
+      "range": [
+        70,
+        71
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rta0e0d4fe8648e8"
+    },
+    {
+      "_id": "rt59c334d78591b3",
+      "name": "Set of tailored slippers and a luxury space robe from a defunct luxury starcruiser (35cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Set of tailored slippers and a luxury space robe from a defunct luxury starcruiser (35cr)",
+      "drawn": false,
+      "range": [
+        72,
+        73
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt59c334d78591b3"
+    },
+    {
+      "_id": "rt092f65b991180c",
+      "name": "Silver-and-gold circlet with neural link ports (40cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Silver-and-gold circlet with neural link ports (40cr)",
+      "drawn": false,
+      "range": [
+        74,
+        75
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt092f65b991180c"
+    },
+    {
+      "_id": "rtaccd68217197c6",
+      "name": "Radiant, polished synthetic pearl (40cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Radiant, polished synthetic pearl (40cr)",
+      "drawn": false,
+      "range": [
+        76,
+        77
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtaccd68217197c6"
+    },
+    {
+      "_id": "rt1420cdb872c817",
+      "name": "Energy Shield etched with ancient stellar patterns (40cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Energy Shield etched with ancient stellar patterns (40cr)",
+      "drawn": false,
+      "range": [
+        78,
+        79
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt1420cdb872c817"
+    },
+    {
+      "_id": "rtf6af3d56c6be28",
+      "name": "Gold idol of an alien with a ruby-like mineral in its one \u201ceye\u201d (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gold idol of an alien with a ruby-like mineral in its one \u201ceye\u201d (60cr)",
+      "drawn": false,
+      "range": [
+        80,
+        81
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtf6af3d56c6be28"
+    },
+    {
+      "_id": "rt8c39789937a202",
+      "name": "Fully assembled light exosuit (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Fully assembled light exosuit (60cr)",
+      "drawn": false,
+      "range": [
+        82,
+        83
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt8c39789937a202"
+    },
+    {
+      "_id": "rtf94ac350d276e1",
+      "name": "Fragmented energy crystal (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Fragmented energy crystal (60cr)",
+      "drawn": false,
+      "range": [
+        84,
+        85
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtf94ac350d276e1"
+    },
+    {
+      "_id": "rt683ea2e5699b01",
+      "name": "Pair of luminescent alien pearls (40cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Pair of luminescent alien pearls (40cr each)",
+      "drawn": false,
+      "range": [
+        86,
+        87
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt683ea2e5699b01"
+    },
+    {
+      "_id": "rta943cf5ed00db1",
+      "name": "Personal Stealth Field Generator (1 charge) (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Personal Stealth Field Generator (1 charge) (80cr)",
+      "drawn": false,
+      "range": [
+        88,
+        89
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rta943cf5ed00db1"
+    },
+    {
+      "_id": "rt137e0b8840cbd1",
+      "name": "Portable Power Converter (100cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Portable Power Converter (100cr)",
+      "drawn": false,
+      "range": [
+        90,
+        91
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt137e0b8840cbd1"
+    },
+    {
+      "_id": "rtb5bd5afd01a417",
+      "name": "Alien Incubation Pod (100cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Alien Incubation Pod (100cr)",
+      "drawn": false,
+      "range": [
+        92,
+        93
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtb5bd5afd01a417"
+    },
+    {
+      "_id": "rt360d8cc1de8192",
+      "name": "Lifter Arms (14) (120cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lifter Arms (14) (120cr)",
+      "drawn": false,
+      "range": [
+        94,
+        95
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt360d8cc1de8192"
+    },
+    {
+      "_id": "rtf43db5601b24ef",
+      "name": "+1 enhanced armor (enhanced but with a drawback) (150cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+1 enhanced armor (enhanced but with a drawback) (150cr)",
+      "drawn": false,
+      "range": [
+        96,
+        97
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rtf43db5601b24ef"
+    },
+    {
+      "_id": "rt8254822eb4ad86",
+      "name": "Spacefold Bag (150cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Spacefold Bag (150cr)",
+      "drawn": false,
+      "range": [
+        98,
+        99
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt8254822eb4ad86"
+    },
+    {
+      "_id": "rt6ef1cd50ecc803",
+      "name": "+1 enhanced weapon (200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+1 enhanced weapon (200cr)",
+      "drawn": false,
+      "range": [
+        0,
+        0
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage0_3.rt6ef1cd50ecc803"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabSalvage0_3"
+}

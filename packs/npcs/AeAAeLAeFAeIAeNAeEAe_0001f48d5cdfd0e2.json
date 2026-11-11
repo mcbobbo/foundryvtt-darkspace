@@ -1,0 +1,125 @@
+{
+  "_id": "0001f48d5cdfd0e2",
+  "name": "AeAAeLAeFAeIAeNAeEAe",
+  "type": "NPC",
+  "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "NEAR",
+    "moveNote": "climb",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Short, furry, snouted, bipedal humanoids. Known for hunting wild felinoid creatures.</i></p><p><strong>Movement:</strong> NEAR (climb)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 bite +1 (1d4) or laser pistol (NEAR) +1 (1d4)</p><p><strong>Tracking.</strong> Can always sense the direction of its chosen quarry.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/commodities/bones/bone-jaw-teeth-red.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d4"
+        },
+        "description": ""
+      },
+      "_id": "GtH0411puLevsplj",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0001f48d5cdfd0e2.GtH0411puLevsplj",
+      "effects": []
+    },
+    {
+      "name": "laser pistol (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d4"
+        },
+        "description": ""
+      },
+      "_id": "gjZCvrPUoXOunVfD",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0001f48d5cdfd0e2.gjZCvrPUoXOunVfD",
+      "effects": []
+    },
+    {
+      "name": "Tracking",
+      "type": "NPC Feature",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "description": "<p>Can always sense the direction of its chosen quarry.</p></p>"
+      },
+      "_id": "rMGAf6i4EOzwET98",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0001f48d5cdfd0e2.rMGAf6i4EOzwET98",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!0001f48d5cdfd0e2"
+}

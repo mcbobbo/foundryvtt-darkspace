@@ -1,0 +1,318 @@
+{
+  "_id": "dsStockFreSR01",
+  "name": "Freighter (Short Range)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "mod": 3
+      },
+      "dex": {
+        "value": 8,
+        "mod": -1
+      },
+      "con": {
+        "value": 14,
+        "mod": 2
+      },
+      "int": {
+        "value": 6,
+        "mod": -2
+      },
+      "wis": {
+        "value": 10,
+        "mod": 0
+      },
+      "cha": {
+        "value": 6,
+        "mod": -2
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "ac": {
+        "value": 9
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 6000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassFreig",
+    "notes": "<p>Modular short-range cargo carrier with external cargo frame attachments.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shClffffe361d965",
+      "name": "Freighter",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Grunts, haulers, tugs, and barges. Freighters are the muscle that carry the galaxy on their shoulders.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 6,
+        "featureSlots": 9,
+        "hpDie": "d8",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.LqDnwywd1partj36"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalSpaceHaul",
+          "Compendium.darkspace.talents.Item.dsShTalLowProfil",
+          "Compendium.darkspace.talents.Item.dsShTalStructRes"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabFreight"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shClffffe361d965"
+    },
+    {
+      "_id": "shCp64498f530c3c",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shCp64498f530c3c"
+    },
+    {
+      "_id": "shCp698a7ae2e96b",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shCp698a7ae2e96b"
+    },
+    {
+      "_id": "shCp9c08e45fb461",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shCp9c08e45fb461"
+    },
+    {
+      "_id": "shCpac21a7c1b880",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shCpac21a7c1b880"
+    },
+    {
+      "_id": "shCpc6ba48d6ef38",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shCpc6ba48d6ef38"
+    },
+    {
+      "_id": "shCp79149f90e56d",
+      "name": "Cargo Frame",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can carry 10 m3 detachable units of bulk cargo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [
+        {
+          "_id": "ef52f1617c544fbb",
+          "name": "Cargo Frame Capacity",
+          "type": "base",
+          "img": "icons/commodities/tech/console-steel.webp",
+          "changes": [
+            {
+              "key": "system.cargo.max",
+              "mode": 2,
+              "priority": null,
+              "value": "10"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "flags": {},
+          "_key": "!actors.items.effects!dsStockFreSR01.shCp79149f90e56d.ef52f1617c544fbb"
+        }
+      ],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shCp79149f90e56d"
+    },
+    {
+      "_id": "shTlcfa44db41ed9",
+      "name": "Space Hauler",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>Add the ship's STR modifier, if positive, to its cargo slots.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shTlcfa44db41ed9"
+    },
+    {
+      "_id": "shTld8851c9fc906",
+      "name": "Might Not Look Like Much",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on CHA checks when trying to keep a low profile.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shTld8851c9fc906"
+    },
+    {
+      "_id": "shTl2831e81e761d",
+      "name": "Structural Resilience",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on STR checks to overcome an opposing force, such as breaking free of a gravity well or through a barrier.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreSR01.shTl2831e81e761d"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockFreSR01"
+}

@@ -1,0 +1,309 @@
+{
+  "_id": "dsStockResOculusSR",
+  "name": "Research - ERD-2 'Oculus' (Short Range)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 6,
+        "mod": -2
+      },
+      "dex": {
+        "value": 10,
+        "mod": 0
+      },
+      "con": {
+        "value": 6,
+        "mod": -2
+      },
+      "int": {
+        "value": 14,
+        "mod": 2
+      },
+      "wis": {
+        "value": 14,
+        "mod": 2
+      },
+      "cha": {
+        "value": 10,
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 8,
+        "max": 8
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 7000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassResea",
+    "notes": "<p>Habitable mobile space laboratory designed for isolated deep-space survey.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl76a23c996fb4",
+      "name": "Research",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Laboratories, observatories, clinics, and survey ships. Research vessels are the mind of the galaxy, patiently unlocking its deepest secrets.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 7,
+        "featureSlots": 8,
+        "hpDie": "d4",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.Uftp1gzsAJoPp2rp"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalDeepAnaly",
+          "Compendium.darkspace.talents.Item.dsShTalCosmicReg",
+          "Compendium.darkspace.talents.Item.dsShTalExocraftB"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabResearc"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCl76a23c996fb4"
+    },
+    {
+      "_id": "shCpf3576f7e481d",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCpf3576f7e481d"
+    },
+    {
+      "_id": "shCp9e5f5ced1cb2",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCp9e5f5ced1cb2"
+    },
+    {
+      "_id": "shCpc2e873f495c8",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCpc2e873f495c8"
+    },
+    {
+      "_id": "shCp2834143680fd",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCp2834143680fd"
+    },
+    {
+      "_id": "shCp3dad94838432",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCp3dad94838432"
+    },
+    {
+      "_id": "shCp8d7889659659",
+      "name": "Science Station",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with the necessary equipment to perform scientific analysis and experimentation. The DC of any related check is reduced by 3.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 700,
+          "repair": 300
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCp8d7889659659"
+    },
+    {
+      "_id": "shCp7bc540128634",
+      "name": "Crew Quarters",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>Bunks required to take a Rest while on the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 250
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shCp7bc540128634"
+    },
+    {
+      "_id": "shTlf23661986be4",
+      "name": "Deep Analysis Sensors",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>While the Sensor Array is online, all DCs for analyzing exterior anomalies are reduced by 3.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shTlf23661986be4"
+    },
+    {
+      "_id": "shTlc59146d62d06",
+      "name": "Cosmic Regenerator Array",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is outfitted with an array that captures latent cosmic radiation to power repair capabilities. The ship is able to Rest when the crew does.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shTlc59146d62d06"
+    },
+    {
+      "_id": "shTla0448da27aa8",
+      "name": "Exocraft Bay",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is designed to accommodate a smaller vehicle such as a shuttle, escape pod, or drone. This bay can also be used for 4 cargo slots instead of a vehicle.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResOculusSR.shTla0448da27aa8"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockResOculusSR"
+}

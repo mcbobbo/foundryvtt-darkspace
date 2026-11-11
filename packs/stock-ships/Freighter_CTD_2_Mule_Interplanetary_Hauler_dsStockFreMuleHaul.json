@@ -1,0 +1,459 @@
+{
+  "_id": "dsStockFreMuleHaul",
+  "name": "Freighter - CTD-2 'Mule' (Interplanetary Hauler)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "mod": 4
+      },
+      "dex": {
+        "value": 10,
+        "mod": 0
+      },
+      "con": {
+        "value": 16,
+        "mod": 3
+      },
+      "int": {
+        "value": 6,
+        "mod": -2
+      },
+      "wis": {
+        "value": 10,
+        "mod": 0
+      },
+      "cha": {
+        "value": 6,
+        "mod": -2
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "ac": {
+        "value": 11
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "coins": {
+      "gp": 12000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassFreig",
+    "notes": "<p>Massive 40 m\u00b3 cargo hauler with heavy loader arms, crew quarters, and galley.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shClc6cf9a927478",
+      "name": "Freighter",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Grunts, haulers, tugs, and barges. Freighters are the muscle that carry the galaxy on their shoulders.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 6,
+        "featureSlots": 9,
+        "hpDie": "d8",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.LqDnwywd1partj36"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalSpaceHaul",
+          "Compendium.darkspace.talents.Item.dsShTalLowProfil",
+          "Compendium.darkspace.talents.Item.dsShTalStructRes"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabFreight"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shClc6cf9a927478"
+    },
+    {
+      "_id": "shCp841844ba91d8",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCp841844ba91d8"
+    },
+    {
+      "_id": "shCp0288984dc389",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCp0288984dc389"
+    },
+    {
+      "_id": "shCp789287106c96",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCp789287106c96"
+    },
+    {
+      "_id": "shCpe29a92398cbb",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCpe29a92398cbb"
+    },
+    {
+      "_id": "shCp98bd736e4daf",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCp98bd736e4daf"
+    },
+    {
+      "_id": "shCp16b3d6413590",
+      "name": "Weapons Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with weapons. Each weapon requires a gunner to use it. Fire-linked arrays require only one gunner.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 100,
+          "repair": 50
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCp16b3d6413590"
+    },
+    {
+      "_id": "shCp6dc715c6485d",
+      "name": "Cargo Frame",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can carry 10 m3 detachable units of bulk cargo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [
+        {
+          "_id": "ef4cba2a73cca8ef",
+          "name": "Cargo Frame Capacity",
+          "type": "base",
+          "img": "icons/commodities/tech/console-steel.webp",
+          "changes": [
+            {
+              "key": "system.cargo.max",
+              "mode": 2,
+              "priority": null,
+              "value": "10"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "flags": {},
+          "_key": "!actors.items.effects!dsStockFreMuleHaul.shCp6dc715c6485d.ef4cba2a73cca8ef"
+        }
+      ],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCp6dc715c6485d"
+    },
+    {
+      "_id": "shCpba7ca41417f0",
+      "name": "Crew Quarters",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>Bunks required to take a Rest while on the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 250
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCpba7ca41417f0"
+    },
+    {
+      "_id": "shCp6343ea4b9916",
+      "name": "Galley",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>A fully stocked kitchen area. On a successful DC 12 WIS check, the crew don't use a ration during Resting.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 500,
+          "repair": 100
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shCp6343ea4b9916"
+    },
+    {
+      "_id": "shArfb05f8805afa",
+      "name": "Armor Plating, Light",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>Ph.</b> 11 + Ship DEX modifier (+1 AC vs Projectile and Energy).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 1,
+        "acEnergy": 1,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shArfb05f8805afa"
+    },
+    {
+      "_id": "shWp0d85e10b727b",
+      "name": "Projectile Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale medium projectile cannon. Requires ammo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.Tg2j6CxrmNwtvdWI"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 200,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d6",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "near",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Projectile",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shWp0d85e10b727b"
+    },
+    {
+      "_id": "shTlb6b9ae60d02c",
+      "name": "Space Hauler",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>Add the ship's STR modifier, if positive, to its cargo slots.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shTlb6b9ae60d02c"
+    },
+    {
+      "_id": "shTlc16573479787",
+      "name": "Might Not Look Like Much",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on CHA checks when trying to keep a low profile.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shTlc16573479787"
+    },
+    {
+      "_id": "shTl9c96f41bf57a",
+      "name": "Structural Resilience",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on STR checks to overcome an opposing force, such as breaking free of a gravity well or through a barrier.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreMuleHaul.shTl9c96f41bf57a"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockFreMuleHaul"
+}

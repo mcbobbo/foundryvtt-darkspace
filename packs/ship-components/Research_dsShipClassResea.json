@@ -1,0 +1,28 @@
+{
+  "_id": "dsShipClassResea",
+  "name": "Research",
+  "type": "darkspace.ShipClass",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "description": "<p>Laboratories, observatories, clinics, and survey ships. Research vessels are the mind of the galaxy, patiently unlocking its deepest secrets.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "systemSlots": 7,
+    "featureSlots": 8,
+    "hpDie": "d4",
+    "freeComponents": [
+      "Compendium.darkspace.ship-components.Item.Uftp1gzsAJoPp2rp"
+    ],
+    "classTalents": [
+      "Compendium.darkspace.talents.Item.dsShTalDeepAnaly",
+      "Compendium.darkspace.talents.Item.dsShTalCosmicReg",
+      "Compendium.darkspace.talents.Item.dsShTalExocraftB"
+    ],
+    "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabResearc"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipClassResea"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "dsCybDatajack720",
+  "name": "Cyberware: Datajack",
+  "type": "Basic",
+  "img": "icons/commodities/tech/plug-gray.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> This cybernetic implant integrates a computer interface into your nervous system. Internal hacking Interface with ACC, CTL, and NET equal to your INT, WIS, and CHA.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybDatajack720"
+}

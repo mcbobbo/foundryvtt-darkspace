@@ -1,13 +1,14 @@
 {{#> ui/ds-box header-label=label class="ds-ship-section"}}
     {{#*inline "ds-box-header-span"}}
+        <span>({{slotsUsed}}/{{slotsMax}})</span>
         {{#if owner}}
-        <a data-action="item-create" data-item-type="darkspace.ShipComponent" data-component-subtype="{{subtype}}"><i class="fas fa-plus"></i></a>
+        <a data-action="item-create" data-item-type="darkspace.ShipComponent" data-component-subtype="{{subtype}}" style="margin-left:6px;"><i class="fas fa-plus"></i></a>
         {{/if}}
     {{/inline}}
     {{#each items as |item|}}
     <div class="ds-component-row item" data-item-id="{{item.id}}">
         <a class="ds-component-name" data-action="item-edit" data-item-id="{{item.id}}">
-            {{item.name}}
+            {{item.name}} {{#if (gt item.system.slots 1)}}({{item.system.slots}}){{/if}}
         </a>
         <div class="ds-component-status">
             <input type="checkbox" {{#if item.system.online}}checked{{/if}} data-action="toggle-online" data-item-id="{{item.id}}" />

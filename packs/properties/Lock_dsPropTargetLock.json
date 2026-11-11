@@ -1,0 +1,18 @@
+{
+  "_id": "dsPropTargetLock",
+  "name": "Lock",
+  "type": "Property",
+  "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+  "system": {
+    "description": "<p>L. This weapon requires a targeting lock to hit accurately. Make a contested WIS check versus the target's DEX. If successful, the weapon hits.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "itemType": "weapon",
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsPropTargetLock"
+}

@@ -1,0 +1,779 @@
+{
+  "_id": "dsTabSalvage7_9",
+  "name": "Salvage: Salvage 7-9",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Random salvage found in SALVAGE 7-9 threat areas.</p>",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtc97d129a2d67f0",
+      "name": "Twisted Porthole Frame (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Twisted Porthole Frame (1cr)",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtc97d129a2d67f0"
+    },
+    {
+      "_id": "rt3f0b0843a4b1c9",
+      "name": "Charred spacer gloves (2cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Charred spacer gloves (2cr)",
+      "drawn": false,
+      "range": [
+        2,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt3f0b0843a4b1c9"
+    },
+    {
+      "_id": "rte3106851d67974",
+      "name": "Plastisteel musical tuning fork (8cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Plastisteel musical tuning fork (8cr)",
+      "drawn": false,
+      "range": [
+        4,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rte3106851d67974"
+    },
+    {
+      "_id": "rt47c502730a30cd",
+      "name": "A green, glowing vibroblade (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A green, glowing vibroblade (15cr)",
+      "drawn": false,
+      "range": [
+        6,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt47c502730a30cd"
+    },
+    {
+      "_id": "rt9d47ae45f780db",
+      "name": "A hand holding a homemade, heavy vibrosword (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A hand holding a homemade, heavy vibrosword (15cr)",
+      "drawn": false,
+      "range": [
+        8,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt9d47ae45f780db"
+    },
+    {
+      "_id": "rtb553aeedf594ce",
+      "name": "Matching pair of blaster pistols with military insignia (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Matching pair of blaster pistols with military insignia (20cr)",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtb553aeedf594ce"
+    },
+    {
+      "_id": "rtec4fd808af65e2",
+      "name": "A pack of unopened deathstiks (20cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A pack of unopened deathstiks (20cr)",
+      "drawn": false,
+      "range": [
+        12,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtec4fd808af65e2"
+    },
+    {
+      "_id": "rtb88cd70a0d9569",
+      "name": "A freeze-dried husk of an alien insect (25cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A freeze-dried husk of an alien insect (25cr)",
+      "drawn": false,
+      "range": [
+        14,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtb88cd70a0d9569"
+    },
+    {
+      "_id": "rte64aecaafc8b63",
+      "name": "Holographic projector that displays past simulations (30cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Holographic projector that displays past simulations (30cr)",
+      "drawn": false,
+      "range": [
+        16,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rte64aecaafc8b63"
+    },
+    {
+      "_id": "rt87d68588bfd82a",
+      "name": "Quarantine lock box, sealed & labeled BIO-HAZARD (35cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Quarantine lock box, sealed & labeled BIO-HAZARD (35cr)",
+      "drawn": false,
+      "range": [
+        18,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt87d68588bfd82a"
+    },
+    {
+      "_id": "rt1ea70f6d01016e",
+      "name": "Two rebreathers and a roll of mylar tape (35cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Two rebreathers and a roll of mylar tape (35cr)",
+      "drawn": false,
+      "range": [
+        20,
+        21
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt1ea70f6d01016e"
+    },
+    {
+      "_id": "rt2e38f32d16d193",
+      "name": "A full-face, black metal rebreather (40cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A full-face, black metal rebreather (40cr)",
+      "drawn": false,
+      "range": [
+        22,
+        23
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt2e38f32d16d193"
+    },
+    {
+      "_id": "rt5ded7b352ab365",
+      "name": "Geological scanner showing minerals nearby (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Geological scanner showing minerals nearby (50cr)",
+      "drawn": false,
+      "range": [
+        24,
+        25
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt5ded7b352ab365"
+    },
+    {
+      "_id": "rt3edda970ee309c",
+      "name": "An encrypted access card (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "An encrypted access card (50cr)",
+      "drawn": false,
+      "range": [
+        26,
+        27
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt3edda970ee309c"
+    },
+    {
+      "_id": "rt19f1e675c176dd",
+      "name": "Officer's personal log detailing their last mission (55cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Officer's personal log detailing their last mission (55cr)",
+      "drawn": false,
+      "range": [
+        28,
+        29
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt19f1e675c176dd"
+    },
+    {
+      "_id": "rt732e5de6bed717",
+      "name": "A glowing moss with healing properties (1d6 hp) (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A glowing moss with healing properties (1d6 hp) (60cr)",
+      "drawn": false,
+      "range": [
+        30,
+        31
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt732e5de6bed717"
+    },
+    {
+      "_id": "rte7f07abea52b0a",
+      "name": "Crate containing 12 tubes of a surprisingly edible synthetic nutrient paste (each tube has 3 portions of rations) (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crate containing 12 tubes of a surprisingly edible synthetic nutrient paste (each tube has 3 portions of rations) (60cr)",
+      "drawn": false,
+      "range": [
+        32,
+        33
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rte7f07abea52b0a"
+    },
+    {
+      "_id": "rtec0e100846ca9a",
+      "name": "An emergency signal flare that is visible from orbit (65cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "An emergency signal flare that is visible from orbit (65cr)",
+      "drawn": false,
+      "range": [
+        34,
+        35
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtec0e100846ca9a"
+    },
+    {
+      "_id": "rtf1f128a9c84935",
+      "name": "Figurine with 8 wings & a glowing eye in the middle (75cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Figurine with 8 wings & a glowing eye in the middle (75cr)",
+      "drawn": false,
+      "range": [
+        36,
+        37
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtf1f128a9c84935"
+    },
+    {
+      "_id": "rt18e9132ff5ca27",
+      "name": "4 detonation charges used for controlled mining (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "4 detonation charges used for controlled mining (80cr)",
+      "drawn": false,
+      "range": [
+        38,
+        39
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt18e9132ff5ca27"
+    },
+    {
+      "_id": "rtb3665f28789abb",
+      "name": "Damaged translator shaped like an aquatic creature (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Damaged translator shaped like an aquatic creature (80cr)",
+      "drawn": false,
+      "range": [
+        40,
+        41
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtb3665f28789abb"
+    },
+    {
+      "_id": "rt00bd7626690611",
+      "name": "Necklace adorned with blue and violet gem stones (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Necklace adorned with blue and violet gem stones (80cr)",
+      "drawn": false,
+      "range": [
+        42,
+        43
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt00bd7626690611"
+    },
+    {
+      "_id": "rt7aa0e4a6dc0628",
+      "name": "4 luminescent crystals hum when touched (20cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "4 luminescent crystals hum when touched (20cr each)",
+      "drawn": false,
+      "range": [
+        44,
+        45
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt7aa0e4a6dc0628"
+    },
+    {
+      "_id": "rt3a4eccb5812837",
+      "name": "Box filled with a variety of genetically modified seeds (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Box filled with a variety of genetically modified seeds (80cr)",
+      "drawn": false,
+      "range": [
+        46,
+        47
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt3a4eccb5812837"
+    },
+    {
+      "_id": "rt34ef798aef0234",
+      "name": "Ornate self-heating wok & matching cooking utensils (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ornate self-heating wok & matching cooking utensils (80cr)",
+      "drawn": false,
+      "range": [
+        48,
+        49
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt34ef798aef0234"
+    },
+    {
+      "_id": "rt5eb39df4fd2a72",
+      "name": "Cloak of fabric that shifts colors & patterns (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cloak of fabric that shifts colors & patterns (80cr)",
+      "drawn": false,
+      "range": [
+        50,
+        53
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt5eb39df4fd2a72"
+    },
+    {
+      "_id": "rt3bf255c8e429f5",
+      "name": "Holo-portrait of a famous admiral (8cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Holo-portrait of a famous admiral (8cr)",
+      "drawn": false,
+      "range": [
+        54,
+        55
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt3bf255c8e429f5"
+    },
+    {
+      "_id": "rt583d73f6e58b17",
+      "name": "A primitive carving in a meteorite with precious metals (85cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A primitive carving in a meteorite with precious metals (85cr)",
+      "drawn": false,
+      "range": [
+        56,
+        57
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt583d73f6e58b17"
+    },
+    {
+      "_id": "rta13e22e2095321",
+      "name": "Mystical ceremonial garments with esoteric symbols (90cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Mystical ceremonial garments with esoteric symbols (90cr)",
+      "drawn": false,
+      "range": [
+        58,
+        59
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rta13e22e2095321"
+    },
+    {
+      "_id": "rt1c45dd2537f4a5",
+      "name": "Time capsule containing relics of a past civilization (90cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Time capsule containing relics of a past civilization (90cr)",
+      "drawn": false,
+      "range": [
+        58,
+        59
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt1c45dd2537f4a5"
+    },
+    {
+      "_id": "rt770d572150616b",
+      "name": "Ancient ceremonial armor depicting a winged creature (95cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ancient ceremonial armor depicting a winged creature (95cr)",
+      "drawn": false,
+      "range": [
+        60,
+        61
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt770d572150616b"
+    },
+    {
+      "_id": "rtd5c8670e4f60f5",
+      "name": "Data cube message of a human female dressed in white (95cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Data cube message of a human female dressed in white (95cr)",
+      "drawn": false,
+      "range": [
+        62,
+        63
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtd5c8670e4f60f5"
+    },
+    {
+      "_id": "rt8bc279bd0b6d29",
+      "name": "The head of a blasted service droid, memory-wiped (110cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The head of a blasted service droid, memory-wiped (110cr)",
+      "drawn": false,
+      "range": [
+        64,
+        65
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt8bc279bd0b6d29"
+    },
+    {
+      "_id": "rt51c96188de381a",
+      "name": "An AI memory core with corrupted or mysterious data (120cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "An AI memory core with corrupted or mysterious data (120cr)",
+      "drawn": false,
+      "range": [
+        66,
+        67
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt51c96188de381a"
+    },
+    {
+      "_id": "rt5a4f73a460c790",
+      "name": "Solar harvester panel still usable for energy collection (120cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Solar harvester panel still usable for energy collection (120cr)",
+      "drawn": false,
+      "range": [
+        68,
+        69
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt5a4f73a460c790"
+    },
+    {
+      "_id": "rt334d1f91bc411f",
+      "name": "Gravity tether, anchors equipment in low gravity (120cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gravity tether, anchors equipment in low gravity (120cr)",
+      "drawn": false,
+      "range": [
+        70,
+        71
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt334d1f91bc411f"
+    },
+    {
+      "_id": "rtd15cb0b353ef8d",
+      "name": "Healing Booster (3d10 hp) (200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Healing Booster (3d10 hp) (200cr)",
+      "drawn": false,
+      "range": [
+        72,
+        73
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtd15cb0b353ef8d"
+    },
+    {
+      "_id": "rt73f40d4d5ce718",
+      "name": "Schematics for a ship system (flawed but cost is half) 200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Schematics for a ship system (flawed but cost is half) 200cr)",
+      "drawn": false,
+      "range": [
+        74,
+        75
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt73f40d4d5ce718"
+    },
+    {
+      "_id": "rt4f54e2bbd36fb5",
+      "name": "Momentum Booster (200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Momentum Booster (200cr)",
+      "drawn": false,
+      "range": [
+        76,
+        77
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt4f54e2bbd36fb5"
+    },
+    {
+      "_id": "rt06aae6195e8cf7",
+      "name": "Augmented Sensors (16) (250cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Augmented Sensors (16) (250cr)",
+      "drawn": false,
+      "range": [
+        78,
+        79
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt06aae6195e8cf7"
+    },
+    {
+      "_id": "rt112e6d1d9aa149",
+      "name": "Holomap of alien terrain in an unknown region (260cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Holomap of alien terrain in an unknown region (260cr)",
+      "drawn": false,
+      "range": [
+        80,
+        81
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt112e6d1d9aa149"
+    },
+    {
+      "_id": "rt0cda952b7793f6",
+      "name": "Stasis Rod (300cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Stasis Rod (300cr)",
+      "drawn": false,
+      "range": [
+        82,
+        83
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt0cda952b7793f6"
+    },
+    {
+      "_id": "rt2117fe36e28904",
+      "name": "A tank of pure distilled water (300cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A tank of pure distilled water (300cr)",
+      "drawn": false,
+      "range": [
+        84,
+        85
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt2117fe36e28904"
+    },
+    {
+      "_id": "rt47f867a4d93e5d",
+      "name": "Energy Torpedo (300cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Energy Torpedo (300cr)",
+      "drawn": false,
+      "range": [
+        86,
+        87
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt47f867a4d93e5d"
+    },
+    {
+      "_id": "rt6a7fbcb00bccce",
+      "name": "+2 enhanced armor (300cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+2 enhanced armor (300cr)",
+      "drawn": false,
+      "range": [
+        88,
+        89
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt6a7fbcb00bccce"
+    },
+    {
+      "_id": "rt919d3dd0f4ebaa",
+      "name": "+2 exosuit armor (325cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+2 exosuit armor (325cr)",
+      "drawn": false,
+      "range": [
+        90,
+        91
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt919d3dd0f4ebaa"
+    },
+    {
+      "_id": "rt639d909e312a1d",
+      "name": "Crate of medical supplies (325cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crate of medical supplies (325cr)",
+      "drawn": false,
+      "range": [
+        92,
+        93
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt639d909e312a1d"
+    },
+    {
+      "_id": "rtdc0c31ef4cdd8f",
+      "name": "Variable Transponder (350cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Variable Transponder (350cr)",
+      "drawn": false,
+      "range": [
+        94,
+        95
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rtdc0c31ef4cdd8f"
+    },
+    {
+      "_id": "rt432eac971f3f5e",
+      "name": "Sensor Scrambler (350cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sensor Scrambler (350cr)",
+      "drawn": false,
+      "range": [
+        96,
+        97
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt432eac971f3f5e"
+    },
+    {
+      "_id": "rt0fe44cf3674707",
+      "name": "Tractor Beam (600cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Tractor Beam (600cr)",
+      "drawn": false,
+      "range": [
+        98,
+        99
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt0fe44cf3674707"
+    },
+    {
+      "_id": "rt0bb334df345b1e",
+      "name": "+3 enhanced weapon (benefit) (900cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+3 enhanced weapon (benefit) (900cr)",
+      "drawn": false,
+      "range": [
+        0,
+        0
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage7_9.rt0bb334df345b1e"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabSalvage7_9"
+}

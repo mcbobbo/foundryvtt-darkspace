@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadBodyShape",
+  "name": "Triad (Body): Shapeshift",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Body (CON).</b> Alter your physical features or physiology for a duration based on the chosen DC.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadBodyShape"
+}

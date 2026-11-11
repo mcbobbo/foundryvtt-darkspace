@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalSensCount",
+  "name": "Sensor Countermeasures",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>1/episode, the ship deploys countermeasures to automatically evade scans, sweeps, or targeting locks. +1 use per episode if taken again.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalSensCount"
+}

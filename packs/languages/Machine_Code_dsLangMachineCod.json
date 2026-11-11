@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangMachineCod",
+  "name": "Machine Code",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Binary and hexadecimal protocols spoken by androids, synthetics, and ship AIs.</p>",
+    "predefinedEffects": "",
+    "rarity": "common",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangMachineCod"
+}

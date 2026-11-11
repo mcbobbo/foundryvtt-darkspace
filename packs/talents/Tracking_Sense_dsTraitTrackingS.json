@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitTrackingS",
+  "name": "Tracking Sense",
+  "type": "Talent",
+  "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+  "system": {
+    "description": "<p>Once per episode, pick a target to be your quarry. You have advantage on all checks to track your quarry.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitTrackingS"
+}

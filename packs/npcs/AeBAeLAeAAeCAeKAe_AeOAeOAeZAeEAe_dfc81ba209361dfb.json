@@ -1,0 +1,116 @@
+{
+  "_id": "dfc81ba209361dfb",
+  "name": "AeBAeLAeAAeCAeKAe AeOAeOAeZAeEAe",
+  "type": "NPC",
+  "img": "icons/commodities/biological/suckers-green.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": -1,
+        "value": 8
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": -4,
+        "value": 2
+      },
+      "wis": {
+        "mod": -3,
+        "value": 4
+      },
+      "cha": {
+        "mod": -4,
+        "value": 2
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "max": 30
+      },
+      "ac": {
+        "value": 9
+      }
+    },
+    "level": {
+      "value": 6
+    },
+    "move": "NEAR",
+    "moveNote": "climb",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A black, mass of slime. Alien or experiment? Hard to say.</i></p><p><strong>Movement:</strong> NEAR (climb)</p>",
+    "description": "<p><strong>Attacks:</strong> 3 tentacle +4 (2d6)</p><p><strong>Corrosive.</strong> Anything that touches the ooze dissolves on a d6 roll of 1-3.</p><p><strong>Impervious.</strong> Only damaged by fire, radiation and energy weapons. Can survive in a vacuum.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tentacle",
+      "type": "NPC Attack",
+      "img": "icons/commodities/biological/tentacle-pink.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "2d6"
+        },
+        "description": ""
+      },
+      "_id": "vdrn8Y2E2id0VC5X",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dfc81ba209361dfb.vdrn8Y2E2id0VC5X",
+      "effects": []
+    },
+    {
+      "name": "Corrosive",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Anything that touches the ooze dissolves on a d6 roll of 1-3.</p></p>"
+      },
+      "_id": "6XI6wKdY5ShrJCae",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dfc81ba209361dfb.6XI6wKdY5ShrJCae",
+      "effects": []
+    },
+    {
+      "name": "Impervious",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Only damaged by fire, radiation and energy weapons. Can survive in a vacuum.</p></p>"
+      },
+      "_id": "Rl2wgGHArqkUpi6d",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dfc81ba209361dfb.Rl2wgGHArqkUpi6d",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dfc81ba209361dfb"
+}

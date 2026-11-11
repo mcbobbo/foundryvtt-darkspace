@@ -1,0 +1,28 @@
+{
+  "_id": "dsShipClassGunsh",
+  "name": "Gunship",
+  "type": "darkspace.ShipClass",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "description": "<p>Destroyers, gunboats, assault craft, and siege platforms. Gunships are the iron fist of raw, overwhelming firepower.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "systemSlots": 9,
+    "featureSlots": 6,
+    "hpDie": "d8",
+    "freeComponents": [
+      "Compendium.darkspace.armor.Item.dsShipArmorLight"
+    ],
+    "classTalents": [
+      "Compendium.darkspace.talents.Item.dsShTalRegenShld",
+      "Compendium.darkspace.talents.Item.dsShTalTargetMtx",
+      "Compendium.darkspace.talents.Item.dsShTalVolleyCmd"
+    ],
+    "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabGunship"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipClassGunsh"
+}

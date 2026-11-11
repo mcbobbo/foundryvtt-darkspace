@@ -1,0 +1,50 @@
+{
+  "_id": "dsShTalSupManeuv",
+  "name": "Superior Maneuverability",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>The ship is exceptionally responsive and agile. The pilot has advantage on DEX checks for making combat and chase maneuvers.</p>",
+    "talentClass": "class",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [
+    {
+      "_id": "ef85f9bc30894c50",
+      "name": "Superior Maneuverability",
+      "type": "base",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "changes": [
+        {
+          "key": "system.roll.dex.advantage",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsShTalSupManeuv.ef85f9bc30894c50"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalSupManeuv"
+}

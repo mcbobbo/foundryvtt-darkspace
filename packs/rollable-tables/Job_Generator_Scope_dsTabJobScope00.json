@@ -1,0 +1,134 @@
+{
+  "_id": "dsTabJobScope00",
+  "name": "Job Generator: Scope",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Geographical or galactic scale of the contract.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt17fb72ab127fce",
+      "name": "Galaxy",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Galaxy",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rt17fb72ab127fce"
+    },
+    {
+      "_id": "rtae47ff8093b1c4",
+      "name": "Sector",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sector",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rtae47ff8093b1c4"
+    },
+    {
+      "_id": "rtf079918bda6eee",
+      "name": "System",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "System",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rtf079918bda6eee"
+    },
+    {
+      "_id": "rt89eb125f6120d3",
+      "name": "Planet",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Planet",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rt89eb125f6120d3"
+    },
+    {
+      "_id": "rt78caa7d7dcd191",
+      "name": "Region",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Region",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rt78caa7d7dcd191"
+    },
+    {
+      "_id": "rt8b5bce35731382",
+      "name": "Settlement",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Settlement",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rt8b5bce35731382"
+    },
+    {
+      "_id": "rtde8954f305c571",
+      "name": "Neighborhood / District",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Neighborhood / District",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rtde8954f305c571"
+    },
+    {
+      "_id": "rt26e8b8909e2be8",
+      "name": "Specific Facility",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Specific Facility",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobScope00.rt26e8b8909e2be8"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabJobScope00"
+}

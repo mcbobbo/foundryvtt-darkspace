@@ -7,3 +7,4 @@ module/packs/
 darkspace-compiled*
 package-lock.json
 CLAUDE.md
+*.zip

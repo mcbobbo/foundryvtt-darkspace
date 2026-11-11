@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadMindIllus",
+  "name": "Triad (Mind): Illusion",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Mind (INT).</b> Project sensory holograms or mental phantasms into the minds of targets within range.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadMindIllus"
+}

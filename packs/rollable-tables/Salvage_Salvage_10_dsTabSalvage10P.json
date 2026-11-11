@@ -1,0 +1,779 @@
+{
+  "_id": "dsTabSalvage10P",
+  "name": "Salvage: Salvage 10+",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Random salvage found in SALVAGE 10+ threat areas.</p>",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt48d722aefcc0d4",
+      "name": "3 titanium sporks (1cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "3 titanium sporks (1cr each)",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt48d722aefcc0d4"
+    },
+    {
+      "_id": "rtef7901f40bd41c",
+      "name": "High-grade de-louser (3cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "High-grade de-louser (3cr)",
+      "drawn": false,
+      "range": [
+        2,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtef7901f40bd41c"
+    },
+    {
+      "_id": "rtbd34db73d9cd95",
+      "name": "A chipped, exotic alien reed instrument (5cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A chipped, exotic alien reed instrument (5cr)",
+      "drawn": false,
+      "range": [
+        4,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtbd34db73d9cd95"
+    },
+    {
+      "_id": "rt5a606721dcb3b4",
+      "name": "Half of a bottle of StarFlare Ale (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Half of a bottle of StarFlare Ale (50cr)",
+      "drawn": false,
+      "range": [
+        6,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt5a606721dcb3b4"
+    },
+    {
+      "_id": "rtf25180acf5f530",
+      "name": "A holocube recording of a well-known alien band (60cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A holocube recording of a well-known alien band (60cr)",
+      "drawn": false,
+      "range": [
+        8,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtf25180acf5f530"
+    },
+    {
+      "_id": "rt317a2702e9e74f",
+      "name": "Cracked plasma welding torch (70cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cracked plasma welding torch (70cr)",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt317a2702e9e74f"
+    },
+    {
+      "_id": "rt3f799f4cd7ce28",
+      "name": "A small, training drone, fires stinging energy beams (75cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A small, training drone, fires stinging energy beams (75cr)",
+      "drawn": false,
+      "range": [
+        12,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt3f799f4cd7ce28"
+    },
+    {
+      "_id": "rt7bb8dc35204cab",
+      "name": "Portable Starlight Spa Orb from a luxury Starliner (80cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Portable Starlight Spa Orb from a luxury Starliner (80cr)",
+      "drawn": false,
+      "range": [
+        14,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt7bb8dc35204cab"
+    },
+    {
+      "_id": "rt80d28a98089e99",
+      "name": "4 religious books written on alien parchment (20cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "4 religious books written on alien parchment (20cr each)",
+      "drawn": false,
+      "range": [
+        16,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt80d28a98089e99"
+    },
+    {
+      "_id": "rta21d2276b843f0",
+      "name": "Custom-designed blaster pistol in real leather holster (100cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Custom-designed blaster pistol in real leather holster (100cr)",
+      "drawn": false,
+      "range": [
+        18,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rta21d2276b843f0"
+    },
+    {
+      "_id": "rt21289f8ba3e58c",
+      "name": "Schematics for a ship feature (cost is halved) (100cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Schematics for a ship feature (cost is halved) (100cr)",
+      "drawn": false,
+      "range": [
+        20,
+        21
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt21289f8ba3e58c"
+    },
+    {
+      "_id": "rtf5159e68e5c18d",
+      "name": "Energy Armor Projector (100cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Energy Armor Projector (100cr)",
+      "drawn": false,
+      "range": [
+        22,
+        23
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtf5159e68e5c18d"
+    },
+    {
+      "_id": "rt58fbf50af6444a",
+      "name": "Ornate timepiece made with nano-nebula particles (125cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ornate timepiece made with nano-nebula particles (125cr)",
+      "drawn": false,
+      "range": [
+        24,
+        25
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt58fbf50af6444a"
+    },
+    {
+      "_id": "rtb4e8b783874a93",
+      "name": "Nano Stabilizer (14) (120cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nano Stabilizer (14) (120cr)",
+      "drawn": false,
+      "range": [
+        26,
+        27
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtb4e8b783874a93"
+    },
+    {
+      "_id": "rta41d572b78b4d7",
+      "name": "Curved, double-edged, white knife with black handle (130cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Curved, double-edged, white knife with black handle (130cr)",
+      "drawn": false,
+      "range": [
+        28,
+        29
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rta41d572b78b4d7"
+    },
+    {
+      "_id": "rtbd9b67aa7abb7b",
+      "name": "Energy Armor with an exosuit conversion (150cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Energy Armor with an exosuit conversion (150cr)",
+      "drawn": false,
+      "range": [
+        30,
+        31
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtbd9b67aa7abb7b"
+    },
+    {
+      "_id": "rtca5db3b8957f6c",
+      "name": "Plush, Zero-G recliner with built-in neural-stim tech (160cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Plush, Zero-G recliner with built-in neural-stim tech (160cr)",
+      "drawn": false,
+      "range": [
+        32,
+        33
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtca5db3b8957f6c"
+    },
+    {
+      "_id": "rt97f93a2793099d",
+      "name": "Sculpture of a monk meditating by a floating moon (220cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sculpture of a monk meditating by a floating moon (220cr)",
+      "drawn": false,
+      "range": [
+        34,
+        35
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt97f93a2793099d"
+    },
+    {
+      "_id": "rt4a3b66a13ff5b4",
+      "name": "Shimmering tapestry depicting distant galaxies (220cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Shimmering tapestry depicting distant galaxies (220cr)",
+      "drawn": false,
+      "range": [
+        36,
+        37
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt4a3b66a13ff5b4"
+    },
+    {
+      "_id": "rtc8251a7b7f0c9b",
+      "name": "Crate filled with a strange, glowing ore (225cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crate filled with a strange, glowing ore (225cr)",
+      "drawn": false,
+      "range": [
+        38,
+        39
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtc8251a7b7f0c9b"
+    },
+    {
+      "_id": "rt6cd331944d1b96",
+      "name": "+1 vibrospear (benefit, highly durable material) (220 credits)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+1 vibrospear (benefit, highly durable material) (220 credits)",
+      "drawn": false,
+      "range": [
+        40,
+        41
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt6cd331944d1b96"
+    },
+    {
+      "_id": "rt8c21170f755f6f",
+      "name": "Ornate officer's dress uniform tailored for four arms (230cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ornate officer's dress uniform tailored for four arms (230cr)",
+      "drawn": false,
+      "range": [
+        42,
+        43
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt8c21170f755f6f"
+    },
+    {
+      "_id": "rt3cf91f334954ca",
+      "name": "Light laser cannon still in its shipping container (230cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Light laser cannon still in its shipping container (230cr)",
+      "drawn": false,
+      "range": [
+        44,
+        45
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt3cf91f334954ca"
+    },
+    {
+      "_id": "rtefd12067422158",
+      "name": "Sealed weapons crate full of pistols and rifles (240 credits)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sealed weapons crate full of pistols and rifles (240 credits)",
+      "drawn": false,
+      "range": [
+        46,
+        47
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtefd12067422158"
+    },
+    {
+      "_id": "rta54626094e1419",
+      "name": "Small container filled with 12 rebreathers (240 credits)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Small container filled with 12 rebreathers (240 credits)",
+      "drawn": false,
+      "range": [
+        48,
+        49
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rta54626094e1419"
+    },
+    {
+      "_id": "rt12425114ab5073",
+      "name": "Cask of \u201cAndromeda Stars,\u201d an illegal hallucinogen. (240cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cask of \u201cAndromeda Stars,\u201d an illegal hallucinogen. (240cr)",
+      "drawn": false,
+      "range": [
+        50,
+        51
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt12425114ab5073"
+    },
+    {
+      "_id": "rtaa0140b989de49",
+      "name": "Variety of alien artifacts from an archaeological dig (240cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Variety of alien artifacts from an archaeological dig (240cr)",
+      "drawn": false,
+      "range": [
+        52,
+        53
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtaa0140b989de49"
+    },
+    {
+      "_id": "rt439787b368fae4",
+      "name": "Holoprojector in need of minor repairs (250cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Holoprojector in need of minor repairs (250cr)",
+      "drawn": false,
+      "range": [
+        54,
+        55
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt439787b368fae4"
+    },
+    {
+      "_id": "rt5a6a47f762e03c",
+      "name": "A variety of asteroid mining equipment (250cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A variety of asteroid mining equipment (250cr)",
+      "drawn": false,
+      "range": [
+        56,
+        57
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt5a6a47f762e03c"
+    },
+    {
+      "_id": "rt1d0d77cb8236c3",
+      "name": "Emergency force shield for repairing hull breaches (260cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Emergency force shield for repairing hull breaches (260cr)",
+      "drawn": false,
+      "range": [
+        58,
+        59
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt1d0d77cb8236c3"
+    },
+    {
+      "_id": "rt3d949a91eab8f9",
+      "name": "Small plastisteel box containing a rare star sapphire (280r)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Small plastisteel box containing a rare star sapphire (280r)",
+      "drawn": false,
+      "range": [
+        60,
+        61
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt3d949a91eab8f9"
+    },
+    {
+      "_id": "rt4d061f3b061edf",
+      "name": "Skeleton of a humanoid encased in an alien metal (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Skeleton of a humanoid encased in an alien metal (360cr)",
+      "drawn": false,
+      "range": [
+        62,
+        63
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt4d061f3b061edf"
+    },
+    {
+      "_id": "rt217d59ba2b3ccb",
+      "name": "Interplanetary communications relay, damaged (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Interplanetary communications relay, damaged (360cr)",
+      "drawn": false,
+      "range": [
+        64,
+        65
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt217d59ba2b3ccb"
+    },
+    {
+      "_id": "rt9f566bc51a28df",
+      "name": "Two boxes of \u201cEmergency Medical Supplies\u201d (180cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Two boxes of \u201cEmergency Medical Supplies\u201d (180cr each)",
+      "drawn": false,
+      "range": [
+        66,
+        67
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt9f566bc51a28df"
+    },
+    {
+      "_id": "rtbda072c80e2d4c",
+      "name": "Healing Booster (4d10hp) (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Healing Booster (4d10hp) (360cr)",
+      "drawn": false,
+      "range": [
+        68,
+        69
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtbda072c80e2d4c"
+    },
+    {
+      "_id": "rt1d5494f1292895",
+      "name": "Full body security scanner (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Full body security scanner (360cr)",
+      "drawn": false,
+      "range": [
+        70,
+        71
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt1d5494f1292895"
+    },
+    {
+      "_id": "rt7263ab3736cb4c",
+      "name": "Luxury custom cocktail dispenser (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Luxury custom cocktail dispenser (360cr)",
+      "drawn": false,
+      "range": [
+        72,
+        73
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt7263ab3736cb4c"
+    },
+    {
+      "_id": "rt3b1e176e4860d5",
+      "name": "Schematics for a ship system (cost is halved) (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Schematics for a ship system (cost is halved) (360cr)",
+      "drawn": false,
+      "range": [
+        74,
+        75
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt3b1e176e4860d5"
+    },
+    {
+      "_id": "rte2451399b2a0ef",
+      "name": "Unused Sensor Scrambler (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unused Sensor Scrambler (360cr)",
+      "drawn": false,
+      "range": [
+        76,
+        77
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rte2451399b2a0ef"
+    },
+    {
+      "_id": "rt567dfb50c1a4ff",
+      "name": "Neural Cortex (18) (360cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Neural Cortex (18) (360cr)",
+      "drawn": false,
+      "range": [
+        78,
+        79
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt567dfb50c1a4ff"
+    },
+    {
+      "_id": "rt6b7561e16b6723",
+      "name": "Communications Array with laser burn marks in critical areas (720cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Communications Array with laser burn marks in critical areas (720cr)",
+      "drawn": false,
+      "range": [
+        80,
+        81
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt6b7561e16b6723"
+    },
+    {
+      "_id": "rt1ab0907633e00e",
+      "name": "Active cryopod with a humanoid(?) inside (750cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Active cryopod with a humanoid(?) inside (750cr)",
+      "drawn": false,
+      "range": [
+        82,
+        83
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt1ab0907633e00e"
+    },
+    {
+      "_id": "rt4e164adc2b565b",
+      "name": "Starship FTL Drive in need of repairs (840cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Starship FTL Drive in need of repairs (840cr)",
+      "drawn": false,
+      "range": [
+        84,
+        85
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt4e164adc2b565b"
+    },
+    {
+      "_id": "rtb203f92aba8f7a",
+      "name": "Schematics for advanced ship system (cost is halved) (840cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Schematics for advanced ship system (cost is halved) (840cr)",
+      "drawn": false,
+      "range": [
+        86,
+        87
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtb203f92aba8f7a"
+    },
+    {
+      "_id": "rte889898bfbf83a",
+      "name": "Data cube with route to a wormhole to another galaxy (850cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Data cube with route to a wormhole to another galaxy (850cr)",
+      "drawn": false,
+      "range": [
+        88,
+        89
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rte889898bfbf83a"
+    },
+    {
+      "_id": "rtc04969ad33289c",
+      "name": "3 energy torpedoes (300cr each)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "3 energy torpedoes (300cr each)",
+      "drawn": false,
+      "range": [
+        90,
+        91
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtc04969ad33289c"
+    },
+    {
+      "_id": "rt776594a833cea9",
+      "name": "+3 enhanced armor (2 benefits) (900cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+3 enhanced armor (2 benefits) (900cr)",
+      "drawn": false,
+      "range": [
+        92,
+        93
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt776594a833cea9"
+    },
+    {
+      "_id": "rt7d9b414c077e07",
+      "name": "+3 enhanced weapon (2 benefits) (900cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "+3 enhanced weapon (2 benefits) (900cr)",
+      "drawn": false,
+      "range": [
+        94,
+        95
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt7d9b414c077e07"
+    },
+    {
+      "_id": "rtd279f729670479",
+      "name": "A ship\u2019s Sensor Array in perfect condition (1000cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "A ship\u2019s Sensor Array in perfect condition (1000cr)",
+      "drawn": false,
+      "range": [
+        96,
+        97
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rtd279f729670479"
+    },
+    {
+      "_id": "rt78a7f3bab569c0",
+      "name": "Robe of Glorification (1200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Robe of Glorification (1200cr)",
+      "drawn": false,
+      "range": [
+        98,
+        99
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt78a7f3bab569c0"
+    },
+    {
+      "_id": "rt201c2a0ba8a2cc",
+      "name": "The Singularity Sphere (1200cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "The Singularity Sphere (1200cr)",
+      "drawn": false,
+      "range": [
+        0,
+        0
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSalvage10P.rt201c2a0ba8a2cc"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabSalvage10P"
+}

@@ -46,9 +46,37 @@
                 </select>
             {{/ui/ds-box}}
 
-            {{#> ui/ds-box header-label="Ship Role"}}
-                Ship Role
+            {{#> ui/ds-box header-label=(localize "DARKSPACE.sheet.spacer.details.shipRole")}}
+                {{#if shipRoles.length}}
+                    <div class="ds-spacer-roles">
+                        {{#each shipRoles}}<span class="ds-role-tag">{{this}}</span>{{/each}}
+                    </div>
+                {{else}}
+                    <span class="ds-unset">—</span>
+                {{/if}}
             {{/ui/ds-box}}
+
+            <div class="ds-form-grid-2">
+                {{#> ui/ds-box header-label=(localize "DARKSPACE.sheet.spacer.details.bounty")}}
+                    <input
+                        name="system.bounty"
+                        type="number"
+                        value="{{ system.bounty }}"
+                        min="0"
+                        placeholder="0"
+                    />
+                {{/ui/ds-box}}
+
+                {{#> ui/ds-box header-label=(localize "DARKSPACE.sheet.spacer.details.corruption")}}
+                    <input
+                        name="system.corruption"
+                        type="number"
+                        value="{{ system.corruption }}"
+                        min="0"
+                        placeholder="0"
+                    />
+                {{/ui/ds-box}}
+            </div>
 
             <div class="ds-details-full-width">
                 {{> actors/player/details/languages }}

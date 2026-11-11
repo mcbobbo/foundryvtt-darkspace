@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacSoloOracle0",
+  "name": "Solo DarkSpace Oracle",
+  "type": "script",
+  "author": null,
+  "img": "icons/sundries/gaming/dice-runed-glowing.webp",
+  "scope": "global",
+  "command": "/**\n * Solo DarkSpace Oracle\n * Quick inspiration for solo play or GM improvisation.\n */\nconst pack = game.packs.get(\"darkspace.rollable-tables\");\nif (!pack) {\n  ui.notifications.error(\"DarkSpace rollable-tables pack not found.\");\n} else {\n  const dangerTable = await pack.getDocument(\"dsTabOracDanger\");\n  const qualityTable = await pack.getDocument(\"dsTabOracQuality\");\n  const reactionTable = await pack.getDocument(\"dsTabOracReaction\");\n\n  const danger = (await dangerTable?.draw({ displayChat: false }))?.results[0]?.text || \"Standard\";\n  const quality = (await qualityTable?.draw({ displayChat: false }))?.results[0]?.text || \"Neutral\";\n  const reaction = (await reactionTable?.draw({ displayChat: false }))?.results[0]?.text || \"Wary\";\n\n  const content = `\n    <div style=\"border: 1px solid #ab47bc; background: rgba(25, 10, 30, 0.95); color: #f3e5f5; padding: 12px; border-radius: 6px;\">\n      <h3 style=\"margin: 0 0 8px 0; color: #ce93d8; border-bottom: 1px solid #ab47bc; padding-bottom: 4px;\">\n        <i class=\"fas fa-dice-d20\"></i> SoloDark Oracle\n      </h3>\n      <table style=\"width: 100%; border: none;\">\n        <tr><td style=\"width: 35%; color: #e1bee7;\"><b>Danger Level:</b></td><td>${danger}</td></tr>\n        <tr><td style=\"color: #e1bee7;\"><b>Vibe / Tone:</b></td><td>${quality}</td></tr>\n        <tr><td style=\"color: #e1bee7;\"><b>NPC Reaction:</b></td><td>${reaction}</td></tr>\n      </table>\n    </div>\n  `;\n\n  await ChatMessage.create({\n    user: game.user._id,\n    speaker: { alias: \"SoloDark Oracle\" },\n    content: content\n  });\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacSoloOracle0"
+}

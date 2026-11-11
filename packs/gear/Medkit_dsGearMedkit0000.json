@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearMedkit0000",
+  "name": "Medkit",
+  "type": "Basic",
+  "img": "icons/containers/chest/chest-simple-box-red.webp",
+  "system": {
+    "description": "<p>Kit with basic medical supplies. Grants advantage on stabilizing rolls for organic lifeforms.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 20,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearMedkit0000"
+}

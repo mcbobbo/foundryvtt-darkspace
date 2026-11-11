@@ -1,0 +1,496 @@
+{
+  "_id": "dsStockGunPaladinAsk",
+  "name": "Gunship - APD-4 'Paladin' (Assault Skiff)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "mod": 3
+      },
+      "dex": {
+        "value": 12,
+        "mod": 1
+      },
+      "con": {
+        "value": 18,
+        "mod": 4
+      },
+      "int": {
+        "value": 6,
+        "mod": -2
+      },
+      "wis": {
+        "value": 10,
+        "mod": 0
+      },
+      "cha": {
+        "value": 8,
+        "mod": -1
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 23,
+        "max": 23
+      },
+      "ac": {
+        "value": 15
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "coins": {
+      "gp": 12500,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassGunsh",
+    "notes": "<p>Military assault ship carrying twin heavy laser cannons, ion cannon, and troop deployment bays.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl67b59da97e29",
+      "name": "Gunship",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Destroyers, gunboats, assault craft, and siege platforms. Gunships are the iron fist of raw, overwhelming firepower.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 9,
+        "featureSlots": 6,
+        "hpDie": "d8",
+        "freeComponents": [
+          "Compendium.darkspace.armor.Item.dsShipArmorLight"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalRegenShld",
+          "Compendium.darkspace.talents.Item.dsShTalTargetMtx",
+          "Compendium.darkspace.talents.Item.dsShTalVolleyCmd"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabGunship"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCl67b59da97e29"
+    },
+    {
+      "_id": "shCpc7a9c39bd1ba",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCpc7a9c39bd1ba"
+    },
+    {
+      "_id": "shCp26732bf1d272",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCp26732bf1d272"
+    },
+    {
+      "_id": "shCpdb619bb8142e",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCpdb619bb8142e"
+    },
+    {
+      "_id": "shCp7f328d954b72",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCp7f328d954b72"
+    },
+    {
+      "_id": "shCpc14b677fe90f",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCpc14b677fe90f"
+    },
+    {
+      "_id": "shCp0d6c4c7accae",
+      "name": "Weapons Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with weapons. Each weapon requires a gunner to use it. Fire-linked arrays require only one gunner.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 100,
+          "repair": 50
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCp0d6c4c7accae"
+    },
+    {
+      "_id": "shCp7f5223cc8e90",
+      "name": "Passenger Bay",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>A small bay that seats passengers and stores personal items.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shCp7f5223cc8e90"
+    },
+    {
+      "_id": "shAr8f489a65cf14",
+      "name": "Armor Plating, Heavy",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>Ph.</b> 15 AC (+5 over base 10). Does not use ship DEX mod for maneuver checks.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 5,
+        "acEnergy": 5,
+        "cost": {
+          "cp": 0,
+          "gp": 500,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shAr8f489a65cf14"
+    },
+    {
+      "_id": "shAra21f1439c57b",
+      "name": "Energy Shields",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>En, EG, S(1).</b> +2 to AC against energy weapons. Ignored by Ammo (Am) weapons. Shorted out on a natural 20 attack roll against the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 0,
+        "acEnergy": 2,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shAra21f1439c57b"
+    },
+    {
+      "_id": "shWpaa60692ff244",
+      "name": "Laser Cannon, Heavy",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale heavy armor-piercing laser cannon.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.dsPropEnergyGen0",
+          "Compendium.darkspace.properties.Item.SFVSxglbBnqroH2T"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 400,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d10",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "far",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Energy",
+        "size": "Heavy"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shWpaa60692ff244"
+    },
+    {
+      "_id": "shWp0120bf7d6111",
+      "name": "Laser Cannon, Heavy",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale heavy armor-piercing laser cannon.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.dsPropEnergyGen0",
+          "Compendium.darkspace.properties.Item.SFVSxglbBnqroH2T"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 400,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d10",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "far",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Energy",
+        "size": "Heavy"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shWp0120bf7d6111"
+    },
+    {
+      "_id": "shWp2f5422e325b9",
+      "name": "Ion Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Disabling (DC 12 CON check or 1 random ship system goes offline).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.dsPropEnergyGen0",
+          "Compendium.darkspace.properties.Item.5qesNnhYCzBf6hK9"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 500,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d4",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "far",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Energy",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shWp2f5422e325b9"
+    },
+    {
+      "_id": "shTl260a0f7ff215",
+      "name": "Targeting Matrix",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is outfitted with an advanced targeting and tracking system. A targeted ship has DISADV to evade the gunship's missiles and torpedoes.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shTl260a0f7ff215"
+    },
+    {
+      "_id": "shTl231f78c2be91",
+      "name": "Ablative Plating",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>3/episode, the ship takes half damage from one attack. +1 use per episode if taken again.</p>",
+        "talentClass": "level",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shTl231f78c2be91"
+    },
+    {
+      "_id": "shTlaab6e34726d4",
+      "name": "Volley Command System",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>When all weapons in a fire-linked Weapons Array target a single target, the gunner may use a single attack roll for all attacks.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunPaladinAsk.shTlaab6e34726d4"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockGunPaladinAsk"
+}

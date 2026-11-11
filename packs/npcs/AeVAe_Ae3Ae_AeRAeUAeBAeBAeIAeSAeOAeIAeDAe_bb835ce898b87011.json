@@ -1,0 +1,116 @@
+{
+  "_id": "bb835ce898b87011",
+  "name": "AeVAe.Ae3Ae AeRAeUAeBAeBAeIAeSAeOAeIAeDAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": 4,
+        "value": 18
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 15,
+        "max": 15
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Better and faster. Defeat is to be learned from.</i></p><p><strong>Movement:</strong> DOUBLE NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 wire lash +2 (1d6)</p><p><strong>Tactical Override (1/episode).</strong> May reroll its attack roll.</p><p>Rebuild</p><p><strong>Protocol.</strong> Upon death the Rubbisod collapses into junk. After 1d8 rounds, it reforms into v.4</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "wire lash",
+      "type": "NPC Attack",
+      "img": "icons/commodities/tech/wire-blue.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 2
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "YJus9p6aQtLM8bqd",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bb835ce898b87011.YJus9p6aQtLM8bqd",
+      "effects": []
+    },
+    {
+      "name": "Tactical Override (1/episode)",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>May reroll its attack roll.</p><p>Rebuild</p></p>"
+      },
+      "_id": "jQlPLYVGkRf8ZNhO",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bb835ce898b87011.jQlPLYVGkRf8ZNhO",
+      "effects": []
+    },
+    {
+      "name": "Protocol",
+      "type": "NPC Feature",
+      "img": "icons/sundries/books/book-eye-pink.webp",
+      "system": {
+        "description": "<p>Upon death the Rubbisod collapses into junk. After 1d8 rounds, it reforms into v.4</p></p>"
+      },
+      "_id": "yLT62VP7VJyTve03",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bb835ce898b87011.yLT62VP7VJyTve03",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!bb835ce898b87011"
+}

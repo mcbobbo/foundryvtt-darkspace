@@ -1,0 +1,46 @@
+{
+  "_id": "dsShipWpLasrLght",
+  "name": "Laser Cannon, Light",
+  "type": "darkspace.Weapon",
+  "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+  "system": {
+    "description": "<p>Ship-scale light laser cannon powered by the ship's energy generator.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [
+      "Compendium.darkspace.properties.Item.dsPropEnergyGen0"
+    ],
+    "ammoClass": "",
+    "baseWeapon": "",
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 200,
+      "sp": 0
+    },
+    "damage": {
+      "oneHanded": "1d6",
+      "twoHanded": ""
+    },
+    "handedness": "1h",
+    "range": "far",
+    "type": "ranged",
+    "equipped": true,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "damageType": "Energy",
+    "size": "Light"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipWpLasrLght"
+}

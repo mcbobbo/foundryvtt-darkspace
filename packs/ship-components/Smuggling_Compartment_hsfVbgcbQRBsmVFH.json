@@ -11,9 +11,46 @@
     "type": "Feature",
     "online": true,
     "damaged": false,
-    "slots": 1
+    "slots": 1,
+    "cost": {
+      "initial": 300,
+      "repair": 100
+    }
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "ef7a9cab5eb5d6f4",
+      "name": "Smuggling Compartment Capacity",
+      "type": "base",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "changes": [
+        {
+          "key": "system.cargo.max",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!hsfVbgcbQRBsmVFH.ef7a9cab5eb5d6f4"
+    }
+  ],
   "folder": null,
   "flags": {},
   "_key": "!items!hsfVbgcbQRBsmVFH"

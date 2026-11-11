@@ -1,0 +1,137 @@
+{
+  "_id": "a06fafe3e3a63a7c",
+  "name": "AeTAeRAeIAeAAeDAeIAeAAeNAe,Ae AeAAePAePAeRAeEAeNAeTAeIAeCAeEAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": -1,
+        "value": 8
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 7,
+        "max": 7
+      },
+      "ac": {
+        "value": 11
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A cloaked triadian still training under a master.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 staff +1 (1d6) or one Soul Power</p><p><strong>Calm.</strong> (Soul Power). Opposed CHA check.</p><p><strong>Focus.</strong> One living target's emotions are calmed.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "staff",
+      "type": "NPC Attack",
+      "img": "icons/weapons/staves/staff-mended.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "JPRTsF7LhdMt9Pxf",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a06fafe3e3a63a7c.JPRTsF7LhdMt9Pxf",
+      "effects": []
+    },
+    {
+      "name": "One soul power",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
+      "system": {
+        "description": "<p>Special attack: one Soul Power</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "jugAyf7DID7vBjrn",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a06fafe3e3a63a7c.jugAyf7DID7vBjrn",
+      "effects": []
+    },
+    {
+      "name": "Calm",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>(Soul Power). Opposed CHA check.</p></p>"
+      },
+      "_id": "5iK6BcTCwSAZwW7I",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a06fafe3e3a63a7c.5iK6BcTCwSAZwW7I",
+      "effects": []
+    },
+    {
+      "name": "Focus",
+      "type": "NPC Feature",
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "system": {
+        "description": "<p>One living target's emotions are calmed.</p></p>"
+      },
+      "_id": "LDXTqOx3zCwCvVtg",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a06fafe3e3a63a7c.LDXTqOx3zCwCvVtg",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!a06fafe3e3a63a7c"
+}

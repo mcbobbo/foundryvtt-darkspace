@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalCosmicReg",
+  "name": "Cosmic Regenerator Array",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>The ship is outfitted with an array that captures latent cosmic radiation to power repair capabilities. The ship is able to Rest when the crew does.</p>",
+    "talentClass": "class",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalCosmicReg"
+}

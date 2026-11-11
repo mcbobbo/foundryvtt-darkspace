@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabPlanetSuffix",
+  "name": "Planet Names: Suffix",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Ending syllable of planet name.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt08be5792d891b5",
+      "name": "tor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "tor",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt08be5792d891b5"
+    },
+    {
+      "_id": "rte936e42829f15a",
+      "name": "nak",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "nak",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rte936e42829f15a"
+    },
+    {
+      "_id": "rt176c73ae7395b7",
+      "name": "karr",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "karr",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt176c73ae7395b7"
+    },
+    {
+      "_id": "rtf8b993c9194ae9",
+      "name": "gant",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "gant",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rtf8b993c9194ae9"
+    },
+    {
+      "_id": "rt8c457823df6c62",
+      "name": "mot",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "mot",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt8c457823df6c62"
+    },
+    {
+      "_id": "rtd7f604ce1ac18d",
+      "name": "vex",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "vex",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rtd7f604ce1ac18d"
+    },
+    {
+      "_id": "rt2703647375fdc8",
+      "name": "us",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "us",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt2703647375fdc8"
+    },
+    {
+      "_id": "rtc3cd271f5f72f0",
+      "name": "os",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "os",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rtc3cd271f5f72f0"
+    },
+    {
+      "_id": "rt9f83ab85cafc4c",
+      "name": "ara",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ara",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt9f83ab85cafc4c"
+    },
+    {
+      "_id": "rt688d384f6202e0",
+      "name": "ion",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ion",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt688d384f6202e0"
+    },
+    {
+      "_id": "rt52927170582e94",
+      "name": "ea",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ea",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt52927170582e94"
+    },
+    {
+      "_id": "rt349845d819f4dd",
+      "name": "is",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "is",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt349845d819f4dd"
+    },
+    {
+      "_id": "rt7cbdb9950fc48c",
+      "name": "a",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "a",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt7cbdb9950fc48c"
+    },
+    {
+      "_id": "rtbab7d6c5f4ae6b",
+      "name": "ia",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "ia",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rtbab7d6c5f4ae6b"
+    },
+    {
+      "_id": "rt250827c410d0bf",
+      "name": "on",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "on",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt250827c410d0bf"
+    },
+    {
+      "_id": "rtd81dc4765bd754",
+      "name": "en",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "en",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rtd81dc4765bd754"
+    },
+    {
+      "_id": "rt38f45ba5a0f4f0",
+      "name": "tis",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "tis",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt38f45ba5a0f4f0"
+    },
+    {
+      "_id": "rtf80388615826ef",
+      "name": "th",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "th",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rtf80388615826ef"
+    },
+    {
+      "_id": "rt4734906229903a",
+      "name": "sia",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "sia",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt4734906229903a"
+    },
+    {
+      "_id": "rt64c84060ecb0d8",
+      "name": "var",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "var",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetSuffix.rt64c84060ecb0d8"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabPlanetSuffix"
+}

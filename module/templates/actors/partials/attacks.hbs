@@ -1,10 +1,10 @@
 {{#each attacks.melee}}
-    <div class="attack item" data-item-id="{{this.item._id}}" data-item-uuid="{{this.itemUuid}}">
+    <div class="attack item" data-action="item-attack" data-attack-type="melee" data-item-id="{{this.item._id}}" data-item-uuid="{{this.itemUuid}}" style="cursor:pointer;">
         {{> actors/player/abilities/weapon-attack attackType="melee"}}
     </div>
 {{/each}}
 {{#each attacks.ranged}}
-    <div class="attack item" data-item-id="{{this.item._id}}" data-item-uuid="{{this.itemUuid}}">
+    <div class="attack item" data-action="item-attack" data-attack-type="ranged" data-item-id="{{this.item._id}}" data-item-uuid="{{this.itemUuid}}" style="cursor:pointer;">
         {{> actors/player/abilities/weapon-attack attackType="ranged"}}
     </div>
 {{/each}}

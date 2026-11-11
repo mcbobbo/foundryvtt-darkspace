@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabCantinaObj",
+  "name": "Cantina Names: Object",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Mascot or object for space cantina.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt7643055f6c6b4f",
+      "name": "Bucket",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bucket",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt7643055f6c6b4f"
+    },
+    {
+      "_id": "rtd10d53e2ce8f0b",
+      "name": "Rat",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rat",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rtd10d53e2ce8f0b"
+    },
+    {
+      "_id": "rt16dab32b1a37d2",
+      "name": "Piston",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Piston",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt16dab32b1a37d2"
+    },
+    {
+      "_id": "rtd5be9ae80a730c",
+      "name": "Anchor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Anchor",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rtd5be9ae80a730c"
+    },
+    {
+      "_id": "rta92b2878723d9a",
+      "name": "Dog",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Dog",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rta92b2878723d9a"
+    },
+    {
+      "_id": "rt8ba6bcb8619855",
+      "name": "Engine",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Engine",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt8ba6bcb8619855"
+    },
+    {
+      "_id": "rt38a9639f79b593",
+      "name": "Airlock",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Airlock",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt38a9639f79b593"
+    },
+    {
+      "_id": "rt2f330ed2b4b575",
+      "name": "Rocket",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rocket",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt2f330ed2b4b575"
+    },
+    {
+      "_id": "rt2f1377074484fd",
+      "name": "Moon",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Moon",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt2f1377074484fd"
+    },
+    {
+      "_id": "rt128fb7657be7f2",
+      "name": "Star",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Star",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt128fb7657be7f2"
+    },
+    {
+      "_id": "rt7e94f2d35f690c",
+      "name": "Comet",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Comet",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt7e94f2d35f690c"
+    },
+    {
+      "_id": "rt828db8f4db3372",
+      "name": "Lantern",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lantern",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt828db8f4db3372"
+    },
+    {
+      "_id": "rtc2c77286a2e82a",
+      "name": "Reactor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Reactor",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rtc2c77286a2e82a"
+    },
+    {
+      "_id": "rtc0beb88f9e1413",
+      "name": "Drifter",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Drifter",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rtc0beb88f9e1413"
+    },
+    {
+      "_id": "rt65509534246e5f",
+      "name": "Pulsar",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Pulsar",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt65509534246e5f"
+    },
+    {
+      "_id": "rte1a717e82b76f4",
+      "name": "Nebula",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nebula",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rte1a717e82b76f4"
+    },
+    {
+      "_id": "rt0f05460fd36892",
+      "name": "Void",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Void",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt0f05460fd36892"
+    },
+    {
+      "_id": "rt2eb14214f814e7",
+      "name": "Serpent",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Serpent",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt2eb14214f814e7"
+    },
+    {
+      "_id": "rt5117e8e51fa47a",
+      "name": "Eye",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Eye",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rt5117e8e51fa47a"
+    },
+    {
+      "_id": "rte8665ba18e1ebf",
+      "name": "Crown",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crown",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaObj.rte8665ba18e1ebf"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabCantinaObj"
+}

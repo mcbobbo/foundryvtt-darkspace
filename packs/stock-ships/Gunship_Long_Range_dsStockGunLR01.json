@@ -1,0 +1,378 @@
+{
+  "_id": "dsStockGunLR01",
+  "name": "Gunship (Long Range)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "mod": 1
+      },
+      "dex": {
+        "value": 14,
+        "mod": 2
+      },
+      "con": {
+        "value": 14,
+        "mod": 2
+      },
+      "int": {
+        "value": 6,
+        "mod": -2
+      },
+      "wis": {
+        "value": 10,
+        "mod": 0
+      },
+      "cha": {
+        "value": 8,
+        "mod": -1
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 10300,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassGunsh",
+    "notes": "<p>FTL-capable escort corvette with standard projectile cannon turret.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl13fd5f836f77",
+      "name": "Gunship",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Destroyers, gunboats, assault craft, and siege platforms. Gunships are the iron fist of raw, overwhelming firepower.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 9,
+        "featureSlots": 6,
+        "hpDie": "d8",
+        "freeComponents": [
+          "Compendium.darkspace.armor.Item.dsShipArmorLight"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalRegenShld",
+          "Compendium.darkspace.talents.Item.dsShTalTargetMtx",
+          "Compendium.darkspace.talents.Item.dsShTalVolleyCmd"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabGunship"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCl13fd5f836f77"
+    },
+    {
+      "_id": "shCpab436bbe25d4",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCpab436bbe25d4"
+    },
+    {
+      "_id": "shCpbf2f39562b20",
+      "name": "FTL Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at FTL speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 4000,
+          "repair": 2000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCpbf2f39562b20"
+    },
+    {
+      "_id": "shCp71a5b27c9aaf",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCp71a5b27c9aaf"
+    },
+    {
+      "_id": "shCp6eb5eca46bec",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCp6eb5eca46bec"
+    },
+    {
+      "_id": "shCp587745aae3f0",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCp587745aae3f0"
+    },
+    {
+      "_id": "shCpd36b6a2371a8",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCpd36b6a2371a8"
+    },
+    {
+      "_id": "shCp27fa1933628c",
+      "name": "Weapons Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with weapons. Each weapon requires a gunner to use it. Fire-linked arrays require only one gunner.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 100,
+          "repair": 50
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shCp27fa1933628c"
+    },
+    {
+      "_id": "shAr973d10a0095c",
+      "name": "Armor Plating, Light",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>Ph.</b> 11 + Ship DEX modifier (+1 AC vs Projectile and Energy).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 1,
+        "acEnergy": 1,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shAr973d10a0095c"
+    },
+    {
+      "_id": "shWp9d7b56c1a0e0",
+      "name": "Projectile Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale medium projectile cannon. Requires ammo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.Tg2j6CxrmNwtvdWI"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 200,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d6",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "near",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Projectile",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shWp9d7b56c1a0e0"
+    },
+    {
+      "_id": "shTl6fd849876b4f",
+      "name": "Targeting Matrix",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is outfitted with an advanced targeting and tracking system. A targeted ship has DISADV to evade the gunship's missiles and torpedoes.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shTl6fd849876b4f"
+    },
+    {
+      "_id": "shTl8879586d4fcb",
+      "name": "Ablative Plating",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>3/episode, the ship takes half damage from one attack. +1 use per episode if taken again.</p>",
+        "talentClass": "level",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shTl8879586d4fcb"
+    },
+    {
+      "_id": "shTl2cd3052ab278",
+      "name": "Volley Command System",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>When all weapons in a fire-linked Weapons Array target a single target, the gunner may use a single attack roll for all attacks.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockGunLR01.shTl2cd3052ab278"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockGunLR01"
+}

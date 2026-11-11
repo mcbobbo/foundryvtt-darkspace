@@ -1,0 +1,101 @@
+{
+  "_id": "bb4c1e5eda99fbd8",
+  "name": "AeGAeRAeYAePAeHAeIAeSAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": -3,
+        "value": 4
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 29,
+        "max": 29
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 6
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "fly",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Bio-engineered hybrids resembling alien griffins, often used as sentries or aerial mounts.</i></p><p><strong>Movement:</strong> DOUBLE NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 3 rend +5 (1d10)</p><p><strong>Alert.</strong> ADV on checks to detect sneaking or hiding creatures.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "rend",
+      "type": "NPC Attack",
+      "img": "icons/weapons/fist/claw-straight-gold.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 5
+        },
+        "damage": {
+          "value": "1d10"
+        },
+        "description": ""
+      },
+      "_id": "Lb0mFiQFptsOTvRk",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bb4c1e5eda99fbd8.Lb0mFiQFptsOTvRk",
+      "effects": []
+    },
+    {
+      "name": "Alert",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>ADV on checks to detect sneaking or hiding creatures.</p></p>"
+      },
+      "_id": "mAiuRTNow7hkfuRI",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bb4c1e5eda99fbd8.mAiuRTNow7hkfuRI",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!bb4c1e5eda99fbd8"
+}

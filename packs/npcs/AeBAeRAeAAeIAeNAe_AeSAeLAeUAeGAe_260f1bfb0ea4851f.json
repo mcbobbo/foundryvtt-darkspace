@@ -1,0 +1,137 @@
+{
+  "_id": "260f1bfb0ea4851f",
+  "name": "AeBAeRAeAAeIAeNAe AeSAeLAeUAeGAe",
+  "type": "NPC",
+  "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -2,
+        "value": 6
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "CLOSE",
+    "moveNote": "climb",
+    "alignment": "chaotic",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A tiny green slug that requires dominating a larger entity for survival.</i></p><p><strong>Movement:</strong> CLOSE (climb)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 burrow +1 (1d6) or body thief</p><p><strong>Burrow.</strong> The slug makes a leap attack to enter a facial orifice. Once inside it can continue to burrow automatically each round if it chooses. DC 12 CON to expunge.</p><p>Body</p><p><strong>Thief.</strong> Once inside a victim, contested CHA check. If the slug wins, it inhabits the target's body and controls its actions for 1d8 days. At the end or if the host is subjected to intense cold, make a new CHA check.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "burrow",
+      "type": "NPC Attack",
+      "img": "icons/svg/burrow.svg",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "tozuuQxJ6nGumebV",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!260f1bfb0ea4851f.tozuuQxJ6nGumebV",
+      "effects": []
+    },
+    {
+      "name": "Body thief",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/wounds/injury-body-pain-gray.webp",
+      "system": {
+        "description": "<p>Special attack: body thief</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "y8lt0g6o5NlqML5D",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!260f1bfb0ea4851f.y8lt0g6o5NlqML5D",
+      "effects": []
+    },
+    {
+      "name": "Burrow",
+      "type": "NPC Feature",
+      "img": "icons/svg/burrow.svg",
+      "system": {
+        "description": "<p>The slug makes a leap attack to enter a facial orifice. Once inside it can continue to burrow automatically each round if it chooses. DC 12 CON to expunge.</p><p>Body</p></p>"
+      },
+      "_id": "4vU0e8vcg6MX5AmT",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!260f1bfb0ea4851f.4vU0e8vcg6MX5AmT",
+      "effects": []
+    },
+    {
+      "name": "Thief",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Once inside a victim, contested CHA check. If the slug wins, it inhabits the target's body and controls its actions for 1d8 days. At the end or if the host is subjected to intense cold, make a new CHA check.</p></p>"
+      },
+      "_id": "KaoSmgT8QNkuJFif",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!260f1bfb0ea4851f.KaoSmgT8QNkuJFif",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!260f1bfb0ea4851f"
+}

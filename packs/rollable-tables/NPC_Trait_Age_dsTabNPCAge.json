@@ -1,0 +1,104 @@
+{
+  "_id": "dsTabNPCAge",
+  "name": "NPC Trait: Age",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Age category of an NPC.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt2b54f48adf67f9",
+      "name": "Child / Neophyte",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Child / Neophyte",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCAge.rt2b54f48adf67f9"
+    },
+    {
+      "_id": "rt6cf1448b49ce55",
+      "name": "Adolescent / Apprentice",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Adolescent / Apprentice",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCAge.rt6cf1448b49ce55"
+    },
+    {
+      "_id": "rt2f4cb9affaea26",
+      "name": "Young Adult / Spacer",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Young Adult / Spacer",
+      "drawn": false,
+      "range": [
+        3,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCAge.rt2f4cb9affaea26"
+    },
+    {
+      "_id": "rtbfef5e9a42fc9d",
+      "name": "Middle-Aged Veteran",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Middle-Aged Veteran",
+      "drawn": false,
+      "range": [
+        5,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCAge.rtbfef5e9a42fc9d"
+    },
+    {
+      "_id": "rt6edd61f213f7df",
+      "name": "Elderly / Retired",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Elderly / Retired",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCAge.rt6edd61f213f7df"
+    },
+    {
+      "_id": "rt369921d1b34709",
+      "name": "Ancient / Cybernetically Sustained",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ancient / Cybernetically Sustained",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCAge.rt369921d1b34709"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabNPCAge"
+}

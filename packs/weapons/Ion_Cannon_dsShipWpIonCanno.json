@@ -1,0 +1,47 @@
+{
+  "_id": "dsShipWpIonCanno",
+  "name": "Ion Cannon",
+  "type": "darkspace.Weapon",
+  "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+  "system": {
+    "description": "<p>Disabling (DC 12 CON check or 1 random ship system goes offline).</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [
+      "Compendium.darkspace.properties.Item.dsPropEnergyGen0",
+      "Compendium.darkspace.properties.Item.5qesNnhYCzBf6hK9"
+    ],
+    "ammoClass": "",
+    "baseWeapon": "",
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 500,
+      "sp": 0
+    },
+    "damage": {
+      "oneHanded": "1d4",
+      "twoHanded": ""
+    },
+    "handedness": "1h",
+    "range": "far",
+    "type": "ranged",
+    "equipped": true,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "damageType": "Energy",
+    "size": "Medium"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipWpIonCanno"
+}

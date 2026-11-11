@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabPlanetDesig",
+  "name": "Planet Names: Designation",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Planetary classification designation.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt7237687bed49c6",
+      "name": "Minor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Minor",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt7237687bed49c6"
+    },
+    {
+      "_id": "rt7cf03f05903c28",
+      "name": "Secundus",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Secundus",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt7cf03f05903c28"
+    },
+    {
+      "_id": "rt7902dfd46ea50f",
+      "name": "Tertius",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Tertius",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt7902dfd46ea50f"
+    },
+    {
+      "_id": "rt63c06337c101b5",
+      "name": "Quartus",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Quartus",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt63c06337c101b5"
+    },
+    {
+      "_id": "rt92f494354a9455",
+      "name": "Theta",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Theta",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt92f494354a9455"
+    },
+    {
+      "_id": "rt68c5ae01ccf9d1",
+      "name": "Kappa",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Kappa",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt68c5ae01ccf9d1"
+    },
+    {
+      "_id": "rtcd1547188fd372",
+      "name": "Epsilon",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Epsilon",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rtcd1547188fd372"
+    },
+    {
+      "_id": "rtdef9a78abc9e36",
+      "name": "Zeta",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Zeta",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rtdef9a78abc9e36"
+    },
+    {
+      "_id": "rt39adb5580020f8",
+      "name": "Sigma",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sigma",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt39adb5580020f8"
+    },
+    {
+      "_id": "rt3dfd203409671c",
+      "name": "Delta",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Delta",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt3dfd203409671c"
+    },
+    {
+      "_id": "rt6efa9516017f61",
+      "name": "Gamma",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gamma",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt6efa9516017f61"
+    },
+    {
+      "_id": "rt5348334a8171c1",
+      "name": "Beta",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Beta",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt5348334a8171c1"
+    },
+    {
+      "_id": "rtca9de5c13bb2b7",
+      "name": "Alpha",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Alpha",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rtca9de5c13bb2b7"
+    },
+    {
+      "_id": "rtb36acfac434a7e",
+      "name": "Major",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Major",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rtb36acfac434a7e"
+    },
+    {
+      "_id": "rt3b8616d5129b5f",
+      "name": "Proxima",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Proxima",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt3b8616d5129b5f"
+    },
+    {
+      "_id": "rtffe060851832b7",
+      "name": "Nova",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nova",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rtffe060851832b7"
+    },
+    {
+      "_id": "rt63761359da2e82",
+      "name": "Zenith",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Zenith",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt63761359da2e82"
+    },
+    {
+      "_id": "rt26162b1d69da2b",
+      "name": "Omega",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Omega",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt26162b1d69da2b"
+    },
+    {
+      "_id": "rtdb750c09672b59",
+      "name": "Ultima",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ultima",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rtdb750c09672b59"
+    },
+    {
+      "_id": "rt9c175b128903d2",
+      "name": "Prime",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Prime",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetDesig.rt9c175b128903d2"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabPlanetDesig"
+}

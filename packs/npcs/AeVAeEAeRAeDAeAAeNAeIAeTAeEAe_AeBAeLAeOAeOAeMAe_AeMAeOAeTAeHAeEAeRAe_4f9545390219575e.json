@@ -1,0 +1,137 @@
+{
+  "_id": "4f9545390219575e",
+  "name": "AeVAeEAeRAeDAeAAeNAeIAeTAeEAe AeBAeLAeOAeOAeMAe AeMAeOAeTAeHAeEAeRAe",
+  "type": "NPC",
+  "img": "icons/commodities/flowers/lily-bloom.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": -4,
+        "value": 2
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 34,
+        "max": 34
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 7
+    },
+    "move": "none",
+    "moveNote": "rooted in place",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Roots into any substrate, and acts as a reproductive neural hub coordinating the colony while dismantling structures to fuel its growth.</i></p><p><strong>Movement:</strong> none (rooted in place)</p>",
+    "description": "<p><strong>Attacks:</strong> 3 tendril (NEAR) +6 (1d10) or pollen bloom</p><p><strong>Collective.</strong> +1 to attacks and AC when in CLOSE range of another verdanite. If the Bloom Mother is destroyed all other Verdanites lose their Collective trait.</p><p>Pollen</p><p><strong>Bloom.</strong> A NEAR-sized cloud centered on Bloom Mother, DC 15 CON or paralyzed 1d4 rounds. Success, DISADV on attacks, 1 round.  Photo-regeneration. If in sunlight, regain 5 HP at beginning of turn.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tendril (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/magic/lightning/projectiles-tendril-salvo-pink.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 6
+        },
+        "damage": {
+          "value": "1d10"
+        },
+        "description": ""
+      },
+      "_id": "cO09jlI2WeSxIakG",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4f9545390219575e.cO09jlI2WeSxIakG",
+      "effects": []
+    },
+    {
+      "name": "Pollen bloom",
+      "type": "NPC Special Attack",
+      "img": "icons/commodities/flowers/lily-bloom.webp",
+      "system": {
+        "description": "<p>Special attack: pollen bloom</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "bbwiAdntFmJ3uiRn",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4f9545390219575e.bbwiAdntFmJ3uiRn",
+      "effects": []
+    },
+    {
+      "name": "Collective",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>+1 to attacks and AC when in CLOSE range of another verdanite. If the Bloom Mother is destroyed all other Verdanites lose their Collective trait.</p><p>Pollen</p></p>"
+      },
+      "_id": "13edSXxlS0eXbzGt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4f9545390219575e.13edSXxlS0eXbzGt",
+      "effects": []
+    },
+    {
+      "name": "Bloom",
+      "type": "NPC Feature",
+      "img": "icons/commodities/flowers/lily-bloom-purple.webp",
+      "system": {
+        "description": "<p>A NEAR-sized cloud centered on Bloom Mother, DC 15 CON or paralyzed 1d4 rounds. Success, DISADV on attacks, 1 round.  Photo-regeneration. If in sunlight, regain 5 HP at beginning of turn.</p></p>"
+      },
+      "_id": "ZS7KxYz7lkVU472E",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4f9545390219575e.ZS7KxYz7lkVU472E",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!4f9545390219575e"
+}

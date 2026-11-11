@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitTheTriad0",
+  "name": "The Triad",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p>You have the use of one Triad power (Body, Mind, or Soul).</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitTheTriad0"
+}

@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabShopObj",
+  "name": "Shop Names: Object",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Establishment type for vendor.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtc90933f7d35a64",
+      "name": "Vault",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vault",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rtc90933f7d35a64"
+    },
+    {
+      "_id": "rt8f85d6ee95cd7a",
+      "name": "Exchange",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Exchange",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt8f85d6ee95cd7a"
+    },
+    {
+      "_id": "rtebdcc640319115",
+      "name": "Locker",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Locker",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rtebdcc640319115"
+    },
+    {
+      "_id": "rtc4b1297f8bbb72",
+      "name": "Terminal",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Terminal",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rtc4b1297f8bbb72"
+    },
+    {
+      "_id": "rt1120ec5caec605",
+      "name": "Depot",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Depot",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt1120ec5caec605"
+    },
+    {
+      "_id": "rtbda5f7ee8722f3",
+      "name": "Cartel",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cartel",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rtbda5f7ee8722f3"
+    },
+    {
+      "_id": "rt3fa85ae5c45305",
+      "name": "Bazaar",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bazaar",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt3fa85ae5c45305"
+    },
+    {
+      "_id": "rt30bd5234321118",
+      "name": "Market",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Market",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt30bd5234321118"
+    },
+    {
+      "_id": "rt4587b6959368e0",
+      "name": "Emporium",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Emporium",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt4587b6959368e0"
+    },
+    {
+      "_id": "rtfc2e9d771dbe1a",
+      "name": "Outfitter",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Outfitter",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rtfc2e9d771dbe1a"
+    },
+    {
+      "_id": "rt5e75a0297ff7c5",
+      "name": "Pawn",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Pawn",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt5e75a0297ff7c5"
+    },
+    {
+      "_id": "rt00100981cd0ba0",
+      "name": "Trader",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Trader",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt00100981cd0ba0"
+    },
+    {
+      "_id": "rtd49a2f61863a5d",
+      "name": "Loom",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Loom",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rtd49a2f61863a5d"
+    },
+    {
+      "_id": "rtd1c5a5df297eb1",
+      "name": "Forge",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Forge",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rtd1c5a5df297eb1"
+    },
+    {
+      "_id": "rt2390c590202c1e",
+      "name": "Arms",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Arms",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt2390c590202c1e"
+    },
+    {
+      "_id": "rt23afc8cd84a4cd",
+      "name": "Surplus",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Surplus",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt23afc8cd84a4cd"
+    },
+    {
+      "_id": "rt3472d0a1e3d4fc",
+      "name": "Corner",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Corner",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt3472d0a1e3d4fc"
+    },
+    {
+      "_id": "rt8e81847ec8ed08",
+      "name": "Stall",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Stall",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt8e81847ec8ed08"
+    },
+    {
+      "_id": "rt1df753b61d4ff1",
+      "name": "Haven",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Haven",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rt1df753b61d4ff1"
+    },
+    {
+      "_id": "rta5e32c8bc8a991",
+      "name": "Supply",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Supply",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopObj.rta5e32c8bc8a991"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabShopObj"
+}

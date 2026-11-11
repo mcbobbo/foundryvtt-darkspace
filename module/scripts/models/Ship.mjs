@@ -1,5 +1,4 @@
 import ActorBaseDS from "./ActorBaseDS.mjs";
-import ShipClass from "./items/ShipClass.mjs";
 
 const fields = foundry.data.fields;
 
@@ -29,8 +28,6 @@ export default class Ship extends ActorBaseDS {
 
     /**
      * Transfers credits from this ship, split evenly among its crew.
-     * Each crew member receives an equal share; any remainder stays
-     * aboard. The ship can go into debt to cover the transfer.
      * @param {number} credits - amount to transfer
      */
     async creditsToCrew(credits) {
@@ -68,10 +65,6 @@ export default class Ship extends ActorBaseDS {
         return linked ?? this.parent.items.find(i => i.type === "darkspace.ShipClass") ?? null;
     }
 
-    /**
-     * A ship's level is always equal to or greater than the average Crew Level,
-     * and only ever follows it upwards — a dropping CL leaves the ship as it is.
-     */
     get needsLevelUp() {
         return this.getCrewLevel() > (this.level?.value ?? 0);
     }
@@ -79,7 +72,7 @@ export default class Ship extends ActorBaseDS {
     prepareBaseData() {
         super.prepareBaseData();
 
-        // Both cargo values are calculated: the capacity is granted purely by
+        // Both cargo values are calculated: the capacity is granted by
         // active effects, the load is the sum of the cargo aboard.
         this.cargo = {
             max: 0,
@@ -90,16 +83,47 @@ export default class Ship extends ActorBaseDS {
     prepareDerivedData() {
         super.prepareDerivedData();
 
-        let acProjectile = 0;
-        let acEnergy = 0;
+        const dexMod = this.abilities?.dex?.mod ?? 0;
+        const acBonusKey = this._getActiveEffectKeys("attributes.ac.value", 0);
+        const aeBonus = Number(acBonusKey?.value ?? 0) || 0;
+
+        // Base ship AC is 10 + Ship DEX mod (+ any Active Effect AC bonuses)
+        let baseProjectile = 10 + dexMod;
+        let baseEnergy = 10 + dexMod;
+        let bonusProjectile = aeBonus;
+        let bonusEnergy = aeBonus;
+
         for (const item of this.parent?.items ?? []) {
             if (item.type === "darkspace.ShipArmor") {
-                acProjectile += item.system.acProjectile ?? 0;
-                acEnergy     += item.system.acEnergy ?? 0;
+                const p = item.system.acProjectile ?? 0;
+                const e = item.system.acEnergy ?? 0;
+                const isHeavy = item.name?.toLowerCase().includes("heavy");
+
+                if (p >= 10) {
+                    const effP = isHeavy ? p : p + dexMod;
+                    if (effP > baseProjectile) baseProjectile = effP;
+                } else {
+                    bonusProjectile += isHeavy ? (p - dexMod) : p;
+                }
+
+                if (e >= 10) {
+                    const effE = isHeavy ? e : e + dexMod;
+                    if (effE > baseEnergy) baseEnergy = effE;
+                } else {
+                    bonusEnergy += (isHeavy && p > 0) ? (e - dexMod) : e;
+                }
             }
         }
-        this.attributes.ac.projectile = acProjectile;
-        this.attributes.ac.energy = acEnergy;
+        this.attributes.ac.projectile = baseProjectile + bonusProjectile;
+        this.attributes.ac.energy = baseEnergy + bonusEnergy;
+
+        // Space Hauler talent adds positive STR mod to cargo capacity
+        const hasSpaceHauler = (this.parent?.items ?? []).some(
+            i => i.type === "Talent" && i.name?.toLowerCase().includes("space hauler")
+        );
+        if (hasSpaceHauler && (this.abilities?.str?.mod ?? 0) > 0) {
+            this.cargo.max += this.abilities.str.mod;
+        }
 
         this.cargo.value = this._getCargoValue();
     }

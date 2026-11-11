@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalBarrelRol",
+  "name": "Barrel Roll!",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>1/episode, the ship may ignore all damage from one attack. +1 use per episode if taken again.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalBarrelRol"
+}

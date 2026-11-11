@@ -1,0 +1,204 @@
+{
+  "_id": "dsShipTabFreight",
+  "name": "Ship Talents: Freighter",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "description": "<p>Level advancement talent table for Freighter-class starships.</p>",
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt5af3d3373c0c4a",
+      "name": "Sensor Countermeasures",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt5af3d3373c0c4a",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalSensCount"
+    },
+    {
+      "_id": "rt6d0356bfef90db",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        3,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt6d0356bfef90db",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt73ead95df25249",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt73ead95df25249"
+    },
+    {
+      "_id": "rt08eeda3539ee17",
+      "name": "+2 to Strength",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt08eeda3539ee17",
+      "documentUuid": "Compendium.darkspace.talents.Item.e5WuMwKZqQ7xJbQk"
+    },
+    {
+      "_id": "rt235c46afe3d64f",
+      "name": "+2 to Dexterity",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt235c46afe3d64f",
+      "documentUuid": "Compendium.darkspace.talents.Item.llp8weqh0aZU9YGu"
+    },
+    {
+      "_id": "rt34950376391376",
+      "name": "+2 to Constitution",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt34950376391376",
+      "documentUuid": "Compendium.darkspace.talents.Item.YVgMcHwA7bRqjmDE"
+    },
+    {
+      "_id": "rt359d8ed689bcad",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt359d8ed689bcad",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt244264e4b274a2",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt244264e4b274a2"
+    },
+    {
+      "_id": "rtd2175b023c5c9c",
+      "name": "Sensor Countermeasures",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rtd2175b023c5c9c",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalSensCount"
+    },
+    {
+      "_id": "rtd673a3420681ce",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rtd673a3420681ce",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rtc584096cb3ec47",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rtc584096cb3ec47",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt8ff1c856eef281",
+      "name": "Distribute to Stats",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFreight.rt8ff1c856eef281",
+      "documentUuid": "Compendium.darkspace.rollable-tables.RollTable.82cnS0CVDgIW0l6w"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsShipTabFreight"
+}

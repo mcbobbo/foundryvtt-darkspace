@@ -1,0 +1,43 @@
+{
+  "_id": "dsGearGlowrod000",
+  "name": "Glowrod",
+  "type": "Basic",
+  "img": "icons/sundries/lights/torch-lit-sallet-metal.webp",
+  "system": {
+    "description": "<p><b>EC.</b> Sheds light up to NEAR distance. One Energy Cell lasts for one hour of real time.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 10,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false,
+    "light": {
+      "active": false,
+      "hasBeenUsed": false,
+      "isSource": true,
+      "longevityMins": 60,
+      "remainingSecs": 3600,
+      "template": "torch"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearGlowrod000"
+}

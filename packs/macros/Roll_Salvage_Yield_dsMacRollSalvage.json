@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacRollSalvage",
+  "name": "Roll Salvage Yield",
+  "type": "script",
+  "author": null,
+  "img": "icons/commodities/metal/scrap-metal.webp",
+  "scope": "global",
+  "command": "/**\n * DarkSpace Salvage Yield Roller\n * Choose salvage tier (0-3, 4-6, 7-9, 10+) and roll on the appropriate salvage table.\n */\nconst pack = game.packs.get(\"darkspace.rollable-tables\");\nif (!pack) {\n  ui.notifications.error(\"DarkSpace rollable-tables pack not found.\");\n} else {\n  new Dialog({\n    title: \"Derelict & Wreck Salvage\",\n    content: `\n      <form class=\"darkspace-dialog\">\n        <div class=\"form-group\" style=\"margin-bottom: 10px;\">\n          <label><b>Target Hull / Derelict Tier:</b></label>\n          <select id=\"salvage-tier\" style=\"width: 100%;\">\n            <option value=\"dsTabSalvage0_3\" selected>Tier 0-3 (Scout / Light Craft)</option>\n            <option value=\"dsTabSalvage4_6\">Tier 4-6 (Freighter / Corvette)</option>\n            <option value=\"dsTabSalvage7_9\">Tier 7-9 (Cruiser / Station Sector)</option>\n            <option value=\"dsTabSalv10plus\">Tier 10+ (Battleship / Ancient Derelict)</option>\n          </select>\n        </div>\n      </form>\n    `,\n    buttons: {\n      salvage: {\n        icon: '<i class=\"fas fa-recycle\"></i>',\n        label: \"Cut into Hull & Recover\",\n        callback: async (html) => {\n          const tableId = html.find(\"#salvage-tier\").val();\n          const table = await pack.getDocument(tableId);\n          if (table) {\n            await table.draw({ displayChat: true });\n          } else {\n            ui.notifications.warn(\"Salvage table not found.\");\n          }\n        }\n      },\n      cancel: {\n        icon: '<i class=\"fas fa-times\"></i>',\n        label: \"Cancel\"\n      }\n    },\n    default: \"salvage\"\n  }).render(true);\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacRollSalvage"
+}

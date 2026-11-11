@@ -1,0 +1,49 @@
+{
+  "_id": "dsSpeciesAlien00",
+  "name": "Alien (Custom Species)",
+  "type": "Ancestry",
+  "img": "icons/creatures/eyes/alien-purple.webp",
+  "system": {
+    "description": "<p>Science fiction is known for its diversity of lifeforms. Roll or choose a Species Trait from the d20 Species Traits table to define your species' biology and capabilities.</p>",
+    "languages": {
+      "common": 1,
+      "rare": 0,
+      "select": 0,
+      "selectOptions": [],
+      "fixed": [
+        "Compendium.darkspace.languages.Item.dsLangGalStandrd"
+      ]
+    },
+    "talents": [
+      "Compendium.darkspace.talents.Item.dsTraitTheTriad0",
+      "Compendium.darkspace.talents.Item.dsTraitAmphibiou",
+      "Compendium.darkspace.talents.Item.dsTraitArmoredSk",
+      "Compendium.darkspace.talents.Item.dsTraitCovertCom",
+      "Compendium.darkspace.talents.Item.dsTraitLongsight",
+      "Compendium.darkspace.talents.Item.dsTraitHyperacut",
+      "Compendium.darkspace.talents.Item.dsTraitPowerful0",
+      "Compendium.darkspace.talents.Item.dsTraitNaturalWp",
+      "Compendium.darkspace.talents.Item.dsTraitFlight000",
+      "Compendium.darkspace.talents.Item.dsTraitSneaky000",
+      "Compendium.darkspace.talents.Item.dsTraitTrackingS",
+      "Compendium.darkspace.talents.Item.dsTraitAdaptHeat",
+      "Compendium.darkspace.talents.Item.dsTraitAdaptCold",
+      "Compendium.darkspace.talents.Item.dsTraitTechKnack",
+      "Compendium.darkspace.talents.Item.dsTraitNatConnec",
+      "Compendium.darkspace.talents.Item.dsTraitRadResist",
+      "Compendium.darkspace.talents.Item.dsTraitFiltratio",
+      "Compendium.darkspace.talents.Item.dsTraitNatClimbr",
+      "Compendium.darkspace.talents.Item.dsTraitExtraArms",
+      "Compendium.darkspace.talents.Item.dsTraitExtraLegs"
+    ],
+    "talentChoiceCount": 1,
+    "nameTable": "Compendium.darkspace.rollable-tables.RollTable.dsNamesAlien0000",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsSpeciesAlien00"
+}

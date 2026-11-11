@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabPlanetPrefix",
+  "name": "Planet Names: Prefix",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>First syllable of planet name.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt8f281ccd582eb4",
+      "name": "Krax",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Krax",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt8f281ccd582eb4"
+    },
+    {
+      "_id": "rt5bf99f32f184ed",
+      "name": "Vokk",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vokk",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt5bf99f32f184ed"
+    },
+    {
+      "_id": "rt79b5fd8ba2819a",
+      "name": "Xyl",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Xyl",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt79b5fd8ba2819a"
+    },
+    {
+      "_id": "rt01490666d79d2e",
+      "name": "Qor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Qor",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt01490666d79d2e"
+    },
+    {
+      "_id": "rtb151f5d5755b23",
+      "name": "Zekk",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Zekk",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rtb151f5d5755b23"
+    },
+    {
+      "_id": "rt9b42eb4ea3798c",
+      "name": "Hark",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hark",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt9b42eb4ea3798c"
+    },
+    {
+      "_id": "rt94423ebac912cd",
+      "name": "Oom",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Oom",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt94423ebac912cd"
+    },
+    {
+      "_id": "rt2756627425162b",
+      "name": "Phae",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Phae",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt2756627425162b"
+    },
+    {
+      "_id": "rtd00f4e40e0b469",
+      "name": "Iyl",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Iyl",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rtd00f4e40e0b469"
+    },
+    {
+      "_id": "rte233ab8c6a503c",
+      "name": "Ael",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ael",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rte233ab8c6a503c"
+    },
+    {
+      "_id": "rt99d7e00b946b32",
+      "name": "Nuu",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nuu",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt99d7e00b946b32"
+    },
+    {
+      "_id": "rtcd1c0d53e71c8c",
+      "name": "Sool",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sool",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rtcd1c0d53e71c8c"
+    },
+    {
+      "_id": "rta907d240659458",
+      "name": "Vyl",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vyl",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rta907d240659458"
+    },
+    {
+      "_id": "rt2813d839fd7b8c",
+      "name": "Tessi",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Tessi",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt2813d839fd7b8c"
+    },
+    {
+      "_id": "rtf9d27449494761",
+      "name": "Niam",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Niam",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rtf9d27449494761"
+    },
+    {
+      "_id": "rt64ae3480c94aa8",
+      "name": "Kyra",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Kyra",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt64ae3480c94aa8"
+    },
+    {
+      "_id": "rtd12b93afa51fea",
+      "name": "Oria",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Oria",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rtd12b93afa51fea"
+    },
+    {
+      "_id": "rt61577998edd67d",
+      "name": "Elan",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Elan",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt61577998edd67d"
+    },
+    {
+      "_id": "rt460e8033b21808",
+      "name": "Myra",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Myra",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt460e8033b21808"
+    },
+    {
+      "_id": "rt1e7ad6596309de",
+      "name": "Vana",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vana",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabPlanetPrefix.rt1e7ad6596309de"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabPlanetPrefix"
+}

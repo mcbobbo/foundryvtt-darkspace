@@ -1,0 +1,167 @@
+{
+  "_id": "87981550a9199a2b",
+  "name": "AeTAeHAeEAe AeOAeRAeKAeEAeTAeEAeEAeRAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 28,
+        "max": 28
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 7
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "fly, starglide",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A large, leather-jacketed orc wearing a finned helmet with a rokkit strapped to its back. Carries a variety of stabby and shooty weapons to use once the rocket delivers the orc to its enemy.</i></p><p><strong>Movement:</strong> DOUBLE NEAR (fly, starglide)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 rokkit slam +4 (1d6) and 1 microwave raygun (1d8 + melt)</p><p><strong>Legendary.</strong> Only damaged by Triad or enhanced weapon damage. Triad Powers targeting the Orketeer are DC 18.</p><p>Blast</p><p><strong>Field.</strong> The Orketeer's helmet creates a protective field around it while in flight. Immune to harm from cold and vacuum.</p><p><strong>Melt.</strong> The Orketeer's microwave raygun heats metal armor and weapons. On a critical hit any metal weapons become unbearably hot and are dropped by the target. Any armor hit heats up and burns the target wearing it for 1d4 additional damage.  The XO-1</p><p><strong>Rokkit.</strong> The Orketeer often uses its rokkit to charge into combat with enemies. If the Orketeer moves within CLOSE of an enemy that was farther than NEAR from it, the rokkit slam attack becomes 1d12 damage instead of 1d6 if it hits.  When you see it flying towards you, the first thought you have is that there's no possible way that the hulking orc with the rocket strapped to its back will remain airborne and make it to you.  The second thought you have is, \"Holy crap. It's here, it's armed, and it's fast.\"  \u2014 Sally Sputnik, Investigative Reporter</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "rokkit slam",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "pSjfEsN7nqWpr86w",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!87981550a9199a2b.pSjfEsN7nqWpr86w",
+      "effects": []
+    },
+    {
+      "name": "1 microwave raygun (1d8 + melt)",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: 1 microwave raygun (1d8 + melt)</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "4wECLnDNPb2JJXw5",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!87981550a9199a2b.4wECLnDNPb2JJXw5",
+      "effects": []
+    },
+    {
+      "name": "Legendary",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Only damaged by Triad or enhanced weapon damage. Triad Powers targeting the Orketeer are DC 18.</p><p>Blast</p></p>"
+      },
+      "_id": "tTHLKaNsXaQ2khWS",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!87981550a9199a2b.tTHLKaNsXaQ2khWS",
+      "effects": []
+    },
+    {
+      "name": "Field",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>The Orketeer's helmet creates a protective field around it while in flight. Immune to harm from cold and vacuum.</p></p>"
+      },
+      "_id": "0AZ5fFqoXNWKGmcq",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!87981550a9199a2b.0AZ5fFqoXNWKGmcq",
+      "effects": []
+    },
+    {
+      "name": "Melt",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>The Orketeer's microwave raygun heats metal armor and weapons. On a critical hit any metal weapons become unbearably hot and are dropped by the target. Any armor hit heats up and burns the target wearing it for 1d4 additional damage.  The XO-1</p></p>"
+      },
+      "_id": "NJ9bSMOTliv1guu3",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!87981550a9199a2b.NJ9bSMOTliv1guu3",
+      "effects": []
+    },
+    {
+      "name": "Rokkit",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>The Orketeer often uses its rokkit to charge into combat with enemies. If the Orketeer moves within CLOSE of an enemy that was farther than NEAR from it, the rokkit slam attack becomes 1d12 damage instead of 1d6 if it hits.  When you see it flying towards you, the first thought you have is that there's no possible way that the hulking orc with the rocket strapped to its back will remain airborne and make it to you.  The second thought you have is, \"Holy crap. It's here, it's armed, and it's fast.\"  \u2014 Sally Sputnik, Investigative Reporter</p></p>"
+      },
+      "_id": "zc7tzaGw5MAr64iq",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!87981550a9199a2b.zc7tzaGw5MAr64iq",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!87981550a9199a2b"
+}

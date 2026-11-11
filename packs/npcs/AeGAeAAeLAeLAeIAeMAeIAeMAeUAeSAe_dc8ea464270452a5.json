@@ -1,0 +1,101 @@
+{
+  "_id": "dc8ea464270452a5",
+  "name": "AeGAeAAeLAeLAeIAeMAeIAeMAeUAeSAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": -3,
+        "value": 4
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 24,
+        "max": 24
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Tall, long-necked, bipedal omnivores that travel in herds.</i></p><p><strong>Movement:</strong> DOUBLE NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 kick +3 (1d6)</p><p><strong>Alert.</strong> Cannot be surprised.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "kick",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "BL9OVW0R1XVjHVtx",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dc8ea464270452a5.BL9OVW0R1XVjHVtx",
+      "effects": []
+    },
+    {
+      "name": "Alert",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Cannot be surprised.</p></p>"
+      },
+      "_id": "039vQJnUBhDFxtW5",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dc8ea464270452a5.039vQJnUBhDFxtW5",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dc8ea464270452a5"
+}

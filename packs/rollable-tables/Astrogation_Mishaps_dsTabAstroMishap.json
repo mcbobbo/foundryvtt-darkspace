@@ -1,0 +1,164 @@
+{
+  "_id": "dsTabAstroMishap",
+  "name": "Astrogation Mishaps",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Astrogation failure and mishap outcomes.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt40411f58288caf",
+      "name": "Crash. Crashed into planet! Crew takes 1d12 damage, ship reduced to 0 HP.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crash. Crashed into planet! Crew takes 1d12 damage, ship reduced to 0 HP.",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rt40411f58288caf"
+    },
+    {
+      "_id": "rtaed7825018c0ed",
+      "name": "Black Hole. Pulled close to collapsing star! See Black Hole hazard.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Black Hole. Pulled close to collapsing star! See Black Hole hazard.",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rtaed7825018c0ed"
+    },
+    {
+      "_id": "rt7d71599c5f79c6",
+      "name": "Asteroid Field. Uncharted asteroid field! See Asteroid Field hazard.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Asteroid Field. Uncharted asteroid field! See Asteroid Field hazard.",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rt7d71599c5f79c6"
+    },
+    {
+      "_id": "rtd8629c096e9731",
+      "name": "Nebula. Flown into dense nebula and lost! See Nebula hazard.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nebula. Flown into dense nebula and lost! See Nebula hazard.",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rtd8629c096e9731"
+    },
+    {
+      "_id": "rt7e41c5d3617413",
+      "name": "Radiation Field. Severe radiation field! See Radiation hazard.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Radiation Field. Severe radiation field! See Radiation hazard.",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rt7e41c5d3617413"
+    },
+    {
+      "_id": "rt47fd2f8a7f88e4",
+      "name": "Vastly Off Course. Opposite side of star system or different galactic region.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vastly Off Course. Opposite side of star system or different galactic region.",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rt47fd2f8a7f88e4"
+    },
+    {
+      "_id": "rt3a6850845866c3",
+      "name": "Off Course. Different sector or system destination; replot course.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Off Course. Different sector or system destination; replot course.",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rt3a6850845866c3"
+    },
+    {
+      "_id": "rt451d8ae9b17bfe",
+      "name": "Slightly Off Course. Outer orbital perimeter of destination.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Slightly Off Course. Outer orbital perimeter of destination.",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rt451d8ae9b17bfe"
+    },
+    {
+      "_id": "rt147a314555aa88",
+      "name": "Journey Interrupted. Random void encounter or gravity well drop out.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Journey Interrupted. Random void encounter or gravity well drop out.",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rt147a314555aa88"
+    },
+    {
+      "_id": "rtc5c4b1a5238264",
+      "name": "Late. Arrived as intended but 1d10 days behind schedule.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Late. Arrived as intended but 1d10 days behind schedule.",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAstroMishap.rtc5c4b1a5238264"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabAstroMishap"
+}

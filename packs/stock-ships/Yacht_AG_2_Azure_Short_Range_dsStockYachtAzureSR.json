@@ -1,0 +1,291 @@
+{
+  "_id": "dsStockYachtAzureSR",
+  "name": "Yacht - AG-2 'Azure' (Short Range)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 4,
+        "mod": -3
+      },
+      "dex": {
+        "value": 14,
+        "mod": 2
+      },
+      "con": {
+        "value": 6,
+        "mod": -2
+      },
+      "int": {
+        "value": 10,
+        "mod": 0
+      },
+      "wis": {
+        "value": 10,
+        "mod": 0
+      },
+      "cha": {
+        "value": 16,
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 11,
+        "max": 11
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 7000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassYacht",
+    "notes": "<p>Executive transport featuring solar power collecting sails and observation lounge.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shClbd90fc06ce6d",
+      "name": "Yacht",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Couriers, pleasure cruisers, diplomatic barges, and vanity ships. Yachts are the glittering jewels of the void, symbols of power and influence.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 5,
+        "featureSlots": 10,
+        "hpDie": "d6",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.BpduI3uZURG8DP1i"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalLuxuryDes",
+          "Compendium.darkspace.talents.Item.dsShTalRichAccom"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabYacht00"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shClbd90fc06ce6d"
+    },
+    {
+      "_id": "shCpe4421884b868",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shCpe4421884b868"
+    },
+    {
+      "_id": "shCp0a541e13c2af",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shCp0a541e13c2af"
+    },
+    {
+      "_id": "shCpb3feb14657ec",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shCpb3feb14657ec"
+    },
+    {
+      "_id": "shCpa51ad8ad3e9f",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shCpa51ad8ad3e9f"
+    },
+    {
+      "_id": "shCp5088dd6550f0",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shCp5088dd6550f0"
+    },
+    {
+      "_id": "shCpf918e4ecea4a",
+      "name": "Crew Quarters",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>Bunks required to take a Rest while on the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 250
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shCpf918e4ecea4a"
+    },
+    {
+      "_id": "shCpdb2bc1ba6a43",
+      "name": "Galley",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>A fully stocked kitchen area. On a successful DC 12 WIS check, the crew don't use a ration during Resting.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 500,
+          "repair": 100
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shCpdb2bc1ba6a43"
+    },
+    {
+      "_id": "shTl6b395324cf28",
+      "name": "Luxury Design",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The vessel is artistically designed and appointed with the finest amenities. The crew has advantage on CHA checks aboard the ship.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shTl6b395324cf28"
+    },
+    {
+      "_id": "shTlc1bcdd10253c",
+      "name": "Rich Accommodations",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>Cost of living expenses are reduced by one category.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtAzureSR.shTlc1bcdd10253c"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockYachtAzureSR"
+}

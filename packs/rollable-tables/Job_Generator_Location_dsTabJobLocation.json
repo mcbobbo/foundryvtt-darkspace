@@ -1,0 +1,164 @@
+{
+  "_id": "dsTabJobLocation",
+  "name": "Job Generator: Location",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Operational theater of the assignment.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt228434b66ac7a1",
+      "name": "Deep Space",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Deep Space",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rt228434b66ac7a1"
+    },
+    {
+      "_id": "rtfc878d8f32c405",
+      "name": "Military Base / Syndicate HQ",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Military Base / Syndicate HQ",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rtfc878d8f32c405"
+    },
+    {
+      "_id": "rt836b5c454dadd9",
+      "name": "Frontier Outpost",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Frontier Outpost",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rt836b5c454dadd9"
+    },
+    {
+      "_id": "rtb104d852a71aee",
+      "name": "Hidden Bunker / Hideout",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hidden Bunker / Hideout",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rtb104d852a71aee"
+    },
+    {
+      "_id": "rt0f31429e1f74fb",
+      "name": "Wreck / Ancient Ruin",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Wreck / Ancient Ruin",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rt0f31429e1f74fb"
+    },
+    {
+      "_id": "rtd01ca371e2e52d",
+      "name": "Seedy Cantina / Luxury Casino",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Seedy Cantina / Luxury Casino",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rtd01ca371e2e52d"
+    },
+    {
+      "_id": "rt5d3407fd186869",
+      "name": "Hostile Wilds / Abandoned Sector",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hostile Wilds / Abandoned Sector",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rt5d3407fd186869"
+    },
+    {
+      "_id": "rt78470e1f348dfc",
+      "name": "Agricultural Biome",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Agricultural Biome",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rt78470e1f348dfc"
+    },
+    {
+      "_id": "rt7c3a8cab0e4286",
+      "name": "Hangar / Repair Bay",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hangar / Repair Bay",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rt7c3a8cab0e4286"
+    },
+    {
+      "_id": "rta3b4cce135b208",
+      "name": "Factory / Automated Warehouse",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Factory / Automated Warehouse",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobLocation.rta3b4cce135b208"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabJobLocation"
+}

@@ -1,0 +1,131 @@
+{
+  "_id": "182cf96d9955cb7a",
+  "name": "AeVAeEAeRAeDAeAAeNAeIAeTAeEAe AeSAeEAeEAeDAeLAeIAeNAeGAe",
+  "type": "NPC",
+  "img": "icons/skills/trades/farming-plant-seedling-gray.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -2,
+        "value": 6
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": -1,
+        "value": 8
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>The juvenile Seedling resembles a glossy, palm-sized bulb with motile root tendrils.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 tendril +1 (1d4 + root)</p><p><strong>Collective.</strong> +1 to attacks and AC when in CLOSE range of another verdanite.</p><p><strong>Root.</strong> Tendrils burrow into skin. Auto-hit the next round. DC 12 STR on turn to remove.</p><p>Rapid</p><p><strong>Growth.</strong> A Seedling that fully drains a creature matures into a Verdanite within one hour, emitting a faint burst of phosphorescent spores as it transforms.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tendril",
+      "type": "NPC Attack",
+      "img": "icons/magic/unholy/projectile-smoke-tendril-green.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d4 + root"
+        },
+        "description": ""
+      },
+      "_id": "WCNN8RQPMN5dSuVF",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!182cf96d9955cb7a.WCNN8RQPMN5dSuVF",
+      "effects": []
+    },
+    {
+      "name": "Collective",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>+1 to attacks and AC when in CLOSE range of another verdanite.</p></p>"
+      },
+      "_id": "1dp0ifBlqHPsZjw0",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!182cf96d9955cb7a.1dp0ifBlqHPsZjw0",
+      "effects": []
+    },
+    {
+      "name": "Root",
+      "type": "NPC Feature",
+      "img": "icons/magic/nature/root-vine-wood-blue.webp",
+      "system": {
+        "description": "<p>Tendrils burrow into skin. Auto-hit the next round. DC 12 STR on turn to remove.</p><p>Rapid</p></p>"
+      },
+      "_id": "Mk03VvzFPmGQun5p",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!182cf96d9955cb7a.Mk03VvzFPmGQun5p",
+      "effects": []
+    },
+    {
+      "name": "Growth",
+      "type": "NPC Feature",
+      "img": "icons/magic/water/tendrils-ice-growth.webp",
+      "system": {
+        "description": "<p>A Seedling that fully drains a creature matures into a Verdanite within one hour, emitting a faint burst of phosphorescent spores as it transforms.</p></p>"
+      },
+      "_id": "GDFWZOEbwNTU8vOJ",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!182cf96d9955cb7a.GDFWZOEbwNTU8vOJ",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!182cf96d9955cb7a"
+}

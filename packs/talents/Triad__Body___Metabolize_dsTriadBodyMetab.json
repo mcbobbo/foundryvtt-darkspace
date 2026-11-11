@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadBodyMetab",
+  "name": "Triad (Body): Metabolize",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Body (CON).</b> Neutralize toxins, radiation, or environmental hazards within your body, or enter suspended animation.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadBodyMetab"
+}

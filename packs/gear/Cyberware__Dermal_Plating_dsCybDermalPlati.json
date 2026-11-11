@@ -1,0 +1,68 @@
+{
+  "_id": "dsCybDermalPlati",
+  "name": "Cyberware: Dermal Plating",
+  "type": "Basic",
+  "img": "icons/commodities/materials/plate-steel.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> Skin replaced with flexible armor plating. +1 bonus to AC.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [
+    {
+      "_id": "ef1b5670b686783f",
+      "name": "Dermal Plating",
+      "type": "base",
+      "img": "icons/commodities/materials/plate-steel.webp",
+      "changes": [
+        {
+          "key": "system.attributes.ac.value",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsCybDermalPlati.ef1b5670b686783f"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybDermalPlati"
+}

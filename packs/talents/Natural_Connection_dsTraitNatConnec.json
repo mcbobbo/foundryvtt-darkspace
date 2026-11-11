@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitNatConnec",
+  "name": "Natural Connection",
+  "type": "Talent",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "system": {
+    "description": "<p>You get a +1 bonus when working with plants and animals.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitNatConnec"
+}

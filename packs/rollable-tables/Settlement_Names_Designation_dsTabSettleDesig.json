@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabSettleDesig",
+  "name": "Settlement Names: Designation",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Settlement type designation.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt710f058170ea0f",
+      "name": "Outpost",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Outpost",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt710f058170ea0f"
+    },
+    {
+      "_id": "rtc39fc8c5da72c8",
+      "name": "Camp",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Camp",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rtc39fc8c5da72c8"
+    },
+    {
+      "_id": "rte35f3ccd0bd4c0",
+      "name": "Site",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Site",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rte35f3ccd0bd4c0"
+    },
+    {
+      "_id": "rt85daf900819fe6",
+      "name": "Watch",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Watch",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt85daf900819fe6"
+    },
+    {
+      "_id": "rt63b095e6ba4a41",
+      "name": "Relay",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Relay",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt63b095e6ba4a41"
+    },
+    {
+      "_id": "rt38cd74c795cefb",
+      "name": "Station",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Station",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt38cd74c795cefb"
+    },
+    {
+      "_id": "rtadde9e9add523b",
+      "name": "Depot",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Depot",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rtadde9e9add523b"
+    },
+    {
+      "_id": "rt4abef292be15c4",
+      "name": "Colony",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Colony",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt4abef292be15c4"
+    },
+    {
+      "_id": "rtdd87a67f3dfc43",
+      "name": "Port",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Port",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rtdd87a67f3dfc43"
+    },
+    {
+      "_id": "rtc049df8e2cd087",
+      "name": "Base",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Base",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rtc049df8e2cd087"
+    },
+    {
+      "_id": "rt0d90fc0a260fa6",
+      "name": "Hold",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hold",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt0d90fc0a260fa6"
+    },
+    {
+      "_id": "rt22781faf70236d",
+      "name": "Hub",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hub",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt22781faf70236d"
+    },
+    {
+      "_id": "rtb29ea58d812678",
+      "name": "District",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "District",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rtb29ea58d812678"
+    },
+    {
+      "_id": "rte1bd2aa44071e6",
+      "name": "City",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "City",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rte1bd2aa44071e6"
+    },
+    {
+      "_id": "rt462a1348149ba5",
+      "name": "Spire",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Spire",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt462a1348149ba5"
+    },
+    {
+      "_id": "rt7869c9e4d806c4",
+      "name": "Capital",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Capital",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt7869c9e4d806c4"
+    },
+    {
+      "_id": "rt6c482050aabc44",
+      "name": "Sprawl",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sprawl",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt6c482050aabc44"
+    },
+    {
+      "_id": "rt2a7499c9d62c8d",
+      "name": "Hive",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hive",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt2a7499c9d62c8d"
+    },
+    {
+      "_id": "rt6964b8af1e4c9f",
+      "name": "Arcology",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Arcology",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt6964b8af1e4c9f"
+    },
+    {
+      "_id": "rt155c73d66cc201",
+      "name": "World-City",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "World-City",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettleDesig.rt155c73d66cc201"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabSettleDesig"
+}

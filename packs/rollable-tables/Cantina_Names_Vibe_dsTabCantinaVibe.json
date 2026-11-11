@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabCantinaVibe",
+  "name": "Cantina Names: Vibe",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Atmospheric adjective for space cantina.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt40e69646e02a63",
+      "name": "Broken",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Broken",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt40e69646e02a63"
+    },
+    {
+      "_id": "rt40e4058230949f",
+      "name": "Rusty",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rusty",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt40e4058230949f"
+    },
+    {
+      "_id": "rt641e6b90b6d81d",
+      "name": "Floating",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Floating",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt641e6b90b6d81d"
+    },
+    {
+      "_id": "rtd7060cca0bb808",
+      "name": "Last",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Last",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rtd7060cca0bb808"
+    },
+    {
+      "_id": "rt7ffeb382f024f4",
+      "name": "Drunken",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Drunken",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt7ffeb382f024f4"
+    },
+    {
+      "_id": "rt462cfece976b44",
+      "name": "Silent",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Silent",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt462cfece976b44"
+    },
+    {
+      "_id": "rt77361a6880ab5b",
+      "name": "Atomic",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Atomic",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt77361a6880ab5b"
+    },
+    {
+      "_id": "rtce7b8e8e7581ce",
+      "name": "Cosmic",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cosmic",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rtce7b8e8e7581ce"
+    },
+    {
+      "_id": "rt2e264080cf8886",
+      "name": "Lucky",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lucky",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt2e264080cf8886"
+    },
+    {
+      "_id": "rt1a8881dea8c2f9",
+      "name": "Deep",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Deep",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt1a8881dea8c2f9"
+    },
+    {
+      "_id": "rta23713e30aedb9",
+      "name": "Empty",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Empty",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rta23713e30aedb9"
+    },
+    {
+      "_id": "rt5c8c06bbd63d5d",
+      "name": "Burning",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Burning",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt5c8c06bbd63d5d"
+    },
+    {
+      "_id": "rtc96dc46e870a61",
+      "name": "Frozen",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Frozen",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rtc96dc46e870a61"
+    },
+    {
+      "_id": "rt3bb2be172b1e09",
+      "name": "Orbital",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Orbital",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt3bb2be172b1e09"
+    },
+    {
+      "_id": "rt53fdf748cdba91",
+      "name": "Toxic",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Toxic",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt53fdf748cdba91"
+    },
+    {
+      "_id": "rt90b2aa21d37a62",
+      "name": "Lost",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lost",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt90b2aa21d37a62"
+    },
+    {
+      "_id": "rt9055e0e8a0328a",
+      "name": "Electric",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Electric",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt9055e0e8a0328a"
+    },
+    {
+      "_id": "rt53b52fef543f31",
+      "name": "Blind",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Blind",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt53b52fef543f31"
+    },
+    {
+      "_id": "rtaca02f7c5735df",
+      "name": "Zero-G",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Zero-G",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rtaca02f7c5735df"
+    },
+    {
+      "_id": "rt703d8c5a59883e",
+      "name": "Infinite",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Infinite",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaVibe.rt703d8c5a59883e"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabCantinaVibe"
+}

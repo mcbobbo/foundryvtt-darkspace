@@ -1,0 +1,23 @@
+{
+  "_id": "dsShipArmorMediu",
+  "name": "Armor Plating, Medium",
+  "type": "darkspace.ShipArmor",
+  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "system": {
+    "description": "<p><b>Ph.</b> 13 + Ship DEX modifier (+3 AC vs Projectile and Energy). Ship DEX mod is halved (round down) for maneuver checks.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "acProjectile": 3,
+    "acEnergy": 3,
+    "cost": {
+      "cp": 0,
+      "gp": 400,
+      "sp": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipArmorMediu"
+}

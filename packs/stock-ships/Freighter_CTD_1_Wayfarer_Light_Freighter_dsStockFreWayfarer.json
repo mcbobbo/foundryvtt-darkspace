@@ -1,0 +1,436 @@
+{
+  "_id": "dsStockFreWayfarer",
+  "name": "Freighter - CTD-1 'Wayfarer' (Light Freighter)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "mod": 4
+      },
+      "dex": {
+        "value": 12,
+        "mod": 1
+      },
+      "con": {
+        "value": 16,
+        "mod": 3
+      },
+      "int": {
+        "value": 10,
+        "mod": 0
+      },
+      "wis": {
+        "value": 10,
+        "mod": 0
+      },
+      "cha": {
+        "value": 12,
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 17,
+        "max": 17
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 14000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassFreig",
+    "notes": "<p>The iconic adaptable chassis: independent trader, discreet courier, or frontier home.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl0eac7e372b9b",
+      "name": "Freighter",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Grunts, haulers, tugs, and barges. Freighters are the muscle that carry the galaxy on their shoulders.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 6,
+        "featureSlots": 9,
+        "hpDie": "d8",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.LqDnwywd1partj36"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalSpaceHaul",
+          "Compendium.darkspace.talents.Item.dsShTalLowProfil",
+          "Compendium.darkspace.talents.Item.dsShTalStructRes"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabFreight"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCl0eac7e372b9b"
+    },
+    {
+      "_id": "shCp7fc25b696e5d",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCp7fc25b696e5d"
+    },
+    {
+      "_id": "shCp3a5baeb4bb6d",
+      "name": "FTL Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at FTL speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 4000,
+          "repair": 2000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCp3a5baeb4bb6d"
+    },
+    {
+      "_id": "shCpb835136ddca5",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCpb835136ddca5"
+    },
+    {
+      "_id": "shCpf6742bed361a",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCpf6742bed361a"
+    },
+    {
+      "_id": "shCp6a8e1a0a69a0",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCp6a8e1a0a69a0"
+    },
+    {
+      "_id": "shCpb40302455d88",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCpb40302455d88"
+    },
+    {
+      "_id": "shCp1a7bbfe6bd9f",
+      "name": "Cargo Hold",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can carry 10 m3 units of cargo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [
+        {
+          "_id": "ef8679271307d8c7",
+          "name": "Cargo Hold Capacity",
+          "type": "base",
+          "img": "icons/commodities/tech/console-steel.webp",
+          "changes": [
+            {
+              "key": "system.cargo.max",
+              "mode": 2,
+              "priority": null,
+              "value": "10"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "flags": {},
+          "_key": "!actors.items.effects!dsStockFreWayfarer.shCp1a7bbfe6bd9f.ef8679271307d8c7"
+        }
+      ],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCp1a7bbfe6bd9f"
+    },
+    {
+      "_id": "shCp22a11930468f",
+      "name": "Crew Quarters",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>Bunks required to take a Rest while on the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 250
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCp22a11930468f"
+    },
+    {
+      "_id": "shCpadf750fdb6d1",
+      "name": "Galley",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>A fully stocked kitchen area. On a successful DC 12 WIS check, the crew don't use a ration during Resting.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 500,
+          "repair": 100
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shCpadf750fdb6d1"
+    },
+    {
+      "_id": "shAr5725915961d5",
+      "name": "Armor Plating, Light",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>Ph.</b> 11 + Ship DEX modifier (+1 AC vs Projectile and Energy).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 1,
+        "acEnergy": 1,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shAr5725915961d5"
+    },
+    {
+      "_id": "shAr5b5ace369f42",
+      "name": "Energy Shields",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>En, EG, S(1).</b> +2 to AC against energy weapons. Ignored by Ammo (Am) weapons. Shorted out on a natural 20 attack roll against the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 0,
+        "acEnergy": 2,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shAr5b5ace369f42"
+    },
+    {
+      "_id": "shTl6431b195c753",
+      "name": "Space Hauler",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>Add the ship's STR modifier, if positive, to its cargo slots.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shTl6431b195c753"
+    },
+    {
+      "_id": "shTlf4e292a6021a",
+      "name": "Might Not Look Like Much",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on CHA checks when trying to keep a low profile.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shTlf4e292a6021a"
+    },
+    {
+      "_id": "shTl8a4305bded00",
+      "name": "Structural Resilience",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on STR checks to overcome an opposing force, such as breaking free of a gravity well or through a barrier.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFreWayfarer.shTl8a4305bded00"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockFreWayfarer"
+}

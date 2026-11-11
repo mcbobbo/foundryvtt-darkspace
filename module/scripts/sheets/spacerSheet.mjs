@@ -279,10 +279,13 @@ export default class SpacerSheet extends HandlebarsApplicationMixin(ActorSheetV2
         const data = {
             skipPrompt: event.shiftKey, // skip roll prompt if shift clicked
         };
-        if (target.dataset.attackType) {
-            data.attack = { type: target.dataset.attackType };
+        const attackEl = target.closest("[data-item-uuid], [data-item-id]") ?? target;
+        if (attackEl.dataset.attackType) {
+            data.attack = { type: attackEl.dataset.attackType };
         }
-        this.actor.system.rollAttack(target.dataset.itemId, data);
+        const itemUuid = attackEl.dataset.itemUuid
+            ?? this.actor.items.get(attackEl.dataset.itemId)?.uuid;
+        if (itemUuid) this.actor.system.rollAttack(itemUuid, data);
     }
 
     static #onItemCreate(event, target) {

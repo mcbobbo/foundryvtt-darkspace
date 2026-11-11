@@ -1,0 +1,56 @@
+{
+  "_id": "dsTraitPowerful0",
+  "name": "Powerful",
+  "type": "Talent",
+  "img": "icons/skills/melee/strike-axe-blood-red.webp",
+  "system": {
+    "description": "<p>You have a +1 bonus to melee attack and damage rolls.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [
+    {
+      "_id": "efec60af47248119",
+      "name": "Powerful",
+      "type": "base",
+      "img": "icons/skills/melee/strike-axe-blood-red.webp",
+      "changes": [
+        {
+          "key": "system.roll.melee.bonus.all",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        },
+        {
+          "key": "system.roll.melee.damage.all",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsTraitPowerful0.efec60af47248119"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitPowerful0"
+}

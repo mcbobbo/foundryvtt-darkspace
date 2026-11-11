@@ -1,0 +1,164 @@
+{
+  "_id": "dsTabNPCEmotion",
+  "name": "NPC Trait: Emotion",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Immediate emotional demeanor of an NPC.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtdc63119fc27a06",
+      "name": "Adoration",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Adoration",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rtdc63119fc27a06"
+    },
+    {
+      "_id": "rt7e00b44c3a97e8",
+      "name": "Amusement",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Amusement",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rt7e00b44c3a97e8"
+    },
+    {
+      "_id": "rt809fc06a7b3304",
+      "name": "Cold Anger",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cold Anger",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rt809fc06a7b3304"
+    },
+    {
+      "_id": "rt1c9aff4d15238c",
+      "name": "Awe / Wonder",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Awe / Wonder",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rt1c9aff4d15238c"
+    },
+    {
+      "_id": "rt1fa1fbf5f732a1",
+      "name": "Paranoid Confusion",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Paranoid Confusion",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rt1fa1fbf5f732a1"
+    },
+    {
+      "_id": "rtfe9fc61e59848a",
+      "name": "Disdain / Contempt",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Disdain / Contempt",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rtfe9fc61e59848a"
+    },
+    {
+      "_id": "rtf54a7b3d47c315",
+      "name": "Yearning / Greed",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Yearning / Greed",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rtf54a7b3d47c315"
+    },
+    {
+      "_id": "rt6fd84826210712",
+      "name": "Acute Distress",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Acute Distress",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rt6fd84826210712"
+    },
+    {
+      "_id": "rta1c65e6e9b7a26",
+      "name": "Guarded Fear",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Guarded Fear",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rta1c65e6e9b7a26"
+    },
+    {
+      "_id": "rta32b3481c0ea47",
+      "name": "Quiet Resignation",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Quiet Resignation",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCEmotion.rta32b3481c0ea47"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabNPCEmotion"
+}

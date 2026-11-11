@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearScannerHnd",
+  "name": "Scanner, Handheld",
+  "type": "Basic",
+  "img": "icons/commodities/tech/sensor-brown.webp",
+  "system": {
+    "description": "<p><b>EC.</b> A multipurpose diagnostic tool for detecting life signs, environmental data, and energy signatures.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 50,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearScannerHnd"
+}

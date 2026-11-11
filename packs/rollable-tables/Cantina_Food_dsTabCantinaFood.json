@@ -1,0 +1,104 @@
+{
+  "_id": "dsTabCantinaFood",
+  "name": "Cantina: Food",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Available dishes at spacer taverns.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtbaab22d28dcb0e",
+      "name": "Algae Sludge / Protein Paste (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Algae Sludge / Protein Paste (1cr)",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaFood.rtbaab22d28dcb0e"
+    },
+    {
+      "_id": "rt4efd544a4e727a",
+      "name": "Hydroponic Greens & Soy-Rations (3cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hydroponic Greens & Soy-Rations (3cr)",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaFood.rt4efd544a4e727a"
+    },
+    {
+      "_id": "rtf04b32556cad1c",
+      "name": "Deep-Fry Rat / Tube Grubs (2cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Deep-Fry Rat / Tube Grubs (2cr)",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaFood.rtf04b32556cad1c"
+    },
+    {
+      "_id": "rt4abc62038de9c9",
+      "name": "Seared Xenobird / Fresh Protein Steak (15cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Seared Xenobird / Fresh Protein Steak (15cr)",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaFood.rt4abc62038de9c9"
+    },
+    {
+      "_id": "rte3fd39849b2083",
+      "name": "Synthesized Curry & Nutrient Mash (4cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Synthesized Curry & Nutrient Mash (4cr)",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaFood.rte3fd39849b2083"
+    },
+    {
+      "_id": "rt24df058d31b23d",
+      "name": "Smoked Leviathan Ribs / Delicacy Plate (50cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Smoked Leviathan Ribs / Delicacy Plate (50cr)",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaFood.rt24df058d31b23d"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabCantinaFood"
+}

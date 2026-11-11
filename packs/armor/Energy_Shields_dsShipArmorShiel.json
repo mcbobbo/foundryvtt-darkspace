@@ -1,0 +1,23 @@
+{
+  "_id": "dsShipArmorShiel",
+  "name": "Energy Shields",
+  "type": "darkspace.ShipArmor",
+  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "system": {
+    "description": "<p><b>En, EG, S(1).</b> +2 to AC against energy weapons. Ignored by Ammo (Am) weapons. Shorted out on a natural 20 attack roll against the ship.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "acProjectile": 0,
+    "acEnergy": 2,
+    "cost": {
+      "cp": 0,
+      "gp": 300,
+      "sp": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipArmorShiel"
+}

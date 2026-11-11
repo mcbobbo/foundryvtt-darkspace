@@ -1,0 +1,89 @@
+{
+  "_id": "dsTabOracReaction",
+  "name": "Solo Oracle: Reaction",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Immediate reaction of encountered strangers or crews.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt2c872dc7a50acb",
+      "name": "Hostile. Immediately aggressive or deceptive.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hostile. Immediately aggressive or deceptive.",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracReaction.rt2c872dc7a50acb"
+    },
+    {
+      "_id": "rt1ef1e30a527e50",
+      "name": "Suspicious. Guarded, distrustful, and questioning.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Suspicious. Guarded, distrustful, and questioning.",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracReaction.rt1ef1e30a527e50"
+    },
+    {
+      "_id": "rt2571d388b771ee",
+      "name": "Neutral. Transactional, indifferent, or cautious.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Neutral. Transactional, indifferent, or cautious.",
+      "drawn": false,
+      "range": [
+        3,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracReaction.rt2571d388b771ee"
+    },
+    {
+      "_id": "rt71b0d33838348c",
+      "name": "Curious. Interested, open, and willing to converse.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Curious. Interested, open, and willing to converse.",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracReaction.rt71b0d33838348c"
+    },
+    {
+      "_id": "rt183e9882e6d461",
+      "name": "Friendly. Helpful, warm, and cooperative.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Friendly. Helpful, warm, and cooperative.",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracReaction.rt183e9882e6d461"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabOracReaction"
+}

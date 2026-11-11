@@ -1,0 +1,267 @@
+{
+  "_id": "dsStockYachtSR01",
+  "name": "Yacht (Short Range)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 4,
+        "mod": -3
+      },
+      "dex": {
+        "value": 14,
+        "mod": 2
+      },
+      "con": {
+        "value": 6,
+        "mod": -2
+      },
+      "int": {
+        "value": 10,
+        "mod": 0
+      },
+      "wis": {
+        "value": 10,
+        "mod": 0
+      },
+      "cha": {
+        "value": 16,
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 8,
+        "max": 8
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 6000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassYacht",
+    "notes": "<p>Sleek in-system pleasure yacht with observation lounge and galley.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl4888b14281fc",
+      "name": "Yacht",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Couriers, pleasure cruisers, diplomatic barges, and vanity ships. Yachts are the glittering jewels of the void, symbols of power and influence.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 5,
+        "featureSlots": 10,
+        "hpDie": "d6",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.BpduI3uZURG8DP1i"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalLuxuryDes",
+          "Compendium.darkspace.talents.Item.dsShTalRichAccom"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabYacht00"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shCl4888b14281fc"
+    },
+    {
+      "_id": "shCpb4cc1adf285b",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shCpb4cc1adf285b"
+    },
+    {
+      "_id": "shCpc1fdb15a268b",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shCpc1fdb15a268b"
+    },
+    {
+      "_id": "shCpebb6bb4b6b57",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shCpebb6bb4b6b57"
+    },
+    {
+      "_id": "shCpbcbf7cbf1e69",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shCpbcbf7cbf1e69"
+    },
+    {
+      "_id": "shCpe0b7cd22b649",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shCpe0b7cd22b649"
+    },
+    {
+      "_id": "shCpbbe98042620f",
+      "name": "Galley",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>A fully stocked kitchen area. On a successful DC 12 WIS check, the crew don't use a ration during Resting.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 500,
+          "repair": 100
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shCpbbe98042620f"
+    },
+    {
+      "_id": "shTlf041a67bcdfe",
+      "name": "Luxury Design",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The vessel is artistically designed and appointed with the finest amenities. The crew has advantage on CHA checks aboard the ship.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shTlf041a67bcdfe"
+    },
+    {
+      "_id": "shTlcd2eed420aa7",
+      "name": "Rich Accommodations",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>Cost of living expenses are reduced by one category.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockYachtSR01.shTlcd2eed420aa7"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockYachtSR01"
+}

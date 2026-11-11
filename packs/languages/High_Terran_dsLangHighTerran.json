@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangHighTerran",
+  "name": "High Terran",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Formal dialect of core-world human administrations and old Earth colonies.</p>",
+    "predefinedEffects": "",
+    "rarity": "common",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangHighTerran"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "dsCybMeleeBooste",
+  "name": "Cyberware: Melee Booster",
+  "type": "Basic",
+  "img": "icons/weapons/swords/sword-broad-steel.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> +1 damage with melee weapons.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [
+    {
+      "_id": "ef40dde54f5099b3",
+      "name": "Melee Booster",
+      "type": "base",
+      "img": "icons/weapons/swords/sword-broad-steel.webp",
+      "changes": [
+        {
+          "key": "system.roll.melee.damage.all",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsCybMeleeBooste.ef40dde54f5099b3"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybMeleeBooste"
+}

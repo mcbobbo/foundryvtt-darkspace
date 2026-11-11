@@ -1,0 +1,128 @@
+{
+  "_id": "76fd1ad64dce2dd8",
+  "name": "AeTAeRAeIAeAAeDAeIAeAAeNAe,Ae AeMAeAAeSAeTAeEAeRAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -1,
+        "value": 8
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": 4,
+        "value": 18
+      },
+      "wis": {
+        "mod": 4,
+        "value": 18
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 44,
+        "max": 44
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 10
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A wizened, triadian humming with all aspects of The Triad.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 Triad Powers</p><p><strong>Astral Projection (Soul Power).</strong> </p><p><strong>Self.</strong> WIS DC 14. Leaves physical body defenseless. Fly double NEAR for 5 rounds. Astral form only damaged by energy or Triad powers.  Mind Blast (Mind Power). INT DC 15. All targets within NEAR of each other at a range of FAR, 4d4 damage.  Titanium Skin (Body Power).</p><p><strong>Self.</strong> CON DC 15. AC becomes 15 for 5 rounds.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "2 triad powers",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: 2 Triad Powers</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "Cbu1eTenZBoF3Kmp",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!76fd1ad64dce2dd8.Cbu1eTenZBoF3Kmp",
+      "effects": []
+    },
+    {
+      "name": "Astral Projection (Soul Power)",
+      "type": "NPC Feature",
+      "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+      "system": {
+        "description": "<p></p></p>"
+      },
+      "_id": "kPm4A2DvEJ2UQN16",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!76fd1ad64dce2dd8.kPm4A2DvEJ2UQN16",
+      "effects": []
+    },
+    {
+      "name": "Self",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>WIS DC 14. Leaves physical body defenseless. Fly double NEAR for 5 rounds. Astral form only damaged by energy or Triad powers.  Mind Blast (Mind Power). INT DC 15. All targets within NEAR of each other at a range of FAR, 4d4 damage.  Titanium Skin (Body Power).</p></p>"
+      },
+      "_id": "aFLRl4c30VoRvKUA",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!76fd1ad64dce2dd8.aFLRl4c30VoRvKUA",
+      "effects": []
+    },
+    {
+      "name": "Self",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>CON DC 15. AC becomes 15 for 5 rounds.</p></p>"
+      },
+      "_id": "aLPyILmC0Q4ibivF",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!76fd1ad64dce2dd8.aLPyILmC0Q4ibivF",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!76fd1ad64dce2dd8"
+}

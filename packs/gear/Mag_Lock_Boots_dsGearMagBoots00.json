@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearMagBoots00",
+  "name": "Mag-Lock Boots",
+  "type": "Basic",
+  "img": "icons/equipment/feet/boots-armored-steel.webp",
+  "system": {
+    "description": "<p>Boots with magnetic plates that can be activated for walking in Zero-G.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 20,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearMagBoots00"
+}

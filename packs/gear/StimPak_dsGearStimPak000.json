@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearStimPak000",
+  "name": "StimPak",
+  "type": "Basic",
+  "img": "icons/consumables/potions/vial-cork-red.webp",
+  "system": {
+    "description": "<p>One-time use medical injector. Stabilize and heal 1d4 HP.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 10,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 2,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearStimPak000"
+}

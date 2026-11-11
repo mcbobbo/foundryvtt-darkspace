@@ -1,0 +1,197 @@
+{
+  "_id": "f5a6c806b54fc063",
+  "name": "AeTAeHAeEAe AeSAeTAeAAeRAeMAeAAeNAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 5,
+        "value": 20
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": 6,
+        "value": 22
+      },
+      "wis": {
+        "mod": 3,
+        "value": 16
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 85,
+        "max": 85
+      },
+      "ac": {
+        "value": 18
+      }
+    },
+    "level": {
+      "value": 18
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "fly",
+    "alignment": "chaotic",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Many ages ago, with great fortuitousness, two tiny molecules were thrust together and zapped with the spark of life. Thus began a chain of events leading to every species in the universe. At the same moment, and by similar happenstance, two suns, heaving and roiling with unimaginable power, collided as well. It was that event which brought the Starman into being.  For eons the Starman floated through the darkness of space observing the natural phenomena that surrounded them and learning to manipulate it at will. They eventually discovered people, but quickly grew tired of exerting physically control over them. However, they soon found amusement in influencing people by other means. Humanoids now have the honor of becoming the Starman's favorite playthings.</i></p><p><strong>Movement:</strong> DOUBLE NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 2 cellular stasis (NEAR) +12 (2d12 + static) and 2 triad power</p><p><strong>Cosmic.</strong> Immune to morale checks. Only damaged by magical sources and weapons forged of meteorite. Hostile spells or triad powers targeting the starman are DC 17 to use.</p><p><strong>Godlike.</strong> Sleep and sustenance are of no use to the starman. Generally unmoved by the opinions, feelings, or desires of humanoids.</p><p><strong>Regenerate.</strong> Regains 3d12 HP on its turn unless its wounds are caused by meteorite weapons or holy magic.</p><p><strong>Static.</strong> DC 15 CON or molecules within target's body stop for 5 rounds. DC 15 CON at the beginning of each turn or unable to take any actions. On success, can either move or take action, but not both.  Alter Space (Soul Feat). WIS DC 13. The objects and creatures within DOUBLE NEAR are instantly rearranged to the Starman's will. Creatures hung in the air take fall damage.  Channel Starlight (Body Feat). CON DC 15. Creatures within a NEAR-sized cube extending from the Starman take 1d12 damage. Those that can see are blinded for 1d4 rounds.  Disintegrate (Body Feat). CON opposed check. Part of one creature within NEAR is disintegrated. 2d6: 2. Head, 3-4. Arm, 5-6. Hand, 7. Eyes, 8-9. Foot, 10-11. Leg, 12.</p><p><strong>Skin.</strong> 2 &amp; 12 cannot be survived.  Psychotronic Dominance (Mind Feat). INT opposed check.</p><p><strong>Focus.</strong> One target within NEAR spends their next turn doing the following. 1d6: 1. Running Away, 2-3. Attacking an Ally, 4-5. Stripping Nude, 6. Supplicating to the Starman for mercy.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "cellular stasis (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 12
+        },
+        "damage": {
+          "value": "2d12 + static"
+        },
+        "description": ""
+      },
+      "_id": "UzgM0rDnhQhga77z",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.UzgM0rDnhQhga77z",
+      "effects": []
+    },
+    {
+      "name": "2 triad power",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": "<p>Special attack: 2 triad power</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "qJ8CmtKGlj0SXEDc",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.qJ8CmtKGlj0SXEDc",
+      "effects": []
+    },
+    {
+      "name": "Cosmic",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Immune to morale checks. Only damaged by magical sources and weapons forged of meteorite. Hostile spells or triad powers targeting the starman are DC 17 to use.</p></p>"
+      },
+      "_id": "IZih2FBCjV2K0nBv",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.IZih2FBCjV2K0nBv",
+      "effects": []
+    },
+    {
+      "name": "Godlike",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Sleep and sustenance are of no use to the starman. Generally unmoved by the opinions, feelings, or desires of humanoids.</p></p>"
+      },
+      "_id": "PE0frPMUxsXcQqXP",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.PE0frPMUxsXcQqXP",
+      "effects": []
+    },
+    {
+      "name": "Regenerate",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Regains 3d12 HP on its turn unless its wounds are caused by meteorite weapons or holy magic.</p></p>"
+      },
+      "_id": "qKB5vfv0oKNb5D0j",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.qKB5vfv0oKNb5D0j",
+      "effects": []
+    },
+    {
+      "name": "Static",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>DC 15 CON or molecules within target's body stop for 5 rounds. DC 15 CON at the beginning of each turn or unable to take any actions. On success, can either move or take action, but not both.  Alter Space (Soul Feat). WIS DC 13. The objects and creatures within DOUBLE NEAR are instantly rearranged to the Starman's will. Creatures hung in the air take fall damage.  Channel Starlight (Body Feat). CON DC 15. Creatures within a NEAR-sized cube extending from the Starman take 1d12 damage. Those that can see are blinded for 1d4 rounds.  Disintegrate (Body Feat). CON opposed check. Part of one creature within NEAR is disintegrated. 2d6: 2. Head, 3-4. Arm, 5-6. Hand, 7. Eyes, 8-9. Foot, 10-11. Leg, 12.</p></p>"
+      },
+      "_id": "H0BHxbiyNm3OPx9b",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.H0BHxbiyNm3OPx9b",
+      "effects": []
+    },
+    {
+      "name": "Skin",
+      "type": "NPC Feature",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "system": {
+        "description": "<p>2 &amp; 12 cannot be survived.  Psychotronic Dominance (Mind Feat). INT opposed check.</p></p>"
+      },
+      "_id": "hc7diGGzamLZBvZb",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.hc7diGGzamLZBvZb",
+      "effects": []
+    },
+    {
+      "name": "Focus",
+      "type": "NPC Feature",
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "system": {
+        "description": "<p>One target within NEAR spends their next turn doing the following. 1d6: 1. Running Away, 2-3. Attacking an Ally, 4-5. Stripping Nude, 6. Supplicating to the Starman for mercy.</p></p>"
+      },
+      "_id": "3dc3mx6QT5JC9tSw",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f5a6c806b54fc063.3dc3mx6QT5JC9tSw",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!f5a6c806b54fc063"
+}

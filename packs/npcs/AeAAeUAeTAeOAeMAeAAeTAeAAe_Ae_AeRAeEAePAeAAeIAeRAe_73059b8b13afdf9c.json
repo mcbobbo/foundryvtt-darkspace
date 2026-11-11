@@ -1,0 +1,125 @@
+{
+  "_id": "73059b8b13afdf9c",
+  "name": "AeAAeUAeTAeOAeMAeAAeTAeAAe,Ae AeRAeEAePAeAAeIAeRAe",
+  "type": "NPC",
+  "img": "icons/commodities/tech/cog-steel.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 2,
+        "value": 14
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 5,
+        "max": 5
+      },
+      "ac": {
+        "value": 11
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Reliable, scuffed-up, cantankerous tinker bots.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 buzz saw +1 (1d8) or 1 blowtorch (NEAR) +1 (1d6)</p><p>Fix-</p><p><strong>It.</strong> DC 12 INT. Repair one ship system or heal 1d4 to an android or automata.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "buzz saw",
+      "type": "NPC Attack",
+      "img": "icons/tools/hand/saw-steel-grey.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "zNsCqWyP0ZOqIfFx",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!73059b8b13afdf9c.zNsCqWyP0ZOqIfFx",
+      "effects": []
+    },
+    {
+      "name": "blowtorch (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/magic/earth/construct-stone-long-arms.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "OZ8ONR89o1TFss4U",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!73059b8b13afdf9c.OZ8ONR89o1TFss4U",
+      "effects": []
+    },
+    {
+      "name": "It",
+      "type": "NPC Feature",
+      "img": "icons/magic/earth/construct-stone.webp",
+      "system": {
+        "description": "<p>DC 12 INT. Repair one ship system or heal 1d4 to an android or automata.</p></p>"
+      },
+      "_id": "CEu8pXQeANugZpP0",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!73059b8b13afdf9c.CEu8pXQeANugZpP0",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!73059b8b13afdf9c"
+}

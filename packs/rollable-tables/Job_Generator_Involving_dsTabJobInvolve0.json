@@ -1,0 +1,194 @@
+{
+  "_id": "dsTabJobInvolve0",
+  "name": "Job Generator: Involving...",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Key personality or figure involved.</p>",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtda60b0abb4ff5d",
+      "name": "Politician",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Politician",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rtda60b0abb4ff5d"
+    },
+    {
+      "_id": "rt0364f0047339f7",
+      "name": "Naval / Defense Officer",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Naval / Defense Officer",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rt0364f0047339f7"
+    },
+    {
+      "_id": "rt2b755b2c004180",
+      "name": "Crime Boss",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crime Boss",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rt2b755b2c004180"
+    },
+    {
+      "_id": "rtdfe1a223b0ded1",
+      "name": "Corporate Executive",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Corporate Executive",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rtdfe1a223b0ded1"
+    },
+    {
+      "_id": "rtd4c72e886c71e7",
+      "name": "Soldier / Mercenary",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Soldier / Mercenary",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rtd4c72e886c71e7"
+    },
+    {
+      "_id": "rte6ccdde8f6aea0",
+      "name": "Ganger / Void Pirate",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ganger / Void Pirate",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rte6ccdde8f6aea0"
+    },
+    {
+      "_id": "rt03dc83b7a65954",
+      "name": "Corpo Employee",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Corpo Employee",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rt03dc83b7a65954"
+    },
+    {
+      "_id": "rtebaa33c2070534",
+      "name": "Bureaucrat",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bureaucrat",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rtebaa33c2070534"
+    },
+    {
+      "_id": "rtad6aa80428eeef",
+      "name": "Business Owner",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Business Owner",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rtad6aa80428eeef"
+    },
+    {
+      "_id": "rtd4fe221426be08",
+      "name": "Espionage Agent",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Espionage Agent",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rtd4fe221426be08"
+    },
+    {
+      "_id": "rt97a94248a3f18d",
+      "name": "Celebrity / Holo-Star",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Celebrity / Holo-Star",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rt97a94248a3f18d"
+    },
+    {
+      "_id": "rt4a228015d26d58",
+      "name": "Dock Worker / Laborer",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Dock Worker / Laborer",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobInvolve0.rt4a228015d26d58"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabJobInvolve0"
+}

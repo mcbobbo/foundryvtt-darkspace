@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadBodyArmor",
+  "name": "Triad (Body): Armored",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Body (CON).</b> Toughen your skin or carapace to deflect blows. Roll CON vs DC 9 (+1 AC), DC 12 (+2 AC), DC 15 (+3 AC), or DC 18 (+4 AC) for rounds equal to the Triad die.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadBodyArmor"
+}

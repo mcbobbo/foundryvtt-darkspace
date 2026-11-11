@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitAmphibiou",
+  "name": "Amphibious",
+  "type": "Talent",
+  "img": "icons/creatures/amphibians/frog-water-blue.webp",
+  "system": {
+    "description": "<p>You can breathe water as well as air. You can swim at full speed.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitAmphibiou"
+}

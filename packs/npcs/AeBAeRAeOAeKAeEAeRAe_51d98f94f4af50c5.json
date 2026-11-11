@@ -1,0 +1,101 @@
+{
+  "_id": "51d98f94f4af50c5",
+  "name": "AeBAeRAeOAeKAeEAeRAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -2,
+        "value": 6
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 14,
+        "max": 14
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>\"Intel, weapons? I got it.\"</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 pistol (NEAR) +3 (1d6)</p><p><strong>Alert.</strong> Cannot be surprised.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "pistol (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/weapons/guns/gun-pistol-flintlock-white.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "fCf3Ld8Uyp9y7Y4a",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!51d98f94f4af50c5.fCf3Ld8Uyp9y7Y4a",
+      "effects": []
+    },
+    {
+      "name": "Alert",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Cannot be surprised.</p></p>"
+      },
+      "_id": "D92DFr14E3HmBF0l",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!51d98f94f4af50c5.D92DFr14E3HmBF0l",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!51d98f94f4af50c5"
+}

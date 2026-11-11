@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadBodyAugmt",
+  "name": "Triad (Body): Augment",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Body (CON).</b> Surge physical power through your muscles. Roll CON vs chosen DC (9/12/15/18) to add the Triad die (1d4/1d6/1d8/1d10) to melee damage or STR checks.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadBodyAugmt"
+}

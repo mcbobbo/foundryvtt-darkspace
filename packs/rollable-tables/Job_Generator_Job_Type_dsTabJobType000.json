@@ -1,0 +1,104 @@
+{
+  "_id": "dsTabJobType000",
+  "name": "Job Generator: Job Type",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Nature of the mission.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt351cd625620249",
+      "name": "Bounty / Enforcer",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bounty / Enforcer",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobType000.rt351cd625620249"
+    },
+    {
+      "_id": "rtab3626aeb727ad",
+      "name": "Hauling / Smuggling",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hauling / Smuggling",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobType000.rtab3626aeb727ad"
+    },
+    {
+      "_id": "rtd775169e463f65",
+      "name": "Raid",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Raid",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobType000.rtd775169e463f65"
+    },
+    {
+      "_id": "rt89cb3fd0c7e706",
+      "name": "Heist",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Heist",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobType000.rt89cb3fd0c7e706"
+    },
+    {
+      "_id": "rt96466809a1f4cf",
+      "name": "Recon / Surveillance",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Recon / Surveillance",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobType000.rt96466809a1f4cf"
+    },
+    {
+      "_id": "rt7df944e80b2b0a",
+      "name": "Salvage / Recovery",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Salvage / Recovery",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobType000.rt7df944e80b2b0a"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabJobType000"
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "dsTabJobEmployer",
+  "name": "Job Generator: Employer",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Client or patron offering the contract.</p>",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtb74b2955eb07f4",
+      "name": "Corporation",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Corporation",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobEmployer.rtb74b2955eb07f4"
+    },
+    {
+      "_id": "rt1312c148318ba1",
+      "name": "Crime Syndicate",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Crime Syndicate",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobEmployer.rt1312c148318ba1"
+    },
+    {
+      "_id": "rt0bb59a95771451",
+      "name": "Revolutionaries / Insurgents",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Revolutionaries / Insurgents",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobEmployer.rt0bb59a95771451"
+    },
+    {
+      "_id": "rtbd7cedebcc975c",
+      "name": "Government / Planetary Authority",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Government / Planetary Authority",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobEmployer.rtbd7cedebcc975c"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabJobEmployer"
+}

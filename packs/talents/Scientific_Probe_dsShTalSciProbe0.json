@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalSciProbe0",
+  "name": "Scientific Probe",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>1/episode, when using the Science Station or Sensor Array, ask the GM one yes/no question which must be answered truthfully. +1 use per episode if taken again.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalSciProbe0"
+}

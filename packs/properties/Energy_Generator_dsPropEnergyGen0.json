@@ -1,0 +1,18 @@
+{
+  "_id": "dsPropEnergyGen0",
+  "name": "Energy Generator",
+  "type": "Property",
+  "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+  "system": {
+    "description": "<p>EG. This weapon or armor requires an energy generator to use. On a critical failure (natural 1 on attack roll) for a weapon, or a critical hit (natural 20) against armor, the energy generator shorts out and requires an action to repair.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "itemType": "weapon",
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsPropEnergyGen0"
+}

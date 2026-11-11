@@ -1,0 +1,309 @@
+{
+  "_id": "dsStockResLR01",
+  "name": "Research Vessel (Long Range)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 6,
+        "mod": -2
+      },
+      "dex": {
+        "value": 8,
+        "mod": -1
+      },
+      "con": {
+        "value": 8,
+        "mod": -1
+      },
+      "int": {
+        "value": 16,
+        "mod": 3
+      },
+      "wis": {
+        "value": 14,
+        "mod": 2
+      },
+      "cha": {
+        "value": 8,
+        "mod": -1
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "ac": {
+        "value": 9
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "coins": {
+      "gp": 10000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassResea",
+    "notes": "<p>Deep-space science vessel outfitted for astronomical and anomaly research.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCle93b62ed176a",
+      "name": "Research",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Laboratories, observatories, clinics, and survey ships. Research vessels are the mind of the galaxy, patiently unlocking its deepest secrets.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 7,
+        "featureSlots": 8,
+        "hpDie": "d4",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.Uftp1gzsAJoPp2rp"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalDeepAnaly",
+          "Compendium.darkspace.talents.Item.dsShTalCosmicReg",
+          "Compendium.darkspace.talents.Item.dsShTalExocraftB"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabResearc"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCle93b62ed176a"
+    },
+    {
+      "_id": "shCp8c19b64b9106",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCp8c19b64b9106"
+    },
+    {
+      "_id": "shCp8d6ce53cc1e4",
+      "name": "FTL Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at FTL speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 4000,
+          "repair": 2000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCp8d6ce53cc1e4"
+    },
+    {
+      "_id": "shCp6e10dbd04cb0",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCp6e10dbd04cb0"
+    },
+    {
+      "_id": "shCpac7c661ab4c6",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCpac7c661ab4c6"
+    },
+    {
+      "_id": "shCpeae5068ffe1d",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCpeae5068ffe1d"
+    },
+    {
+      "_id": "shCp1a27381a052d",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCp1a27381a052d"
+    },
+    {
+      "_id": "shCp24a8b6699ac2",
+      "name": "Science Station",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with the necessary equipment to perform scientific analysis and experimentation. The DC of any related check is reduced by 3.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 700,
+          "repair": 300
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shCp24a8b6699ac2"
+    },
+    {
+      "_id": "shTla7e9943e94eb",
+      "name": "Deep Analysis Sensors",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>While the Sensor Array is online, all DCs for analyzing exterior anomalies are reduced by 3.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shTla7e9943e94eb"
+    },
+    {
+      "_id": "shTl57d83efee07e",
+      "name": "Cosmic Regenerator Array",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is outfitted with an array that captures latent cosmic radiation to power repair capabilities. The ship is able to Rest when the crew does.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shTl57d83efee07e"
+    },
+    {
+      "_id": "shTl658c69490b37",
+      "name": "Exocraft Bay",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is designed to accommodate a smaller vehicle such as a shuttle, escape pod, or drone. This bay can also be used for 4 cargo slots instead of a vehicle.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockResLR01.shTl658c69490b37"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockResLR01"
+}

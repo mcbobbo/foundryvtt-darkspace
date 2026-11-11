@@ -1,0 +1,161 @@
+{
+  "_id": "a4b291975befd223",
+  "name": "AeCAeYAeBAeEAeRAeAAePAeTAeOAeRAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": -3,
+        "value": 4
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Villainous velociraptors ready to pounce and punish any who stand against the Professor.</i></p><p><strong>Movement:</strong> DOUBLE NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 bite +3 (1d6) and 1 claw +3 (1d4), or leaping rend</p><p><strong>Clever.</strong> +1d4 damage when attacking with surprise.</p><p>Leaping</p><p><strong>Rend.</strong> DC 12 STR or 1d8 damage and knocked prone. If the enemy is successful, Raptor falls prone and all attacks against it are at advantage until it can stand up.  \"Teach these meddling miscreants a lesson! No! What are you doing?! Get up, you cretacious cretins!!\"  \u2014 Professor Kryton</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/commodities/bones/bone-jaw-teeth-grey.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "dBj5BD80svtRpCz6",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a4b291975befd223.dBj5BD80svtRpCz6",
+      "effects": []
+    },
+    {
+      "name": "claw",
+      "type": "NPC Attack",
+      "img": "icons/weapons/fist/claw-hooked-grey.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d4"
+        },
+        "description": ""
+      },
+      "_id": "zXTTw2GqUhRFp7s3",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a4b291975befd223.zXTTw2GqUhRFp7s3",
+      "effects": []
+    },
+    {
+      "name": "Leaping rend",
+      "type": "NPC Special Attack",
+      "img": "icons/weapons/fist/claw-worn-brown.webp",
+      "system": {
+        "description": "<p>Special attack: leaping rend</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "OYHFPzuVDikCiaVp",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a4b291975befd223.OYHFPzuVDikCiaVp",
+      "effects": []
+    },
+    {
+      "name": "Clever",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>+1d4 damage when attacking with surprise.</p><p>Leaping</p></p>"
+      },
+      "_id": "Jlskb4RULNB4ZUfN",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a4b291975befd223.Jlskb4RULNB4ZUfN",
+      "effects": []
+    },
+    {
+      "name": "Rend",
+      "type": "NPC Feature",
+      "img": "icons/weapons/fist/claw-cloth-brown.webp",
+      "system": {
+        "description": "<p>DC 12 STR or 1d8 damage and knocked prone. If the enemy is successful, Raptor falls prone and all attacks against it are at advantage until it can stand up.  \"Teach these meddling miscreants a lesson! No! What are you doing?! Get up, you cretacious cretins!!\"  \u2014 Professor Kryton</p></p>"
+      },
+      "_id": "Xo1hwL4QSVHlUWdw",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a4b291975befd223.Xo1hwL4QSVHlUWdw",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!a4b291975befd223"
+}

@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabShopQuirks",
+  "name": "Shop Quirks",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Unique flavor or trait of a spacer shop.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtdc43c71115a4ed",
+      "name": "Always plays blaring industrial synthesizer music.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Always plays blaring industrial synthesizer music.",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rtdc43c71115a4ed"
+    },
+    {
+      "_id": "rt6ea0f6376d580e",
+      "name": "Proprietor communicates only through an ancient datapad.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Proprietor communicates only through an ancient datapad.",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt6ea0f6376d580e"
+    },
+    {
+      "_id": "rt9e70853966b204",
+      "name": "Strictly barter only; refuses planetary credit scrip.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Strictly barter only; refuses planetary credit scrip.",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt9e70853966b204"
+    },
+    {
+      "_id": "rta96d0faa855742",
+      "name": "Armed automated turret tracks every customer's eyes.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Armed automated turret tracks every customer's eyes.",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rta96d0faa855742"
+    },
+    {
+      "_id": "rt51f23a39e7f6bb",
+      "name": "Guarded by a snoring four-armed alien hound.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Guarded by a snoring four-armed alien hound.",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt51f23a39e7f6bb"
+    },
+    {
+      "_id": "rt3b507d9d6c1b7a",
+      "name": "Smells strongly of burnt ozone, oil, and bitter stimulant tea.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Smells strongly of burnt ozone, oil, and bitter stimulant tea.",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt3b507d9d6c1b7a"
+    },
+    {
+      "_id": "rt456bcf91a63ba9",
+      "name": "Dimly lit with flickering neon strips; faces hidden in shadow.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Dimly lit with flickering neon strips; faces hidden in shadow.",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt456bcf91a63ba9"
+    },
+    {
+      "_id": "rt5571a95fdb17fb",
+      "name": "Everything sold is visibly covered in fine red asteroid dust.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Everything sold is visibly covered in fine red asteroid dust.",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt5571a95fdb17fb"
+    },
+    {
+      "_id": "rt47363409a6558a",
+      "name": "Claims to be ex-special forces; has cybernetic limbs that twitch.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Claims to be ex-special forces; has cybernetic limbs that twitch.",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt47363409a6558a"
+    },
+    {
+      "_id": "rte42da425537b21",
+      "name": "Store is packed inside an uncoupled freighter cargo container.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Store is packed inside an uncoupled freighter cargo container.",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rte42da425537b21"
+    },
+    {
+      "_id": "rtc1424b9a92cd83",
+      "name": "Secret backroom door accessible only with a password or syndicate sign.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Secret backroom door accessible only with a password or syndicate sign.",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rtc1424b9a92cd83"
+    },
+    {
+      "_id": "rt25830de76396b2",
+      "name": "Offers a 10% discount if you bring fresh unrefined ore or batteries.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Offers a 10% discount if you bring fresh unrefined ore or batteries.",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt25830de76396b2"
+    },
+    {
+      "_id": "rt76e88a64b45213",
+      "name": "Prices fluctuate violently depending on current sector commodity markets.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Prices fluctuate violently depending on current sector commodity markets.",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt76e88a64b45213"
+    },
+    {
+      "_id": "rtbbf1144a70797f",
+      "name": "Proprietor has a mechanical voice modulator with noticeable audio lag.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Proprietor has a mechanical voice modulator with noticeable audio lag.",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rtbbf1144a70797f"
+    },
+    {
+      "_id": "rta31f9a492419a4",
+      "name": "Store is completely spotless and sterilized; patrons sprayed upon entry.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Store is completely spotless and sterilized; patrons sprayed upon entry.",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rta31f9a492419a4"
+    },
+    {
+      "_id": "rtba6bc0076f38dd",
+      "name": "Items are hung on heavy chains dangling from overhead steel catwalks.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Items are hung on heavy chains dangling from overhead steel catwalks.",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rtba6bc0076f38dd"
+    },
+    {
+      "_id": "rtfd9c5cf2a7158c",
+      "name": "Proprietor has 3 clones who finish each other's sentences.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Proprietor has 3 clones who finish each other's sentences.",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rtfd9c5cf2a7158c"
+    },
+    {
+      "_id": "rt1ede6290cfe946",
+      "name": "Shop has a zero-gravity section where the best merchandise floats.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Shop has a zero-gravity section where the best merchandise floats.",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt1ede6290cfe946"
+    },
+    {
+      "_id": "rt91ed05225fb82f",
+      "name": "All purchases come sealed in tamper-evident black plastisteel cases.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "All purchases come sealed in tamper-evident black plastisteel cases.",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rt91ed05225fb82f"
+    },
+    {
+      "_id": "rta58cfc12985e51",
+      "name": "Constantly monitors encrypted police/bounty frequencies over comms.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Constantly monitors encrypted police/bounty frequencies over comms.",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopQuirks.rta58cfc12985e51"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabShopQuirks"
+}

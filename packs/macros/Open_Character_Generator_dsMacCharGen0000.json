@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacCharGen0000",
+  "name": "Open Character Generator",
+  "type": "script",
+  "author": null,
+  "img": "icons/environment/people/group.webp",
+  "scope": "global",
+  "command": "/**\n * DarkSpace Character Generator\n * Opens the Level 0 / Level 1 Spacer generation wizard.\n */\nif (globalThis.darkspace?.apps?.CharacterGeneratorDS) {\n  new darkspace.apps.CharacterGeneratorDS().render(true);\n} else {\n  ui.notifications.warn(\"DarkSpace: Character Generator is not yet loaded.\");\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacCharGen0000"
+}

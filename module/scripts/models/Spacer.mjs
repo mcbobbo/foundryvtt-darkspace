@@ -4,13 +4,31 @@ export default class Spacer extends ActorBaseDS {
     static defineSchema() {
         const fields = foundry.data.fields;
         const schema = {
-            motivation: new fields.StringField({ initial: "" }),
+            motivation:    new fields.StringField({ initial: "" }),
             shipUuid:      new fields.StringField({ initial: "" }),
             shipRoleUuids: new fields.ArrayField(new fields.StringField({ initial: "" })),
-            bounty:     new fields.NumberField({ required: true, integer: true, initial: 0, min: 0 }),
-            player:     new fields.StringField({ initial: "" }),
+            bounty:        new fields.NumberField({ required: true, integer: true, initial: 0, min: 0 }),
+            corruption:    new fields.NumberField({ required: true, integer: true, initial: 0, min: 0 }),
+            player:        new fields.StringField({ initial: "" }),
         };
         return Object.assign(super.defineSchema(), schema);
+    }
+
+    /**
+     * CredChits occupy 1 gear slot per 100 after the first 100 free, unless
+     * the spacer carries a CredStick (which stores digital credits at 0 slots).
+     * @override
+     */
+    getSlotUsage() {
+        const slots = super.getSlotUsage();
+        const hasCredStick = this.getPhysicalItems().some(
+            i => i.name?.toLowerCase().includes("credstick")
+        );
+        if (hasCredStick && slots.coins > 0) {
+            slots.total -= slots.coins;
+            slots.coins = 0;
+        }
+        return slots;
     }
 
     /**
@@ -48,8 +66,6 @@ export default class Spacer extends ActorBaseDS {
     }
 
     async addAncestry(item) {
-        // Mirrors the character generator: talents are only fixed when there
-        // are no more of them than the choice count, otherwise they are picks
         const talents = item.system.talents ?? [];
         const fixed = talents.length <= item.system.talentChoiceCount ? talents : [];
         return this.#replaceEmbeddedIdentity(item, "ancestry", fixed);
@@ -67,13 +83,6 @@ export default class Spacer extends ActorBaseDS {
     // Private Functions
     // -----------------------------------------------
 
-    /**
-     * Replaces any existing embedded item of the same type, and the talents
-     * it granted, with the new item and its fixed talents.
-     * @param {Item} item - the dropped Ancestry/Class/Background item
-     * @param {string} [talentClass] - talentClass granted talents are tagged with
-     * @param {string[]} [talentUuids] - fixed talents to embed alongside the item
-     */
     async #replaceEmbeddedIdentity(item, talentClass, talentUuids=[]) {
         const oldIds = this.parent.items
             .filter(i => i.type === item.type

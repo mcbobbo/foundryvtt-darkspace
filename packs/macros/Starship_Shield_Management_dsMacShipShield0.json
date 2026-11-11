@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacShipShield0",
+  "name": "Starship Shield Management",
+  "type": "script",
+  "author": null,
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "scope": "global",
+  "command": "/**\n * Starship Shield Management\n * Adjust, recharge, or divert auxiliary energy to shields on the selected starship.\n */\nconst token = canvas.tokens.controlled[0];\nconst actor = token?.actor;\n\nif (!actor || actor.type !== \"darkspace.Ship\") {\n  ui.notifications.warn(\"Please select a Starship token first.\");\n} else {\n  const hp = actor.system?.attributes?.hp?.value ?? 0;\n  const maxHp = actor.system?.attributes?.hp?.max ?? 0;\n  const ac = actor.system?.attributes?.ac?.value ?? 10;\n\n  new Dialog({\n    title: `Shield & Power Control: ${actor.name}`,\n    content: `\n      <form class=\"darkspace-dialog\">\n        <p><b>Ship:</b> ${actor.name} | <b>Hull:</b> ${hp}/${maxHp} HP | <b>AC:</b> ${ac}</p>\n        <p>Choose tactical shield operation:</p>\n      </form>\n    `,\n    buttons: {\n      recharge: {\n        icon: '<i class=\"fas fa-shield-alt\"></i>',\n        label: \"Emergency Shield Boost (+1d6 HP)\",\n        callback: async () => {\n          const r = await new Roll(\"1d6\").evaluate();\n          await r.render();\n          const newHp = Math.min(maxHp, hp + r.total);\n          await actor.update({ \"system.attributes.hp.value\": newHp });\n          ChatMessage.create({\n            speaker: ChatMessage.getSpeaker({ actor }),\n            flavor: `<b>Shield Modulation</b> &mdash; Emergency Shield Boost`,\n            content: `<p>Shield capacitors routed to defense grid! Restored <b>${r.total}</b> points. Current Hull: <b>${newHp}/${maxHp}</b>.</p>`\n          });\n        }\n      },\n      divert: {\n        icon: '<i class=\"fas fa-bolt\"></i>',\n        label: \"Overcharge Shields (+2 AC this round)\",\n        callback: async () => {\n          ChatMessage.create({\n            speaker: ChatMessage.getSpeaker({ actor }),\n            flavor: `<b>Tactical Power Diversion</b>`,\n            content: `<p>Auxiliary reactor energy channeled directly into deflection coils! <b>+2 AC</b> against incoming fire for 1 round.</p>`\n          });\n        }\n      },\n      overload: {\n        icon: '<i class=\"fas fa-radiation\"></i>',\n        label: \"Shield Collapse / Vent\",\n        callback: async () => {\n          ChatMessage.create({\n            speaker: ChatMessage.getSpeaker({ actor }),\n            flavor: `<b>Shield Grid Collapse</b>`,\n            content: `<p style=\"color: #F44336;\"><b>WARNING:</b> Shield arrays overwhelmed! Energy vented into the void to prevent core feedback.</p>`\n          });\n        }\n      }\n    }\n  }).render(true);\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacShipShield0"
+}

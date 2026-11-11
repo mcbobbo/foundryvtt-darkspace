@@ -1,0 +1,23 @@
+{
+  "_id": "dsShipArmorHeavy",
+  "name": "Armor Plating, Heavy",
+  "type": "darkspace.ShipArmor",
+  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "system": {
+    "description": "<p><b>Ph.</b> 15 AC (+5 over base 10). Does not use ship DEX mod for maneuver checks.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "acProjectile": 5,
+    "acEnergy": 5,
+    "cost": {
+      "cp": 0,
+      "gp": 500,
+      "sp": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipArmorHeavy"
+}

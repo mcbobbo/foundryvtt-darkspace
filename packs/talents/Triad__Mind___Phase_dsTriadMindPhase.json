@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadMindPhase",
+  "name": "Triad (Mind): Phase",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Mind (INT).</b> Shift your molecular density or fold space to pass through solid barriers or teleport up to range.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadMindPhase"
+}

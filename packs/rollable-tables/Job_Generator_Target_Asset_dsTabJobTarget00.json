@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabJobTarget00",
+  "name": "Job Generator: Target / Asset",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Primary objective or target item.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt767953de673560",
+      "name": "Starship",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Starship",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt767953de673560"
+    },
+    {
+      "_id": "rt0346cef3d27f8c",
+      "name": "Robot / Android / Synth",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Robot / Android / Synth",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt0346cef3d27f8c"
+    },
+    {
+      "_id": "rtc28f30e9f92e8c",
+      "name": "Exotic Alien Creature",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Exotic Alien Creature",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rtc28f30e9f92e8c"
+    },
+    {
+      "_id": "rt5fd31e2a4cfeff",
+      "name": "Ancient Relic / Precursor Tech",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ancient Relic / Precursor Tech",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt5fd31e2a4cfeff"
+    },
+    {
+      "_id": "rt5c1dfe6ad16731",
+      "name": "Massive Sum of Credits",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Massive Sum of Credits",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt5c1dfe6ad16731"
+    },
+    {
+      "_id": "rt101e8c9ff285fc",
+      "name": "Priceless Art / Data File",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Priceless Art / Data File",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt101e8c9ff285fc"
+    },
+    {
+      "_id": "rt43b707cfea72eb",
+      "name": "Rare Gem / Biological Specimen",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rare Gem / Biological Specimen",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt43b707cfea72eb"
+    },
+    {
+      "_id": "rtae285984aee896",
+      "name": "Corporate Trade Secret",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Corporate Trade Secret",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rtae285984aee896"
+    },
+    {
+      "_id": "rt1dc745813f2aeb",
+      "name": "Espionage Intelligence",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Espionage Intelligence",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt1dc745813f2aeb"
+    },
+    {
+      "_id": "rt51f2a6f545ca88",
+      "name": "Criminal Evidence",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Criminal Evidence",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt51f2a6f545ca88"
+    },
+    {
+      "_id": "rta50b2629d3d2c8",
+      "name": "Military Weapons Cache",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Military Weapons Cache",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rta50b2629d3d2c8"
+    },
+    {
+      "_id": "rte6113346ca5551",
+      "name": "Fuel Canisters / Plasma Cells",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Fuel Canisters / Plasma Cells",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rte6113346ca5551"
+    },
+    {
+      "_id": "rt87622efe1971a2",
+      "name": "Contraband / Narcotics",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Contraband / Narcotics",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt87622efe1971a2"
+    },
+    {
+      "_id": "rtb3eeb4787a6b76",
+      "name": "Bulk Trade Goods",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bulk Trade Goods",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rtb3eeb4787a6b76"
+    },
+    {
+      "_id": "rtb801c060570e72",
+      "name": "Communications Encryption Key",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Communications Encryption Key",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rtb801c060570e72"
+    },
+    {
+      "_id": "rta1d37f5b2894b9",
+      "name": "Food / Water Rations",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Food / Water Rations",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rta1d37f5b2894b9"
+    },
+    {
+      "_id": "rta8b7dcec9a9102",
+      "name": "Shield Generator Tech",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Shield Generator Tech",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rta8b7dcec9a9102"
+    },
+    {
+      "_id": "rtbe08a4fd50823e",
+      "name": "Starship Components",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Starship Components",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rtbe08a4fd50823e"
+    },
+    {
+      "_id": "rt416918d3e4ea9f",
+      "name": "Vehicle / Mech Parts",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vehicle / Mech Parts",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt416918d3e4ea9f"
+    },
+    {
+      "_id": "rt14356ee0c2af9d",
+      "name": "Surface Vehicle / Speeder",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Surface Vehicle / Speeder",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabJobTarget00.rt14356ee0c2af9d"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabJobTarget00"
+}

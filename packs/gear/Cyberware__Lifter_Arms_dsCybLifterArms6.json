@@ -1,0 +1,35 @@
+{
+  "_id": "dsCybLifterArms6",
+  "name": "Cyberware: Lifter Arms",
+  "type": "Basic",
+  "img": "icons/equipment/hands/gloves-plate-iron.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> Mechanical arms. STR stat based on level.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybLifterArms6"
+}

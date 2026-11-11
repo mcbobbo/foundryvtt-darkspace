@@ -1,0 +1,47 @@
+{
+  "_id": "dsShipWpProjHevy",
+  "name": "Projectile Cannon, Heavy",
+  "type": "darkspace.Weapon",
+  "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+  "system": {
+    "description": "<p>Ship-scale heavy armor-piercing projectile cannon. Requires ammo.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [
+      "Compendium.darkspace.properties.Item.Tg2j6CxrmNwtvdWI",
+      "Compendium.darkspace.properties.Item.SFVSxglbBnqroH2T"
+    ],
+    "ammoClass": "",
+    "baseWeapon": "",
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 300,
+      "sp": 0
+    },
+    "damage": {
+      "oneHanded": "1d8",
+      "twoHanded": ""
+    },
+    "handedness": "1h",
+    "range": "near",
+    "type": "ranged",
+    "equipped": true,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "damageType": "Projectile",
+    "size": "Heavy"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipWpProjHevy"
+}

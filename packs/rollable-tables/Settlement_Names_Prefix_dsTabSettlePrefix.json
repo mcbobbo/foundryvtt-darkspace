@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabSettlePrefix",
+  "name": "Settlement Names: Prefix",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>First syllable of outpost or colony.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt238d51c9dcaf26",
+      "name": "Grok",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Grok",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt238d51c9dcaf26"
+    },
+    {
+      "_id": "rt484bc50440c80e",
+      "name": "Bor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Bor",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt484bc50440c80e"
+    },
+    {
+      "_id": "rt7d03e79ef29123",
+      "name": "Rusk",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rusk",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt7d03e79ef29123"
+    },
+    {
+      "_id": "rtb0fa7da4730f92",
+      "name": "Hak",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hak",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtb0fa7da4730f92"
+    },
+    {
+      "_id": "rtc0082d9a375d4d",
+      "name": "Mor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Mor",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtc0082d9a375d4d"
+    },
+    {
+      "_id": "rt4ab62b5f3baa6e",
+      "name": "Durn",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Durn",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt4ab62b5f3baa6e"
+    },
+    {
+      "_id": "rtcbbc9d5c493193",
+      "name": "Far",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Far",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtcbbc9d5c493193"
+    },
+    {
+      "_id": "rtb5fbcbdbde3eec",
+      "name": "Tar",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Tar",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtb5fbcbdbde3eec"
+    },
+    {
+      "_id": "rtc47f29f2c4b266",
+      "name": "Kel",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Kel",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtc47f29f2c4b266"
+    },
+    {
+      "_id": "rt0a06cc46cc6acf",
+      "name": "Hal",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Hal",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt0a06cc46cc6acf"
+    },
+    {
+      "_id": "rted8493290afd37",
+      "name": "Cor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cor",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rted8493290afd37"
+    },
+    {
+      "_id": "rt2b55cf8ca9822b",
+      "name": "Ves",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ves",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt2b55cf8ca9822b"
+    },
+    {
+      "_id": "rtaa3980272dd3c5",
+      "name": "Ty",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ty",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtaa3980272dd3c5"
+    },
+    {
+      "_id": "rtfffb6aac831fec",
+      "name": "Sol",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Sol",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtfffb6aac831fec"
+    },
+    {
+      "_id": "rt4679f647bd6d0b",
+      "name": "Lun",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lun",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt4679f647bd6d0b"
+    },
+    {
+      "_id": "rt67fa290017e4bf",
+      "name": "Aur",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Aur",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rt67fa290017e4bf"
+    },
+    {
+      "_id": "rtd88033fe61ad0e",
+      "name": "Nov",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nov",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtd88033fe61ad0e"
+    },
+    {
+      "_id": "rta00e046cc43d9b",
+      "name": "Cy",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cy",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rta00e046cc43d9b"
+    },
+    {
+      "_id": "rtf48d38dae7e215",
+      "name": "Elys",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Elys",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtf48d38dae7e215"
+    },
+    {
+      "_id": "rtb642753c46e677",
+      "name": "Omni",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Omni",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabSettlePrefix.rtb642753c46e677"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabSettlePrefix"
+}

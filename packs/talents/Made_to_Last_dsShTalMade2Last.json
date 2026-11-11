@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalMade2Last",
+  "name": "Made to Last",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>The ship has advantage on CON checks to resist damage from hazards and extreme conditions.</p>",
+    "talentClass": "class",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalMade2Last"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacJobContract",
+  "name": "Generate Job Contract",
+  "type": "script",
+  "author": null,
+  "img": "icons/sundries/documents/document-sealed-gold-red.webp",
+  "scope": "global",
+  "command": "/**\n * DarkSpace Job Generator\n * Sequentially queries the 6 Job Generator tables to produce a complete mission briefing.\n */\nconst pack = game.packs.get(\"darkspace.rollable-tables\");\nif (!pack) {\n  ui.notifications.error(\"DarkSpace rollable-tables pack not found.\");\n} else {\n  const tables = [\n    { id: \"dsTabJobEmployer\", label: \"Employer\" },\n    { id: \"dsTabJobType000\",  label: \"Job Type\" },\n    { id: \"dsTabJobScope00\",   label: \"Scope\" },\n    { id: \"dsTabJobLocation\", label: \"Location\" },\n    { id: \"dsTabJobInvolve0\", label: \"Involving\" },\n    { id: \"dsTabJobTarget00\", label: \"Target / Asset\" }\n  ];\n\n  const results = {};\n  for (const t of tables) {\n    const table = await pack.getDocument(t.id);\n    if (table) {\n      const drawn = await table.draw({ displayChat: false });\n      results[t.label] = drawn.results[0]?.text || drawn.results[0]?.description || \"Unknown\";\n    } else {\n      results[t.label] = \"Standard\";\n    }\n  }\n\n  const rewardRoll = await new Roll(\"2d6 * 500\").evaluate();\n  const contractId = \"JOB-\" + Math.floor(1000 + Math.random() * 9000);\n\n  const content = `\n    <div style=\"border: 1px solid #4a90e2; background: rgba(10, 20, 35, 0.95); color: #e0e6ed; padding: 12px; border-radius: 6px; font-family: monospace;\">\n      <div style=\"border-bottom: 1px solid #4a90e2; padding-bottom: 6px; margin-bottom: 8px;\">\n        <span style=\"float: right; color: #ffb74d;\"><b>CR: ${rewardRoll.total.toLocaleString()} Cr</b></span>\n        <b style=\"color: #4a90e2; font-size: 1.1em;\">ENCRYPTED CONTRACT: ${contractId}</b>\n      </div>\n      <table style=\"width: 100%; border: none; font-size: 0.95em;\">\n        <tr><td style=\"width: 30%; color: #81d4fa;\"><b>Employer:</b></td><td>${results[\"Employer\"]}</td></tr>\n        <tr><td style=\"color: #81d4fa;\"><b>Mission Type:</b></td><td>${results[\"Job Type\"]}</td></tr>\n        <tr><td style=\"color: #81d4fa;\"><b>Scale / Scope:</b></td><td>${results[\"Scope\"]}</td></tr>\n        <tr><td style=\"color: #81d4fa;\"><b>Target Theater:</b></td><td>${results[\"Location\"]}</td></tr>\n        <tr><td style=\"color: #81d4fa;\"><b>Key Contact:</b></td><td>${results[\"Involving\"]}</td></tr>\n        <tr><td style=\"color: #81d4fa;\"><b>Objective:</b></td><td>${results[\"Target / Asset\"]}</td></tr>\n      </table>\n      <div style=\"margin-top: 10px; padding-top: 6px; border-top: 1px dashed #37474f; font-size: 0.85em; color: #90a4ae;\">\n        <i>Standard mercenary disclaimer applies. Failure to execute within 30 solar cycles incurs penalty fees.</i>\n      </div>\n    </div>\n  `;\n\n  await ChatMessage.create({\n    user: game.user._id,\n    speaker: { alias: \"Guild Contract Terminal\" },\n    content: content\n  });\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacJobContract"
+}

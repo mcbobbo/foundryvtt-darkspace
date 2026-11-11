@@ -1,13 +1,13 @@
 {
     "id": "darkspace",
     "title": "DarkSpace",
-	"description": "",
+    "description": "A sci-fi RPG module built on the Shadowdark RPG system.",
     "version": "0.1",
     "compatibility": {
         "minimum": "13",
         "verified": "14"
     },
-   "esmodules": [
+    "esmodules": [
         "darkspace-compiled.mjs"
     ],
     "styles": [
@@ -26,12 +26,12 @@
             "Ship": {}
         },
         "Item": {
-            "Cargo":         {},
-            "ShipArmor":     {},
-            "ShipClass":     {},
+            "Cargo": {},
+            "ShipArmor": {},
+            "ShipClass": {},
             "ShipComponent": {},
-            "ShipRole":      {},
-            "Weapon":        {}
+            "ShipRole": {},
+            "Weapon": {}
         }
     },
     "packs": [
@@ -64,9 +64,56 @@
             "system": "shadowdark"
         },
         {
+            "name": "languages",
+            "label": "DARKSPACE.packs.languages",
+            "type": "Item",
+            "system": "shadowdark",
+            "path": "packs/languages",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "macros",
+            "label": "DarkSpace Macros",
+            "type": "Macro",
+            "system": "shadowdark",
+            "path": "packs/macros",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "npcs",
+            "label": "DarkSpace NPCs",
+            "type": "Actor",
+            "system": "shadowdark",
+            "path": "packs/npcs",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
             "name": "properties",
             "label": "DarkSpace Properties",
             "path": "packs/properties",
+            "type": "Item",
+            "system": "shadowdark"
+        },
+        {
+            "name": "rollable-tables",
+            "label": "DarkSpace Roll Tables",
+            "path": "packs/rollable-tables",
+            "type": "RollTable",
+            "system": "shadowdark"
+        },
+        {
+            "name": "ship-components",
+            "label": "DarkSpace Ship Components",
+            "path": "packs/ship-components",
             "type": "Item",
             "system": "shadowdark"
         },
@@ -78,18 +125,22 @@
             "system": "shadowdark"
         },
         {
-            "name": "ship-components",
-            "label": "DarkSpace Ship Components",
-            "path": "packs/ship-components",
-            "type": "Item",
-            "system": "shadowdark"
-        },
-        {
             "name": "species",
             "label": "DarkSpace Species",
             "path": "packs/species",
             "type": "Item",
             "system": "shadowdark"
+        },
+        {
+            "name": "stock-ships",
+            "label": "DarkSpace Stock Ships",
+            "type": "Actor",
+            "system": "shadowdark",
+            "path": "packs/stock-ships",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "talents",
@@ -104,13 +155,6 @@
             "path": "packs/weapons",
             "type": "Item",
             "system": "shadowdark"
-        },
-        {
-            "name": "rollable-tables",
-            "label": "DarkSpace Roll Tables",
-            "path": "packs/rollable-tables",
-            "type": "RollTable",
-            "system": "shadowdark"
         }
     ],
     "packFolders": [
@@ -122,10 +166,15 @@
                 "armor",
                 "backgrounds",
                 "gear",
+                "languages",
+                "macros",
+                "npcs",
                 "properties",
                 "rollable-tables",
                 "ship-components",
                 "ship-roles",
+                "species",
+                "stock-ships",
                 "talents",
                 "weapons"
             ]
@@ -144,14 +193,14 @@
         ]
     },
     "authors": [
-		{
-			"name": "Prototype",
-			"discord": "prototypesbu"
-		}
+        {
+            "name": "Prototype",
+            "discord": "prototypesbu"
+        }
     ],
     "url": "https://github.com/PrototypeESBU/foundryvtt-darkspace",
-	"manifest": "https://github.com/PrototypeESBU/foundryvtt-darkspace/releases/latest/download/module.json",
-	"download": "https://github.com/PrototypeESBU/foundryvtt-darkspace/releases/latest/download/darkspace.zip",
+    "manifest": "https://github.com/PrototypeESBU/foundryvtt-darkspace/releases/latest/download/module.json",
+    "download": "https://github.com/PrototypeESBU/foundryvtt-darkspace/releases/latest/download/darkspace.zip",
     "flags": {
         "shadowdark": {
             "sources": {

@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalVolleyCmd",
+  "name": "Volley Command System",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>When all weapons in a fire-linked Weapons Array target a single target, the gunner may use a single attack roll for all attacks.</p>",
+    "talentClass": "class",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalVolleyCmd"
+}

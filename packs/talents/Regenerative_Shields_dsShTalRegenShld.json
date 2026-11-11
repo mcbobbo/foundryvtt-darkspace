@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalRegenShld",
+  "name": "Regenerative Shields",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>Repair checks for the ship's shields are DC 10.</p>",
+    "talentClass": "class",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalRegenShld"
+}

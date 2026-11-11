@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangTriadScrpt",
+  "name": "Triad Script",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Esoteric meditative symbols and mantras of Triad mystics and sages.</p>",
+    "predefinedEffects": "",
+    "rarity": "rare",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangTriadScrpt"
+}

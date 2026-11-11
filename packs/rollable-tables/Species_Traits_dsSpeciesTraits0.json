@@ -1,0 +1,334 @@
+{
+  "_id": "dsSpeciesTraits0",
+  "name": "Species Traits",
+  "img": "icons/creatures/eyes/alien-purple.webp",
+  "description": "<p>Roll 1d20 or choose a Species Trait when creating a custom species.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtSp237dd3d48d62",
+      "name": "The Triad",
+      "type": "document",
+      "img": "icons/magic/symbols/runes-triangle-blue.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitTheTriad0",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp237dd3d48d62"
+    },
+    {
+      "_id": "rtSp9f33b364730b",
+      "name": "Amphibious",
+      "type": "document",
+      "img": "icons/creatures/amphibians/frog-water-blue.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitAmphibiou",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp9f33b364730b"
+    },
+    {
+      "_id": "rtSp4aae3ae041e4",
+      "name": "Armored Skin",
+      "type": "document",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitArmoredSk",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp4aae3ae041e4"
+    },
+    {
+      "_id": "rtSp8dd77bdec6b2",
+      "name": "Covert Communication",
+      "type": "document",
+      "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitCovertCom",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp8dd77bdec6b2"
+    },
+    {
+      "_id": "rtSpb2053fff14c9",
+      "name": "Longsight",
+      "type": "document",
+      "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitLongsight",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSpb2053fff14c9"
+    },
+    {
+      "_id": "rtSp164c43abe342",
+      "name": "Hyperacute Senses",
+      "type": "document",
+      "img": "icons/creatures/eyes/humanoid-single-blue.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitHyperacut",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp164c43abe342"
+    },
+    {
+      "_id": "rtSp8e09998b18b7",
+      "name": "Powerful",
+      "type": "document",
+      "img": "icons/skills/melee/strike-axe-blood-red.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitPowerful0",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp8e09998b18b7"
+    },
+    {
+      "_id": "rtSpff81b7ab6d1e",
+      "name": "Natural Weapon",
+      "type": "document",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitNaturalWp",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSpff81b7ab6d1e"
+    },
+    {
+      "_id": "rtSpec78fc6d8fa4",
+      "name": "Flight",
+      "type": "document",
+      "img": "icons/creatures/abilities/wing-batlike-purple-blue.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitFlight000",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSpec78fc6d8fa4"
+    },
+    {
+      "_id": "rtSp1b5d26c0e21e",
+      "name": "Sneaky",
+      "type": "document",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitSneaky000",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp1b5d26c0e21e"
+    },
+    {
+      "_id": "rtSp4e4b48440f4a",
+      "name": "Tracking Sense",
+      "type": "document",
+      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitTrackingS",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp4e4b48440f4a"
+    },
+    {
+      "_id": "rtSp298e16435a43",
+      "name": "Adapted for Heat",
+      "type": "document",
+      "img": "icons/magic/fire/flame-burning-hand-orange.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitAdaptHeat",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp298e16435a43"
+    },
+    {
+      "_id": "rtSpd7b22c16d155",
+      "name": "Adapted for Cold",
+      "type": "document",
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitAdaptCold",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSpd7b22c16d155"
+    },
+    {
+      "_id": "rtSp89b606c2f9f0",
+      "name": "Technical Knack",
+      "type": "document",
+      "img": "icons/tools/hand/wrench-steel-grey.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitTechKnack",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp89b606c2f9f0"
+    },
+    {
+      "_id": "rtSpdc1bc850844e",
+      "name": "Natural Connection",
+      "type": "document",
+      "img": "icons/magic/nature/leaf-glow-green.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitNatConnec",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSpdc1bc850844e"
+    },
+    {
+      "_id": "rtSp596963065914",
+      "name": "Radiation Resistant",
+      "type": "document",
+      "img": "icons/magic/light/explosion-star-glow-green.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitRadResist",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp596963065914"
+    },
+    {
+      "_id": "rtSp8fdc1112d136",
+      "name": "Filtration",
+      "type": "document",
+      "img": "icons/magic/acid/dissolve-bone-green.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitFiltratio",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp8fdc1112d136"
+    },
+    {
+      "_id": "rtSpc5691adcad8a",
+      "name": "Natural Climber",
+      "type": "document",
+      "img": "icons/sundries/misc/rope-wrapped-tan.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitNatClimbr",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSpc5691adcad8a"
+    },
+    {
+      "_id": "rtSp5396bd6a4488",
+      "name": "Extra Arms",
+      "type": "document",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitExtraArms",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp5396bd6a4488"
+    },
+    {
+      "_id": "rtSp005da1e5cc4d",
+      "name": "Extra Legs",
+      "type": "document",
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "description": "",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsTraitExtraLegs",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsSpeciesTraits0.rtSp005da1e5cc4d"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsSpeciesTraits0"
+}

@@ -1,0 +1,101 @@
+{
+  "_id": "7b6abc06a2becd20",
+  "name": "AeSAePAeIAeNAeOAeSAeAAeUAeRAeUAeSAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 3,
+        "value": 16
+      },
+      "cha": {
+        "mod": -3,
+        "value": 4
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 48,
+        "max": 48
+      },
+      "ac": {
+        "value": 15
+      }
+    },
+    "level": {
+      "value": 10
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A terrifying sem-aquatic predator capable of stealthily tracking prey.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 3 bite +7 (2d8)</p><p><strong>Ambush.</strong> Deal x2 damage against surprised creatures.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 7
+        },
+        "damage": {
+          "value": "2d8"
+        },
+        "description": ""
+      },
+      "_id": "eWHZr3PcENKdzqH7",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7b6abc06a2becd20.eWHZr3PcENKdzqH7",
+      "effects": []
+    },
+    {
+      "name": "Ambush",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Deal x2 damage against surprised creatures.</p></p>"
+      },
+      "_id": "cSb5asWMvvPtrpU3",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7b6abc06a2becd20.cSb5asWMvvPtrpU3",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!7b6abc06a2becd20"
+}

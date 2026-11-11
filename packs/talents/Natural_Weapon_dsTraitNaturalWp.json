@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitNaturalWp",
+  "name": "Natural Weapon",
+  "type": "Talent",
+  "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+  "system": {
+    "description": "<p>You have a natural weapon that deals 1d6 damage. You are proficient with it.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitNaturalWp"
+}

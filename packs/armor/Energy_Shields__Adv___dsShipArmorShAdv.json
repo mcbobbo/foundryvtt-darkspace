@@ -1,0 +1,23 @@
+{
+  "_id": "dsShipArmorShAdv",
+  "name": "Energy Shields (Adv.)",
+  "type": "darkspace.ShipArmor",
+  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "system": {
+    "description": "<p><b>En, EG, S(2).</b> Advanced system. +4 to AC against energy weapons. Ignored by Ammo (Am) weapons.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "acProjectile": 0,
+    "acEnergy": 4,
+    "cost": {
+      "cp": 0,
+      "gp": 600,
+      "sp": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipArmorShAdv"
+}

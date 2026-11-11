@@ -16,7 +16,10 @@
             {{/inline}}
             {{#each weapons as |item|}}
             <div class="ds-weapon-row item" data-item-id="{{item.id}}">
-                <a data-action="item-edit" data-item-id="{{item.id}}"><b class="item-name">{{item.name}}</b></a>
+                <div class="ds-flex-row">
+                    <a data-action="item-attack" data-item-id="{{item.id}}" title="Roll Attack"><i class="fas fa-crosshairs"></i> <b class="item-name">{{item.name}}</b></a>
+                    <a class="ds-ml-auto" data-action="item-edit" data-item-id="{{item.id}}" title="Edit Weapon"><i class="fas fa-pen-to-square"></i></a>
+                </div>
                 <span class="item-subtext">{{formatSubtext item.system.subtext}}</span>
             </div>
             {{/each}}

@@ -1,0 +1,140 @@
+{
+  "_id": "57837e60822ebf5c",
+  "name": "AeVAeEAeRAeDAeAAeNAeIAeTAeEAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 14,
+        "max": 14
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Mature verdanites move via pulling and swinging with their tendrils.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 tendril (NEAR) +3 (1d6 + paralyze) or 1 bite +3 (1d8)</p><p><strong>Collective.</strong> +1 to attacks and AC when in CLOSE range of another verdanite.</p><p><strong>Paralyze.</strong> DC 12 CON or paralyzed 1d4 rounds.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tendril (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/magic/unholy/projectile-smoke-tendril-green.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6 + paralyze"
+        },
+        "description": ""
+      },
+      "_id": "hWajaf9dSzQTQ10H",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!57837e60822ebf5c.hWajaf9dSzQTQ10H",
+      "effects": []
+    },
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "KS9QiixpOcKV6R0q",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!57837e60822ebf5c.KS9QiixpOcKV6R0q",
+      "effects": []
+    },
+    {
+      "name": "Collective",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>+1 to attacks and AC when in CLOSE range of another verdanite.</p></p>"
+      },
+      "_id": "QgIKzjOW0b3SBSgW",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!57837e60822ebf5c.QgIKzjOW0b3SBSgW",
+      "effects": []
+    },
+    {
+      "name": "Paralyze",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>DC 12 CON or paralyzed 1d4 rounds.</p></p>"
+      },
+      "_id": "9efCKUfycXUzDLrx",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!57837e60822ebf5c.9efCKUfycXUzDLrx",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!57837e60822ebf5c"
+}

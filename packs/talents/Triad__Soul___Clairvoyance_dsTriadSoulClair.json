@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadSoulClair",
+  "name": "Triad (Soul): Clairvoyance",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Soul (WIS).</b> Perceive distant locations, hidden truths, or brief glimpses of the near future.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadSoulClair"
+}

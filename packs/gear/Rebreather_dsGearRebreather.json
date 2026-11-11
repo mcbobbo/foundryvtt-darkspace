@@ -1,0 +1,43 @@
+{
+  "_id": "dsGearRebreather",
+  "name": "Rebreather",
+  "type": "Basic",
+  "img": "icons/equipment/head/mask-respirator-steel.webp",
+  "system": {
+    "description": "<p><b>EC.</b> Personal self-contained breathing device. Lasts for one hour of real time on a single Energy Cell.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 20,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false,
+    "light": {
+      "active": false,
+      "hasBeenUsed": false,
+      "isSource": true,
+      "longevityMins": 60,
+      "remainingSecs": 3600,
+      "template": "torch"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearRebreather"
+}

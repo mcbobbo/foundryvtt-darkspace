@@ -10,13 +10,16 @@
       "rare": 0,
       "select": 0,
       "selectOptions": [],
-      "fixed": []
+      "fixed": [
+        "Compendium.darkspace.languages.Item.dsLangGalStandrd",
+        "Compendium.darkspace.languages.Item.dsLangMachineCod"
+      ]
     },
     "talents": [
       "Compendium.darkspace.talents.Item.dsTraitMechanic0"
     ],
     "talentChoiceCount": 1,
-    "nameTable": "",
+    "nameTable": "Compendium.darkspace.rollable-tables.RollTable.dsNamesSynthetic",
     "source": {
       "title": "darkspace"
     }

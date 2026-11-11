@@ -2,8 +2,47 @@
     <div class="ds-tab-content">
 
         <div class="ds-ship-top">
-            {{> ship/component-section label="Systems" items=systems subtype="System" owner=owner}}
-            {{> ship/component-section label="Features" items=features subtype="Feature" owner=owner}}
+            {{> ship/component-section label="Systems" items=systems subtype="System" slotsUsed=systemSlotsUsed slotsMax=systemSlotsMax owner=owner}}
+            {{> ship/component-section label="Features" items=features subtype="Feature" slotsUsed=featureSlotsUsed slotsMax=featureSlotsMax owner=owner}}
+        </div>
+
+        <div class="ds-ship-top">
+            {{#> ui/ds-box header-label=(localize "DARKSPACE.sheet.ship.systems.armor") class="ds-ship-section"}}
+                {{#*inline "ds-box-header-span"}}
+                    {{#if owner}}
+                    <a data-action="item-create" data-item-type="darkspace.ShipArmor"><i class="fas fa-plus"></i></a>
+                    {{/if}}
+                {{/inline}}
+                {{#each armor as |item|}}
+                <div class="ds-component-row item" data-item-id="{{item.id}}">
+                    <a class="ds-component-name" data-action="item-edit" data-item-id="{{item.id}}">
+                        {{item.name}}
+                    </a>
+                    <span class="ds-label-small">P: {{item.system.acProjectile}} / E: {{item.system.acEnergy}}</span>
+                </div>
+                {{/each}}
+                {{#unless armor.length}}
+                <span class="ds-unset">—</span>
+                {{/unless}}
+            {{/ui/ds-box}}
+
+            {{#> ui/ds-box header-label=(localize "DARKSPACE.sheet.ship.systems.talents") class="ds-ship-section"}}
+                {{#*inline "ds-box-header-span"}}
+                    {{#if owner}}
+                    <a data-action="item-create" data-item-type="Talent"><i class="fas fa-plus"></i></a>
+                    {{/if}}
+                {{/inline}}
+                {{#each talents as |item|}}
+                <div class="ds-component-row item" data-item-id="{{item.id}}">
+                    <a class="ds-component-name" data-action="item-edit" data-item-id="{{item.id}}">
+                        {{item.name}}
+                    </a>
+                </div>
+                {{/each}}
+                {{#unless talents.length}}
+                <span class="ds-unset">—</span>
+                {{/unless}}
+            {{/ui/ds-box}}
         </div>
 
     </div>

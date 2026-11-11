@@ -1,0 +1,122 @@
+{
+  "_id": "372e1063a95cea20",
+  "name": "AeTAeHAeEAe AeAAeRAeBAeOAeRAeGAeEAeIAeSAeTAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "mod": -1,
+        "value": 8
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": 4,
+        "value": 18
+      },
+      "wis": {
+        "mod": 4,
+        "value": 18
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 25,
+        "max": 25
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "move": "near",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A massive biomechanical creature in the shape of an old hollow tree. The physical manifestation of R00t.</i></p><p><strong>Movement:</strong> near</p>",
+    "description": "<p><strong>Attacks:</strong> 2 branches +3 (1d8) or 1 Vine Whip (near) +2, (1d4)</p><p>Vine</p><p><strong>Whip.</strong> Target makes a contested STR check against the Arborgeist or is pulled into close range.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "branches",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "B8AnBpfF9QowEmLs",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!372e1063a95cea20.B8AnBpfF9QowEmLs",
+      "effects": []
+    },
+    {
+      "name": "1 vine whip (near) +2, (1d4)",
+      "type": "NPC Special Attack",
+      "img": "icons/weapons/misc/whip-red-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: 1 Vine Whip (near) +2, (1d4)</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "lEE3SMAGSeY5lwqG",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!372e1063a95cea20.lEE3SMAGSeY5lwqG",
+      "effects": []
+    },
+    {
+      "name": "Whip",
+      "type": "NPC Feature",
+      "img": "icons/magic/fire/beam-strike-whip-red.webp",
+      "system": {
+        "description": "<p>Target makes a contested STR check against the Arborgeist or is pulled into close range.</p></p>"
+      },
+      "_id": "XR9AyQS0IL4zXf57",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!372e1063a95cea20.XR9AyQS0IL4zXf57",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!372e1063a95cea20"
+}

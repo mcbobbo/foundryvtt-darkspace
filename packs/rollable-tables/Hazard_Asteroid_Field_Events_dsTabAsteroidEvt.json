@@ -1,0 +1,74 @@
+{
+  "_id": "dsTabAsteroidEvt",
+  "name": "Hazard: Asteroid Field Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Events occurring while navigating dense asteroid fields.</p>",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtac112e14138f6a",
+      "name": "Impact. Ship takes 1d8 hull damage.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Impact. Ship takes 1d8 hull damage.",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAsteroidEvt.rtac112e14138f6a"
+    },
+    {
+      "_id": "rtfec580c507fb5e",
+      "name": "Collision Course. DC 15 DEX check or take 1d8 hull damage.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Collision Course. DC 15 DEX check or take 1d8 hull damage.",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAsteroidEvt.rtfec580c507fb5e"
+    },
+    {
+      "_id": "rt3ffbc56b9d4977",
+      "name": "Random Event. Roll a void encounter.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Random Event. Roll a void encounter.",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAsteroidEvt.rt3ffbc56b9d4977"
+    },
+    {
+      "_id": "rtcd474327cbcea6",
+      "name": "Nothing occurs, but still trapped in the asteroid field.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Nothing occurs, but still trapped in the asteroid field.",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabAsteroidEvt.rtcd474327cbcea6"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabAsteroidEvt"
+}

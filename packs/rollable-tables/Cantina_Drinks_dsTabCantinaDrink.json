@@ -1,0 +1,74 @@
+{
+  "_id": "dsTabCantinaDrink",
+  "name": "Cantina: Drinks",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Available beverages at spacer dive bars and lounges.</p>",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtedffd85f3a5f9a",
+      "name": "Swill / Tepid Synth-Ale (1cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Swill / Tepid Synth-Ale (1cr)",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaDrink.rtedffd85f3a5f9a"
+    },
+    {
+      "_id": "rtea3c96cb4f4cbc",
+      "name": "Filtered Hooch / Grain Spirit (2cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Filtered Hooch / Grain Spirit (2cr)",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaDrink.rtea3c96cb4f4cbc"
+    },
+    {
+      "_id": "rta617e8d231439d",
+      "name": "Ionized Liquor / Blue Nebula (5cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ionized Liquor / Blue Nebula (5cr)",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaDrink.rta617e8d231439d"
+    },
+    {
+      "_id": "rtbebdced4160e1c",
+      "name": "Vintage Core-World Wine / Champagne (25cr)",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Vintage Core-World Wine / Champagne (25cr)",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabCantinaDrink.rtbebdced4160e1c"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabCantinaDrink"
+}

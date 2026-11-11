@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitCovertCom",
+  "name": "Covert Communication",
+  "type": "Talent",
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "system": {
+    "description": "<p>You can communicate secretly with others of your species or those who understand this communication.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitCovertCom"
+}

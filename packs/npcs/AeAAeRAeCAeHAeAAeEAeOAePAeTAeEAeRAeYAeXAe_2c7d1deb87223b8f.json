@@ -1,0 +1,86 @@
+{
+  "_id": "2c7d1deb87223b8f",
+  "name": "AeAAeRAeCAeHAeAAeEAeOAePAeTAeEAeRAeYAeXAe",
+  "type": "NPC",
+  "img": "icons/creatures/birds/raptor-hawk-flying.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -2,
+        "value": 6
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": -3,
+        "value": 4
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "fly",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A small, feathered bird-like dinosaur.</i></p><p><strong>Movement:</strong> NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 claws +1 (1d6)</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "claws",
+      "type": "NPC Attack",
+      "img": "icons/commodities/claws/talon-tan.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "GYyZjvL2d7MFdSIY",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!2c7d1deb87223b8f.GYyZjvL2d7MFdSIY",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!2c7d1deb87223b8f"
+}

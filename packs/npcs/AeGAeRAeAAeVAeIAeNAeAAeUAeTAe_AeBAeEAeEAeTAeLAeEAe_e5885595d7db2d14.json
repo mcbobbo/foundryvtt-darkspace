@@ -1,0 +1,122 @@
+{
+  "_id": "e5885595d7db2d14",
+  "name": "AeGAeRAeAAeVAeIAeNAeAAeUAeTAe AeBAeEAeEAeTAeLAeEAe",
+  "type": "NPC",
+  "img": "icons/environment/creatures/bug-beetle-gold-green.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": -3,
+        "value": 4
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40
+      },
+      "ac": {
+        "value": 17
+      }
+    },
+    "level": {
+      "value": 8
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A six-legged, low-slung creature found on high-grav planets. It has a diamond-hard, iridescent carapace.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 3 slam +5 (2d6) or 1 leap</p><p><strong>Charge.</strong> Move up to DOUBLE NEAR in straight line and make 1 slam attack. If hit, x3 damage.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "slam",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 5
+        },
+        "damage": {
+          "value": "2d6"
+        },
+        "description": ""
+      },
+      "_id": "kYWhcaCaVQTPBVzN",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e5885595d7db2d14.kYWhcaCaVQTPBVzN",
+      "effects": []
+    },
+    {
+      "name": "1 leap",
+      "type": "NPC Special Attack",
+      "img": "icons/creatures/mammals/deer-movement-leap-green.webp",
+      "system": {
+        "description": "<p>Special attack: 1 leap</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "xbv8c74bsY5KxdsB",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e5885595d7db2d14.xbv8c74bsY5KxdsB",
+      "effects": []
+    },
+    {
+      "name": "Charge",
+      "type": "NPC Feature",
+      "img": "icons/environment/people/charge.webp",
+      "system": {
+        "description": "<p>Move up to DOUBLE NEAR in straight line and make 1 slam attack. If hit, x3 damage.</p></p>"
+      },
+      "_id": "3uepRQLlxUvgtsxp",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e5885595d7db2d14.3uepRQLlxUvgtsxp",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!e5885595d7db2d14"
+}

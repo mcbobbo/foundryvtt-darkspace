@@ -1,0 +1,49 @@
+{
+  "_id": "dsShipWpExpMissl",
+  "name": "Explosive Missile",
+  "type": "darkspace.Weapon",
+  "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+  "system": {
+    "description": "<p>Single Use, Armor Piercing, Blast (1d6 features damaged), Target Lock (contested WIS vs target DEX).</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [
+      "Compendium.darkspace.properties.Item.shyeDh7JN37RSnLF",
+      "Compendium.darkspace.properties.Item.SFVSxglbBnqroH2T",
+      "Compendium.darkspace.properties.Item.fiQC0kqb2aG9liEK",
+      "Compendium.darkspace.properties.Item.dsPropTargetLock"
+    ],
+    "ammoClass": "",
+    "baseWeapon": "",
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 200,
+      "sp": 0
+    },
+    "damage": {
+      "oneHanded": "1d10",
+      "twoHanded": ""
+    },
+    "handedness": "1h",
+    "range": "near",
+    "type": "ranged",
+    "equipped": true,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "damageType": "Projectile",
+    "size": "Heavy"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipWpExpMissl"
+}

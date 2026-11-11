@@ -1,0 +1,35 @@
+{
+  "_id": "dsProgGate000000",
+  "name": "Program: Gate",
+  "type": "Basic",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": "<p><b>Hacking Program.</b> Grants advantage on checks to bypass a Firewall or security gate.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 75,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsProgGate000000"
+}

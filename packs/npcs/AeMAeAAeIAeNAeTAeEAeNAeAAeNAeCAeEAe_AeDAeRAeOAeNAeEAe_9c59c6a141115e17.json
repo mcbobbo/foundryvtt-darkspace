@@ -1,0 +1,143 @@
+{
+  "_id": "9c59c6a141115e17",
+  "name": "AeMAeAAeIAeNAeTAeEAeNAeAAeNAeCAeEAe AeDAeRAeOAeNAeEAe",
+  "type": "NPC",
+  "img": "icons/commodities/tech/plug.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 2,
+        "value": 14
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 5,
+        "max": 5
+      },
+      "ac": {
+        "value": 11
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "near",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Scuffed-up, utility bots controlled by R00t.</i></p><p><strong>Movement:</strong> near</p>",
+    "description": "<p><strong>Attacks:</strong> see below</p><p><strong>Function.</strong> Maintenance drones have various functions depending on their designated purpose. Attacks vary based on function. Roll for type:  1-2</p><p><strong>Cleaner.</strong> 1 caustic chemical spray, 2 targets up to near, CON check DC 9 or 1d4 damage.  3-4</p><p><strong>Loader.</strong> 1 pin, STR check DC 9 or immobilized, or 1 crush +2 (1d6).  5-6</p><p><strong>Repair.</strong> 1 claw +1 (1d4) or 1 welding torch (near) +1 (1d6).</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "See below",
+      "type": "NPC Special Attack",
+      "img": "icons/commodities/tech/cog-gold.webp",
+      "system": {
+        "description": "<p>Special attack: see below</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "YmF8Z4Py0N0GEWaz",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9c59c6a141115e17.YmF8Z4Py0N0GEWaz",
+      "effects": []
+    },
+    {
+      "name": "Function",
+      "type": "NPC Feature",
+      "img": "icons/commodities/tech/lever.webp",
+      "system": {
+        "description": "<p>Maintenance drones have various functions depending on their designated purpose. Attacks vary based on function. Roll for type:  1-2</p></p>"
+      },
+      "_id": "6AARPsAcYZ3p6sGU",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9c59c6a141115e17.6AARPsAcYZ3p6sGU",
+      "effects": []
+    },
+    {
+      "name": "Cleaner",
+      "type": "NPC Feature",
+      "img": "icons/commodities/tech/crank.webp",
+      "system": {
+        "description": "<p>1 caustic chemical spray, 2 targets up to near, CON check DC 9 or 1d4 damage.  3-4</p></p>"
+      },
+      "_id": "Kv5fZLbW3qLrnDq4",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9c59c6a141115e17.Kv5fZLbW3qLrnDq4",
+      "effects": []
+    },
+    {
+      "name": "Loader",
+      "type": "NPC Feature",
+      "img": "icons/commodities/tech/watch.webp",
+      "system": {
+        "description": "<p>1 pin, STR check DC 9 or immobilized, or 1 crush +2 (1d6).  5-6</p></p>"
+      },
+      "_id": "s6exGUcAWczbLzJW",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9c59c6a141115e17.s6exGUcAWczbLzJW",
+      "effects": []
+    },
+    {
+      "name": "Repair",
+      "type": "NPC Feature",
+      "img": "icons/commodities/tech/wheel.webp",
+      "system": {
+        "description": "<p>1 claw +1 (1d4) or 1 welding torch (near) +1 (1d6).</p></p>"
+      },
+      "_id": "TimFtmaOWDahrKgj",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9c59c6a141115e17.TimFtmaOWDahrKgj",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!9c59c6a141115e17"
+}

@@ -1,0 +1,204 @@
+{
+  "_id": "dsShipTabYacht00",
+  "name": "Ship Talents: Yacht",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "description": "<p>Level advancement talent table for Yacht-class starships.</p>",
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt67e876782649eb",
+      "name": "Escape Drive",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt67e876782649eb",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalEscapeDrv"
+    },
+    {
+      "_id": "rt969116f59bc21e",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        3,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt969116f59bc21e",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rte1f6cb558ac71e",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rte1f6cb558ac71e"
+    },
+    {
+      "_id": "rtda2860e77b4713",
+      "name": "+2 to Dexterity",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rtda2860e77b4713",
+      "documentUuid": "Compendium.darkspace.talents.Item.llp8weqh0aZU9YGu"
+    },
+    {
+      "_id": "rte0c198c60dbb1f",
+      "name": "+2 to Intelligence",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rte0c198c60dbb1f",
+      "documentUuid": "Compendium.darkspace.talents.Item.nLsubK2Gv9nGUu28"
+    },
+    {
+      "_id": "rt6a9e073b8f9c8e",
+      "name": "+2 to Wisdom",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt6a9e073b8f9c8e",
+      "documentUuid": "Compendium.darkspace.talents.Item.KLf9V21KyLQgPR2q"
+    },
+    {
+      "_id": "rt31a69915316206",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt31a69915316206",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt83052cad5fbc74",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt83052cad5fbc74"
+    },
+    {
+      "_id": "rt7e3c6192b96763",
+      "name": "Escape Drive",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt7e3c6192b96763",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalEscapeDrv"
+    },
+    {
+      "_id": "rtddd5a71afea6ec",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rtddd5a71afea6ec",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt847efee1f180f5",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt847efee1f180f5",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt8be4bef46cddc4",
+      "name": "Distribute to Stats",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabYacht00.rt8be4bef46cddc4",
+      "documentUuid": "Compendium.darkspace.rollable-tables.RollTable.82cnS0CVDgIW0l6w"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsShipTabYacht00"
+}

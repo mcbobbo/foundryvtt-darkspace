@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangRimDialect",
+  "name": "Rim Dialect",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Frontier speech of outer-rim settlers, rangers, and roughnecks.</p>",
+    "predefinedEffects": "",
+    "rarity": "common",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangRimDialect"
+}

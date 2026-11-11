@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabShopColor",
+  "name": "Shop Names: Color",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Color descriptor for vendor.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt20e734efa70bfd",
+      "name": "Rust",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rust",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt20e734efa70bfd"
+    },
+    {
+      "_id": "rtd176c5cd588a36",
+      "name": "Grey",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Grey",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rtd176c5cd588a36"
+    },
+    {
+      "_id": "rt701c07c1450b9d",
+      "name": "Neon",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Neon",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt701c07c1450b9d"
+    },
+    {
+      "_id": "rta3338eec9b71f8",
+      "name": "Black",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Black",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rta3338eec9b71f8"
+    },
+    {
+      "_id": "rt2b13cb8b0cd103",
+      "name": "Red",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Red",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt2b13cb8b0cd103"
+    },
+    {
+      "_id": "rteac59311799e53",
+      "name": "Concrete",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Concrete",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rteac59311799e53"
+    },
+    {
+      "_id": "rt16e8215fbf89a0",
+      "name": "Chrome",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Chrome",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt16e8215fbf89a0"
+    },
+    {
+      "_id": "rt4df444c60603d2",
+      "name": "Blue",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Blue",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt4df444c60603d2"
+    },
+    {
+      "_id": "rt65e8e5fb2791a6",
+      "name": "Silver",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Silver",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt65e8e5fb2791a6"
+    },
+    {
+      "_id": "rtc2a534c39aadb0",
+      "name": "Green",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Green",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rtc2a534c39aadb0"
+    },
+    {
+      "_id": "rt75091e021ae083",
+      "name": "Steel",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Steel",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt75091e021ae083"
+    },
+    {
+      "_id": "rtad7f25cc49d42f",
+      "name": "Ice",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Ice",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rtad7f25cc49d42f"
+    },
+    {
+      "_id": "rtd124e75c19e16d",
+      "name": "Cobalt",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cobalt",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rtd124e75c19e16d"
+    },
+    {
+      "_id": "rt3c2ae410e4d57c",
+      "name": "Amber",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Amber",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt3c2ae410e4d57c"
+    },
+    {
+      "_id": "rt67d77251572d61",
+      "name": "Gold",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Gold",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt67d77251572d61"
+    },
+    {
+      "_id": "rt499787b183e7aa",
+      "name": "Onyx",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Onyx",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt499787b183e7aa"
+    },
+    {
+      "_id": "rt0e82e9732987fe",
+      "name": "Azure",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Azure",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt0e82e9732987fe"
+    },
+    {
+      "_id": "rt84a39f81f6d48b",
+      "name": "Violet",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Violet",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt84a39f81f6d48b"
+    },
+    {
+      "_id": "rt6c4e040049e87f",
+      "name": "Pearl",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Pearl",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt6c4e040049e87f"
+    },
+    {
+      "_id": "rt139a5c4acc19f3",
+      "name": "Platinum",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Platinum",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopColor.rt139a5c4acc19f3"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabShopColor"
+}

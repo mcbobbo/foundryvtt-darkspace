@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalAuxProtoc",
+  "name": "Auxiliary Protocol",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>1/episode, repair a ship system without making a check. +1 use if the ship already has this Talent.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalAuxProtoc"
+}

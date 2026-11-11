@@ -1,0 +1,50 @@
+{
+  "_id": "dsTraitExtraArms",
+  "name": "Extra Arms",
+  "type": "Talent",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": "<p>Can take one extra non-attack action per turn. Increase gear slots by 2.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [
+    {
+      "_id": "ef191a3866966f92",
+      "name": "Extra Arms",
+      "type": "base",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "changes": [
+        {
+          "key": "system.slots",
+          "mode": 2,
+          "priority": null,
+          "value": "2"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsTraitExtraArms.ef191a3866966f92"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitExtraArms"
+}

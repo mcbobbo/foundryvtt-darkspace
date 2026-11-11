@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacShipGen0000",
+  "name": "Open Ship Generator",
+  "type": "script",
+  "author": null,
+  "img": "icons/commodities/tech/blueprint.webp",
+  "scope": "global",
+  "command": "/**\n * DarkSpace Starship Generator\n * Opens the Starship construction wizard.\n */\nif (globalThis.darkspace?.apps?.ShipGeneratorDS) {\n  new darkspace.apps.ShipGeneratorDS().render(true);\n} else {\n  ui.notifications.warn(\"DarkSpace: Ship Generator is not yet loaded.\");\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacShipGen0000"
+}

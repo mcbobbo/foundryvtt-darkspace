@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangBelterCreo",
+  "name": "Belter Creole",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Rapid, gesture-heavy dialect of asteroid miners and zero-G station workers.</p>",
+    "predefinedEffects": "",
+    "rarity": "common",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangBelterCreo"
+}

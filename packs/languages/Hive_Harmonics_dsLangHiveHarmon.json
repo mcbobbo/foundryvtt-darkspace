@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangHiveHarmon",
+  "name": "Hive Harmonics",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Pheromone-and-frequency communication of insectoid and collective species.</p>",
+    "predefinedEffects": "",
+    "rarity": "rare",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangHiveHarmon"
+}

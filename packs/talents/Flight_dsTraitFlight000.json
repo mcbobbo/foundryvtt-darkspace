@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitFlight000",
+  "name": "Flight",
+  "type": "Talent",
+  "img": "icons/creatures/abilities/wing-batlike-purple-blue.webp",
+  "system": {
+    "description": "<p>You can fly and/or walk.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitFlight000"
+}

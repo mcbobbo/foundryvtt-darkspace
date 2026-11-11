@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadMindWard0",
+  "name": "Triad (Mind): Kinetic Ward",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Mind (INT).</b> Erect a telekinetic barrier that deflects projectiles and energy blasts.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadMindWard0"
+}

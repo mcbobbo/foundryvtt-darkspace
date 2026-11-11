@@ -1,0 +1,311 @@
+{
+  "_id": "7bd6b27849d668b5",
+  "name": "AeTAeHAeEAe AeHAeEAePAeTAeIAeLAeOAeTAeLAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": 4,
+        "value": 18
+      },
+      "cha": {
+        "mod": 5,
+        "value": 20
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 70,
+        "max": 70
+      },
+      "ac": {
+        "value": 17
+      }
+    },
+    "level": {
+      "value": 15
+    },
+    "move": "NEAR",
+    "moveNote": "climb, swim",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Millennia ago, the Heptilotl glutted on the biomass of its flooded jungle world, devouring flora and fauna until it was barren, then coiled into a chrysalis amid its flooded crystal caverns. Some centuries later, a giant meteor shattered the Heptilotl's planet, flinging its still-intact hibernation cave as a rogue asteroid through the void. Recently, prospectors have set up shop on this asteroid, looking for xenominerals and unaware of the beast's ravenous maw, ready to wake at any time.</i></p><p><strong>Movement:</strong> NEAR (climb, swim)</p>",
+    "description": "<p><strong>Attacks:</strong> 2 rend (NEAR) +9 (1d10) and bite +9(2d10) or tongue lash and bite +9 (2d10) or shock burst.</p><p><strong>Legendary.</strong> Only damaged by Triad or enhanced weapon damage. Triad Powers targeting the Heptilotl are DC 18.</p><p><strong>Tremorhunt.</strong> Detects vibrations through water and floors well enough to count as vision.</p><p><strong>Impervious.</strong> Immune to electricity.</p><p><strong>Swallow.</strong> On a natural bite attack roll of 17-20, target is swallowed. Total darkness inside and 2d10 damage per round. Heptitol regurgitates all swallowed if dealt at least 20 damage in one round to the inside of its gullet.</p><p>Tongue</p><p><strong>Lash.</strong> One target within NEAR, DC 15 DEX save pulled CLOSE and MV becomes 0. The target may make a DC 15 STR save on its turn to resume movement as normal. Tongue Lash can reach through doors and vents or around corners.</p><p>Shock</p><p><strong>Burst.</strong> Area blast within NEAR (flooded areas only), DC 15 CON save or 2d8 damage; fries nearby electronics (locks short, lights flicker, comms jam).</p><p><strong>Hibernate.</strong> While underwater, forms into a crystalline cocoon and heals 1d4 HP per round. While in this form, may remain dormant and hidden indefinitely. Shattering the crystal awakens the</p><p><strong>Heptilotl.</strong> \"The chrysalis cracked... and hunger uncoiled from the void.\" \u2014</p><p><strong>Dr.</strong> Lir Voss, Final Transmission</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "rend (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/commodities/tech/claw-mechanical.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "1d10"
+        },
+        "description": ""
+      },
+      "_id": "96dAwAbAqinBFacB",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.96dAwAbAqinBFacB",
+      "effects": []
+    },
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/commodities/bones/bone-jaw-teeth-white-grey.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "2d10"
+        },
+        "description": ""
+      },
+      "_id": "tcjImDFtcMATaxPW",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.tcjImDFtcMATaxPW",
+      "effects": []
+    },
+    {
+      "name": "Tongue lash",
+      "type": "NPC Special Attack",
+      "img": "icons/commodities/biological/tongue-red.webp",
+      "system": {
+        "description": "<p>Special attack: tongue lash</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "HS1GorqlWQiOKWbe",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.HS1GorqlWQiOKWbe",
+      "effects": []
+    },
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/commodities/bones/bone-jaw-teeth-white-grey.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "2d10"
+        },
+        "description": ""
+      },
+      "_id": "SmNjxSAcPMspT92m",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.SmNjxSAcPMspT92m",
+      "effects": []
+    },
+    {
+      "name": "Shock burst.",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/air/air-burst-spiral-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: shock burst.</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "v6d1g4685WnOx5hV",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.v6d1g4685WnOx5hV",
+      "effects": []
+    },
+    {
+      "name": "Legendary",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Only damaged by Triad or enhanced weapon damage. Triad Powers targeting the Heptilotl are DC 18.</p></p>"
+      },
+      "_id": "BVcQvzt1BkGRcWjy",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.BVcQvzt1BkGRcWjy",
+      "effects": []
+    },
+    {
+      "name": "Tremorhunt",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Detects vibrations through water and floors well enough to count as vision.</p></p>"
+      },
+      "_id": "sLiZa6OAzwJv8Zu8",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.sLiZa6OAzwJv8Zu8",
+      "effects": []
+    },
+    {
+      "name": "Impervious",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Immune to electricity.</p></p>"
+      },
+      "_id": "Nc46ZGTSE3Bv9fCI",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.Nc46ZGTSE3Bv9fCI",
+      "effects": []
+    },
+    {
+      "name": "Swallow",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>On a natural bite attack roll of 17-20, target is swallowed. Total darkness inside and 2d10 damage per round. Heptitol regurgitates all swallowed if dealt at least 20 damage in one round to the inside of its gullet.</p><p>Tongue</p></p>"
+      },
+      "_id": "4rG3hWd5AeA5TNhq",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.4rG3hWd5AeA5TNhq",
+      "effects": []
+    },
+    {
+      "name": "Lash",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>One target within NEAR, DC 15 DEX save pulled CLOSE and MV becomes 0. The target may make a DC 15 STR save on its turn to resume movement as normal. Tongue Lash can reach through doors and vents or around corners.</p><p>Shock</p></p>"
+      },
+      "_id": "RiubeGrPKnrv5Bjk",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.RiubeGrPKnrv5Bjk",
+      "effects": []
+    },
+    {
+      "name": "Burst",
+      "type": "NPC Feature",
+      "img": "icons/magic/air/air-burst-spiral-pink.webp",
+      "system": {
+        "description": "<p>Area blast within NEAR (flooded areas only), DC 15 CON save or 2d8 damage; fries nearby electronics (locks short, lights flicker, comms jam).</p></p>"
+      },
+      "_id": "wgECb490TeFKALJt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.wgECb490TeFKALJt",
+      "effects": []
+    },
+    {
+      "name": "Hibernate",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>While underwater, forms into a crystalline cocoon and heals 1d4 HP per round. While in this form, may remain dormant and hidden indefinitely. Shattering the crystal awakens the</p></p>"
+      },
+      "_id": "i1IX3GC8xGYFFaJI",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.i1IX3GC8xGYFFaJI",
+      "effects": []
+    },
+    {
+      "name": "Heptilotl",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>\"The chrysalis cracked... and hunger uncoiled from the void.\" \u2014</p></p>"
+      },
+      "_id": "7vQDndShW1We7fXg",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.7vQDndShW1We7fXg",
+      "effects": []
+    },
+    {
+      "name": "Dr",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Lir Voss, Final Transmission</p></p>"
+      },
+      "_id": "fBJa6LUYEy8jx8jC",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7bd6b27849d668b5.fBJa6LUYEy8jx8jC",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!7bd6b27849d668b5"
+}

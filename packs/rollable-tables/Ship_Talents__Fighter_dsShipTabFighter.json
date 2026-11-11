@@ -1,0 +1,204 @@
+{
+  "_id": "dsShipTabFighter",
+  "name": "Ship Talents: Fighter",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "description": "<p>Level advancement talent table for Fighter-class starships.</p>",
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt69f6703525f46b",
+      "name": "Barrel Roll!",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt69f6703525f46b",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalBarrelRol"
+    },
+    {
+      "_id": "rt379d62bc433959",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        3,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt379d62bc433959",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt179ec899ac0604",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt179ec899ac0604"
+    },
+    {
+      "_id": "rte643a39745ff00",
+      "name": "+2 to Dexterity",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rte643a39745ff00",
+      "documentUuid": "Compendium.darkspace.talents.Item.llp8weqh0aZU9YGu"
+    },
+    {
+      "_id": "rtdbada06b44c918",
+      "name": "+2 to Wisdom",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rtdbada06b44c918",
+      "documentUuid": "Compendium.darkspace.talents.Item.KLf9V21KyLQgPR2q"
+    },
+    {
+      "_id": "rt67e66313d328a5",
+      "name": "+2 to Charisma",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt67e66313d328a5",
+      "documentUuid": "Compendium.darkspace.talents.Item.iXcz15Voztb2VF8u"
+    },
+    {
+      "_id": "rt3a9f7293267239",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt3a9f7293267239",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rte703f93d2fe314",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rte703f93d2fe314"
+    },
+    {
+      "_id": "rt2ca6c1686897f0",
+      "name": "Barrel Roll!",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt2ca6c1686897f0",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalBarrelRol"
+    },
+    {
+      "_id": "rt5d72d43727bae2",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt5d72d43727bae2",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt3f146b21c8dab0",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt3f146b21c8dab0",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt3abd60a3ab8a64",
+      "name": "Distribute to Stats",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabFighter.rt3abd60a3ab8a64",
+      "documentUuid": "Compendium.darkspace.rollable-tables.RollTable.82cnS0CVDgIW0l6w"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsShipTabFighter"
+}

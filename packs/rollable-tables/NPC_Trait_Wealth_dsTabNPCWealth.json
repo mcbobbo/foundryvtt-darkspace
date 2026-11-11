@@ -1,0 +1,74 @@
+{
+  "_id": "dsTabNPCWealth",
+  "name": "NPC Trait: Wealth",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Socio-economic standing of an NPC.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rte9bc8a314168c2",
+      "name": "Destitute / In Debt",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Destitute / In Debt",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCWealth.rte9bc8a314168c2"
+    },
+    {
+      "_id": "rt7a75df8cbee57c",
+      "name": "Working Class / Average",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Working Class / Average",
+      "drawn": false,
+      "range": [
+        2,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCWealth.rt7a75df8cbee57c"
+    },
+    {
+      "_id": "rtc1cb655a2a8734",
+      "name": "Prosperous / Wealthy",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Prosperous / Wealthy",
+      "drawn": false,
+      "range": [
+        4,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCWealth.rtc1cb655a2a8734"
+    },
+    {
+      "_id": "rt22616012a0f97f",
+      "name": "Extravagant / Oligarch",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Extravagant / Oligarch",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabNPCWealth.rt22616012a0f97f"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabNPCWealth"
+}

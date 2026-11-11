@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangPrecursor0",
+  "name": "Precursor",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Ancient geometric glyphs and mathematical syntax of extinct star-builders.</p>",
+    "predefinedEffects": "",
+    "rarity": "rare",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangPrecursor0"
+}

@@ -1,0 +1,576 @@
+{
+  "_id": "dsStockExpStarWand",
+  "name": "Explorer - ERD-1 'Star Wanderer' (Surveyor)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "mod": 0
+      },
+      "dex": {
+        "value": 14,
+        "mod": 2
+      },
+      "con": {
+        "value": 14,
+        "mod": 2
+      },
+      "int": {
+        "value": 12,
+        "mod": 1
+      },
+      "wis": {
+        "value": 14,
+        "mod": 2
+      },
+      "cha": {
+        "value": 10,
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 19,
+        "max": 19
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "coins": {
+      "gp": 17000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassExplo",
+    "notes": "<p>Rugged long-range surveyor designed for multi-year expeditions into the deep black.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl674961316a56",
+      "name": "Explorer",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Scouts, trailblazers, surveyors, and cartographers. Explorers are the eyes that pierce the endless night, charting the paths for others to follow.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 8,
+        "featureSlots": 7,
+        "hpDie": "d4",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.4flHzfW1AVHjeO43"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalLongRange",
+          "Compendium.darkspace.talents.Item.dsShTalMade2Last",
+          "Compendium.darkspace.talents.Item.dsShTalStarblaze"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabExplore"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCl674961316a56"
+    },
+    {
+      "_id": "shCp64f34741b1e8",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCp64f34741b1e8"
+    },
+    {
+      "_id": "shCpa618ca18566f",
+      "name": "FTL Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at FTL speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 4000,
+          "repair": 2000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCpa618ca18566f"
+    },
+    {
+      "_id": "shCpf4275d0c1ac9",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCpf4275d0c1ac9"
+    },
+    {
+      "_id": "shCp9288f0c5bbe4",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCp9288f0c5bbe4"
+    },
+    {
+      "_id": "shCp0b16839113fa",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCp0b16839113fa"
+    },
+    {
+      "_id": "shCp6bcf608ef321",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCp6bcf608ef321"
+    },
+    {
+      "_id": "shCpc3972042069e",
+      "name": "Weapons Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with weapons. Each weapon requires a gunner to use it. Fire-linked arrays require only one gunner.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 100,
+          "repair": 50
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCpc3972042069e"
+    },
+    {
+      "_id": "shCpc0364f4a75bb",
+      "name": "Cargo Hold",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can carry 10 m3 units of cargo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [
+        {
+          "_id": "ef67daf96193206a",
+          "name": "Cargo Hold Capacity",
+          "type": "base",
+          "img": "icons/commodities/tech/console-steel.webp",
+          "changes": [
+            {
+              "key": "system.cargo.max",
+              "mode": 2,
+              "priority": null,
+              "value": "10"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "flags": {},
+          "_key": "!actors.items.effects!dsStockExpStarWand.shCpc0364f4a75bb.ef67daf96193206a"
+        }
+      ],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCpc0364f4a75bb"
+    },
+    {
+      "_id": "shCpbf1d82131db2",
+      "name": "Crew Quarters",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>Bunks required to take a Rest while on the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 250
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCpbf1d82131db2"
+    },
+    {
+      "_id": "shCpe9dd5a93890f",
+      "name": "Galley",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>A fully stocked kitchen area. On a successful DC 12 WIS check, the crew don't use a ration during Resting.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 500,
+          "repair": 100
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCpe9dd5a93890f"
+    },
+    {
+      "_id": "shCp16762cbfd534",
+      "name": "Medical Bay",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>A fully stocked medical facility. Using it to perform medical tasks grants advantage. On a successful DC 15 INT check, an ally regains 1d6 hp.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 700,
+          "repair": 300
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shCp16762cbfd534"
+    },
+    {
+      "_id": "shArec8fab20c2b4",
+      "name": "Armor Plating, Medium",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>Ph.</b> 13 + Ship DEX modifier (+3 AC vs Projectile and Energy). Ship DEX mod is halved (round down) for maneuver checks.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 3,
+        "acEnergy": 3,
+        "cost": {
+          "cp": 0,
+          "gp": 400,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shArec8fab20c2b4"
+    },
+    {
+      "_id": "shArfa9d12709565",
+      "name": "Energy Shields",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>En, EG, S(1).</b> +2 to AC against energy weapons. Ignored by Ammo (Am) weapons. Shorted out on a natural 20 attack roll against the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 0,
+        "acEnergy": 2,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shArfa9d12709565"
+    },
+    {
+      "_id": "shWpffbcefa7172f",
+      "name": "Projectile Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale medium projectile cannon. Requires ammo.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.Tg2j6CxrmNwtvdWI"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 200,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d6",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "near",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Projectile",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shWpffbcefa7172f"
+    },
+    {
+      "_id": "shWpf66034d2b581",
+      "name": "Laser Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale standard laser cannon powered by the ship's energy generator.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.dsPropEnergyGen0"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d8",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "far",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Energy",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shWpf66034d2b581"
+    },
+    {
+      "_id": "shTlf16edba17197",
+      "name": "Long Range Sensors",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>While the Sensor Array is online, all DCs for detecting hazards and threats are reduced by 3.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shTlf16edba17197"
+    },
+    {
+      "_id": "shTldd2a851739c5",
+      "name": "Made to Last",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship has advantage on CON checks to resist damage from hazards and extreme conditions.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shTldd2a851739c5"
+    },
+    {
+      "_id": "shTl2d5f45af72ad",
+      "name": "Starblazer",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is designed for finding new navigational routes even through treacherous regions of space. Astrogation Mishap rolls are made with advantage to determine the outcome.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockExpStarWand.shTl2d5f45af72ad"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockExpStarWand"
+}

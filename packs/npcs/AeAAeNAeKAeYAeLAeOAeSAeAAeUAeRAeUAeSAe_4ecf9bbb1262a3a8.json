@@ -1,0 +1,101 @@
+{
+  "_id": "4ecf9bbb1262a3a8",
+  "name": "AeAAeNAeKAeYAeLAeOAeSAeAAeUAeRAeUAeSAe",
+  "type": "NPC",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": -3,
+        "value": 4
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 25,
+        "max": 25
+      },
+      "ac": {
+        "value": 15
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Large, armored reptile with a clubbed tail and spikes.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 club tail +4 (1d8 + knock)</p><p><strong>Knock.</strong> DC 15 STR or pushed a CLOSE distance and fall down.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "club tail",
+      "type": "NPC Attack",
+      "img": "icons/weapons/clubs/club-barbed.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "1d8 + knock"
+        },
+        "description": ""
+      },
+      "_id": "gjGO3eYrM0EgyAN9",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4ecf9bbb1262a3a8.gjGO3eYrM0EgyAN9",
+      "effects": []
+    },
+    {
+      "name": "Knock",
+      "type": "NPC Feature",
+      "img": "icons/svg/down.svg",
+      "system": {
+        "description": "<p>DC 15 STR or pushed a CLOSE distance and fall down.</p></p>"
+      },
+      "_id": "lNxupYVRHx3lfLRt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4ecf9bbb1262a3a8.lNxupYVRHx3lfLRt",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!4ecf9bbb1262a3a8"
+}

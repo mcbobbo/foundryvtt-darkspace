@@ -6,11 +6,11 @@ const { ActorSheetV2 } = foundry.applications.sheets;
 export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
 
     constructor(object, options) {
-		super(object, options);
+        super(object, options);
 
-		// Unlocks every derived/locked value on the sheet at once
-		this.editing = false;
-	}
+        // Unlocks every derived/locked value on the sheet at once
+        this.editing = false;
+    }
 
     static DEFAULT_OPTIONS = {
         classes: ["darkspace", "ship"],
@@ -49,13 +49,8 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
         },
     };
 
-    /** Hook ids registered while the sheet is open, so they can be removed on close. */
     #crewHooks = [];
 
-    /**
-     * Crew data lives on the spacer documents, so their updates never touch
-     * the ship — watch for them while the sheet is open and re-render.
-     */
     #isCrewChange(actor, changed = {}) {
         if (actor.type !== "darkspace.Spacer") return false;
         return actor.system.shipUuid === this.actor.uuid
@@ -73,6 +68,13 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
                 if (this.#isCrewChange(actor)) this.render();
             })],
         ];
+
+        // Context menu for components, armor, talents, and cargo rows
+        this._createContextMenu(this.#getShipItemContextOptions.bind(this), ".item[data-item-id]", {
+            fixed: true,
+            hookName: "getShipItemContextOptions",
+            parentClassHooks: false,
+        });
     }
 
     /** @override */
@@ -120,11 +122,17 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
         context.features  = items.filter(i => i.type === "darkspace.ShipComponent" && i.system.type === "Feature");
         context.armor     = items.filter(i => i.type === "darkspace.ShipArmor");
         context.weapons   = items.filter(i => i.type === "darkspace.Weapon");
+        context.talents   = items.filter(i => i.type === "Talent");
         context.cargo     = system.getCargoItems();
 
         Object.assign(context, await this.#prepareCrewContext());
 
-        context.shipClass    = await system.getShipClass();
+        context.shipClass       = await system.getShipClass();
+        context.systemSlotsUsed = context.systems.reduce((sum, i) => sum + (i.system.slots ?? 1), 0);
+        context.featureSlotsUsed = context.features.reduce((sum, i) => sum + (i.system.slots ?? 1), 0);
+        context.systemSlotsMax  = context.shipClass?.system?.systemSlots ?? 0;
+        context.featureSlotsMax = context.shipClass?.system?.featureSlots ?? 0;
+
         context.acProjectile = system.attributes?.ac?.projectile ?? 0;
         context.acEnergy     = system.attributes?.ac?.energy     ?? 0;
 
@@ -136,7 +144,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
     }
 
     async #prepareCrewContext() {
-
         const shipRoles  = this.actor.items.filter(i => i.type === "darkspace.ShipRole")
             .sort((a, b) => a.sort - b.sort);
         const crewActors = this.actor.system.getCrew();
@@ -160,7 +167,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
             };
         }));
 
-        // Role rows: one assignee per role, resolved from whichever crew member holds it.
         const roles = shipRoles.map(role => {
             const holder = crewActors.find(a => (a.system?.shipRoleUuids ?? []).includes(role.uuid));
             return {
@@ -172,8 +178,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
             };
         });
 
-        // Gunner roles are derived, one per ship weapon, keyed by the weapon's
-        // uuid so assignments reuse the same shipRoleUuids machinery.
         const gunnerRoles = this.actor.items.filter(i => i.type === "darkspace.Weapon")
             .sort((a, b) => a.sort - b.sort)
             .map(weapon => {
@@ -200,14 +204,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
             this.element,
             ".ds-crew-card",
             this.#getCrewContextOptions(),
-            { jQuery: false }
-        );
-
-        // Right-click menu on weapon rows
-        new foundry.applications.ux.ContextMenu.implementation(
-            this.element,
-            ".ds-weapon-row",
-            this.#getWeaponContextOptions(),
             { jQuery: false }
         );
 
@@ -261,15 +257,15 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
     static #onRollAbilityCheck(event, target) {
         const ability = target.dataset.ability;
         if (!ability) return;
-        // skip roll prompt if shift clicked
         this.actor.system.rollStatCheck(ability, { skipPrompt: event.shiftKey });
     }
 
     static async #onItemCreate(event, target) {
         const itemType = target.dataset.itemType;
         const subtype  = target.dataset.componentSubtype;
+        const label    = subtype ?? (itemType.includes(".") ? itemType.split(".")[1] : itemType);
         const itemData = {
-            name:   `New ${subtype ?? itemType.split(".")[1]}`,
+            name:   `New ${label}`,
             type:   itemType,
             system: subtype ? { type: subtype } : {},
         };
@@ -285,7 +281,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
         const itemId = target.dataset.itemId;
         const item   = this.actor.items.get(itemId);
         if (!item) return;
-        // Weapons carry a derived gunner role, so they need the same cleanup as roles.
         if (["darkspace.ShipRole", "darkspace.Weapon"].includes(item.type)) {
             await this.#unassignRoleFromCrew(item.uuid);
         }
@@ -293,7 +288,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
     }
 
     static async #onLevelUp(event, target) {
-        // The hit die and talent table both live on the ship class.
         const shipClass = await this.actor.system.getShipClass();
         if (!shipClass) {
             return ui.notifications.warn(game.i18n.localize("DARKSPACE.sheet.ship.level.noClass"));
@@ -319,8 +313,32 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
     }
 
     // -----------------------------------------------
-    // Context menu (crew cards)
+    // Context menus
     // -----------------------------------------------
+
+    #getShipItemContextOptions() {
+        return [
+            {
+                name: "DARKSPACE.sheet.contextMenu.edit",
+                icon: '<i class="fa-solid fa-pen-to-square"></i>',
+                condition: () => this.actor.isOwner,
+                callback: element => this.actor.items.get(element.dataset.itemId)?.sheet.render(true),
+            },
+            {
+                name: "DARKSPACE.sheet.contextMenu.delete",
+                icon: '<i class="fa-solid fa-trash"></i>',
+                condition: () => this.actor.isOwner,
+                callback: async element => {
+                    const item = this.actor.items.get(element.dataset.itemId);
+                    if (!item) return;
+                    if (["darkspace.ShipRole", "darkspace.Weapon"].includes(item.type)) {
+                        await this.#unassignRoleFromCrew(item.uuid);
+                    }
+                    item.delete();
+                },
+            },
+        ];
+    }
 
     #getCrewContextOptions() {
         return [
@@ -328,22 +346,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
                 name: "Remove from crew",
                 icon: '<i class="fas fa-trash"></i>',
                 callback: element => this.#removeCrew(element.dataset.uuid),
-            },
-        ];
-    }
-
-    #getWeaponContextOptions() {
-        return [
-            {
-                name: "Delete",
-                icon: '<i class="fas fa-trash"></i>',
-                callback: async element => {
-                    const item = this.actor.items.get(element.dataset.itemId);
-                    if (!item) return;
-                    // Deleting a weapon removes its derived gunner role.
-                    await this.#unassignRoleFromCrew(item.uuid);
-                    item.delete();
-                },
             },
         ];
     }
@@ -368,7 +370,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
         const spacer = await fromUuid(uuid).catch(() => null);
         if (spacer) {
             await spacer.update({ "system.shipUuid": "", "system.shipRoleUuids": [] });
-            // Crew is derived from the spacer, so the ship document is unchanged — re-render manually.
             this.render();
         }
     }
@@ -382,16 +383,18 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
 
     static #onItemAttack(event, target) {
         const data = {
-            skipPrompt: event.shiftKey, // skip roll prompt if shift clicked
+            skipPrompt: event.shiftKey,
         };
         if (target.dataset.attackType) {
             data.attack = { type: target.dataset.attackType };
         }
-        this.actor.system.rollAttack(target.dataset.itemId, data);
+        const item = this.actor.items.get(target.dataset.itemId);
+        const itemUuid = target.dataset.itemUuid ?? item?.uuid;
+        if (itemUuid) this.actor.system.rollAttack(itemUuid, data);
     }
 
     // -----------------------------------------------
-    // Instance handler (change event, needs closure)
+    // Instance handlers
     // -----------------------------------------------
 
     async #onInputCredits(event) {
@@ -402,7 +405,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
     async #onRoleSpacerChange(event) {
         const roleUuid = event.currentTarget.dataset.roleUuid;
         const newUuid  = event.currentTarget.value;
-        // A role has a single assignee: grant it to the chosen spacer, revoke from the rest.
         for (const spacer of this.actor.system.getCrew()) {
             const roleUuids = spacer.system.shipRoleUuids ?? [];
             const has       = roleUuids.includes(roleUuid);
@@ -411,11 +413,9 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
             const next = should ? [...roleUuids, roleUuid] : roleUuids.filter(u => u !== roleUuid);
             await spacer.update({ "system.shipRoleUuids": next });
         }
-        // Role assignments live on the spacer, so the ship document is unchanged — re-render manually.
         this.render();
     }
 
-    /** Strip a role from every crew member that currently holds it. */
     async #unassignRoleFromCrew(roleUuid) {
         for (const spacer of this.actor.system.getCrew()) {
             const roleUuids = spacer.system.shipRoleUuids ?? [];
@@ -433,10 +433,8 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
     async _onDropActor(event, actor) {
         if (!this.actor.isOwner) return null;
         if (actor?.type !== "darkspace.Spacer") return null;
-        // Assigning to this ship moves the spacer off any previous one and clears stale roles.
         if (actor.system.shipUuid !== this.actor.uuid) {
             await actor.update({ "system.shipUuid": this.actor.uuid, "system.shipRoleUuids": [] });
-            // Crew is derived from the spacer, so the ship document is unchanged — re-render manually.
             this.render();
         }
         return actor;
@@ -446,7 +444,6 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
     async _onDropItem(event, item) {
         if (!this.actor.isOwner) return null;
 
-        // Dropping an item the ship already owns is a sort, handled by the core sheet.
         if (item.parent?.uuid === this.actor.uuid) return super._onDropItem(event, item);
 
         if (item.type === "darkspace.ShipClass") {
@@ -467,12 +464,7 @@ export default class ShipSheet extends HandlebarsApplicationMixin(ActorSheetV2) 
             return newItem;
         }
 
-        if (item.type === "darkspace.ShipRole") {
-            const [newItem] = await this.actor.createEmbeddedDocuments("Item", [item.toObject()]);
-            return newItem;
-        }
-
-        if (item.type === "darkspace.ShipComponent") {
+        if (["darkspace.ShipRole", "darkspace.ShipComponent", "darkspace.ShipArmor", "darkspace.Cargo"].includes(item.type)) {
             const [newItem] = await this.actor.createEmbeddedDocuments("Item", [item.toObject()]);
             return newItem;
         }

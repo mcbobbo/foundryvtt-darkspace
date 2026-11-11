@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadMindTelek",
+  "name": "Triad (Mind): Telekinesis",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Mind (INT).</b> Move, hurl, or restrain objects and creatures with your mind using your INT check vs target DC.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadMindTelek"
+}

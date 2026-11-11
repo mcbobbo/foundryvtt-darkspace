@@ -1,0 +1,68 @@
+{
+  "_id": "dsCybRangeFinder",
+  "name": "Cyberware: Range Finder",
+  "type": "Basic",
+  "img": "icons/weapons/guns/rifle-scope-sniper.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> +1 damage with ranged weapons.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [
+    {
+      "_id": "ef1e8cd841d45fa5",
+      "name": "Range Finder",
+      "type": "base",
+      "img": "icons/weapons/guns/rifle-scope-sniper.webp",
+      "changes": [
+        {
+          "key": "system.roll.ranged.damage.all",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsCybRangeFinder.ef1e8cd841d45fa5"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybRangeFinder"
+}

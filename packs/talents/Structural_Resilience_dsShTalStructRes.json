@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalStructRes",
+  "name": "Structural Resilience",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>The ship has advantage on STR checks to overcome an opposing force, such as breaking free of a gravity well or through a barrier.</p>",
+    "talentClass": "class",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalStructRes"
+}

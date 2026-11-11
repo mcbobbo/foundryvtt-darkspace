@@ -1,0 +1,204 @@
+{
+  "_id": "dsShipTabResearc",
+  "name": "Ship Talents: Research",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "description": "<p>Level advancement talent table for Research-class starships.</p>",
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt6955741f5748f8",
+      "name": "Scientific Probe",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt6955741f5748f8",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalSciProbe0"
+    },
+    {
+      "_id": "rt31ed5b7d140482",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        3,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt31ed5b7d140482",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt68b13ce7b60c68",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt68b13ce7b60c68"
+    },
+    {
+      "_id": "rt2f1499227b78b5",
+      "name": "+2 to Dexterity",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt2f1499227b78b5",
+      "documentUuid": "Compendium.darkspace.talents.Item.llp8weqh0aZU9YGu"
+    },
+    {
+      "_id": "rt3f85c6a457ab56",
+      "name": "+2 to Intelligence",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt3f85c6a457ab56",
+      "documentUuid": "Compendium.darkspace.talents.Item.nLsubK2Gv9nGUu28"
+    },
+    {
+      "_id": "rt14ce6b3796e5d6",
+      "name": "+2 to Wisdom",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt14ce6b3796e5d6",
+      "documentUuid": "Compendium.darkspace.talents.Item.KLf9V21KyLQgPR2q"
+    },
+    {
+      "_id": "rt6678826c7a64b0",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt6678826c7a64b0",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt3ed2adbc2b80ed",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt3ed2adbc2b80ed"
+    },
+    {
+      "_id": "rt5046dc82aaf9ee",
+      "name": "Scientific Probe",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt5046dc82aaf9ee",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalSciProbe0"
+    },
+    {
+      "_id": "rt93736e8bb7ccff",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt93736e8bb7ccff",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt7a74db4908c1ec",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt7a74db4908c1ec",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt38081e27161352",
+      "name": "Distribute to Stats",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabResearc.rt38081e27161352",
+      "documentUuid": "Compendium.darkspace.rollable-tables.RollTable.82cnS0CVDgIW0l6w"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsShipTabResearc"
+}

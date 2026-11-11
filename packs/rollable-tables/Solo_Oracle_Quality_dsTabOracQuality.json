@@ -1,0 +1,89 @@
+{
+  "_id": "dsTabOracQuality",
+  "name": "Solo Oracle: Quality",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Build quality or condition of discovered tech.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt9a8f34f75b196e",
+      "name": "Damaged. Non-functional without repairs.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Damaged. Non-functional without repairs.",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracQuality.rt9a8f34f75b196e"
+    },
+    {
+      "_id": "rt25e7516de87852",
+      "name": "Inferior. Flimsy, cobbled-together, or failing.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Inferior. Flimsy, cobbled-together, or failing.",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracQuality.rt25e7516de87852"
+    },
+    {
+      "_id": "rt1276e6f8b48c5f",
+      "name": "Standard / Basic. Factory condition and functional.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Standard / Basic. Factory condition and functional.",
+      "drawn": false,
+      "range": [
+        3,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracQuality.rt1276e6f8b48c5f"
+    },
+    {
+      "_id": "rt4e9b24f99fffb2",
+      "name": "Superior. High-grade alloy or finely tuned (+1 to checks).",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Superior. High-grade alloy or finely tuned (+1 to checks).",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracQuality.rt4e9b24f99fffb2"
+    },
+    {
+      "_id": "rt2a1f199aec2143",
+      "name": "Masterwork / Military. Exceptional military-grade technology.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Masterwork / Military. Exceptional military-grade technology.",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracQuality.rt2a1f199aec2143"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabOracQuality"
+}

@@ -1,0 +1,170 @@
+{
+  "_id": "809fb3282107e24c",
+  "name": "AeSAePAeAAeCAeEAe AeAAePAeEAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 44,
+        "max": 44
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 9
+    },
+    "move": "NEAR",
+    "moveNote": "starglide",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>\"How did he get here? How can he survive in space? Why is he so magical?\"</i></p><p><strong>Movement:</strong> NEAR (starglide)</p>",
+    "description": "<p><strong>Attacks:</strong> 2 fists +7 (2d8 + crush) or 1 asteroid (FAR) +7 (2d10)</p><p>Ship</p><p><strong>Scale.</strong> Space Ape is the size of a ship and attacks and damages as such.</p><p>Space</p><p><strong>Dweller.</strong> Immune to harm from cold and vacuum. Does not require oxygen.</p><p><strong>Starglide.</strong> Moves normally and does not suffer knockback in 0-G.</p><p><strong>Crush.</strong> Deals an extra die of damage if it hits the same target with both attacks.  Telekinesis (Body Power). Can move objects by mystical means. Mostly uses it to fling asteroids at ships.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "fists",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 7
+        },
+        "damage": {
+          "value": "2d8 + crush"
+        },
+        "description": ""
+      },
+      "_id": "izNLJGZXlmd0W6jx",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!809fb3282107e24c.izNLJGZXlmd0W6jx",
+      "effects": []
+    },
+    {
+      "name": "asteroid (FAR)",
+      "type": "NPC Attack",
+      "img": "icons/magic/earth/projectile-moonrock-asteroid.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 7
+        },
+        "damage": {
+          "value": "2d10"
+        },
+        "description": ""
+      },
+      "_id": "KUiCcaIDS4Nd4VEi",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!809fb3282107e24c.KUiCcaIDS4Nd4VEi",
+      "effects": []
+    },
+    {
+      "name": "Scale",
+      "type": "NPC Feature",
+      "img": "icons/skills/social/trading-justice-scale-gold.webp",
+      "system": {
+        "description": "<p>Space Ape is the size of a ship and attacks and damages as such.</p><p>Space</p></p>"
+      },
+      "_id": "8BOFrwwQyj6hcNvU",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!809fb3282107e24c.8BOFrwwQyj6hcNvU",
+      "effects": []
+    },
+    {
+      "name": "Dweller",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Immune to harm from cold and vacuum. Does not require oxygen.</p></p>"
+      },
+      "_id": "eyOwBwOZsjjhcnF6",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!809fb3282107e24c.eyOwBwOZsjjhcnF6",
+      "effects": []
+    },
+    {
+      "name": "Starglide",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Moves normally and does not suffer knockback in 0-G.</p></p>"
+      },
+      "_id": "5q3yugRtrLvcbzR6",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!809fb3282107e24c.5q3yugRtrLvcbzR6",
+      "effects": []
+    },
+    {
+      "name": "Crush",
+      "type": "NPC Feature",
+      "img": "icons/tools/hand/hammer-and-nail.webp",
+      "system": {
+        "description": "<p>Deals an extra die of damage if it hits the same target with both attacks.  Telekinesis (Body Power). Can move objects by mystical means. Mostly uses it to fling asteroids at ships.</p></p>"
+      },
+      "_id": "5lPe3HjYKpbE7xKw",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!809fb3282107e24c.5lPe3HjYKpbE7xKw",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!809fb3282107e24c"
+}

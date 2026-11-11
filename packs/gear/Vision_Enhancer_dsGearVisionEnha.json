@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearVisionEnha",
+  "name": "Vision Enhancer",
+  "type": "Basic",
+  "img": "icons/equipment/head/goggles-leather-blue.webp",
+  "system": {
+    "description": "<p><b>EC.</b> Goggles that provide low-light and thermal vision up to NEAR range.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 30,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearVisionEnha"
+}

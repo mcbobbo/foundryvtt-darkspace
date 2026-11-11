@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitAmbitious",
+  "name": "Ambitious",
+  "type": "Talent",
+  "img": "icons/magic/Light/explosion-star-small-gold.webp",
+  "system": {
+    "description": "<p>Humans (or human analogues) gain one additional talent roll at 1st level.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitAmbitious"
+}

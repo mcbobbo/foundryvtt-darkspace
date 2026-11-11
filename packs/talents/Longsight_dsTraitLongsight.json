@@ -1,0 +1,56 @@
+{
+  "_id": "dsTraitLongsight",
+  "name": "Longsight",
+  "type": "Talent",
+  "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+  "system": {
+    "description": "<p>You get a +1 bonus to ranged attack and damage rolls.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [
+    {
+      "_id": "ef0d27fd63134288",
+      "name": "Longsight",
+      "type": "base",
+      "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+      "changes": [
+        {
+          "key": "system.roll.ranged.bonus.all",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        },
+        {
+          "key": "system.roll.ranged.damage.all",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsTraitLongsight.ef0d27fd63134288"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitLongsight"
+}

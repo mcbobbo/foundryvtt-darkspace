@@ -13,6 +13,17 @@ Hooks.on("init", () => {
     // Module settings
     registerSettings();
 
+    // Expose DarkSpace API on globalThis and CONFIG
+    globalThis.darkspace = {
+        apps: {
+            CharacterGeneratorDS,
+            ShipGeneratorDS,
+        },
+        models,
+        sheets,
+    };
+    CONFIG.darkspace = globalThis.darkspace;
+
     // Actor data models
     Object.assign(CONFIG.Actor.dataModels, {
         "darkspace.Spacer": models.Spacer,
@@ -29,10 +40,10 @@ Hooks.on("init", () => {
         "darkspace.Weapon":         models.Weapon,
     });
 
-    // Restrict the Actor creation dialog to Darkspace types only
+    // Restrict the Actor creation dialog to Darkspace types and NPCs
     const _origActorCreateDialog = Actor.createDialog;
     Actor.createDialog = function(data={}, createOptions={}, options={}) {
-        options.types ??= ["darkspace.Spacer", "darkspace.Ship"];
+        options.types ??= ["darkspace.Spacer", "darkspace.Ship", "NPC"];
         return _origActorCreateDialog.call(this, data, createOptions, options);
     };
 
@@ -45,6 +56,7 @@ Hooks.on("init", () => {
             "Background",
             "Basic",
             "Class",
+            "Language",
             "Property",
             "Talent",
             "darkspace.Cargo",
@@ -57,7 +69,32 @@ Hooks.on("init", () => {
         return _origItemCreateDialog.call(this, data, createOptions, options);
     };
 
-    // Localize the item type in Shadowdark sheet titles (Class → Archetype, Ancestry → Species)
+    // Suppress Active Effects on offline or damaged Ship Components
+    const aeProto = CONFIG.ActiveEffect.documentClass?.prototype;
+    if (aeProto) {
+        const _origIsSuppressed = Object.getOwnPropertyDescriptor(aeProto, "isSuppressed")?.get;
+        Object.defineProperty(aeProto, "isSuppressed", {
+            get() {
+                if (this.parent?.type === "darkspace.ShipComponent") {
+                    if (!this.parent.system.online || this.parent.system.damaged) return true;
+                }
+                return _origIsSuppressed ? _origIsSuppressed.call(this) : false;
+            },
+            configurable: true,
+        });
+    }
+
+    // Include Archetype and Ship Talent tables in Shadowdark's classTalentTables lookup
+    if (shadowdark?.compendiums) {
+        shadowdark.compendiums.classTalentTables = async function(filterSources=true) {
+            const documents = await shadowdark.compendiums._documents("RollTable", null, filterSources);
+            return shadowdark.compendiums._collectionFromArray(
+                documents.filter(d => d.name.match(/(class|archetype|ship)\s+talents/i))
+            );
+        };
+    }
+
+    // Localize the item type in Shadowdark sheet titles (Class -> Archetype, Ancestry -> Species)
     Object.defineProperty(shadowdark.sheets.ItemSheetSD.prototype, "title", {
         get() {
             return `[${game.i18n.localize(`TYPES.Item.${this.item.type}`)}] ${this.item.name}`;
@@ -141,9 +178,6 @@ Hooks.on("init", () => {
     });
 
     // Create Spacer and Create Ship buttons at the top of the Actors tab.
-    // Shadowdark's footer buttons are hidden via CSS (overrides.scss) because
-    // its render hook inserts them asynchronously, after this one has already
-    // run.
     Hooks.on("renderActorDirectory", (app, html) => {
         const header = html.querySelector(".directory-header");
         const actions = header?.querySelector(".header-actions");
@@ -158,8 +192,6 @@ Hooks.on("init", () => {
             return button;
         };
 
-        // Own row above Create Actor / Create Folder, so the generators are
-        // not squeezed in alongside the core buttons.
         const generators = document.createElement("div");
         generators.classList.add("header-actions", "action-buttons", "flexrow", "ds-generator-actions");
         generators.append(
@@ -189,6 +221,8 @@ Hooks.on("preCreateItem", (item, data) => {
 // Triggers once the module is fully loaded
 // -----------------------------------------------
 Hooks.on("ready", async () => {
+    const dsModule = game.modules.get("darkspace");
+    if (dsModule) dsModule.api = globalThis.darkspace;
     if (!game.user.isGM) return;
 
     const filters = game.settings.get("shadowdark", "sourceFilters") ?? [];

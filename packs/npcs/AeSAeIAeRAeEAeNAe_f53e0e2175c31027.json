@@ -1,0 +1,113 @@
+{
+  "_id": "f53e0e2175c31027",
+  "name": "AeSAeIAeRAeEAeNAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 4,
+        "value": 18
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "max": 30
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 6
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": true,
+    "notes": "<p><i>The ultimate honeypot. It captivates intruders and alerts other IC.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 call</p><p>Digital</p><p><strong>Entity.</strong> Has Interface stats. Only damaged by malware.</p><p><strong>Call.</strong> Targets within node make CTL DC 15 or charmed for 1 round.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "1 call",
+      "type": "NPC Special Attack",
+      "img": "icons/creatures/birds/corvid-call-sound-blue.webp",
+      "system": {
+        "description": "<p>Special attack: 1 call</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "PC1Cy7sq1Mvmh5of",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f53e0e2175c31027.PC1Cy7sq1Mvmh5of",
+      "effects": []
+    },
+    {
+      "name": "Entity",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Has Interface stats. Only damaged by malware.</p></p>"
+      },
+      "_id": "sENbDChq0T4Cwt5z",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f53e0e2175c31027.sENbDChq0T4Cwt5z",
+      "effects": []
+    },
+    {
+      "name": "Call",
+      "type": "NPC Feature",
+      "img": "icons/creatures/birds/corvid-call-sound-glowing.webp",
+      "system": {
+        "description": "<p>Targets within node make CTL DC 15 or charmed for 1 round.</p></p>"
+      },
+      "_id": "ABPKvVmkEniNxhlj",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f53e0e2175c31027.ABPKvVmkEniNxhlj",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!f53e0e2175c31027"
+}

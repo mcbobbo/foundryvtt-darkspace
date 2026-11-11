@@ -1,0 +1,101 @@
+{
+  "_id": "a8775ca11ceb35d1",
+  "name": "AeTAeRAeOAeOAePAeEAeRAe,Ae AeGAeRAeOAeUAeNAeDAe",
+  "type": "NPC",
+  "img": "icons/environment/wilderness/terrain-rocky-ground.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": -1,
+        "value": 8
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 26,
+        "max": 26
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A soldier equipped with riot armor and shield.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 force baton +3 (1d6+2)</p><p><strong>Brutal.</strong> +2 damage with melee weapons (included).</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "force baton",
+      "type": "NPC Attack",
+      "img": "icons/weapons/clubs/club-baton-barbed.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6+2"
+        },
+        "description": ""
+      },
+      "_id": "yasZMmUrusdTrGfz",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8775ca11ceb35d1.yasZMmUrusdTrGfz",
+      "effects": []
+    },
+    {
+      "name": "Brutal",
+      "type": "NPC Feature",
+      "img": "icons/equipment/head/helm-norman-brutal.webp",
+      "system": {
+        "description": "<p>+2 damage with melee weapons (included).</p></p>"
+      },
+      "_id": "NeUiiYrwSQIgkwFl",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a8775ca11ceb35d1.NeUiiYrwSQIgkwFl",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!a8775ca11ceb35d1"
+}

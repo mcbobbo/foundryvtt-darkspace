@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitAdaptCold",
+  "name": "Adapted for Cold",
+  "type": "Talent",
+  "img": "icons/magic/water/snowflake-ice-blue.webp",
+  "system": {
+    "description": "<p>Can survive in cold environments. Half damage from ice or cold.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitAdaptCold"
+}

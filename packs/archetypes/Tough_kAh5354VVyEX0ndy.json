@@ -27,7 +27,30 @@
     "classTalentTable": "Compendium.darkspace.rollable-tables.RollTable.xnFc8CUJH0rkGyCL",
     "source": {
       "title": "darkspace"
-    }
+    },
+    "armor": [],
+    "weapons": [
+      "Compendium.darkspace.weapons.Item.HiYJasrH8xu5Ne5Q",
+      "Compendium.darkspace.weapons.Item.9HbtTotQr85BmMQ7",
+      "Compendium.darkspace.weapons.Item.8wrz0cLbXqDadJ8P",
+      "Compendium.darkspace.weapons.Item.EOOhTOxWrY0McQFH",
+      "Compendium.darkspace.weapons.Item.oq1TZqDurKH3YRTl",
+      "Compendium.darkspace.weapons.Item.UNTfJK1tklwCQxIT",
+      "Compendium.darkspace.weapons.Item.4AiRbciPUx5wvARo",
+      "Compendium.darkspace.weapons.Item.pqvOaiVeAdq4BmLU",
+      "Compendium.darkspace.weapons.Item.FiCNIqTxVu5VzrAC",
+      "Compendium.darkspace.weapons.Item.X9gP0UNFHkXxIQSd",
+      "Compendium.darkspace.weapons.Item.sa27PMIr4JK5ZaYX",
+      "Compendium.darkspace.weapons.Item.DaG7gLeW3OT7MgPx",
+      "Compendium.darkspace.weapons.Item.UlZw3Y1wBB7mmZLV",
+      "Compendium.darkspace.weapons.Item.imcIxbhEW4P4FHtM",
+      "Compendium.darkspace.weapons.Item.LY5ZExnNP7WSe6XR",
+      "Compendium.darkspace.weapons.Item.eQo6n9zuyVd4jIOe",
+      "Compendium.darkspace.weapons.Item.X57HclKrohpMhwhL",
+      "Compendium.darkspace.weapons.Item.P8pZuNKPVqzeZ7yO",
+      "Compendium.darkspace.weapons.Item.aOBZYyD3n5ck2Bz3",
+      "Compendium.darkspace.weapons.Item.hCRo5pfnnfdWewxr"
+    ]
   },
   "effects": [],
   "folder": null,

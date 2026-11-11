@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitExtraLegs",
+  "name": "Extra Legs",
+  "type": "Talent",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+  "system": {
+    "description": "<p>Can move up to DOUBLE NEAR in addition to their action. DC to be tripped increased by one category.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitExtraLegs"
+}

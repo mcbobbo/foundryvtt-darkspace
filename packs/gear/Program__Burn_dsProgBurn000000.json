@@ -1,0 +1,35 @@
+{
+  "_id": "dsProgBurn000000",
+  "name": "Program: Burn",
+  "type": "Basic",
+  "img": "icons/magic/fire/beam-jet-stream-red.webp",
+  "system": {
+    "description": "<p><b>Hacking Program.</b> Deals 1d6 damage to a digital entity or network node.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 50,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsProgBurn000000"
+}

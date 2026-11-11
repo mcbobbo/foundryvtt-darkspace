@@ -86,3 +86,16 @@ DARKSPACE.apps.ship-generator.base_systems: Base Systems
 DARKSPACE.apps.ship-generator.success: Your ship has been created.
 DARKSPACE.apps.ship-generator.error.name: Your ship needs a name!
 DARKSPACE.apps.ship-generator.error.create: The ship could not be created.
+DARKSPACE.sheet.ship.systems.armor: Armor & Shields
+DARKSPACE.sheet.ship.systems.talents: Ship Traits & Talents
+DARKSPACE.sheet.ship.cargo.title: Cargo Bay
+DARKSPACE.sheet.ship.cargo.units: m³
+DARKSPACE.sheet.spacer.details.bounty: Bounty
+DARKSPACE.sheet.spacer.details.corruption: Corruption
+DARKSPACE.sheet.spacer.details.shipRole: Ship Roles
+DARKSPACE.packs.languages: Languages
+
+DARKSPACE.packs.macros: Macros
+DARKSPACE.packs.npcs: NPCs
+DARKSPACE.packs.stock-ships: Stock Ships
+DARKSPACE.packs.rollable-tables: Roll Tables

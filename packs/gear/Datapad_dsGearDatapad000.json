@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearDatapad000",
+  "name": "Datapad",
+  "type": "Basic",
+  "img": "icons/commodities/tech/console-steel.webp",
+  "system": {
+    "description": "<p><b>EC.</b> A personal computation device used for accessing datanets and personal files. (ACC: +0, CTL: +0, NET: +0)</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 50,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearDatapad000"
+}

@@ -6,17 +6,40 @@
   "system": {
     "description": "<p>Some Spacers may just be &ldquo;a guy in a suit&rdquo; and all of their abilities come from a specialized suit of power armor with weapons and features built into it.</p><p><b>Species Trait:</b> Any, including Life Support. You do not require external food, drink, or air to function while connected to your Life Support. You still need to rest and your armor requires a power charge equivalent to a rest to maintain its operational level.<br><b>Archetype:</b> Machine-Based Archetype.<br><b>Background / Motivation:</b> Power Armor Spacers can choose any background or motivation.<br><b>The Triad:</b> Power Armor Spacers can take The Triad as a Species Trait.</p>",
     "languages": {
-      "common": 0,
+      "common": 1,
       "rare": 0,
       "select": 0,
       "selectOptions": [],
-      "fixed": []
+      "fixed": [
+        "Compendium.darkspace.languages.Item.dsLangGalStandrd"
+      ]
     },
     "talents": [
-      "Compendium.darkspace.talents.Item.dsTraitLifeSuppt"
+      "Compendium.darkspace.talents.Item.dsTraitLifeSuppt",
+      "Compendium.darkspace.talents.Item.dsTraitTheTriad0",
+      "Compendium.darkspace.talents.Item.dsTraitAmphibiou",
+      "Compendium.darkspace.talents.Item.dsTraitArmoredSk",
+      "Compendium.darkspace.talents.Item.dsTraitCovertCom",
+      "Compendium.darkspace.talents.Item.dsTraitLongsight",
+      "Compendium.darkspace.talents.Item.dsTraitHyperacut",
+      "Compendium.darkspace.talents.Item.dsTraitPowerful0",
+      "Compendium.darkspace.talents.Item.dsTraitNaturalWp",
+      "Compendium.darkspace.talents.Item.dsTraitFlight000",
+      "Compendium.darkspace.talents.Item.dsTraitSneaky000",
+      "Compendium.darkspace.talents.Item.dsTraitTrackingS",
+      "Compendium.darkspace.talents.Item.dsTraitAdaptHeat",
+      "Compendium.darkspace.talents.Item.dsTraitAdaptCold",
+      "Compendium.darkspace.talents.Item.dsTraitTechKnack",
+      "Compendium.darkspace.talents.Item.dsTraitNatConnec",
+      "Compendium.darkspace.talents.Item.dsTraitRadResist",
+      "Compendium.darkspace.talents.Item.dsTraitFiltratio",
+      "Compendium.darkspace.talents.Item.dsTraitNatClimbr",
+      "Compendium.darkspace.talents.Item.dsTraitExtraArms",
+      "Compendium.darkspace.talents.Item.dsTraitExtraLegs",
+      "Compendium.darkspace.talents.Item.dsTraitAmbitious"
     ],
     "talentChoiceCount": 1,
-    "nameTable": "",
+    "nameTable": "Compendium.darkspace.rollable-tables.RollTable.dsNamesHuman0000",
     "source": {
       "title": "darkspace"
     }

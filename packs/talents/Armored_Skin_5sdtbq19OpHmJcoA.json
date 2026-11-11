@@ -10,7 +10,40 @@
       "title": "darkspace"
     }
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "ef5sdtbq19OpHmJc",
+      "name": "Armored Skin (+1 Unarmored AC)",
+      "type": "base",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "changes": [
+        {
+          "key": "system.attributes.ac.unarmored",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!5sdtbq19OpHmJcoA.ef5sdtbq19OpHmJc"
+    }
+  ],
   "folder": null,
   "flags": {},
   "_key": "!items!5sdtbq19OpHmJcoA"

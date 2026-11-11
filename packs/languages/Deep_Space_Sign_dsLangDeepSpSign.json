@@ -1,0 +1,18 @@
+{
+  "_id": "dsLangDeepSpSign",
+  "name": "Deep-Space Sign",
+  "type": "Language",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>Silent suit-to-suit hand and beacon signals used in hard vacuum.</p>",
+    "predefinedEffects": "",
+    "rarity": "rare",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsLangDeepSpSign"
+}

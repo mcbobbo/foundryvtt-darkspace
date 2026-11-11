@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacGenPlanet00",
+  "name": "Generate Planet & Settlement",
+  "type": "script",
+  "author": null,
+  "img": "icons/magic/earth/orb-map-green-blue.webp",
+  "scope": "global",
+  "command": "/**\n * DarkSpace Planet & Settlement Generator\n * Rolls planetary biome and settlement type for frontier sandbox exploration.\n */\nconst pack = game.packs.get(\"darkspace.rollable-tables\");\nif (!pack) {\n  ui.notifications.error(\"DarkSpace rollable-tables pack not found.\");\n} else {\n  const biomeTable = await pack.getDocument(\"dsTabPlanetBiome\");\n  const settTable = await pack.getDocument(\"dsTabSettlement\");\n\n  const biome = (await biomeTable?.draw({ displayChat: false }))?.results[0]?.text || \"Arid / Desert\";\n  const settlement = (await settTable?.draw({ displayChat: false }))?.results[0]?.text || \"Mining Outpost\";\n\n  const content = `\n    <div style=\"border: 1px solid #26a69a; background: rgba(10, 25, 25, 0.95); color: #e0f2f1; padding: 12px; border-radius: 6px;\">\n      <h3 style=\"margin: 0 0 8px 0; color: #80cbc4; border-bottom: 1px solid #26a69a; padding-bottom: 4px;\">\n        <i class=\"fas fa-globe\"></i> Planetary Reconnaissance\n      </h3>\n      <p style=\"margin: 6px 0;\"><b>Primary Biome:</b> ${biome}</p>\n      <p style=\"margin: 6px 0;\"><b>Settlement / Habitation:</b> ${settlement}</p>\n    </div>\n  `;\n\n  await ChatMessage.create({\n    user: game.user._id,\n    speaker: { alias: \"Orbital Sensor Suite\" },\n    content: content\n  });\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacGenPlanet00"
+}

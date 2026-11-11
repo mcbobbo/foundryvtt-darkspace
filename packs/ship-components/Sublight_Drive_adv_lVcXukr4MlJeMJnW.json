@@ -11,7 +11,11 @@
     "type": "System",
     "online": true,
     "damaged": false,
-    "slots": 2
+    "slots": 2,
+    "cost": {
+      "initial": 4000,
+      "repair": 2000
+    }
   },
   "effects": [],
   "folder": null,

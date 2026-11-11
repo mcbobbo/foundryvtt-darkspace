@@ -1,0 +1,204 @@
+{
+  "_id": "dsShipTabGunship",
+  "name": "Ship Talents: Gunship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "description": "<p>Level advancement talent table for Gunship-class starships.</p>",
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt24bef076345c75",
+      "name": "Ablative Plating",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt24bef076345c75",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalAblativeP"
+    },
+    {
+      "_id": "rtd11e7692e8c6c6",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        3,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rtd11e7692e8c6c6",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt95e7d986333336",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt95e7d986333336"
+    },
+    {
+      "_id": "rtaaa3516c88e48e",
+      "name": "+2 to Dexterity",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rtaaa3516c88e48e",
+      "documentUuid": "Compendium.darkspace.talents.Item.llp8weqh0aZU9YGu"
+    },
+    {
+      "_id": "rt0aea7bf1044e28",
+      "name": "+2 to Constitution",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt0aea7bf1044e28",
+      "documentUuid": "Compendium.darkspace.talents.Item.YVgMcHwA7bRqjmDE"
+    },
+    {
+      "_id": "rt43bd8cca7f7734",
+      "name": "+2 to Charisma",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt43bd8cca7f7734",
+      "documentUuid": "Compendium.darkspace.talents.Item.iXcz15Voztb2VF8u"
+    },
+    {
+      "_id": "rt59187405e8ee05",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        10,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt59187405e8ee05",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt94901294a0f63a",
+      "name": "",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Choose 1",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt94901294a0f63a"
+    },
+    {
+      "_id": "rt4abd3a29be4253",
+      "name": "Ablative Plating",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt4abd3a29be4253",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalAblativeP"
+    },
+    {
+      "_id": "rtb305ba650f4fe3",
+      "name": "+1 to HP",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rtb305ba650f4fe3",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1HP00"
+    },
+    {
+      "_id": "rt4096dabfa55307",
+      "name": "+1 to AC",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt4096dabfa55307",
+      "documentUuid": "Compendium.darkspace.talents.Item.dsShTalPlus1AC00"
+    },
+    {
+      "_id": "rt3f9103415f3f24",
+      "name": "Distribute to Stats",
+      "type": "document",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "description": "",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsShipTabGunship.rt3f9103415f3f24",
+      "documentUuid": "Compendium.darkspace.rollable-tables.RollTable.82cnS0CVDgIW0l6w"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsShipTabGunship"
+}

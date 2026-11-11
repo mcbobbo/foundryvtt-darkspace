@@ -1,0 +1,74 @@
+{
+  "_id": "dsTabOracDanger",
+  "name": "Solo Oracle: Danger Level",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Danger level of an uncharted room or sector.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rt957511c5f997ff",
+      "name": "Safe. Controlled zone; no immediate threat.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Safe. Controlled zone; no immediate threat.",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracDanger.rt957511c5f997ff"
+    },
+    {
+      "_id": "rt0472e412786d67",
+      "name": "Unsafe. Hazard present; caution required.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Unsafe. Hazard present; caution required.",
+      "drawn": false,
+      "range": [
+        2,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracDanger.rt0472e412786d67"
+    },
+    {
+      "_id": "rtd5b114703f94c6",
+      "name": "Risky. Hostiles or lethal environmental danger imminent.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Risky. Hostiles or lethal environmental danger imminent.",
+      "drawn": false,
+      "range": [
+        4,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracDanger.rtd5b114703f94c6"
+    },
+    {
+      "_id": "rtfb0ac671649953",
+      "name": "Deadly. Maximum threat level; fatal consequences.",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Deadly. Maximum threat level; fatal consequences.",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabOracDanger.rtfb0ac671649953"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabOracDanger"
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitNatClimbr",
+  "name": "Natural Climber",
+  "type": "Talent",
+  "img": "icons/sundries/misc/rope-wrapped-tan.webp",
+  "system": {
+    "description": "<p>Full speed for climbing. Reduce climbing DC by one category.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitNatClimbr"
+}

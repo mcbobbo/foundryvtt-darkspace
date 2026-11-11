@@ -1,0 +1,314 @@
+{
+  "_id": "dsTabShopVibe",
+  "name": "Shop Names: Vibe",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>First descriptor for market or vendor.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rtf3187ecd81ef22",
+      "name": "Broken",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Broken",
+      "drawn": false,
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rtf3187ecd81ef22"
+    },
+    {
+      "_id": "rt0212d16df3461c",
+      "name": "Rusty",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Rusty",
+      "drawn": false,
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt0212d16df3461c"
+    },
+    {
+      "_id": "rt42f2eaccfd658a",
+      "name": "Floating",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Floating",
+      "drawn": false,
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt42f2eaccfd658a"
+    },
+    {
+      "_id": "rt9b8e0beab95201",
+      "name": "Last",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Last",
+      "drawn": false,
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt9b8e0beab95201"
+    },
+    {
+      "_id": "rtd22c655e6626d5",
+      "name": "Drunken",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Drunken",
+      "drawn": false,
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rtd22c655e6626d5"
+    },
+    {
+      "_id": "rt10396d1c9aff46",
+      "name": "Silent",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Silent",
+      "drawn": false,
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt10396d1c9aff46"
+    },
+    {
+      "_id": "rtd69e6814f3d0fc",
+      "name": "Atomic",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Atomic",
+      "drawn": false,
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rtd69e6814f3d0fc"
+    },
+    {
+      "_id": "rt3eec1dd4260d0b",
+      "name": "Cosmic",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Cosmic",
+      "drawn": false,
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt3eec1dd4260d0b"
+    },
+    {
+      "_id": "rtdbd37eb5ce1001",
+      "name": "Lucky",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lucky",
+      "drawn": false,
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rtdbd37eb5ce1001"
+    },
+    {
+      "_id": "rt191db9051d05ec",
+      "name": "Deep",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Deep",
+      "drawn": false,
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt191db9051d05ec"
+    },
+    {
+      "_id": "rtdf942075c63d0e",
+      "name": "Empty",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Empty",
+      "drawn": false,
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rtdf942075c63d0e"
+    },
+    {
+      "_id": "rt4410728867b273",
+      "name": "Burning",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Burning",
+      "drawn": false,
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt4410728867b273"
+    },
+    {
+      "_id": "rteee38390e9e1dd",
+      "name": "Frozen",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Frozen",
+      "drawn": false,
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rteee38390e9e1dd"
+    },
+    {
+      "_id": "rt989c1cf9157913",
+      "name": "Orbital",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Orbital",
+      "drawn": false,
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt989c1cf9157913"
+    },
+    {
+      "_id": "rt7401b78cbc90b8",
+      "name": "Toxic",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Toxic",
+      "drawn": false,
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt7401b78cbc90b8"
+    },
+    {
+      "_id": "rt6b956133bda63d",
+      "name": "Lost",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Lost",
+      "drawn": false,
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt6b956133bda63d"
+    },
+    {
+      "_id": "rtb6b02ddad5e893",
+      "name": "Electric",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Electric",
+      "drawn": false,
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rtb6b02ddad5e893"
+    },
+    {
+      "_id": "rt3fb80b7d5ff7d1",
+      "name": "Blind",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Blind",
+      "drawn": false,
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt3fb80b7d5ff7d1"
+    },
+    {
+      "_id": "rt1b9be96a45d33d",
+      "name": "Zero-G",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Zero-G",
+      "drawn": false,
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rt1b9be96a45d33d"
+    },
+    {
+      "_id": "rtb2e40ea4bd241e",
+      "name": "Infinite",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "description": "Infinite",
+      "drawn": false,
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "flags": {},
+      "_key": "!tables.results!dsTabShopVibe.rtb2e40ea4bd241e"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!tables!dsTabShopVibe"
+}

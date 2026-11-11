@@ -1,0 +1,23 @@
+{
+  "_id": "dsShipArmorLight",
+  "name": "Armor Plating, Light",
+  "type": "darkspace.ShipArmor",
+  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "system": {
+    "description": "<p><b>Ph.</b> 11 + Ship DEX modifier (+1 AC vs Projectile and Energy).</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "acProjectile": 1,
+    "acEnergy": 1,
+    "cost": {
+      "cp": 0,
+      "gp": 300,
+      "sp": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShipArmorLight"
+}

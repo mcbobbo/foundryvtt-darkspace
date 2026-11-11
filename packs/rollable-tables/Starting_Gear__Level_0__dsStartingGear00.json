@@ -2,18 +2,18 @@
   "_id": "dsStartingGear00",
   "name": "Starting Gear (Level 0)",
   "img": "icons/containers/bags/pack-leather-black-brown.webp",
-  "description": "<p>Starting gear for 0-level spacers. Roll once per gear slot granted at character creation.</p>",
+  "description": "<p>Citizen Starting Gear for 0-level spacers (roll 1d4 items).</p>",
   "formula": "1d12",
   "replacement": true,
   "displayRoll": false,
   "results": [
     {
       "_id": "dsSGresult000001",
-      "name": "Ammo Magazine",
+      "name": "Glowrod",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.gear.Item.3pIVULgxmcKzx3zo",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearGlowrod000",
       "drawn": false,
       "range": [
         1,
@@ -25,11 +25,11 @@
     },
     {
       "_id": "dsSGresult000002",
-      "name": "Energy Cell",
+      "name": "Edged, Light",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.gear.Item.xAWOLgFSlEcUm8EV",
+      "documentUuid": "Compendium.darkspace.weapons.Item.TNjKEUmqzLhbs1Jh",
       "drawn": false,
       "range": [
         2,
@@ -41,11 +41,11 @@
     },
     {
       "_id": "dsSGresult000003",
-      "name": "Fuel Canister",
+      "name": "Medkit",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.gear.Item.HuC8Wm0TVRb1mPsv",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearMedkit0000",
       "drawn": false,
       "range": [
         3,
@@ -57,11 +57,11 @@
     },
     {
       "_id": "dsSGresult000004",
-      "name": "Blunt (Light)",
+      "name": "Pistol, Light",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.weapons.Item.WIGOGW0VrooDv17j",
+      "documentUuid": "Compendium.darkspace.weapons.Item.W1IwiWR49b1pEvot",
       "drawn": false,
       "range": [
         4,
@@ -73,11 +73,11 @@
     },
     {
       "_id": "dsSGresult000005",
-      "name": "Edged (Light)",
+      "name": "Cable, Synthetic",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.weapons.Item.TNjKEUmqzLhbs1Jh",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearCableSynth",
       "drawn": false,
       "range": [
         5,
@@ -89,11 +89,11 @@
     },
     {
       "_id": "dsSGresult000006",
-      "name": "Stun Baton",
+      "name": "Energy Cell",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.weapons.Item.zR1HcUKjwQIPcAgt",
+      "documentUuid": "Compendium.darkspace.gear.Item.xAWOLgFSlEcUm8EV",
       "drawn": false,
       "range": [
         6,
@@ -105,11 +105,11 @@
     },
     {
       "_id": "dsSGresult000007",
-      "name": "Pistol (Light)",
+      "name": "Multitool",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.weapons.Item.W1IwiWR49b1pEvot",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearMultitool0",
       "drawn": false,
       "range": [
         7,
@@ -121,11 +121,11 @@
     },
     {
       "_id": "dsSGresult000008",
-      "name": "Energy Pistol (Light)",
+      "name": "Communicator",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.weapons.Item.YBeuoAjBrAo5L0zF",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearCommunicat",
       "drawn": false,
       "range": [
         8,
@@ -137,11 +137,11 @@
     },
     {
       "_id": "dsSGresult000009",
-      "name": "Molotov Cocktail",
+      "name": "Rebreather",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.weapons.Item.6ZihiVAw3y9INJdn",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearRebreather",
       "drawn": false,
       "range": [
         9,
@@ -153,11 +153,11 @@
     },
     {
       "_id": "dsSGresult000010",
-      "name": "Light Armor",
+      "name": "Grapple",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.armor.Item.ExZiBvjoxIwH4O3a",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearGrapple000",
       "drawn": false,
       "range": [
         10,
@@ -169,11 +169,11 @@
     },
     {
       "_id": "dsSGresult000011",
-      "name": "Helmet",
+      "name": "Blunt, Light",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.armor.Item.jtX0eGR1B5LzFXS6",
+      "documentUuid": "Compendium.darkspace.weapons.Item.WIGOGW0VrooDv17j",
       "drawn": false,
       "range": [
         11,
@@ -185,11 +185,11 @@
     },
     {
       "_id": "dsSGresult000012",
-      "name": "Ballistic Shield",
+      "name": "Ration Packs (3)",
       "type": "document",
       "img": "icons/svg/item-bag.svg",
       "description": "",
-      "documentUuid": "Compendium.darkspace.armor.Item.EJnIsLBNQFFa2KvS",
+      "documentUuid": "Compendium.darkspace.gear.Item.dsGearRations3pk",
       "drawn": false,
       "range": [
         12,
@@ -200,5 +200,7 @@
       "_key": "!tables.results!dsStartingGear00.dsSGresult000012"
     }
   ],
+  "folder": null,
+  "flags": {},
   "_key": "!tables!dsStartingGear00"
 }

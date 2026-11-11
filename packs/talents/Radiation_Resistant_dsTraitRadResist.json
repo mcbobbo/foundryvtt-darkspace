@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitRadResist",
+  "name": "Radiation Resistant",
+  "type": "Talent",
+  "img": "icons/magic/light/explosion-star-glow-green.webp",
+  "system": {
+    "description": "<p>Can survive in radioactive environments. Half damage from radiation or electricity.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitRadResist"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "dsShTalPlus1HP00",
+  "name": "+1 to HP",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>Increases the ship's maximum Hit Points by +1.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [
+    {
+      "_id": "ef22420e0cab8ae5",
+      "name": "+1 to HP",
+      "type": "base",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "changes": [
+        {
+          "key": "system.attributes.hp.max",
+          "mode": 2,
+          "priority": null,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsShTalPlus1HP00.ef22420e0cab8ae5"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalPlus1HP00"
+}

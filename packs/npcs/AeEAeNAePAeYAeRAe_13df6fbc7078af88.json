@@ -1,0 +1,152 @@
+{
+  "_id": "13df6fbc7078af88",
+  "name": "AeEAeNAePAeYAeRAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "NEAR",
+    "moveNote": "fly",
+    "alignment": "chaotic",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A pale, wiry alien whose translucent skin reveals pulsing streams of bioluminescent energy.</i></p><p><strong>Movement:</strong> NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> Energy Drain +4 (1d8 + life leech) or 2 Claws (1d4)</p><p>Life</p><p><strong>Leech.</strong> Enpyr heals HP equal to half Energy Drain damage (rounded down). Victims reduced to 0 HP are left comatose.</p><p>Bioelectric</p><p><strong>Sense.</strong> Enpyr perceives all living creatures within NEAR range as glowing silhouettes, even through walls or darkness.</p><p>Energy</p><p><strong>Addiction.</strong> Prolonged starvation causes the Enpyr's body to destabilize. Each day without feeding it loses 1 HP permanently until it feeds again.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "Energy Drain",
+      "type": "NPC Attack",
+      "img": "icons/magic/unholy/energy-smoke-pink.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "1d8 + life leech"
+        },
+        "description": ""
+      },
+      "_id": "R08hnCkG71D02W1d",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!13df6fbc7078af88.R08hnCkG71D02W1d",
+      "effects": []
+    },
+    {
+      "name": "2 claws (1d4)",
+      "type": "NPC Special Attack",
+      "img": "icons/commodities/claws/talon-blue.webp",
+      "system": {
+        "description": "<p>Special attack: 2 Claws (1d4)</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "4DPHAdo1DWWKaygp",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!13df6fbc7078af88.4DPHAdo1DWWKaygp",
+      "effects": []
+    },
+    {
+      "name": "Leech",
+      "type": "NPC Feature",
+      "img": "icons/creatures/invertebrates/leech-attack-green.webp",
+      "system": {
+        "description": "<p>Enpyr heals HP equal to half Energy Drain damage (rounded down). Victims reduced to 0 HP are left comatose.</p><p>Bioelectric</p></p>"
+      },
+      "_id": "Jjtz3INqcJB3KKws",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!13df6fbc7078af88.Jjtz3INqcJB3KKws",
+      "effects": []
+    },
+    {
+      "name": "Sense",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Enpyr perceives all living creatures within NEAR range as glowing silhouettes, even through walls or darkness.</p><p>Energy</p></p>"
+      },
+      "_id": "qyIOhGuCAIICzLAY",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!13df6fbc7078af88.qyIOhGuCAIICzLAY",
+      "effects": []
+    },
+    {
+      "name": "Addiction",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Prolonged starvation causes the Enpyr's body to destabilize. Each day without feeding it loses 1 HP permanently until it feeds again.</p></p>"
+      },
+      "_id": "VjbwYFIz5CJHp41W",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!13df6fbc7078af88.VjbwYFIz5CJHp41W",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!13df6fbc7078af88"
+}

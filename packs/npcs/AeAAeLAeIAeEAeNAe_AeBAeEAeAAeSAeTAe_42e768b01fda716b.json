@@ -1,0 +1,101 @@
+{
+  "_id": "42e768b01fda716b",
+  "name": "AeAAeLAeIAeEAeNAe AeBAeEAeAAeSAeTAe",
+  "type": "NPC",
+  "img": "icons/consumables/vegetable/root-alien-green.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 25,
+        "max": 25
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A vast variety of hulking, brutes with claws as long as a vibroblade. Found on habitable planets throughout the cosmos.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 claw +4 (1d8)</p><p><strong>Rend.</strong> Deals an extra die of damage if it hits the same target with both claws.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "claw",
+      "type": "NPC Attack",
+      "img": "icons/weapons/fist/claw-grey-black.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "x6buZSpfBVCVYiKN",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!42e768b01fda716b.x6buZSpfBVCVYiKN",
+      "effects": []
+    },
+    {
+      "name": "Rend",
+      "type": "NPC Feature",
+      "img": "icons/weapons/fist/claw-red-black.webp",
+      "system": {
+        "description": "<p>Deals an extra die of damage if it hits the same target with both claws.</p></p>"
+      },
+      "_id": "bgsqusJh4JTNHvno",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!42e768b01fda716b.bgsqusJh4JTNHvno",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!42e768b01fda716b"
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadBodyHeal0",
+  "name": "Triad (Body): Heal",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Body (CON).</b> Knit flesh and bone by touch. Roll CON vs DC 9 (2d4 HP), DC 12 (3d6 HP), DC 15 (4d8 HP), or DC 18 (5d10 HP).</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadBodyHeal0"
+}

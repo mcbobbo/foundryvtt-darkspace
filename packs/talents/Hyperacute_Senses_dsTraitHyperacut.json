@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitHyperacut",
+  "name": "Hyperacute Senses",
+  "type": "Talent",
+  "img": "icons/creatures/eyes/humanoid-single-blue.webp",
+  "system": {
+    "description": "<p>You can't be surprised by enemies or events.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitHyperacut"
+}

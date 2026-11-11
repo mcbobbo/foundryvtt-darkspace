@@ -11,9 +11,46 @@
     "type": "Feature",
     "online": true,
     "damaged": false,
-    "slots": 1
+    "slots": 1,
+    "cost": {
+      "initial": 1000,
+      "repair": 500
+    }
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "ef09041c483b6536",
+      "name": "Cargo Hold Capacity",
+      "type": "base",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "changes": [
+        {
+          "key": "system.cargo.max",
+          "mode": 2,
+          "priority": null,
+          "value": "10"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!LqDnwywd1partj36.ef09041c483b6536"
+    }
+  ],
   "folder": null,
   "flags": {},
   "_key": "!items!LqDnwywd1partj36"

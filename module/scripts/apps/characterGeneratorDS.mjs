@@ -94,9 +94,9 @@ export default class CharacterGeneratorDS extends CharacterGeneratorSD {
         if (randomizationTasks["randomize-ancestry"]) await this._randomizeAncestry();
         if (randomizationTasks["randomize-background"]) this._randomizeBackground();
         if (randomizationTasks["randomize-class"]) await this._randomizeClass();
+        if (randomizationTasks["randomize-motivation"]) await this._randomizeMotivation();
         if (randomizationTasks["randomize-gear"]) await this._randomizeGear();
         if (randomizationTasks["randomize-gold"]) await this._randomizeGold();
-        if (randomizationTasks["randomize-motivation"]) await this._randomizeMotivation();
         if (randomizationTasks["randomize-name"]) await this._randomizeName();
         if (randomizationTasks["randomize-stats"]) await this._randomizeStats();
 
@@ -116,6 +116,49 @@ export default class CharacterGeneratorDS extends CharacterGeneratorSD {
     async _randomizeMotivation() {
         const tempInt = this._getRandom(this.formData.motivations.length);
         this.formData.actor.system.motivation = this.formData.motivations[tempInt].value;
+    }
+
+
+    /**
+     * @override
+     * 0-Level Citizens roll 1d4 items from the Citizen Starting Gear table
+     * (plus 1 extra item if their Motivation is The Survivor).
+     */
+    async _randomizeGear() {
+        const table = await fromUuid(this.LEVEL_ZERO_GEAR_TABLE_UUID);
+        if (!table) return;
+
+        try {
+            let numItems = await this._roll("1d4");
+            if (this.formData.actor.system.motivation === "survivor") {
+                numItems += 1;
+            }
+            const results = [];
+            for (let i = 0; i < numItems; i++) {
+                const draw = await table.draw({ displayChat: false });
+                results.push(...draw.results);
+            }
+            this.formData.gearSelected = (
+                await shadowdark.utils.getItemsFromRollResults(results)
+            ).sort((a, b) => a.name.localeCompare(b.name));
+        }
+        catch (error) {
+            shadowdark.error(error);
+        }
+    }
+
+
+    /**
+     * @override
+     * 1st-Level Rookies start with 2d6 x 10 credits (plus 2d10 extra credits
+     * if their Motivation is The Vile).
+     */
+    async _randomizeGold() {
+        let startingCredits = (await this._roll("2d6")) * 10;
+        if (this.formData.actor.system.motivation === "vile") {
+            startingCredits += await this._roll("2d10");
+        }
+        this.formData.actor.system.coins.gp = startingCredits;
     }
 
 
@@ -169,10 +212,19 @@ export default class CharacterGeneratorDS extends CharacterGeneratorSD {
 
         // level 0 characters get rolled gear instead of credits
         if (this.formData.level0) {
-            this.formData.actor.system.coins.gp = 0;
+            this.formData.actor.system.coins.gp = (this.formData.actor.system.motivation === "vile")
+                ? await this._roll("2d10")
+                : 0;
 
             for (const item of this.formData.gearSelected) {
-                allItems.push(await fromUuid(item.uuid));
+                const doc = await fromUuid(item.uuid);
+                if (!doc) continue;
+                const obj = doc.toObject();
+                // Citizen Starting Gear result #6 grants Energy Cells (2)
+                if (obj.name === "Energy Cell") {
+                    obj.system.quantity = 2;
+                }
+                allItems.push(obj);
             }
         }
 

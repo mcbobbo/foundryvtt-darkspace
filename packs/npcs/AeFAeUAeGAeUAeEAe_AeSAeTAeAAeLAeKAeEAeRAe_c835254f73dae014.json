@@ -1,0 +1,158 @@
+{
+  "_id": "c835254f73dae014",
+  "name": "AeFAeUAeGAeUAeEAe AeSAeTAeAAeLAeKAeEAeRAe",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 34,
+        "max": 34
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 7
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "",
+    "alignment": "chaotic",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A hunchbacked, winged insectoid horror, it haunts the shadows with two burning red eyes.</i></p><p><strong>Movement:</strong> DOUBLE NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 3 proboscis +6 (1d10 + latch) or Memory Edit or Resonant Terror</p><p><strong>Latch.</strong> Attach to target; attacks auto-hit next round. DC 15 STR on turn to tear off.  Memory Edit (Mind Power). DC 15 or target's memory is edited to forget the Fugue Stalker or miss its movement. Fugue Stalker gets ADV on next attack against target. Requires eye contact.  Resonant Terror (Soul Power). DC 15 or victim is paralyzed with fear and dread, unable to look away from the</p><p>Fugue</p><p><strong>Stalker.</strong> Can be maintained with a DC 15 WIS check.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "proboscis",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 6
+        },
+        "damage": {
+          "value": "1d10 + latch"
+        },
+        "description": ""
+      },
+      "_id": "Rv82h33lasQ61Ag2",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c835254f73dae014.Rv82h33lasQ61Ag2",
+      "effects": []
+    },
+    {
+      "name": "Memory edit",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: Memory Edit</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "stkXsdeTYXbIWr57",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c835254f73dae014.stkXsdeTYXbIWr57",
+      "effects": []
+    },
+    {
+      "name": "Resonant terror",
+      "type": "NPC Special Attack",
+      "img": "icons/svg/terror.svg",
+      "system": {
+        "description": "<p>Special attack: Resonant Terror</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "AKCHlHOdZrFtOefM",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c835254f73dae014.AKCHlHOdZrFtOefM",
+      "effects": []
+    },
+    {
+      "name": "Latch",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Attach to target; attacks auto-hit next round. DC 15 STR on turn to tear off.  Memory Edit (Mind Power). DC 15 or target's memory is edited to forget the Fugue Stalker or miss its movement. Fugue Stalker gets ADV on next attack against target. Requires eye contact.  Resonant Terror (Soul Power). DC 15 or victim is paralyzed with fear and dread, unable to look away from the</p><p>Fugue</p></p>"
+      },
+      "_id": "DODQ9DNUrebxpNuK",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c835254f73dae014.DODQ9DNUrebxpNuK",
+      "effects": []
+    },
+    {
+      "name": "Stalker",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Can be maintained with a DC 15 WIS check.</p></p>"
+      },
+      "_id": "EneL9nBq1jWgNNyT",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c835254f73dae014.EneL9nBq1jWgNNyT",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!c835254f73dae014"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "dsMacGenCantina0",
+  "name": "Generate Cantina",
+  "type": "script",
+  "author": null,
+  "img": "icons/consumables/drinks/alcohol-cocktail-green.webp",
+  "scope": "global",
+  "command": "/**\n * DarkSpace Cantina Generator\n * Assembles a random dive bar, cantina, or orbital lounge with unique atmospheric quirks.\n */\nconst pack = game.packs.get(\"darkspace.rollable-tables\");\nif (!pack) {\n  ui.notifications.error(\"DarkSpace rollable-tables pack not found.\");\n} else {\n  const adjTable = await pack.getDocument(\"dsTabCantNameAdj\");\n  const nounTable = await pack.getDocument(\"dsTabCantNameNn\");\n  const quirkTable = await pack.getDocument(\"dsTabCantinaQrk\");\n\n  const adj = (await adjTable?.draw({ displayChat: false }))?.results[0]?.text || \"The Rusting\";\n  const noun = (await nounTable?.draw({ displayChat: false }))?.results[0]?.text || \"Nebula\";\n  const quirk = (await quirkTable?.draw({ displayChat: false }))?.results[0]?.text || \"Neon signs buzzing in the smoke.\";\n\n  const content = `\n    <div style=\"border: 1px solid #ff7043; background: rgba(30, 15, 10, 0.95); color: #fbe9e7; padding: 12px; border-radius: 6px;\">\n      <h3 style=\"margin: 0 0 8px 0; color: #ffab91; border-bottom: 1px solid #ff7043; padding-bottom: 4px;\">\n        <i class=\"fas fa-cocktail\"></i> ${adj} ${noun}\n      </h3>\n      <p style=\"margin: 6px 0;\"><b>Atmosphere & Quirk:</b> ${quirk}</p>\n    </div>\n  `;\n\n  await ChatMessage.create({\n    user: game.user._id,\n    speaker: { alias: \"Frontier Guide\" },\n    content: content\n  });\n}",
+  "folder": null,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!macros!dsMacGenCantina0"
+}

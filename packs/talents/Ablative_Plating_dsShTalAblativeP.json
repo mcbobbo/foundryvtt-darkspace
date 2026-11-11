@@ -1,0 +1,17 @@
+{
+  "_id": "dsShTalAblativeP",
+  "name": "Ablative Plating",
+  "type": "Talent",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": "<p>3/episode, the ship takes half damage from one attack. +1 use per episode if taken again.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsShTalAblativeP"
+}

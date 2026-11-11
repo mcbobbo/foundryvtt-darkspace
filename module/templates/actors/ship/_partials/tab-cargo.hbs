@@ -1,12 +1,21 @@
 <section class="tab tab-cargo {{tab.cssClass}}" data-group="primary" data-tab="cargo">
     <div class="ds-tab-content">
-        {{#each cargo as |item|}}
-        <div class="ds-cargo-row item" data-item-id="{{item.id}}">
-            <a class="ds-component-name" data-action="item-edit" data-item-id="{{item.id}}">{{item.name}}</a>
-        </div>
-        {{/each}}
-        {{#unless cargo.length}}
-        <span class="ds-unset">Drop items here to add cargo</span>
-        {{/unless}}
+        {{#> ui/ds-box header-label=(localize "DARKSPACE.sheet.ship.cargo.title") class="ds-cargo-section"}}
+            {{#*inline "ds-box-header-span"}}
+                <span>({{system.cargo.value}}/{{system.cargo.max}} {{localize "DARKSPACE.sheet.ship.cargo.units"}})</span>
+                {{#if owner}}
+                <a data-action="item-create" data-item-type="darkspace.Cargo" style="margin-left:6px;"><i class="fas fa-plus"></i></a>
+                {{/if}}
+            {{/inline}}
+            {{#each cargo as |item|}}
+            <div class="ds-cargo-row item" data-item-id="{{item.id}}">
+                <a class="ds-component-name" data-action="item-edit" data-item-id="{{item.id}}">{{item.name}}</a>
+                <span class="ds-label-small">{{item.system.units}} {{localize "DARKSPACE.sheet.ship.cargo.units"}}</span>
+            </div>
+            {{/each}}
+            {{#unless cargo.length}}
+            <span class="ds-unset">Drop items here or click + to add cargo</span>
+            {{/unless}}
+        {{/ui/ds-box}}
     </div>
 </section>

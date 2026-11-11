@@ -1,0 +1,35 @@
+{
+  "_id": "dsGearGrapple000",
+  "name": "Grapple",
+  "type": "Basic",
+  "img": "icons/tools/fasteners/hook-grappling-steel-grey.webp",
+  "system": {
+    "description": "<p>Hook and clip for latching onto objects; can be fired from a projectile weapon.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 2,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 0,
+      "per_slot": 1,
+      "slots_used": 1
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsGearGrapple000"
+}

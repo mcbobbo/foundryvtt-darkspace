@@ -1,0 +1,601 @@
+{
+  "_id": "dsStockFgtPhantom",
+  "name": "Fighter - APD-5 'Phantom' (Strike Corvette)",
+  "type": "darkspace.Ship",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "mod": -1
+      },
+      "dex": {
+        "value": 18,
+        "mod": 4
+      },
+      "con": {
+        "value": 10,
+        "mod": 0
+      },
+      "int": {
+        "value": 12,
+        "mod": 1
+      },
+      "wis": {
+        "value": 12,
+        "mod": 1
+      },
+      "cha": {
+        "value": 14,
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "ac": {
+        "value": 15
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "coins": {
+      "gp": 16000,
+      "sp": 0,
+      "cp": 0
+    },
+    "class": "Compendium.darkspace.ship-components.Item.dsShipClassFight",
+    "notes": "<p>Long-range strike craft with stealth hull coating, FTL drive, and heavy ordnance.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "_id": "shCl762bba9244af",
+      "name": "Fighter",
+      "type": "darkspace.ShipClass",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "system": {
+        "description": "<p>Interceptors, dogfighters, escorts, and strikers. Fighters are the razor's edge of fleet combat, delivering the killing blow with speed and precision.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "systemSlots": 10,
+        "featureSlots": 3,
+        "hpDie": "d6",
+        "freeComponents": [
+          "Compendium.darkspace.ship-components.Item.W5fmn1YN4HybiHq1",
+          "Compendium.darkspace.weapons.Item.dsShipWpLasrLght"
+        ],
+        "classTalents": [
+          "Compendium.darkspace.talents.Item.dsShTalDogfightg",
+          "Compendium.darkspace.talents.Item.dsShTalIntercept",
+          "Compendium.darkspace.talents.Item.dsShTalSupManeuv"
+        ],
+        "talentTable": "Compendium.darkspace.rollable-tables.RollTable.dsShipTabFighter"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCl762bba9244af"
+    },
+    {
+      "_id": "shCp331ffed0a177",
+      "name": "Sublight Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 2000,
+          "repair": 1000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCp331ffed0a177"
+    },
+    {
+      "_id": "shCpaff6e3648381",
+      "name": "FTL Drive",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at FTL speed.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 4000,
+          "repair": 2000
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCpaff6e3648381"
+    },
+    {
+      "_id": "shCp391af7eebe12",
+      "name": "Communications Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can communicate over long distances.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCp391af7eebe12"
+    },
+    {
+      "_id": "shCp0e254c57b6cd",
+      "name": "Memory Bank",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can store data and has a baseline set of star charts.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCp0e254c57b6cd"
+    },
+    {
+      "_id": "shCp6cfe8ed6accf",
+      "name": "Navicomputer",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with a navicomputer to make astrogation calculations.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCp6cfe8ed6accf"
+    },
+    {
+      "_id": "shCp79e079bc6559",
+      "name": "Sensor Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 500
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCp79e079bc6559"
+    },
+    {
+      "_id": "shCp0d67c50b0272",
+      "name": "Weapons Array",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>This ship is equipped with weapons. Each weapon requires a gunner to use it. Fire-linked arrays require only one gunner.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "System",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 100,
+          "repair": 50
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCp0d67c50b0272"
+    },
+    {
+      "_id": "shCp7085e43c3045",
+      "name": "Crew Quarters",
+      "type": "darkspace.ShipComponent",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "system": {
+        "description": "<p>Bunks required to take a Rest while on the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "type": "Feature",
+        "online": true,
+        "damaged": false,
+        "slots": 1,
+        "cost": {
+          "initial": 1000,
+          "repair": 250
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shCp7085e43c3045"
+    },
+    {
+      "_id": "shArfdd3e3c2b4d5",
+      "name": "Armor Plating, Light",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>Ph.</b> 11 + Ship DEX modifier (+1 AC vs Projectile and Energy).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 1,
+        "acEnergy": 1,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shArfdd3e3c2b4d5"
+    },
+    {
+      "_id": "shAr869cbdb6b7ee",
+      "name": "Energy Shields",
+      "type": "darkspace.ShipArmor",
+      "img": "icons/equipment/shield/heater-steel-worn.webp",
+      "system": {
+        "description": "<p><b>En, EG, S(1).</b> +2 to AC against energy weapons. Ignored by Ammo (Am) weapons. Shorted out on a natural 20 attack roll against the ship.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "acProjectile": 0,
+        "acEnergy": 2,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shAr869cbdb6b7ee"
+    },
+    {
+      "_id": "shWpabbb4035257c",
+      "name": "Laser Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale standard laser cannon powered by the ship's energy generator.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.dsPropEnergyGen0"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d8",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "far",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Energy",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shWpabbb4035257c"
+    },
+    {
+      "_id": "shWp0d7875f765c8",
+      "name": "Laser Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Ship-scale standard laser cannon powered by the ship's energy generator.</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.dsPropEnergyGen0"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 300,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d8",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "far",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Energy",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shWp0d7875f765c8"
+    },
+    {
+      "_id": "shWp3eb7933c27da",
+      "name": "Ion Cannon",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Disabling (DC 12 CON check or 1 random ship system goes offline).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.dsPropEnergyGen0",
+          "Compendium.darkspace.properties.Item.5qesNnhYCzBf6hK9"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 500,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d4",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "far",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Energy",
+        "size": "Medium"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shWp3eb7933c27da"
+    },
+    {
+      "_id": "shWp3c940003033e",
+      "name": "Explosive Missile",
+      "type": "darkspace.Weapon",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "description": "<p>Single Use, Armor Piercing, Blast (1d6 features damaged), Target Lock (contested WIS vs target DEX).</p>",
+        "source": {
+          "title": "darkspace"
+        },
+        "properties": [
+          "Compendium.darkspace.properties.Item.shyeDh7JN37RSnLF",
+          "Compendium.darkspace.properties.Item.SFVSxglbBnqroH2T",
+          "Compendium.darkspace.properties.Item.fiQC0kqb2aG9liEK",
+          "Compendium.darkspace.properties.Item.dsPropTargetLock"
+        ],
+        "ammoClass": "",
+        "baseWeapon": "",
+        "broken": false,
+        "cost": {
+          "cp": 0,
+          "gp": 200,
+          "sp": 0
+        },
+        "damage": {
+          "oneHanded": "1d10",
+          "twoHanded": ""
+        },
+        "handedness": "1h",
+        "range": "near",
+        "type": "ranged",
+        "equipped": true,
+        "isAmmunition": false,
+        "magicItem": false,
+        "quantity": 1,
+        "slots": {
+          "free_carry": 0,
+          "per_slot": 1,
+          "slots_used": 1
+        },
+        "stashed": false,
+        "damageType": "Projectile",
+        "size": "Heavy"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shWp3c940003033e"
+    },
+    {
+      "_id": "shTl90cceb70bc08",
+      "name": "Dogfighting",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is designed for close quarters combat and gains +1 to attack and damage when attacking a target within CLOSE range.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shTl90cceb70bc08"
+    },
+    {
+      "_id": "shTl11059b61c286",
+      "name": "Intercept Speed",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is designed for rapid engagement and can move up to DOUBLE NEAR distance.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shTl11059b61c286"
+    },
+    {
+      "_id": "shTlb3cde585b92a",
+      "name": "Superior Maneuverability",
+      "type": "Talent",
+      "img": "icons/commodities/tech/cog-brass.webp",
+      "system": {
+        "description": "<p>The ship is exceptionally responsive and agile. The pilot has advantage on DEX checks for making combat and chase maneuvers.</p>",
+        "talentClass": "class",
+        "source": {
+          "title": "darkspace"
+        }
+      },
+      "effects": [
+        {
+          "_id": "ef33ef692a63b0b5",
+          "name": "Superior Maneuverability",
+          "type": "base",
+          "img": "icons/commodities/tech/cog-brass.webp",
+          "changes": [
+            {
+              "key": "system.roll.dex.advantage",
+              "mode": 2,
+              "priority": null,
+              "value": "1"
+            }
+          ],
+          "description": "",
+          "disabled": false,
+          "duration": {
+            "combat": null,
+            "rounds": null,
+            "seconds": null,
+            "startRound": null,
+            "startTime": null,
+            "startTurn": null,
+            "turns": null
+          },
+          "origin": null,
+          "statuses": [],
+          "system": {},
+          "tint": "#ffffff",
+          "transfer": true,
+          "flags": {},
+          "_key": "!actors.items.effects!dsStockFgtPhantom.shTlb3cde585b92a.ef33ef692a63b0b5"
+        }
+      ],
+      "folder": null,
+      "flags": {},
+      "_key": "!actors.items!dsStockFgtPhantom.shTlb3cde585b92a"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!dsStockFgtPhantom"
+}

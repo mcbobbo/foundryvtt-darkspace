@@ -1,0 +1,17 @@
+{
+  "_id": "dsTriadMindBlast",
+  "name": "Triad (Mind): Mind Blast",
+  "type": "Talent",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": "<p><b>Mind (INT).</b> Project a lance of telekinetic or psychic force. Roll INT vs DC 9 (2d4), DC 12 (3d6), DC 15 (4d8), or DC 18 (5d10) damage.</p>",
+    "talentClass": "level",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTriadMindBlast"
+}

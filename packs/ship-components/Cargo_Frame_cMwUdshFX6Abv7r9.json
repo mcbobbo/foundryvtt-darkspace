@@ -11,9 +11,46 @@
     "type": "Feature",
     "online": true,
     "damaged": false,
-    "slots": 1
+    "slots": 1,
+    "cost": {
+      "initial": 1000,
+      "repair": 500
+    }
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "efcf6160c8ddf298",
+      "name": "Cargo Frame Capacity",
+      "type": "base",
+      "img": "icons/commodities/tech/console-steel.webp",
+      "changes": [
+        {
+          "key": "system.cargo.max",
+          "mode": 2,
+          "priority": null,
+          "value": "10"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!cMwUdshFX6Abv7r9.efcf6160c8ddf298"
+    }
+  ],
   "folder": null,
   "flags": {},
   "_key": "!items!cMwUdshFX6Abv7r9"

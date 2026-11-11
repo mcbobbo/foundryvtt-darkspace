@@ -1,0 +1,68 @@
+{
+  "_id": "dsCybHydraulicSu",
+  "name": "Cyberware: Hydraulic Suspension",
+  "type": "Basic",
+  "img": "icons/equipment/feet/boots-leather-iron.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> Upgrade for cybernetic legs. Gear slots increase by 3.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [
+    {
+      "_id": "ef943554b4140bec",
+      "name": "Hydraulic Suspension",
+      "type": "base",
+      "img": "icons/equipment/feet/boots-leather-iron.webp",
+      "changes": [
+        {
+          "key": "system.slots",
+          "mode": 2,
+          "priority": null,
+          "value": "3"
+        }
+      ],
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "combat": null,
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null
+      },
+      "origin": null,
+      "statuses": [],
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_key": "!items.effects!dsCybHydraulicSu.ef943554b4140bec"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybHydraulicSu"
+}

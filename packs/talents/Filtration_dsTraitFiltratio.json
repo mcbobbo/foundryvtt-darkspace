@@ -1,0 +1,17 @@
+{
+  "_id": "dsTraitFiltratio",
+  "name": "Filtration",
+  "type": "Talent",
+  "img": "icons/magic/acid/dissolve-bone-green.webp",
+  "system": {
+    "description": "<p>Can survive in toxic environments. Half damage from poison.</p>",
+    "talentClass": "ancestry",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsTraitFiltratio"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "dsCybSensorScram",
+  "name": "Cyberware: Sensor Scrambler",
+  "type": "Basic",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": "<p><b>Cybernetic Implant.</b> Can't be detected by sensor sweeps and cameras.</p>",
+    "source": {
+      "title": "darkspace"
+    },
+    "properties": [],
+    "broken": false,
+    "cost": {
+      "cp": 0,
+      "gp": 250,
+      "sp": 0
+    },
+    "equipped": false,
+    "isAmmunition": false,
+    "magicItem": false,
+    "quantity": 1,
+    "slots": {
+      "free_carry": 1,
+      "per_slot": 1,
+      "slots_used": 0
+    },
+    "stashed": false,
+    "treasure": false,
+    "scroll": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!items!dsCybSensorScram"
+}

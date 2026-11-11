@@ -1,0 +1,116 @@
+{
+  "_id": "1a7e87e79eb683d5",
+  "name": "The Biomech Stalker",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "move": "near",
+    "moveNote": "",
+    "alignment": "chaotic",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A hybrid apex predator with organic muscles reinforced by biomechanical sinew, designed to blend into its surroundings.</i></p><p><strong>Movement:</strong> near</p>",
+    "description": "<p><strong>Attacks:</strong> 2 claws +3 (1d6), bite +3 (1d8)</p><p>Stealthy</p><p><strong>Movement.</strong> ADV on Dexterity checks to avoid being seen.</p><p>Adaptive</p><p><strong>Strike.</strong> Deals an additional 1d4 damage if attacking a previously injured creature.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "claws",
+      "type": "NPC Attack",
+      "img": "icons/commodities/claws/talon-grey.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "t9FREhzNQGx9ne7T",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1a7e87e79eb683d5.t9FREhzNQGx9ne7T",
+      "effects": []
+    },
+    {
+      "name": "Movement",
+      "type": "NPC Feature",
+      "img": "icons/svg/jump.svg",
+      "system": {
+        "description": "<p>ADV on Dexterity checks to avoid being seen.</p><p>Adaptive</p></p>"
+      },
+      "_id": "HIfM0FnlCRCEKObE",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1a7e87e79eb683d5.HIfM0FnlCRCEKObE",
+      "effects": []
+    },
+    {
+      "name": "Strike",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/strike-club-red.webp",
+      "system": {
+        "description": "<p>Deals an additional 1d4 damage if attacking a previously injured creature.</p></p>"
+      },
+      "_id": "cObhJhF98nXF0P4o",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1a7e87e79eb683d5.cObhJhF98nXF0P4o",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!1a7e87e79eb683d5"
+}

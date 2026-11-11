@@ -1,0 +1,131 @@
+{
+  "_id": "c583e698b51e8c7b",
+  "name": "V.4 Debrian",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": 4,
+        "value": 18
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "ac": {
+        "value": 15
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Faster, stronger, better. Failure breeds success</i></p><p><strong>Movement:</strong> DOUBLE NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 electo-lash +4 (1d8+2)</p><p><strong>Tactical Override (1/episode).</strong> May reroll its attack roll.</p><p>Adaptive</p><p><strong>Shield.</strong> Gains resistance to the last damage type it received until the end of its next turn</p><p>Rebuild</p><p><strong>Protocol.</strong> Upon death the Debrian collapses into junk. After 1d12 rounds, it reforms into v.5</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "electo-lash",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "1d8+2"
+        },
+        "description": ""
+      },
+      "_id": "9ZO2TcOUu2am2TlU",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c583e698b51e8c7b.9ZO2TcOUu2am2TlU",
+      "effects": []
+    },
+    {
+      "name": "Tactical Override (1/episode)",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>May reroll its attack roll.</p><p>Adaptive</p></p>"
+      },
+      "_id": "tWuyYrrECVTL1FL2",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c583e698b51e8c7b.tWuyYrrECVTL1FL2",
+      "effects": []
+    },
+    {
+      "name": "Shield",
+      "type": "NPC Feature",
+      "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+      "system": {
+        "description": "<p>Gains resistance to the last damage type it received until the end of its next turn</p><p>Rebuild</p></p>"
+      },
+      "_id": "3BIx0iRdHcRnOuUM",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c583e698b51e8c7b.3BIx0iRdHcRnOuUM",
+      "effects": []
+    },
+    {
+      "name": "Protocol",
+      "type": "NPC Feature",
+      "img": "icons/sundries/books/book-open-red.webp",
+      "system": {
+        "description": "<p>Upon death the Debrian collapses into junk. After 1d12 rounds, it reforms into v.5</p></p>"
+      },
+      "_id": "0DwLGQbFKDP8cqbP",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!c583e698b51e8c7b.0DwLGQbFKDP8cqbP",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!c583e698b51e8c7b"
+}

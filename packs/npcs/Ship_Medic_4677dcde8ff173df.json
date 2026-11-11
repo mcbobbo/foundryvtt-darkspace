@@ -1,0 +1,107 @@
+{
+  "_id": "4677dcde8ff173df",
+  "name": "Ship Medic",
+  "type": "NPC",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A medical trainee who knows basic field medicine and triage.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 field baton +3 (1d6) or MedKit</p><p>MedKit. DC WIS. Heal one creature within CLOSE for 1d6 HP.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "field baton",
+      "type": "NPC Attack",
+      "img": "icons/weapons/clubs/club-baton-brown.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "IfHFEbxG0RBN0ymP",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4677dcde8ff173df.IfHFEbxG0RBN0ymP",
+      "effects": []
+    },
+    {
+      "name": "Medkit",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: MedKit</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "72Ec2Li5PNSR1Inf",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!4677dcde8ff173df.72Ec2Li5PNSR1Inf",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!4677dcde8ff173df"
+}

@@ -1,0 +1,116 @@
+{
+  "_id": "f1ddc6c17bfc7eca",
+  "name": "Star Spawn",
+  "type": "NPC",
+  "img": "icons/magic/symbols/star-yellow.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "starglide",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Alien humanoids who dwell in asteroid fields. They are covered in eyes, tentacles, and slime.</i></p><p><strong>Movement:</strong> NEAR (starglide)</p>",
+    "description": "<p><strong>Attacks:</strong> 2 tentacle (CLOSE/NEAR) +2 (1d6)</p><p>Space</p><p><strong>Dweller.</strong> Immune to harm from cold and vacuum. Does not require oxygen.</p><p><strong>Starglide.</strong> Moves normally and does not suffer knockback in 0-G.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tentacle (CLOSE/NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/consumables/food/soup-broth-bowl-tentacle.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 2
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "CfPOVbEVrsiprQAb",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f1ddc6c17bfc7eca.CfPOVbEVrsiprQAb",
+      "effects": []
+    },
+    {
+      "name": "Dweller",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Immune to harm from cold and vacuum. Does not require oxygen.</p></p>"
+      },
+      "_id": "ASfisPlgqGOCGFCx",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f1ddc6c17bfc7eca.ASfisPlgqGOCGFCx",
+      "effects": []
+    },
+    {
+      "name": "Starglide",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Moves normally and does not suffer knockback in 0-G.</p></p>"
+      },
+      "_id": "Y5yTDcDxnANclfmz",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f1ddc6c17bfc7eca.Y5yTDcDxnANclfmz",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!f1ddc6c17bfc7eca"
+}

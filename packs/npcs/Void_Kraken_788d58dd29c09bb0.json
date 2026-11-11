@@ -1,0 +1,467 @@
+{
+  "_id": "788d58dd29c09bb0",
+  "name": "Void Kraken",
+  "type": "NPC",
+  "img": "icons/creatures/fish/squid-kraken-teal.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 4,
+        "value": 18
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 52,
+        "max": 52
+      },
+      "ac": {
+        "value": 16
+      }
+    },
+    "level": {
+      "value": 11
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A massive, organic ship that looks like an eldritch combination of a spaceship, a whale, and cephalopod. Its hull writhes and undulates as enormous tentacles grasp into the void in search of the \u00c6therphages' next prey.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 4 tentacle +6 (1d8 + latch) or 1 plasma beam</p><p>Cargo</p><p><strong>Bay.</strong> </p><p><strong>Feature.</strong> This ship is capable of carrying 10 m\u00b3 units of bulk cargo.  FTL</p><p><strong>Drive.</strong> FTL</p><p><strong>System.</strong> This ship is capable of traveling at FTL speed.  Medical Bay +</p><p>Nanofluid</p><p><strong>Tank.</strong> </p><p>Upgraded</p><p><strong>Feature.</strong> A fully stocked medical facility. Using it to perform medical tasks grants advantage. A successful DC 15 INT check, an ally regains 2d6 hp.</p><p>Plasma</p><p><strong>Shields.</strong> </p><p>Upgraded</p><p><strong>System.</strong> +2 AC against ALL weapons.</p><p>Science</p><p><strong>Station.</strong> </p><p><strong>Feature.</strong> Used to perform scientific analysis and experimentation. The DC of any related check is reduced by 3.</p><p>Sense</p><p><strong>Array.</strong> </p><p><strong>System.</strong> This ship can detect the presence of vessels and objects up to FAR range.</p><p><strong>Sentience.</strong> </p><p>Upgraded</p><p><strong>System.</strong> The ship has as a sentient mind that replaces the Memory Banks and</p><p><strong>Navicomputer.</strong> Stasis Pods (12). Upgraded Feature x3. This ship is equipped with biological pods that place the crew and prisoners into deep hibernation and keep them alive for lengthy spans of time. They gain the benefits of a full rest without the need to eat a ration but are completely unaware of their surroundings and must be woken up.</p><p>Sublight</p><p><strong>Drive.</strong> </p><p><strong>System.</strong> This ship is capable of traveling at sublight speed.</p><p>Telepathic</p><p>Communications</p><p><strong>Array.</strong> </p><p>Upgraded</p><p><strong>System.</strong> This ship can broadcast thoughts over FAR distances.</p><p>Weapons</p><p><strong>Array.</strong> </p><p><strong>System.</strong> This ship is equipped with 4 fire-linked weapons that can be controlled by a single gunner or pilot.  -</p><p><strong>Latch.</strong> Tentacles attach to hit targets, automatically hitting the next round (DC 12 STR on turn to remove 1d4 tentacles). If all four remain latched onto the same ship for 1 round, the plasma beam deals max damage -</p><p>Plasma</p><p><strong>Beam.</strong> A large maw-like aperture in the center of the tentacles fires a beam of super-heated plasma extending DOUBLE NEAR from the</p><p>Void</p><p><strong>Kraken.</strong> DC 15 DEX or 3d8 damage.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tentacle",
+      "type": "NPC Attack",
+      "img": "icons/commodities/biological/tentacle-purple-white.webp",
+      "system": {
+        "attack": {
+          "num": "4"
+        },
+        "bonuses": {
+          "attackBonus": 6
+        },
+        "damage": {
+          "value": "1d8 + latch"
+        },
+        "description": ""
+      },
+      "_id": "qHYBh8HufbfQJYtf",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.qHYBh8HufbfQJYtf",
+      "effects": []
+    },
+    {
+      "name": "1 plasma beam",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/light/beam-rays-red.webp",
+      "system": {
+        "description": "<p>Special attack: 1 plasma beam</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "MdfNLGeGCVvBAygj",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.MdfNLGeGCVvBAygj",
+      "effects": []
+    },
+    {
+      "name": "Bay",
+      "type": "NPC Feature",
+      "img": "icons/consumables/plants/dried-bay-leaf-yellow.webp",
+      "system": {
+        "description": "<p></p></p>"
+      },
+      "_id": "o2lbaUhiq13zQtjH",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.o2lbaUhiq13zQtjH",
+      "effects": []
+    },
+    {
+      "name": "Feature",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>This ship is capable of carrying 10 m\u00b3 units of bulk cargo.  FTL</p></p>"
+      },
+      "_id": "LyJpexrQoz3Vns8q",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.LyJpexrQoz3Vns8q",
+      "effects": []
+    },
+    {
+      "name": "Drive",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>FTL</p></p>"
+      },
+      "_id": "icaw6TZkKaHCGBBS",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.icaw6TZkKaHCGBBS",
+      "effects": []
+    },
+    {
+      "name": "System",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at FTL speed.  Medical Bay +</p><p>Nanofluid</p></p>"
+      },
+      "_id": "Ov5sGg5Hx9yYJwW1",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.Ov5sGg5Hx9yYJwW1",
+      "effects": []
+    },
+    {
+      "name": "Tank",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p><p>Upgraded</p></p>"
+      },
+      "_id": "IGN4PF6GGht7A33n",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.IGN4PF6GGht7A33n",
+      "effects": []
+    },
+    {
+      "name": "Feature",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>A fully stocked medical facility. Using it to perform medical tasks grants advantage. A successful DC 15 INT check, an ally regains 2d6 hp.</p><p>Plasma</p></p>"
+      },
+      "_id": "hGc7Z85kSKk35cfh",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.hGc7Z85kSKk35cfh",
+      "effects": []
+    },
+    {
+      "name": "Shields",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p><p>Upgraded</p></p>"
+      },
+      "_id": "M3k2r73S2Qzu6ZI6",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.M3k2r73S2Qzu6ZI6",
+      "effects": []
+    },
+    {
+      "name": "System",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>+2 AC against ALL weapons.</p><p>Science</p></p>"
+      },
+      "_id": "6zYEbxSPnpbfFpPE",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.6zYEbxSPnpbfFpPE",
+      "effects": []
+    },
+    {
+      "name": "Station",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p></p>"
+      },
+      "_id": "2w4BsbhbW43k4MiN",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.2w4BsbhbW43k4MiN",
+      "effects": []
+    },
+    {
+      "name": "Feature",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Used to perform scientific analysis and experimentation. The DC of any related check is reduced by 3.</p><p>Sense</p></p>"
+      },
+      "_id": "ENgnXJuiky4aAxsq",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.ENgnXJuiky4aAxsq",
+      "effects": []
+    },
+    {
+      "name": "Array",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p></p>"
+      },
+      "_id": "ye70mET3SlQQIBLq",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.ye70mET3SlQQIBLq",
+      "effects": []
+    },
+    {
+      "name": "System",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>This ship can detect the presence of vessels and objects up to FAR range.</p></p>"
+      },
+      "_id": "ZX7fiNztI79ijXmW",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.ZX7fiNztI79ijXmW",
+      "effects": []
+    },
+    {
+      "name": "Sentience",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p><p>Upgraded</p></p>"
+      },
+      "_id": "EfNOSXMhV1QStnBx",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.EfNOSXMhV1QStnBx",
+      "effects": []
+    },
+    {
+      "name": "System",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>The ship has as a sentient mind that replaces the Memory Banks and</p></p>"
+      },
+      "_id": "GTF89n2t7r4M2R3z",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.GTF89n2t7r4M2R3z",
+      "effects": []
+    },
+    {
+      "name": "Navicomputer",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Stasis Pods (12). Upgraded Feature x3. This ship is equipped with biological pods that place the crew and prisoners into deep hibernation and keep them alive for lengthy spans of time. They gain the benefits of a full rest without the need to eat a ration but are completely unaware of their surroundings and must be woken up.</p><p>Sublight</p></p>"
+      },
+      "_id": "0cbqdpau9CVAONqa",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.0cbqdpau9CVAONqa",
+      "effects": []
+    },
+    {
+      "name": "Drive",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p></p>"
+      },
+      "_id": "2WgMSJR3bYaov1h4",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.2WgMSJR3bYaov1h4",
+      "effects": []
+    },
+    {
+      "name": "System",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>This ship is capable of traveling at sublight speed.</p><p>Telepathic</p><p>Communications</p></p>"
+      },
+      "_id": "5t8TtqjLjwdFTKun",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.5t8TtqjLjwdFTKun",
+      "effects": []
+    },
+    {
+      "name": "Array",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p><p>Upgraded</p></p>"
+      },
+      "_id": "JEr3TWB9nZDW8bhs",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.JEr3TWB9nZDW8bhs",
+      "effects": []
+    },
+    {
+      "name": "System",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>This ship can broadcast thoughts over FAR distances.</p><p>Weapons</p></p>"
+      },
+      "_id": "faUM59sSDKcdPJ6l",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.faUM59sSDKcdPJ6l",
+      "effects": []
+    },
+    {
+      "name": "Array",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p></p>"
+      },
+      "_id": "V859TulqR3QXdDvA",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.V859TulqR3QXdDvA",
+      "effects": []
+    },
+    {
+      "name": "System",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>This ship is equipped with 4 fire-linked weapons that can be controlled by a single gunner or pilot.  -</p></p>"
+      },
+      "_id": "O2dprLANFhbOHzQD",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.O2dprLANFhbOHzQD",
+      "effects": []
+    },
+    {
+      "name": "Latch",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Tentacles attach to hit targets, automatically hitting the next round (DC 12 STR on turn to remove 1d4 tentacles). If all four remain latched onto the same ship for 1 round, the plasma beam deals max damage -</p><p>Plasma</p></p>"
+      },
+      "_id": "mhWwLpKs1kdNfDPQ",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.mhWwLpKs1kdNfDPQ",
+      "effects": []
+    },
+    {
+      "name": "Beam",
+      "type": "NPC Feature",
+      "img": "icons/magic/light/beam-rays-blue.webp",
+      "system": {
+        "description": "<p>A large maw-like aperture in the center of the tentacles fires a beam of super-heated plasma extending DOUBLE NEAR from the</p><p>Void</p></p>"
+      },
+      "_id": "IDwskJdr2eee21rl",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.IDwskJdr2eee21rl",
+      "effects": []
+    },
+    {
+      "name": "Kraken",
+      "type": "NPC Feature",
+      "img": "icons/creatures/fish/squid-kraken-orange.webp",
+      "system": {
+        "description": "<p>DC 15 DEX or 3d8 damage.</p></p>"
+      },
+      "_id": "eKFvtxtKi9rHFwu5",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!788d58dd29c09bb0.eKFvtxtKi9rHFwu5",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!788d58dd29c09bb0"
+}

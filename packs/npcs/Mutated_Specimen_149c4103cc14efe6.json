@@ -1,0 +1,143 @@
+{
+  "_id": "149c4103cc14efe6",
+  "name": "Mutated Specimen",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": -1,
+        "value": 8
+      },
+      "cha": {
+        "mod": -3,
+        "value": 4
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 11
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "near",
+    "moveNote": "climb",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Vegetables grotesquely twisted from the radiation exposure.</i></p><p><strong>Movement:</strong> near (climb)</p>",
+    "description": "<p><strong>Attacks:</strong> see below</p><p><strong>Mutation.</strong> Attacks vary by mutation. Roll for type:  1-2</p><p>Aggro</p><p><strong>Tomato.</strong> 2 claws +3, 1d6+1 damage or 1 bite, 1d4+1 damage.  3-4</p><p>Constrictor</p><p><strong>Squash.</strong> 2 vines +2, STR check DC 11 or immobilized or 1d4 damage if already immobilized.  5-6</p><p>Psychic</p><p><strong>Carrot.</strong> 2 mind gnaws, INT check DC 12 or 1d6 damage.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "See below",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: see below</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "Ga9kc1SL686lPD7m",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!149c4103cc14efe6.Ga9kc1SL686lPD7m",
+      "effects": []
+    },
+    {
+      "name": "Mutation",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Attacks vary by mutation. Roll for type:  1-2</p><p>Aggro</p></p>"
+      },
+      "_id": "w2ihgXU8egXi3yIf",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!149c4103cc14efe6.w2ihgXU8egXi3yIf",
+      "effects": []
+    },
+    {
+      "name": "Tomato",
+      "type": "NPC Feature",
+      "img": "icons/consumables/fruit/tomato-ripe-red.webp",
+      "system": {
+        "description": "<p>2 claws +3, 1d6+1 damage or 1 bite, 1d4+1 damage.  3-4</p><p>Constrictor</p></p>"
+      },
+      "_id": "NNvraVeDUAvX9SeF",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!149c4103cc14efe6.NNvraVeDUAvX9SeF",
+      "effects": []
+    },
+    {
+      "name": "Squash",
+      "type": "NPC Feature",
+      "img": "icons/consumables/vegetable/squash-gourd-green.webp",
+      "system": {
+        "description": "<p>2 vines +2, STR check DC 11 or immobilized or 1d4 damage if already immobilized.  5-6</p><p>Psychic</p></p>"
+      },
+      "_id": "p4o5ebx6m3iR33dX",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!149c4103cc14efe6.p4o5ebx6m3iR33dX",
+      "effects": []
+    },
+    {
+      "name": "Carrot",
+      "type": "NPC Feature",
+      "img": "icons/consumables/vegetable/root-carrot-orange.webp",
+      "system": {
+        "description": "<p>2 mind gnaws, INT check DC 12 or 1d6 damage.</p></p>"
+      },
+      "_id": "lNhLwzywkap1Cqp2",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!149c4103cc14efe6.lNhLwzywkap1Cqp2",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!149c4103cc14efe6"
+}

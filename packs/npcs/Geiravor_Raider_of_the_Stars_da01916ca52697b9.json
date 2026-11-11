@@ -1,0 +1,158 @@
+{
+  "_id": "da01916ca52697b9",
+  "name": "Geiravor, Raider of the Stars",
+  "type": "NPC",
+  "img": "icons/magic/nature/symbol-moon-stars-white.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "mod": -2,
+        "value": 6
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 3,
+        "value": 16
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 29,
+        "max": 29
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 6
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A mix of flesh, metal, and leather this punk rock captain is known for her deadly headbanging and twirling attacks.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 3 Spiked Boat Oar +5 (1d10) or Spiked Twirl or Deadly Headbang</p><p>Spiked</p><p><strong>Twirl.</strong> Spins on her foot striking all targets within CLOSE. DC 15 DEX or 1d10 damage.</p><p>Deadly</p><p><strong>Headbang.</strong> Flings high-density grenades with each whip of her head. 1 target at NEAR, DC15 DEX or 1d10 damage. 1d6 additional targets within CLOSE of target must also make the check.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "Spiked Boat Oar",
+      "type": "NPC Attack",
+      "img": "icons/tools/fasteners/pin-spiked.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 5
+        },
+        "damage": {
+          "value": "1d10"
+        },
+        "description": ""
+      },
+      "_id": "zuVaau7hBXu8F5tB",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!da01916ca52697b9.zuVaau7hBXu8F5tB",
+      "effects": []
+    },
+    {
+      "name": "Spiked twirl",
+      "type": "NPC Special Attack",
+      "img": "icons/weapons/thrown/ball-spiked.webp",
+      "system": {
+        "description": "<p>Special attack: Spiked Twirl</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "CWeKUIJkPUiqNE9H",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!da01916ca52697b9.CWeKUIJkPUiqNE9H",
+      "effects": []
+    },
+    {
+      "name": "Deadly headbang",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: Deadly Headbang</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "VkZoXNrHmJzEBmDt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!da01916ca52697b9.VkZoXNrHmJzEBmDt",
+      "effects": []
+    },
+    {
+      "name": "Twirl",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/sword-twirl-orange.webp",
+      "system": {
+        "description": "<p>Spins on her foot striking all targets within CLOSE. DC 15 DEX or 1d10 damage.</p><p>Deadly</p></p>"
+      },
+      "_id": "isEdRMMvJQX8dwWM",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!da01916ca52697b9.isEdRMMvJQX8dwWM",
+      "effects": []
+    },
+    {
+      "name": "Headbang",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Flings high-density grenades with each whip of her head. 1 target at NEAR, DC15 DEX or 1d10 damage. 1d6 additional targets within CLOSE of target must also make the check.</p></p>"
+      },
+      "_id": "AeIiIfeGMveiNDUo",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!da01916ca52697b9.AeIiIfeGMveiNDUo",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!da01916ca52697b9"
+}

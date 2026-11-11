@@ -1,0 +1,116 @@
+{
+  "_id": "71671174544f1542",
+  "name": "Alien Larva",
+  "type": "NPC",
+  "img": "icons/creatures/invertebrates/beetle-grub-larvae-gray.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": -1,
+        "value": 8
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": -3,
+        "value": 4
+      },
+      "wis": {
+        "mod": -1,
+        "value": 8
+      },
+      "cha": {
+        "mod": -3,
+        "value": 4
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 9
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "climb",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A glossy black, blood-drinking slug as large as a blaster rifle.</i></p><p><strong>Movement:</strong> NEAR (climb)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 bite +1 (1d4 + attach)</p><p><strong>Attach.</strong> Attach to target; bite auto-hits next round. STR check (DC 12) on turn to tear off.</p><p>Accelerated</p><p><strong>Growth.</strong> Once the larva has attached and fed, it will attempt to flee. If it escapes, it grows into an Alien Beast within 1d12 hours.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/environment/creatures/bug-worm-teeth-green.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d4 + attach"
+        },
+        "description": ""
+      },
+      "_id": "aBCdcHN0ddF6bTQX",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!71671174544f1542.aBCdcHN0ddF6bTQX",
+      "effects": []
+    },
+    {
+      "name": "Attach",
+      "type": "NPC Feature",
+      "img": "icons/consumables/food/skewer-bug-insect-worm-purple.webp",
+      "system": {
+        "description": "<p>Attach to target; bite auto-hits next round. STR check (DC 12) on turn to tear off.</p><p>Accelerated</p></p>"
+      },
+      "_id": "1F2Aq5eQ6t8GFqpO",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!71671174544f1542.1F2Aq5eQ6t8GFqpO",
+      "effects": []
+    },
+    {
+      "name": "Growth",
+      "type": "NPC Feature",
+      "img": "icons/consumables/food/skewer-bug-insect-worm-purple.webp",
+      "system": {
+        "description": "<p>Once the larva has attached and fed, it will attempt to flee. If it escapes, it grows into an Alien Beast within 1d12 hours.</p></p>"
+      },
+      "_id": "NBhcJke5ooha07Qs",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!71671174544f1542.NBhcJke5ooha07Qs",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!71671174544f1542"
+}

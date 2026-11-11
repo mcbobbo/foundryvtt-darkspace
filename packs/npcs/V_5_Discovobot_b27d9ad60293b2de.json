@@ -1,0 +1,131 @@
+{
+  "_id": "b27d9ad60293b2de",
+  "name": "V.5 Discovobot",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "mod": 5,
+        "value": 20
+      },
+      "con": {
+        "mod": 5,
+        "value": 20
+      },
+      "int": {
+        "mod": 5,
+        "value": 20
+      },
+      "wis": {
+        "mod": 3,
+        "value": 16
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 25,
+        "max": 25
+      },
+      "ac": {
+        "value": 16
+      }
+    },
+    "level": {
+      "value": 6
+    },
+    "move": "FAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>One More Time. Harder, Better, Faster, Stronger.</i></p><p><strong>Movement:</strong> FAR</p>",
+    "description": "<p><strong>Attacks:</strong> 4 plasma lash +6 (1d12+4)</p><p><strong>Tactical Override (1/episode).</strong> May reroll its attack roll.</p><p>Adaptive</p><p><strong>Shield.</strong> Gains resistance to the last damage type it received until the end of its next turn  Overclock (1/episode). May take a second action.</p><p>Final</p><p><strong>Protocol.</strong> Upon death the Discovobot collapses into junk and cannot rebuild.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "plasma lash",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "4"
+        },
+        "bonuses": {
+          "attackBonus": 6
+        },
+        "damage": {
+          "value": "1d12+4"
+        },
+        "description": ""
+      },
+      "_id": "0Lz7d1l6X4LkaT6p",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b27d9ad60293b2de.0Lz7d1l6X4LkaT6p",
+      "effects": []
+    },
+    {
+      "name": "Tactical Override (1/episode)",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>May reroll its attack roll.</p><p>Adaptive</p></p>"
+      },
+      "_id": "KfODyiaiPTjdWqEO",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b27d9ad60293b2de.KfODyiaiPTjdWqEO",
+      "effects": []
+    },
+    {
+      "name": "Shield",
+      "type": "NPC Feature",
+      "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
+      "system": {
+        "description": "<p>Gains resistance to the last damage type it received until the end of its next turn  Overclock (1/episode). May take a second action.</p><p>Final</p></p>"
+      },
+      "_id": "r21A2ch5zPA4gcuC",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b27d9ad60293b2de.r21A2ch5zPA4gcuC",
+      "effects": []
+    },
+    {
+      "name": "Protocol",
+      "type": "NPC Feature",
+      "img": "icons/sundries/books/book-worn-red.webp",
+      "system": {
+        "description": "<p>Upon death the Discovobot collapses into junk and cannot rebuild.</p></p>"
+      },
+      "_id": "gn4apM1o8Cd5m0tu",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b27d9ad60293b2de.gn4apM1o8Cd5m0tu",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!b27d9ad60293b2de"
+}

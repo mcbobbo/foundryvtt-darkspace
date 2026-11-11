@@ -1,0 +1,125 @@
+{
+  "_id": "3489c7911406eccb",
+  "name": "Space Pirate Captain",
+  "type": "NPC",
+  "img": "icons/sundries/flags/banner-flag-pirate-blue.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 19,
+        "max": 19
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Leader of a crew of starfaring scoundrels.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 saber +3 (1d6) or 1 pistol (NEAR) +2 (1d6)</p><p><strong>Ambush.</strong> Deal an extra die of damage when undetected.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "saber",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "2cm7Tc0p3PHGNcA1",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3489c7911406eccb.2cm7Tc0p3PHGNcA1",
+      "effects": []
+    },
+    {
+      "name": "pistol (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/weapons/guns/gun-worn-gold.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 2
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "W3iQQaVYro9IPFgt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3489c7911406eccb.W3iQQaVYro9IPFgt",
+      "effects": []
+    },
+    {
+      "name": "Ambush",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Deal an extra die of damage when undetected.</p></p>"
+      },
+      "_id": "REpMovLgfpyEBVxX",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!3489c7911406eccb.REpMovLgfpyEBVxX",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!3489c7911406eccb"
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "ff9feb4a9f438101",
+  "name": "The Traveller",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -1,
+        "value": 8
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 7,
+        "value": 24
+      },
+      "int": {
+        "mod": 7,
+        "value": 24
+      },
+      "wis": {
+        "mod": 7,
+        "value": 24
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 77,
+        "max": 77
+      },
+      "ac": {
+        "value": 19
+      }
+    },
+    "level": {
+      "value": 19
+    },
+    "move": "FAR",
+    "moveNote": "fly",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Long ago, before his homeworld was lost to war and memory, The Traveller served as a dockmaster at an orbital port. He managed the endless tide of freighters and liners, proud of keeping the chaos of the stars orderly and efficient.  Then came the day that broke time for him.  A Triadian who channeled all three aspects of the Triad, fled toward the docks, pursued by a furious mob that was shouting words like \"abomination\" and \"heretic.\" They reached the airlock, eyes blazing with red psionic fire, pleading for passage off-world.  \"Move along,\" the Dockmaster said coldly. \"You're disturbing traffic.\"  The Triadian met his gaze. \"I shall move on,\" they said softly, \"but you will wait until I return.\"  Moments later, the mob caught them. The Dockmaster turned away. He never saw what became of the Triadian.  But decades passed, then centuries, and he did not age. His peers died, his records faded, his world fell into ruin, and still he lived. Driven by guilt and curiosity, he began to wander the void, searching for the Triadian with burning eyes. He had to find the one whose curse or blessing had anchored him to eternity.  Now, spacers know him only as The Traveler, a quiet drifter who works short contracts as a cargo hand, an astrogator, a gunner, or any other position on a ship while never staying long. Ships he boards often report strange luck, eerie dreams, and brief psionic echoes just before he vanishes again into the stars.</i></p><p><strong>Movement:</strong> FAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 4 triad powers</p><p><strong>Cosmic.</strong> Only damaged by enhanced weapons. Triad Powers targeting The Traveller are DC 18. The Traveller's Triad Powers are always DC 12 to use.</p><p><strong>Regenerate.</strong> Regains 3d12 HP at the beginning of his turn.</p><p><strong>Immortal.</strong> Cannot be permanently killed by normal means. If reduced to 0 HP, is unconscious until he regenerates to full HP.  Healing Touch (Body Feat). Heal a creature within CLOSE for 6d4 HP.  Portent (Soul Feat). Lasts 2d4 rounds. One target in NEAR has advantage or disadvantage on all attack rolls and checks.  Telepathy (Mind Feat). FAR. Communicate with targets that are within range. Selected target, INT DC 18 or have memories read.</p><p><strong>Focus.</strong> Unmake (Body Feat). One target in FAR takes 4d6 damage. If reduced to 0 HP, instant death.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "4 triad powers",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: 4 triad powers</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "06m4TjyrqhOJ10IW",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ff9feb4a9f438101.06m4TjyrqhOJ10IW",
+      "effects": []
+    },
+    {
+      "name": "Cosmic",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Only damaged by enhanced weapons. Triad Powers targeting The Traveller are DC 18. The Traveller's Triad Powers are always DC 12 to use.</p></p>"
+      },
+      "_id": "Jc1dt90IFdV6jmbl",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ff9feb4a9f438101.Jc1dt90IFdV6jmbl",
+      "effects": []
+    },
+    {
+      "name": "Regenerate",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Regains 3d12 HP at the beginning of his turn.</p></p>"
+      },
+      "_id": "09cIgiYNLzHu5kh1",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ff9feb4a9f438101.09cIgiYNLzHu5kh1",
+      "effects": []
+    },
+    {
+      "name": "Immortal",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Cannot be permanently killed by normal means. If reduced to 0 HP, is unconscious until he regenerates to full HP.  Healing Touch (Body Feat). Heal a creature within CLOSE for 6d4 HP.  Portent (Soul Feat). Lasts 2d4 rounds. One target in NEAR has advantage or disadvantage on all attack rolls and checks.  Telepathy (Mind Feat). FAR. Communicate with targets that are within range. Selected target, INT DC 18 or have memories read.</p></p>"
+      },
+      "_id": "SdECv1H30675zv6m",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ff9feb4a9f438101.SdECv1H30675zv6m",
+      "effects": []
+    },
+    {
+      "name": "Focus",
+      "type": "NPC Feature",
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "system": {
+        "description": "<p>Unmake (Body Feat). One target in FAR takes 4d6 damage. If reduced to 0 HP, instant death.</p></p>"
+      },
+      "_id": "B2dkjvOxOdS5cnSX",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ff9feb4a9f438101.B2dkjvOxOdS5cnSX",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!ff9feb4a9f438101"
+}

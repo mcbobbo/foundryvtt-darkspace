@@ -1,0 +1,116 @@
+{
+  "_id": "b5833fb2715d001d",
+  "name": "Umbra",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": true,
+    "notes": "<p><i>A stealth tracer IC that attaches to personas and records their actions.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 touch +1 (shadow)</p><p>Digital</p><p><strong>Entity.</strong> Has Interface stats. Only damaged by malware.</p><p><strong>Shadow.</strong> Latches on and sends target's activity to network root. CTL DC 12 to disconnect it from persona.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "touch",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "shadow"
+        },
+        "description": ""
+      },
+      "_id": "PPyCTmvgtJl37GRF",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b5833fb2715d001d.PPyCTmvgtJl37GRF",
+      "effects": []
+    },
+    {
+      "name": "Entity",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Has Interface stats. Only damaged by malware.</p></p>"
+      },
+      "_id": "tf0Q0CEYIK4fvHNZ",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b5833fb2715d001d.tf0Q0CEYIK4fvHNZ",
+      "effects": []
+    },
+    {
+      "name": "Shadow",
+      "type": "NPC Feature",
+      "img": "icons/magic/life/heart-shadow-red.webp",
+      "system": {
+        "description": "<p>Latches on and sends target's activity to network root. CTL DC 12 to disconnect it from persona.</p></p>"
+      },
+      "_id": "trNiNLdSWMqYpYx7",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b5833fb2715d001d.trNiNLdSWMqYpYx7",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!b5833fb2715d001d"
+}

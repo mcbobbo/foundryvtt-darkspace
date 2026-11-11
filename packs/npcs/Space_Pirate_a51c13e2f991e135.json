@@ -1,0 +1,125 @@
+{
+  "_id": "a51c13e2f991e135",
+  "name": "Space Pirate",
+  "type": "NPC",
+  "img": "icons/sundries/flags/banner-flag-pirate.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Starfaring scoundrels who live to steal and hoard treasure.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 knife (CLOSE/NEAR) +1 (1d4) or 1 pistol (NEAR) +1 (1d6)</p><p><strong>Ambush.</strong> Deal an extra die of damage when undetected.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "knife (CLOSE/NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/tools/cooking/knife-chef-steel-black.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d4"
+        },
+        "description": ""
+      },
+      "_id": "IOcpBqzZMIVuZY5Y",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a51c13e2f991e135.IOcpBqzZMIVuZY5Y",
+      "effects": []
+    },
+    {
+      "name": "pistol (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/weapons/guns/gun-topbarrel.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "GfqbDiWFa0MafbH9",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a51c13e2f991e135.GfqbDiWFa0MafbH9",
+      "effects": []
+    },
+    {
+      "name": "Ambush",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Deal an extra die of damage when undetected.</p></p>"
+      },
+      "_id": "5o3nJf38FzMZjwyP",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!a51c13e2f991e135.5o3nJf38FzMZjwyP",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!a51c13e2f991e135"
+}

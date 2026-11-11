@@ -1,0 +1,143 @@
+{
+  "_id": "e1a0e9271fbce999",
+  "name": "Aetherphage",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 4,
+        "value": 18
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 36,
+        "max": 36
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 8
+    },
+    "move": "NEAR",
+    "moveNote": "starglide",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Sometimes called Void Walkers, indigo-skinned humanoids with cephalopod-shaped heads sail the darkest reaches of space in their living Void Leviathan ships in search of minds to dominate and consume.</i></p><p><strong>Movement:</strong> NEAR (starglide)</p>",
+    "description": "<p><strong>Attacks:</strong> 4 tentacle +5 (1d8 + latch) or 1 mind blast or 1 mind control</p><p><strong>Latch.</strong> Tentacles attach to hit targets, automatically hitting the next round (DC 12 STR on turn to remove 1d4 tentacles). If all four remain latched onto the same humanoid target for 1 round, the target's brain is ripped out and devoured.  Telepathy (Mind Feat). Can communicate with and hear the surface thoughts of all intelligent creatures within NEAR. DC 15 INT or the \u00c6therphage is able to probe memories.  Mind Blast (Mind Feat). Fills a NEAR-sized cube extending from \u00c6therphage. DC 15 INT or 3d6 damage and paralyzed 1d4 rounds.  Dominate (Soul Feat). One target in NEAR DC 15 WIS or the \u00c6therphage controls for 1d4 rounds.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tentacle",
+      "type": "NPC Attack",
+      "img": "icons/consumables/meat/octopus-tentacle-cut-purple.webp",
+      "system": {
+        "attack": {
+          "num": "4"
+        },
+        "bonuses": {
+          "attackBonus": 5
+        },
+        "damage": {
+          "value": "1d8 + latch"
+        },
+        "description": ""
+      },
+      "_id": "oZrCgXcyqi0zqwE5",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1a0e9271fbce999.oZrCgXcyqi0zqwE5",
+      "effects": []
+    },
+    {
+      "name": "1 mind blast",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/fire/blast-jet-stream-embers-orange.webp",
+      "system": {
+        "description": "<p>Special attack: 1 mind blast</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "qykC43xjEM2gsZJf",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1a0e9271fbce999.qykC43xjEM2gsZJf",
+      "effects": []
+    },
+    {
+      "name": "1 mind control",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/control/debuff-chains-red.webp",
+      "system": {
+        "description": "<p>Special attack: 1 mind control</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "G2Y87MhRKQIJb3iM",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1a0e9271fbce999.G2Y87MhRKQIJb3iM",
+      "effects": []
+    },
+    {
+      "name": "Latch",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Tentacles attach to hit targets, automatically hitting the next round (DC 12 STR on turn to remove 1d4 tentacles). If all four remain latched onto the same humanoid target for 1 round, the target's brain is ripped out and devoured.  Telepathy (Mind Feat). Can communicate with and hear the surface thoughts of all intelligent creatures within NEAR. DC 15 INT or the \u00c6therphage is able to probe memories.  Mind Blast (Mind Feat). Fills a NEAR-sized cube extending from \u00c6therphage. DC 15 INT or 3d6 damage and paralyzed 1d4 rounds.  Dominate (Soul Feat). One target in NEAR DC 15 WIS or the \u00c6therphage controls for 1d4 rounds.</p></p>"
+      },
+      "_id": "ZVm3Q6oPXw7LI3Tx",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!e1a0e9271fbce999.ZVm3Q6oPXw7LI3Tx",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!e1a0e9271fbce999"
+}

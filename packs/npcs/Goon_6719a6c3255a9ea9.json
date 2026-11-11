@@ -1,0 +1,86 @@
+{
+  "_id": "6719a6c3255a9ea9",
+  "name": "Goon",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A dim-witted thug who enjoys roughing spacers up for the boss.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 beat stick +1 (1d6)</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "beat stick",
+      "type": "NPC Attack",
+      "img": "icons/tools/fishing/rod-simple-stick.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "description": ""
+      },
+      "_id": "ZdFusp86HAbYZdz9",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!6719a6c3255a9ea9.ZdFusp86HAbYZdz9",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!6719a6c3255a9ea9"
+}

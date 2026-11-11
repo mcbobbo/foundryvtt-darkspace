@@ -1,0 +1,101 @@
+{
+  "_id": "f7903ec31bac09c7",
+  "name": "Sergeant",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": -1,
+        "value": 8
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 15,
+        "max": 15
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>An unyielding squad commander.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 laser rifle (FAR) +2 (1d8)</p><p><strong>Relentless.</strong> If reduced to 0 HP by a non-enhanced source, DC 15 CON to go to 1 HP instead.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "laser rifle (FAR)",
+      "type": "NPC Attack",
+      "img": "icons/weapons/guns/gun-green.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 2
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "BaLecVPUx1kHScXk",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f7903ec31bac09c7.BaLecVPUx1kHScXk",
+      "effects": []
+    },
+    {
+      "name": "Relentless",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>If reduced to 0 HP by a non-enhanced source, DC 15 CON to go to 1 HP instead.</p></p>"
+      },
+      "_id": "Cxba7iRxAIIhr4h7",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f7903ec31bac09c7.Cxba7iRxAIIhr4h7",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!f7903ec31bac09c7"
+}

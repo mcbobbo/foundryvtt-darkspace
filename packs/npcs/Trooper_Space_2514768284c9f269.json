@@ -1,0 +1,101 @@
+{
+  "_id": "2514768284c9f269",
+  "name": "Trooper, Space",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "max": 30
+      },
+      "ac": {
+        "value": 17
+      }
+    },
+    "level": {
+      "value": 6
+    },
+    "move": "NEAR",
+    "moveNote": "fly",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A soldier equipped with exosuit armor and thrusters for maneuverability.</i></p><p><strong>Movement:</strong> NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 2 heavy blaster rifle (FAR) +3 (1d8)</p><p><strong>Exosuit.</strong> Personal self-contained breathing device and can survive in vacuum. Radiation resistance.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "heavy blaster rifle (FAR)",
+      "type": "NPC Attack",
+      "img": "icons/weapons/guns/rifle-bayonet.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "CqyOcCSyXd39L1bV",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!2514768284c9f269.CqyOcCSyXd39L1bV",
+      "effects": []
+    },
+    {
+      "name": "Exosuit",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Personal self-contained breathing device and can survive in vacuum. Radiation resistance.</p></p>"
+      },
+      "_id": "jSqxTduUn2Xw9Mb0",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!2514768284c9f269.jSqxTduUn2Xw9Mb0",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!2514768284c9f269"
+}

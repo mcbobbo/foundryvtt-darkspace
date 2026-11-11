@@ -1,0 +1,167 @@
+{
+  "_id": "6b0ac908e7f46467",
+  "name": "Dragon, Void",
+  "type": "NPC",
+  "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "mod": 5,
+        "value": 20
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": 4,
+        "value": 18
+      },
+      "cha": {
+        "mod": 5,
+        "value": 20
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 79,
+        "max": 79
+      },
+      "ac": {
+        "value": 17
+      }
+    },
+    "level": {
+      "value": 18
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "fly + starglide",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>This dragon is a creature of pure darkness, its body composed of swirling shadows and cosmic dust. Its eyes glow with a malevolent purple light, and its scales shimmer with the colors of a dying star.</i></p><p><strong>Movement:</strong> DOUBLE NEAR (fly + starglide)</p>",
+    "description": "<p><strong>Attacks:</strong> 3 rend +10 (2d8) or 1 void breath</p><p>Void</p><p><strong>Breath.</strong> Fills a DOUBLE NEAR-sized sphere extending from dragon. DC 17 CON or 6d10 damage.</p><p><strong>Cosmicborn.</strong> Projectile immune.</p><p>Ship</p><p><strong>Scale.</strong> This denizen is the size of a ship and attacks and damages as such.</p><p>Space</p><p><strong>Dweller.</strong> Immune to harm from cold and vacuum. Does not require oxygen.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "rend",
+      "type": "NPC Attack",
+      "img": "icons/weapons/fist/claw-gauntlet-gray.webp",
+      "system": {
+        "attack": {
+          "num": "3"
+        },
+        "bonuses": {
+          "attackBonus": 10
+        },
+        "damage": {
+          "value": "2d8"
+        },
+        "description": ""
+      },
+      "_id": "3Mx3h2MqQs4wiZa7",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!6b0ac908e7f46467.3Mx3h2MqQs4wiZa7",
+      "effects": []
+    },
+    {
+      "name": "1 void breath",
+      "type": "NPC Special Attack",
+      "img": "icons/creatures/eyes/void-single-black-purple.webp",
+      "system": {
+        "description": "<p>Special attack: 1 void breath</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "FyGwS5SE6XxnS2j2",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!6b0ac908e7f46467.FyGwS5SE6XxnS2j2",
+      "effects": []
+    },
+    {
+      "name": "Breath",
+      "type": "NPC Feature",
+      "img": "icons/creatures/abilities/dragon-ice-breath-blue.webp",
+      "system": {
+        "description": "<p>Fills a DOUBLE NEAR-sized sphere extending from dragon. DC 17 CON or 6d10 damage.</p></p>"
+      },
+      "_id": "yRr6bfavkmfIzyDk",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!6b0ac908e7f46467.yRr6bfavkmfIzyDk",
+      "effects": []
+    },
+    {
+      "name": "Cosmicborn",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Projectile immune.</p><p>Ship</p></p>"
+      },
+      "_id": "YZ6Gg5O88yM8EQQK",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!6b0ac908e7f46467.YZ6Gg5O88yM8EQQK",
+      "effects": []
+    },
+    {
+      "name": "Scale",
+      "type": "NPC Feature",
+      "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+      "system": {
+        "description": "<p>This denizen is the size of a ship and attacks and damages as such.</p><p>Space</p></p>"
+      },
+      "_id": "y0VAegjnUJLrc9wC",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!6b0ac908e7f46467.y0VAegjnUJLrc9wC",
+      "effects": []
+    },
+    {
+      "name": "Dweller",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Immune to harm from cold and vacuum. Does not require oxygen.</p></p>"
+      },
+      "_id": "4PjyPyS7ibsx5L2a",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!6b0ac908e7f46467.4PjyPyS7ibsx5L2a",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!6b0ac908e7f46467"
+}

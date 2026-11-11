@@ -1,0 +1,131 @@
+{
+  "_id": "7e96564c10d6159b",
+  "name": "Braxen",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "fly",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A wasp-like species standing nearly a meter tall, with chitinous black-and-yellow plating and razor-edged wings. A ruthless imperative drives their nomadic hives to propagate.</i></p><p><strong>Movement:</strong> NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 stinger +1 (1d6 + infection)</p><p>Parasitic</p><p><strong>Incubation.</strong> DC 12 CON or become implanted with eggs. Larvae mature in 1d6 hours unless treated or surgically removed, dealing 1d4 damage per hour until destroyed.</p><p>Hive</p><p>Mind</p><p><strong>Link.</strong> Gain advantage on dectection and coordiantion within Nar of another</p><p><strong>Braxen.</strong> </p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "stinger",
+      "type": "NPC Attack",
+      "img": "icons/creatures/abilities/stinger-poison-green.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6 + infection"
+        },
+        "description": ""
+      },
+      "_id": "wTJXZogZwB4g1SRn",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7e96564c10d6159b.wTJXZogZwB4g1SRn",
+      "effects": []
+    },
+    {
+      "name": "Incubation",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>DC 12 CON or become implanted with eggs. Larvae mature in 1d6 hours unless treated or surgically removed, dealing 1d4 damage per hour until destroyed.</p><p>Hive</p><p>Mind</p></p>"
+      },
+      "_id": "ptRBKv5VOwrw1bNW",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7e96564c10d6159b.ptRBKv5VOwrw1bNW",
+      "effects": []
+    },
+    {
+      "name": "Link",
+      "type": "NPC Feature",
+      "img": "icons/magic/control/energy-stream-link-blue.webp",
+      "system": {
+        "description": "<p>Gain advantage on dectection and coordiantion within Nar of another</p></p>"
+      },
+      "_id": "gnuDqskzb83UKv6W",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7e96564c10d6159b.gnuDqskzb83UKv6W",
+      "effects": []
+    },
+    {
+      "name": "Braxen",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p></p></p>"
+      },
+      "_id": "BhwqT4ph7Sgl5YrB",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7e96564c10d6159b.BhwqT4ph7Sgl5YrB",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!7e96564c10d6159b"
+}

@@ -1,0 +1,113 @@
+{
+  "_id": "8646fe73f6849b78",
+  "name": "Sandworm",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 24,
+        "max": 24
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": true,
+    "notes": "<p><i>An enormous worm of circuitry and light with an engulfing maw.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 bite (NEAR)+4 (1d8 + consume)</p><p>Digital</p><p><strong>Entity.</strong> Has Interface stats. Only damaged by malware.</p><p><strong>Consume.</strong> Target makes NET DC 15 or AC reduced by 1 until logout.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "1 bite (near)+4 (1d8 + consume)",
+      "type": "NPC Special Attack",
+      "img": "icons/commodities/bones/bone-jaw-teeth-green.webp",
+      "system": {
+        "description": "<p>Special attack: 1 bite (NEAR)+4 (1d8 + consume)</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "4Sq583tBuo2o3d6g",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!8646fe73f6849b78.4Sq583tBuo2o3d6g",
+      "effects": []
+    },
+    {
+      "name": "Entity",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Has Interface stats. Only damaged by malware.</p></p>"
+      },
+      "_id": "4t7U59P4RKvEGGLC",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!8646fe73f6849b78.4t7U59P4RKvEGGLC",
+      "effects": []
+    },
+    {
+      "name": "Consume",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Target makes NET DC 15 or AC reduced by 1 until logout.</p></p>"
+      },
+      "_id": "owQxqhspgQuiGp3Y",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!8646fe73f6849b78.owQxqhspgQuiGp3Y",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!8646fe73f6849b78"
+}

@@ -1,0 +1,218 @@
+{
+  "_id": "b34de95567d7bda9",
+  "name": "Taurom, The Crimson Angel",
+  "type": "NPC",
+  "img": "icons/svg/angel.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 6,
+        "value": 22
+      },
+      "dex": {
+        "mod": 5,
+        "value": 20
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "mod": 4,
+        "value": 18
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 90,
+        "max": 90
+      },
+      "ac": {
+        "value": 17
+      }
+    },
+    "level": {
+      "value": 18
+    },
+    "move": "FAR",
+    "moveNote": "fly",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>An android, bull-headed warship composed of six fully autonomous mechs. Each part is emblazoned with a symbol resembling T-A-U-R-O-M, though this codename's meaning has long been forgotten. When the stars of the Red Spiral dimmed nearly a millennia ago, drained by the fusion cores of an extra-galactic fuel-extraction vessel, the philosophers and engineers of a dying world conceived this savior. TAUROM could not prevent the destruction of its creators, but it could carry on their legacy and defend other planets from the same cold annihilation. Since, TAUROM's components were scattered through the cosmos, scavenged and hidden after many battles, but recently they have awakened, called by a new, singular purpose.highly conductive. The shafts are littered with the debris of the discarded dead.</i></p><p><strong>Movement:</strong> FAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 1d6 components</p><p><strong>Legendary.</strong> Only damaged by enhanced weapons. Triad Powers targeting Taurom are DC 18.</p><p>Ship</p><p><strong>Scale.</strong> This denizen is the size of a ship and attacks and damages as such.</p><p><strong>Components.</strong> Each component mech can activate once per round. Each component has 15 HP and can be specifically targeted by an attacker. At 0 HP, a component cannot activate. For each component at 0 HP, add 1 die to the effect of remaining activated components.  1. Head -</p><p>Horn</p><p><strong>Gore.</strong> +8 (2d8) and DC 15 STR to break free. 2. Chest -</p><p>Particle</p><p><strong>Cannon.</strong> Fills a DOUBLE NEAR-sized cube extending from TAUROM, DC 15 CON or 2d10 damage. 3. Wings -</p><p>Solar</p><p><strong>Sails.</strong> Targets in NEAR, DC 15 DEX or blind 1d6 rounds. Each component heals 1d6 HP. 4. Right Arm -</p><p>Plasma</p><p><strong>Axe.</strong> +8 (1d12). Nonmagical material is destroyed on a d6 roll of 1-3. 5. Left Arm -</p><p>Meteor</p><p><strong>Fist.</strong> +8 (1d10) and DC 18 STR or pushed NEAR. 6. Legs -</p><p>Fusion</p><p><strong>Jets.</strong> One target in FAR range DC 18 DEX or 2d10 damage. TAUROM can move NEAR.  \"I have folded space to fulfill my purpose. Stand aside, or learn the meaning of annihilation.\"  \u2014 TAUROM the Crimson Angel</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "1d6 components",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: 1d6 components</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "foFV2HDl7O7D2Y8F",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.foFV2HDl7O7D2Y8F",
+      "effects": []
+    },
+    {
+      "name": "Legendary",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Only damaged by enhanced weapons. Triad Powers targeting Taurom are DC 18.</p><p>Ship</p></p>"
+      },
+      "_id": "GHIm35Q1eiQ86N6Q",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.GHIm35Q1eiQ86N6Q",
+      "effects": []
+    },
+    {
+      "name": "Scale",
+      "type": "NPC Feature",
+      "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+      "system": {
+        "description": "<p>This denizen is the size of a ship and attacks and damages as such.</p></p>"
+      },
+      "_id": "cVxcDbCUnBEYH0WG",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.cVxcDbCUnBEYH0WG",
+      "effects": []
+    },
+    {
+      "name": "Components",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Each component mech can activate once per round. Each component has 15 HP and can be specifically targeted by an attacker. At 0 HP, a component cannot activate. For each component at 0 HP, add 1 die to the effect of remaining activated components.  1. Head -</p><p>Horn</p></p>"
+      },
+      "_id": "oJa0VvowTXdIiKza",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.oJa0VvowTXdIiKza",
+      "effects": []
+    },
+    {
+      "name": "Gore",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>+8 (2d8) and DC 15 STR to break free. 2. Chest -</p><p>Particle</p></p>"
+      },
+      "_id": "xGJcfJiUxiGTGuzH",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.xGJcfJiUxiGTGuzH",
+      "effects": []
+    },
+    {
+      "name": "Cannon",
+      "type": "NPC Feature",
+      "img": "icons/weapons/artillery/cannon-banded.webp",
+      "system": {
+        "description": "<p>Fills a DOUBLE NEAR-sized cube extending from TAUROM, DC 15 CON or 2d10 damage. 3. Wings -</p><p>Solar</p></p>"
+      },
+      "_id": "WmkqC1NIAd9lLiTF",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.WmkqC1NIAd9lLiTF",
+      "effects": []
+    },
+    {
+      "name": "Sails",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Targets in NEAR, DC 15 DEX or blind 1d6 rounds. Each component heals 1d6 HP. 4. Right Arm -</p><p>Plasma</p></p>"
+      },
+      "_id": "0UGquoIZ8naGmmQn",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.0UGquoIZ8naGmmQn",
+      "effects": []
+    },
+    {
+      "name": "Axe",
+      "type": "NPC Feature",
+      "img": "icons/weapons/axes/axe-broad-grey.webp",
+      "system": {
+        "description": "<p>+8 (1d12). Nonmagical material is destroyed on a d6 roll of 1-3. 5. Left Arm -</p><p>Meteor</p></p>"
+      },
+      "_id": "v7a2ykDmDUnRHjLY",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.v7a2ykDmDUnRHjLY",
+      "effects": []
+    },
+    {
+      "name": "Fist",
+      "type": "NPC Feature",
+      "img": "icons/weapons/fist/fist-katar-gold.webp",
+      "system": {
+        "description": "<p>+8 (1d10) and DC 18 STR or pushed NEAR. 6. Legs -</p><p>Fusion</p></p>"
+      },
+      "_id": "r4OyUMjNFdduXhPj",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.r4OyUMjNFdduXhPj",
+      "effects": []
+    },
+    {
+      "name": "Jets",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>One target in FAR range DC 18 DEX or 2d10 damage. TAUROM can move NEAR.  \"I have folded space to fulfill my purpose. Stand aside, or learn the meaning of annihilation.\"  \u2014 TAUROM the Crimson Angel</p></p>"
+      },
+      "_id": "EnceY8gUNm5rPSkh",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!b34de95567d7bda9.EnceY8gUNm5rPSkh",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!b34de95567d7bda9"
+}

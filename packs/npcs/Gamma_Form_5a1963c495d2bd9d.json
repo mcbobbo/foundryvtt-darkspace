@@ -1,0 +1,122 @@
+{
+  "_id": "5a1963c495d2bd9d",
+  "name": "Gamma Form",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 72,
+        "max": 72
+      },
+      "ac": {
+        "value": 17
+      }
+    },
+    "level": {
+      "value": 16
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>The third form is the most organic, shifting into a snake-like form with tentacles for arms and legs.</i></p><p><strong>Movement:</strong> DOUBLE NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 4 tentacles +9 (2d12 + constrict) or metaformation</p><p><strong>Constrict.</strong> DC 18 STR or held. One attack auto-hits each round. DC 18 STR on turn to break free.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tentacles",
+      "type": "NPC Attack",
+      "img": "icons/creatures/tentacles/tentacles-thing-green.webp",
+      "system": {
+        "attack": {
+          "num": "4"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "2d12 + constrict"
+        },
+        "description": ""
+      },
+      "_id": "LH1Y2IyoruvuHNIU",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5a1963c495d2bd9d.LH1Y2IyoruvuHNIU",
+      "effects": []
+    },
+    {
+      "name": "Metaformation",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: metaformation</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "RVE4B8dq8U7K6viH",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5a1963c495d2bd9d.RVE4B8dq8U7K6viH",
+      "effects": []
+    },
+    {
+      "name": "Constrict",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>DC 18 STR or held. One attack auto-hits each round. DC 18 STR on turn to break free.</p></p>"
+      },
+      "_id": "uK3cg4inLvUnBrwt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5a1963c495d2bd9d.uK3cg4inLvUnBrwt",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!5a1963c495d2bd9d"
+}

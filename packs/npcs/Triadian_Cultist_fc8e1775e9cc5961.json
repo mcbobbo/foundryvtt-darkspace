@@ -1,0 +1,146 @@
+{
+  "_id": "fc8e1775e9cc5961",
+  "name": "Triadian, Cultist",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 23,
+        "max": 23
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "chaotic",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A cloaked, wild-eyed zealot chanting the guttural prayers of a dark triadian religion.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 vibrosword +2 (1d8) or 1 vibrosword +2 (1d10) or one Body Power</p><p><strong>Dark Lightning (Body Power).</strong> CON DC 15. 2d6 damage to one creature within CLOSE.  Telekinetic Throw (Body Power). Opposed CON check against one target. Target is thrown a NEAR distance.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "vibrosword",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 2
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "ta5uVbZjxXT9PJxD",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fc8e1775e9cc5961.ta5uVbZjxXT9PJxD",
+      "effects": []
+    },
+    {
+      "name": "vibrosword",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 2
+        },
+        "damage": {
+          "value": "1d10"
+        },
+        "description": ""
+      },
+      "_id": "f9Mg3burZq7jTH55",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fc8e1775e9cc5961.f9Mg3burZq7jTH55",
+      "effects": []
+    },
+    {
+      "name": "One body power",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+      "system": {
+        "description": "<p>Special attack: one Body Power</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "rRXhA3Teu5xtNHIN",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fc8e1775e9cc5961.rRXhA3Teu5xtNHIN",
+      "effects": []
+    },
+    {
+      "name": "Dark Lightning (Body Power)",
+      "type": "NPC Feature",
+      "img": "icons/magic/fire/orb-lightning-sun.webp",
+      "system": {
+        "description": "<p>CON DC 15. 2d6 damage to one creature within CLOSE.  Telekinetic Throw (Body Power). Opposed CON check against one target. Target is thrown a NEAR distance.</p></p>"
+      },
+      "_id": "mCOuHWshidd3Nj35",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fc8e1775e9cc5961.mCOuHWshidd3Nj35",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!fc8e1775e9cc5961"
+}

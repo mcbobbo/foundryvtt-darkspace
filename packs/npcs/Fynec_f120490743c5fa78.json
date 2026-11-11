@@ -1,0 +1,101 @@
+{
+  "_id": "f120490743c5fa78",
+  "name": "Fynec",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": -1,
+        "value": 8
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 3,
+        "max": 3
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A wily quadruped covered in both fur and scales with large ears and eyes, strong tail, and climbing claws.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 bite +1 (1d4)</p><p><strong>Cunning.</strong> ADV on deception checks.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d4"
+        },
+        "description": ""
+      },
+      "_id": "PRZTbfoUfQEjYqN1",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f120490743c5fa78.PRZTbfoUfQEjYqN1",
+      "effects": []
+    },
+    {
+      "name": "Cunning",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>ADV on deception checks.</p></p>"
+      },
+      "_id": "ax5Iij6DW6pkzctJ",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!f120490743c5fa78.ax5Iij6DW6pkzctJ",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!f120490743c5fa78"
+}

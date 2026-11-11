@@ -1,0 +1,125 @@
+{
+  "_id": "bef26a774076fcdc",
+  "name": "Automata, Bodyguard",
+  "type": "NPC",
+  "img": "icons/commodities/tech/cog-steel.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": -1,
+        "value": 8
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "ac": {
+        "value": 15
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Designed for security and resilience.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 vibrosword +4 (1d8) or blaster rifle (FAR) +3 (1d8)</p><p><strong>Relentless.</strong> If reduced to 0 HP by a non-enhanced source, DC 15 CON to go to 1 HP instead.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "vibrosword",
+      "type": "NPC Attack",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "yMPNH8oFvsO73sIB",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bef26a774076fcdc.yMPNH8oFvsO73sIB",
+      "effects": []
+    },
+    {
+      "name": "blaster rifle (FAR)",
+      "type": "NPC Attack",
+      "img": "icons/weapons/guns/gun-pistol-brown.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d8"
+        },
+        "description": ""
+      },
+      "_id": "U7y7rMOsmDE8SnX5",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bef26a774076fcdc.U7y7rMOsmDE8SnX5",
+      "effects": []
+    },
+    {
+      "name": "Relentless",
+      "type": "NPC Feature",
+      "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+      "system": {
+        "description": "<p>If reduced to 0 HP by a non-enhanced source, DC 15 CON to go to 1 HP instead.</p></p>"
+      },
+      "_id": "rSD0L79nHwDk2Kd8",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bef26a774076fcdc.rSD0L79nHwDk2Kd8",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!bef26a774076fcdc"
+}

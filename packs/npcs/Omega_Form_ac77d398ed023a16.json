@@ -1,0 +1,113 @@
+{
+  "_id": "ac77d398ed023a16",
+  "name": "Omega Form",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -1,
+        "value": 8
+      },
+      "dex": {
+        "mod": 7,
+        "value": 24
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": 6,
+        "value": 22
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 90,
+        "max": 90
+      },
+      "ac": {
+        "value": 20
+      }
+    },
+    "level": {
+      "value": 19
+    },
+    "move": "FAR",
+    "moveNote": "flight",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>The final form is the smallest, featuring an oversized head, shrunken arms and legs, and angelic wings.</i></p><p><strong>Movement:</strong> FAR (flight)</p>",
+    "description": "<p><strong>Attacks:</strong> brainwave</p><p><strong>Brainwave.</strong> Fills a NEAR-sized cube extending from</p><p>Omega</p><p><strong>Form.</strong> DC 18 INT or 2d12 damage and paralyzed 1d4 rounds.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "Brainwave",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: brainwave</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "ZQGuN8b4sfAMJuiL",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ac77d398ed023a16.ZQGuN8b4sfAMJuiL",
+      "effects": []
+    },
+    {
+      "name": "Brainwave",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Fills a NEAR-sized cube extending from</p><p>Omega</p></p>"
+      },
+      "_id": "ZXYrpCPfQdB2lHLH",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ac77d398ed023a16.ZXYrpCPfQdB2lHLH",
+      "effects": []
+    },
+    {
+      "name": "Form",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>DC 18 INT or 2d12 damage and paralyzed 1d4 rounds.</p></p>"
+      },
+      "_id": "1pyLlWytMJs6u3uK",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ac77d398ed023a16.1pyLlWytMJs6u3uK",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!ac77d398ed023a16"
+}

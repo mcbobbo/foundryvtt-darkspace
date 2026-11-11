@@ -1,0 +1,116 @@
+{
+  "_id": "92d851308ac51090",
+  "name": "Archive Wisp",
+  "type": "NPC",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "move": "NEAR",
+    "moveNote": "fly",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": true,
+    "notes": "<p><i>A small diamond-shaped icon that flits through data clusters performing integrity checks.</i></p><p><strong>Movement:</strong> NEAR (fly)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 data flicker +1 (1d6 + disrupt)</p><p>Digital</p><p><strong>Entity.</strong> Has Interface stats. Only damaged by malware.</p><p><strong>Disrupt.</strong> The target has DISADV on their next roll.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "data flicker",
+      "type": "NPC Attack",
+      "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d6 + disrupt"
+        },
+        "description": ""
+      },
+      "_id": "EnrMcxo9lSlFuvTa",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!92d851308ac51090.EnrMcxo9lSlFuvTa",
+      "effects": []
+    },
+    {
+      "name": "Entity",
+      "type": "NPC Feature",
+      "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+      "system": {
+        "description": "<p>Has Interface stats. Only damaged by malware.</p></p>"
+      },
+      "_id": "ZZkopgO0E3gLPeOX",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!92d851308ac51090.ZZkopgO0E3gLPeOX",
+      "effects": []
+    },
+    {
+      "name": "Disrupt",
+      "type": "NPC Feature",
+      "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+      "system": {
+        "description": "<p>The target has DISADV on their next roll.</p></p>"
+      },
+      "_id": "h0wj5vDlvB2wxrqd",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!92d851308ac51090.h0wj5vDlvB2wxrqd",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!92d851308ac51090"
+}

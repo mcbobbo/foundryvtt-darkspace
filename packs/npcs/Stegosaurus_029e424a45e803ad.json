@@ -1,0 +1,116 @@
+{
+  "_id": "029e424a45e803ad",
+  "name": "Stegosaurus",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "ac": {
+        "value": 14
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A grazing reptiles with spinal plates and a spiked tail.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 spiked tail +3 (1d6 + knock)</p><p><strong>Impale.</strong> On a natural attack roll of 18-20, target is impaled on tail spikes. 1d6 per round and target moves with</p><p><strong>Stegosaurus.</strong> DC 12 STR to pull themselves off spikes.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "spiked tail",
+      "type": "NPC Attack",
+      "img": "icons/commodities/biological/tail-spiked-green.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 3
+        },
+        "damage": {
+          "value": "1d6 + knock"
+        },
+        "description": ""
+      },
+      "_id": "rs2qJM60ZldHsUJo",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!029e424a45e803ad.rs2qJM60ZldHsUJo",
+      "effects": []
+    },
+    {
+      "name": "Impale",
+      "type": "NPC Feature",
+      "img": "icons/skills/ranged/projectile-strike-impale-gray.webp",
+      "system": {
+        "description": "<p>On a natural attack roll of 18-20, target is impaled on tail spikes. 1d6 per round and target moves with</p></p>"
+      },
+      "_id": "1cb8huc9v1RPGihL",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!029e424a45e803ad.1cb8huc9v1RPGihL",
+      "effects": []
+    },
+    {
+      "name": "Stegosaurus",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>DC 12 STR to pull themselves off spikes.</p></p>"
+      },
+      "_id": "Eyvu4KYU7pGxvcRg",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!029e424a45e803ad.Eyvu4KYU7pGxvcRg",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!029e424a45e803ad"
+}

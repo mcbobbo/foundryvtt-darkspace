@@ -1,0 +1,116 @@
+{
+  "_id": "05b4bdc44f0faa31",
+  "name": "Headsman",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 2,
+        "value": 14
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 14,
+        "max": 14
+      },
+      "ac": {
+        "value": 13
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": true,
+    "notes": "<p><i>A heavy executioner avatar that severs connections permanently.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 2 axe +4 (1d6 + sever)</p><p>Digital</p><p><strong>Entity.</strong> Has Interface stats. Only damaged by malware.</p><p><strong>Sever.</strong> Target makes NET DC 12 or is immediately logged out.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "axe",
+      "type": "NPC Attack",
+      "img": "icons/weapons/axes/axe-double.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 4
+        },
+        "damage": {
+          "value": "1d6 + sever"
+        },
+        "description": ""
+      },
+      "_id": "lV7EdQrwvR4bjx7p",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!05b4bdc44f0faa31.lV7EdQrwvR4bjx7p",
+      "effects": []
+    },
+    {
+      "name": "Entity",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Has Interface stats. Only damaged by malware.</p></p>"
+      },
+      "_id": "WCqbg9cm79WNi1oy",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!05b4bdc44f0faa31.WCqbg9cm79WNi1oy",
+      "effects": []
+    },
+    {
+      "name": "Sever",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Target makes NET DC 12 or is immediately logged out.</p></p>"
+      },
+      "_id": "boozkRGgmSHY032u",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!05b4bdc44f0faa31.boozkRGgmSHY032u",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!05b4bdc44f0faa31"
+}

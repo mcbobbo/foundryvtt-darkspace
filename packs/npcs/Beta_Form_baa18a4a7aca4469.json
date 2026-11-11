@@ -1,0 +1,122 @@
+{
+  "_id": "baa18a4a7aca4469",
+  "name": "Beta Form",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2,
+        "value": 14
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": 3,
+        "value": 16
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 60,
+        "max": 60
+      },
+      "ac": {
+        "value": 16
+      }
+    },
+    "level": {
+      "value": 13
+    },
+    "move": "DOUBLE NEAR",
+    "moveNote": "",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>The second form appears as a synthetic humanoid that can form blasters from its hands.</i></p><p><strong>Movement:</strong> DOUBLE NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 4 blasts +8 (2d10 + disintegrate) or metaformation</p><p><strong>Disintegrate.</strong> On a natural attack roll of 18-20, one piece of non-enhanced gear is destroyed.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "blasts",
+      "type": "NPC Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "4"
+        },
+        "bonuses": {
+          "attackBonus": 8
+        },
+        "damage": {
+          "value": "2d10 + disintegrate"
+        },
+        "description": ""
+      },
+      "_id": "OaSPfTa0xf8R4pKi",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!baa18a4a7aca4469.OaSPfTa0xf8R4pKi",
+      "effects": []
+    },
+    {
+      "name": "Metaformation",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: metaformation</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "ODKODUHX2863VdI6",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!baa18a4a7aca4469.ODKODUHX2863VdI6",
+      "effects": []
+    },
+    {
+      "name": "Disintegrate",
+      "type": "NPC Feature",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "system": {
+        "description": "<p>On a natural attack roll of 18-20, one piece of non-enhanced gear is destroyed.</p></p>"
+      },
+      "_id": "TCdhplr69cB276jr",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!baa18a4a7aca4469.TCdhplr69cB276jr",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!baa18a4a7aca4469"
+}

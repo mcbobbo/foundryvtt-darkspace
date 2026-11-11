@@ -1,0 +1,269 @@
+{
+  "_id": "9e5dbc5d10b06e7d",
+  "name": "Starhorn",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": 0,
+        "value": 10
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 80,
+        "max": 80
+      },
+      "ac": {
+        "value": 18
+      }
+    },
+    "level": {
+      "value": 17
+    },
+    "move": "NEAR",
+    "moveNote": "starglide",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A starhorn is a massive narwhal-shaped creature the size of a capital ship. It swims silently through space, its glassy skin shimmering with auroras. The starhorn's long, spiral tusk glows while emitting a mysterious frequency. When approached, the horn splits into several pale tentacles tipped with sharp, metallic drills, and a mouth opens along its underside, dripping with shield-melting acid.</i></p><p><strong>Movement:</strong> NEAR (starglide)</p>",
+    "description": "<p><strong>Attacks:</strong> 2 tentacle attacks (NEAR) +9 (2d6) and 1 bite +9 (4d6 + shield melt) or 1 gore charge +9 (9d6)</p><p><strong>Legendary.</strong> Only damaged by enhanced weapons. Triad Powers targeting the Sagittar are DC 18.</p><p>Ship</p><p><strong>Scale.</strong> This denizen is the size of a ship and attacks and damages as such.</p><p>Space</p><p><strong>Dweller.</strong> Immune to harm from cold and vacuum. Does not require oxygen.</p><p><strong>Starglide.</strong> Moves normally and does not suffer knockback in 0-G.</p><p><strong>Fearless.</strong> Immune to morale checks.</p><p>Gore</p><p><strong>Charge.</strong> Move up to DOUBLE NEAR in a straight line and make 1 gore attack.</p><p><strong>Illusion.</strong> The tusk projects the illusion of a baby starhorn who appears to be injured and requiring aid. Starhorn appears distressed.</p><p>Shield</p><p><strong>Melt.</strong> Ship's armor is permanently damaged by acid. Reduce ship AC by 1d4. This cannot be repaired unless in spacedock.</p><p>Frenzied</p><p><strong>Call.</strong> The starhorn emits a chilling, subsonic roar. Other starhorns within SL hear the call and call back while racing to the source.  \"This is the Solace IV! We've lost control. Something's above us! No heat, no drive, it's alive and oh god, it has a mouth! Our hull is dissolving. Armor's melting! Power's dead, thrusters won't\u2014 MAYDAY, MAYDAY, SOMEBODY HELP US!\" [signal ends]  \u2014 Last transmission of the Solace IV</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "tentacle attacks (NEAR)",
+      "type": "NPC Attack",
+      "img": "icons/consumables/food/soup-tentacle-blue-yellow.webp",
+      "system": {
+        "attack": {
+          "num": "2"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "2d6"
+        },
+        "description": ""
+      },
+      "_id": "qPfx8rGaY2LmiHA5",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.qPfx8rGaY2LmiHA5",
+      "effects": []
+    },
+    {
+      "name": "bite",
+      "type": "NPC Attack",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "4d6 + shield melt"
+        },
+        "description": ""
+      },
+      "_id": "71ps5Se45mTZDGPy",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.71ps5Se45mTZDGPy",
+      "effects": []
+    },
+    {
+      "name": "gore charge",
+      "type": "NPC Attack",
+      "img": "icons/environment/people/charge.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 9
+        },
+        "damage": {
+          "value": "9d6"
+        },
+        "description": ""
+      },
+      "_id": "g9ZISbt1HOEIIZzP",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.g9ZISbt1HOEIIZzP",
+      "effects": []
+    },
+    {
+      "name": "Legendary",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Only damaged by enhanced weapons. Triad Powers targeting the Sagittar are DC 18.</p><p>Ship</p></p>"
+      },
+      "_id": "buZUCbTbHFbfyReF",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.buZUCbTbHFbfyReF",
+      "effects": []
+    },
+    {
+      "name": "Scale",
+      "type": "NPC Feature",
+      "img": "icons/tools/hand/scale-balances-merchant-brown.webp",
+      "system": {
+        "description": "<p>This denizen is the size of a ship and attacks and damages as such.</p><p>Space</p></p>"
+      },
+      "_id": "IPjKQ0INdQlhNddN",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.IPjKQ0INdQlhNddN",
+      "effects": []
+    },
+    {
+      "name": "Dweller",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Immune to harm from cold and vacuum. Does not require oxygen.</p></p>"
+      },
+      "_id": "RxW9XpJFDPRDp1bt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.RxW9XpJFDPRDp1bt",
+      "effects": []
+    },
+    {
+      "name": "Starglide",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Moves normally and does not suffer knockback in 0-G.</p></p>"
+      },
+      "_id": "lxB3PrMeH9ekEuEY",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.lxB3PrMeH9ekEuEY",
+      "effects": []
+    },
+    {
+      "name": "Fearless",
+      "type": "NPC Feature",
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "system": {
+        "description": "<p>Immune to morale checks.</p><p>Gore</p></p>"
+      },
+      "_id": "wZxiNG5dgP3Op4Fc",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.wZxiNG5dgP3Op4Fc",
+      "effects": []
+    },
+    {
+      "name": "Charge",
+      "type": "NPC Feature",
+      "img": "icons/environment/people/charge.webp",
+      "system": {
+        "description": "<p>Move up to DOUBLE NEAR in a straight line and make 1 gore attack.</p></p>"
+      },
+      "_id": "D2UpopOeNZcVsrfM",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.D2UpopOeNZcVsrfM",
+      "effects": []
+    },
+    {
+      "name": "Illusion",
+      "type": "NPC Feature",
+      "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+      "system": {
+        "description": "<p>The tusk projects the illusion of a baby starhorn who appears to be injured and requiring aid. Starhorn appears distressed.</p><p>Shield</p></p>"
+      },
+      "_id": "9eSsooVBfmB8ps7D",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.9eSsooVBfmB8ps7D",
+      "effects": []
+    },
+    {
+      "name": "Melt",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Ship's armor is permanently damaged by acid. Reduce ship AC by 1d4. This cannot be repaired unless in spacedock.</p><p>Frenzied</p></p>"
+      },
+      "_id": "54cNAP6HHXbLxf4S",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.54cNAP6HHXbLxf4S",
+      "effects": []
+    },
+    {
+      "name": "Call",
+      "type": "NPC Feature",
+      "img": "icons/creatures/birds/corvid-call-sound-blue.webp",
+      "system": {
+        "description": "<p>The starhorn emits a chilling, subsonic roar. Other starhorns within SL hear the call and call back while racing to the source.  \"This is the Solace IV! We've lost control. Something's above us! No heat, no drive, it's alive and oh god, it has a mouth! Our hull is dissolving. Armor's melting! Power's dead, thrusters won't\u2014 MAYDAY, MAYDAY, SOMEBODY HELP US!\" [signal ends]  \u2014 Last transmission of the Solace IV</p></p>"
+      },
+      "_id": "xs0yrr485oAQDGNt",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9e5dbc5d10b06e7d.xs0yrr485oAQDGNt",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!9e5dbc5d10b06e7d"
+}

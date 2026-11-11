@@ -1,0 +1,134 @@
+{
+  "_id": "d61484f1331c7f66",
+  "name": "Echo",
+  "type": "NPC",
+  "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 0,
+        "value": 10
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "ac": {
+        "value": 12
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "NEAR",
+    "moveNote": "",
+    "alignment": "lawful",
+    "darkAdapted": false,
+    "isDigitalEntity": true,
+    "notes": "<p><i>An annoying sprite. Repeats the hacker's actions loudly net-wide.</i></p><p><strong>Movement:</strong> NEAR</p>",
+    "description": "<p><strong>Attacks:</strong> 1 zap (NEAR)+1 (1d4) or echo.</p><p>Digital</p><p><strong>Entity.</strong> Has Interface stats. Only damaged by malware.</p><p><strong>Echo.</strong> Loudly announces intruder activities to nearby nodes. Alerts IC.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "1 zap (near)+1 (1d4)",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Special attack: 1 zap (NEAR)+1 (1d4)</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "HUusdkEsnNCl19rZ",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d61484f1331c7f66.HUusdkEsnNCl19rZ",
+      "effects": []
+    },
+    {
+      "name": "Echo.",
+      "type": "NPC Special Attack",
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "system": {
+        "description": "<p>Special attack: echo.</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "ZLUSopXHQrSVU4X1",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d61484f1331c7f66.ZLUSopXHQrSVU4X1",
+      "effects": []
+    },
+    {
+      "name": "Entity",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Has Interface stats. Only damaged by malware.</p></p>"
+      },
+      "_id": "fZIJQkLu1YIv5VUI",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d61484f1331c7f66.fZIJQkLu1YIv5VUI",
+      "effects": []
+    },
+    {
+      "name": "Echo",
+      "type": "NPC Feature",
+      "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+      "system": {
+        "description": "<p>Loudly announces intruder activities to nearby nodes. Alerts IC.</p></p>"
+      },
+      "_id": "z7q5A1WoYV3FaD4W",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d61484f1331c7f66.z7q5A1WoYV3FaD4W",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!d61484f1331c7f66"
+}

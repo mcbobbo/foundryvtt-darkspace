@@ -1,0 +1,131 @@
+{
+  "_id": "1e600b5c5e1cd0de",
+  "name": "Adrenoid",
+  "type": "NPC",
+  "img": "icons/commodities/biological/eye-red-pink.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -1,
+        "value": 8
+      },
+      "dex": {
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "mod": 1,
+        "value": 12
+      },
+      "int": {
+        "mod": -3,
+        "value": 4
+      },
+      "wis": {
+        "mod": -2,
+        "value": 6
+      },
+      "cha": {
+        "mod": -1,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 5,
+        "max": 5
+      },
+      "ac": {
+        "value": 10
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "move": "CLOSE",
+    "moveNote": "climb",
+    "alignment": "chaotic",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>A tiny, translucent, gelatinous parasite, lacking intelligence, latches onto a host's spinal or adrenal regions.</i></p><p><strong>Movement:</strong> CLOSE (climb)</p>",
+    "description": "<p><strong>Attacks:</strong> 1 Tendril Latch +1 (1d4 + attach)</p><p><strong>Attach.</strong> Attach to target. DC to remove is equal to 9 + its current HP.</p><p>Adrenal</p><p><strong>Leech.</strong> When attached to a host, the Adrenoid increases the host's STR and DEX by +2 but compels uncontrollable aggression. The host must succeed on a WIS check (DC 12) each round to avoid attacking the nearest living creature.</p><p>Sympathetic</p><p><strong>Surge.</strong> The Adrenoid gains 1 HP every time the host deals melee damage.</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "Tendril Latch",
+      "type": "NPC Attack",
+      "img": "icons/commodities/bones/skull-monster-beige.webp",
+      "system": {
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 1
+        },
+        "damage": {
+          "value": "1d4 + attach"
+        },
+        "description": ""
+      },
+      "_id": "3nYEuxqO9nkn9aoM",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1e600b5c5e1cd0de.3nYEuxqO9nkn9aoM",
+      "effects": []
+    },
+    {
+      "name": "Attach",
+      "type": "NPC Feature",
+      "img": "icons/consumables/meat/steak-alien-pink.webp",
+      "system": {
+        "description": "<p>Attach to target. DC to remove is equal to 9 + its current HP.</p><p>Adrenal</p></p>"
+      },
+      "_id": "DkRH2Bp94jMLykun",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1e600b5c5e1cd0de.DkRH2Bp94jMLykun",
+      "effects": []
+    },
+    {
+      "name": "Leech",
+      "type": "NPC Feature",
+      "img": "icons/consumables/meat/steak-alien-orange.webp",
+      "system": {
+        "description": "<p>When attached to a host, the Adrenoid increases the host's STR and DEX by +2 but compels uncontrollable aggression. The host must succeed on a WIS check (DC 12) each round to avoid attacking the nearest living creature.</p><p>Sympathetic</p></p>"
+      },
+      "_id": "HMoPOjZGqMYBZltR",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1e600b5c5e1cd0de.HMoPOjZGqMYBZltR",
+      "effects": []
+    },
+    {
+      "name": "Surge",
+      "type": "NPC Feature",
+      "img": "icons/svg/lightning.svg",
+      "system": {
+        "description": "<p>The Adrenoid gains 1 HP every time the host deals melee damage.</p></p>"
+      },
+      "_id": "dxYYizelwi1PEtWf",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1e600b5c5e1cd0de.dxYYizelwi1PEtWf",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!1e600b5c5e1cd0de"
+}

@@ -1,0 +1,218 @@
+{
+  "_id": "791b5665d69f8ea4",
+  "name": "Lunar Siren",
+  "type": "NPC",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18
+      },
+      "con": {
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "mod": 1,
+        "value": 12
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12
+      },
+      "cha": {
+        "mod": 5,
+        "value": 20
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 43,
+        "max": 43
+      },
+      "ac": {
+        "value": 16
+      }
+    },
+    "level": {
+      "value": 9
+    },
+    "move": "NEAR",
+    "moveNote": "burrow",
+    "alignment": "neutral",
+    "darkAdapted": false,
+    "isDigitalEntity": false,
+    "notes": "<p><i>Sinuous aliens with glassy eyes, a quartet of barb-ridden arms, and eel-like bodies that stretch for a dozen feet or more. Their warbles and cries pierce com channels on ships and exosuits, transmitting false distress signals and mimicking desperate pleas for help.  A siren's tunneled lair is usually embedded in an asteroid or the drifting wreckage of a space hulk. It's lined with secreted mucus and filled with bioluminescent gelatin that's breathable to most humanoids but also highly conductive. The shafts are littered with the debris of the discarded dead.</i></p><p><strong>Movement:</strong> NEAR (burrow)</p>",
+    "description": "<p><strong>Attacks:</strong> 4 Claw +8 (1d12 + Grab) or 1 Claw and 1 Mind Power</p><p>Space</p><p><strong>Dweller.</strong> Immune to harm from cold and vacuum. Does not require oxygen.</p><p><strong>Regenerate.</strong> While in gel, regains 1d6 HP on its turn.</p><p>Conductive</p><p><strong>Gel.</strong> While in lair, half damage from energy weapons. The other half damage is distributed evenly amongst all other creatures in gel within NEAR.  Warble (Mind Power). Opposed INT check to all targets with electronic coms within FAR. Targets dazed and drawn to siren for 1d4 rounds. ADV on future checks if passed check.  Overload (Mind Power). Opposed INT check to 1d4 targets with electronic coms within FAR. 1d6 damage and targets are deafened and checks at DISADV for 1 round.</p><p><strong>Charge.</strong> Move up to DOUBLE NEAR in gel and make 1 claw attack. If hit, x3 damage.</p><p><strong>Grab.</strong> Target is immobilized. DC 16 STR on turn to break free. Siren's speed reduced to CLOSE if grappling more than 1 creature.  \"This is Alexandra, last survivor of</p><p>The</p><p><strong>Ironside.</strong> If you can hear this, for all that is sacred, please send help.\"  \u2014 Lunar Siren [in derelict freighter]</p>",
+    "source": {
+      "title": "darkspace"
+    }
+  },
+  "items": [
+    {
+      "name": "Claw",
+      "type": "NPC Attack",
+      "img": "icons/commodities/claws/claw-blue-grey.webp",
+      "system": {
+        "attack": {
+          "num": "4"
+        },
+        "bonuses": {
+          "attackBonus": 8
+        },
+        "damage": {
+          "value": "1d12 + Grab"
+        },
+        "description": ""
+      },
+      "_id": "h75BaIMRboR3siMm",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.h75BaIMRboR3siMm",
+      "effects": []
+    },
+    {
+      "name": "1 claw",
+      "type": "NPC Special Attack",
+      "img": "icons/commodities/claws/claw-bird-pink.webp",
+      "system": {
+        "description": "<p>Special attack: 1 Claw</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "98xIkwErzWRaU0pT",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.98xIkwErzWRaU0pT",
+      "effects": []
+    },
+    {
+      "name": "1 mind power",
+      "type": "NPC Special Attack",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": "<p>Special attack: 1 Mind Power</p>",
+        "attack": {
+          "num": "1"
+        },
+        "bonuses": {
+          "attackBonus": 0
+        }
+      },
+      "_id": "eKsflu3IC9Go6Xjv",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.eKsflu3IC9Go6Xjv",
+      "effects": []
+    },
+    {
+      "name": "Dweller",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Immune to harm from cold and vacuum. Does not require oxygen.</p></p>"
+      },
+      "_id": "l84AulUztqBQg5LC",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.l84AulUztqBQg5LC",
+      "effects": []
+    },
+    {
+      "name": "Regenerate",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>While in gel, regains 1d6 HP on its turn.</p><p>Conductive</p></p>"
+      },
+      "_id": "Xaqfzk6bfI91Pa3t",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.Xaqfzk6bfI91Pa3t",
+      "effects": []
+    },
+    {
+      "name": "Gel",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>While in lair, half damage from energy weapons. The other half damage is distributed evenly amongst all other creatures in gel within NEAR.  Warble (Mind Power). Opposed INT check to all targets with electronic coms within FAR. Targets dazed and drawn to siren for 1d4 rounds. ADV on future checks if passed check.  Overload (Mind Power). Opposed INT check to 1d4 targets with electronic coms within FAR. 1d6 damage and targets are deafened and checks at DISADV for 1 round.</p></p>"
+      },
+      "_id": "fofK5PtDoKIUords",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.fofK5PtDoKIUords",
+      "effects": []
+    },
+    {
+      "name": "Charge",
+      "type": "NPC Feature",
+      "img": "icons/environment/people/charge.webp",
+      "system": {
+        "description": "<p>Move up to DOUBLE NEAR in gel and make 1 claw attack. If hit, x3 damage.</p></p>"
+      },
+      "_id": "Wn7qVoE0nd6npxjX",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.Wn7qVoE0nd6npxjX",
+      "effects": []
+    },
+    {
+      "name": "Grab",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>Target is immobilized. DC 16 STR on turn to break free. Siren's speed reduced to CLOSE if grappling more than 1 creature.  \"This is Alexandra, last survivor of</p><p>The</p></p>"
+      },
+      "_id": "3VknG5QXSp6w7dUY",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.3VknG5QXSp6w7dUY",
+      "effects": []
+    },
+    {
+      "name": "Ironside",
+      "type": "NPC Feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": "<p>If you can hear this, for all that is sacred, please send help.\"  \u2014 Lunar Siren [in derelict freighter]</p></p>"
+      },
+      "_id": "jWiUK834PPEgXo0t",
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!791b5665d69f8ea4.jWiUK834PPEgXo0t",
+      "effects": []
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_key": "!actors!791b5665d69f8ea4"
+}

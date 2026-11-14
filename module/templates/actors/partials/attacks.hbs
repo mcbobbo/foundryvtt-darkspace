@@ -1,10 +1,37 @@
-{{#each attacks.melee}}
-    <div class="attack item" data-action="item-attack" data-attack-type="melee" data-item-id="{{this.item._id}}" data-item-uuid="{{this.itemUuid}}" style="cursor:pointer;">
-        {{> actors/player/abilities/weapon-attack attackType="melee"}}
+{{#each attacks.melee as |attack|}}
+    <div class="attack ds-attack-row" data-action="item-attack" data-attack-type="melee" data-item-id="{{#if attack.item.id}}{{attack.item.id}}{{else}}{{attack.item._id}}{{/if}}" data-item-uuid="{{attack.itemUuid}}">
+        <a class="rollable ds-attack-link" data-action="item-attack" data-attack-type="melee" data-item-id="{{#if attack.item.id}}{{attack.item.id}}{{else}}{{attack.item._id}}{{/if}}" data-item-uuid="{{attack.itemUuid}}">
+            <i class="fa-solid fa-dice-d20"></i>
+            <b class="ds-attack-name">{{#if attack.item.name}}{{attack.item.name}}{{else if attack.weaponName}}{{attack.weaponName}}{{else}}Attack{{/if}}</b>
+            <span class="ds-attack-details">
+                ({{#if attack.attack.range}}{{attack.attack.range}}{{else if attack.attackRange}}{{attack.attackRange}}{{else}}close{{/if}})
+                {{#if attack.mainRoll.bonus}}{{attack.mainRoll.bonus}}{{else if attack.attackBonus}}{{numberFormat attack.attackBonus decimals=0 sign=true}}{{/if}}
+                ({{#if attack.damageRoll.formula}}{{attack.damageRoll.formula}}{{else if attack.baseDamage}}{{attack.baseDamage}}{{else}}1d4{{/if}})
+            </span>
+            <div class="ds-attack-subtext">
+                {{#if attack.attack.handedness}}{{attack.attack.handedness}}{{else if attack.handedness}}{{attack.handedness}}{{else}}1h{{/if}}{{#if attack.item.system.propertyNames}}, {{attack.item.system.propertyNames}}{{else if attack.properties}}, {{attack.properties}}{{/if}}
+            </div>
+        </a>
     </div>
 {{/each}}
-{{#each attacks.ranged}}
-    <div class="attack item" data-action="item-attack" data-attack-type="ranged" data-item-id="{{this.item._id}}" data-item-uuid="{{this.itemUuid}}" style="cursor:pointer;">
-        {{> actors/player/abilities/weapon-attack attackType="ranged"}}
+{{#each attacks.ranged as |attack|}}
+    <div class="attack ds-attack-row" data-action="item-attack" data-attack-type="ranged" data-item-id="{{#if attack.item.id}}{{attack.item.id}}{{else}}{{attack.item._id}}{{/if}}" data-item-uuid="{{attack.itemUuid}}">
+        <a class="rollable ds-attack-link" data-action="item-attack" data-attack-type="ranged" data-item-id="{{#if attack.item.id}}{{attack.item.id}}{{else}}{{attack.item._id}}{{/if}}" data-item-uuid="{{attack.itemUuid}}">
+            <i class="fa-solid fa-dice-d20"></i>
+            <b class="ds-attack-name">{{#if attack.item.name}}{{attack.item.name}}{{else if attack.weaponName}}{{attack.weaponName}}{{else}}Attack{{/if}}</b>
+            <span class="ds-attack-details">
+                ({{#if attack.attack.range}}{{attack.attack.range}}{{else if attack.attackRange}}{{attack.attackRange}}{{else}}near{{/if}})
+                {{#if attack.mainRoll.bonus}}{{attack.mainRoll.bonus}}{{else if attack.attackBonus}}{{numberFormat attack.attackBonus decimals=0 sign=true}}{{/if}}
+                ({{#if attack.damageRoll.formula}}{{attack.damageRoll.formula}}{{else if attack.baseDamage}}{{attack.baseDamage}}{{else}}1d4{{/if}})
+            </span>
+            <div class="ds-attack-subtext">
+                {{#if attack.attack.handedness}}{{attack.attack.handedness}}{{else if attack.handedness}}{{attack.handedness}}{{else}}1h{{/if}}{{#if attack.item.system.propertyNames}}, {{attack.item.system.propertyNames}}{{else if attack.properties}}, {{attack.properties}}{{/if}}
+            </div>
+        </a>
     </div>
 {{/each}}
+{{#unless attacks.melee.length}}
+    {{#unless attacks.ranged.length}}
+        <div class="ds-item-empty"><span class="ds-unset">No equipped weapons</span></div>
+    {{/unless}}
+{{/unless}}

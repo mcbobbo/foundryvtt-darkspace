@@ -105,6 +105,51 @@
         overflow-y: auto;
 
         .attack {
+            padding: 4px 6px;
+            margin-bottom: 6px;
+
+            .ds-attack-link {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                color: inherit;
+                text-decoration: none;
+                cursor: pointer;
+                width: 100%;
+
+                &:hover {
+                    color: inherit;
+                    .ds-attack-name {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .ds-attack-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                gap: 8px;
+            }
+
+            .ds-attack-name {
+                font-size: 14px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .ds-attack-details {
+                display: flex;
+                gap: 6px;
+                font-size: 13px;
+                white-space: nowrap;
+
+                .bonus, .damage {
+                    font-weight: bold;
+                }
+            }
+
             .item-subtext {
                 display: block;
                 font-size: 0.85em;
@@ -139,11 +184,15 @@
 
     .ds-item-header {
         display: grid;
-        grid-template-columns: 1fr auto auto;
+        grid-template-columns: 22px 1fr 32px 42px 18px;
         align-items: center;
         padding: 2px 5px;
         font-weight: bold;
         background: rgba(0, 0, 0, 0.05);
+
+        .ds-item-img-placeholder {
+            width: 20px;
+        }
     }
 
     .ds-item-row {
@@ -153,12 +202,45 @@
         padding: 2px 5px;
         font-size: 14px;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
-
-        // Edit and delete live in a right click menu
-        cursor: context-menu;
+        cursor: pointer;
 
         &:hover,
         &.context { background: rgba(0, 0, 0, 0.04); }
+
+        &.ds-gear-row {
+            grid-template-columns: 22px 1fr 32px 42px 18px;
+        }
+    }
+
+    .ds-item-chevron {
+        text-align: center;
+        opacity: 0.6;
+        cursor: pointer;
+        font-size: 11px;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .ds-item-description {
+        grid-column: 1 / -1;
+        font-size: 12px;
+        line-height: 1.4;
+        padding: 6px 8px;
+        margin: 4px 0 2px 0;
+        background: rgba(0, 0, 0, 0.04);
+        border-left: 3px solid var(--primary, #000);
+        color: #222;
+        cursor: text;
+        word-break: break-word;
+
+        p {
+            margin: 0 0 4px 0;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 
     .ds-item-img {

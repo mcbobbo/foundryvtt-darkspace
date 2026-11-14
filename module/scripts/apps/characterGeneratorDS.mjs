@@ -242,11 +242,24 @@ export default class CharacterGeneratorDS extends CharacterGeneratorSD {
         this.formData.actor.system.class = "";
         this.formData.actor.system.background = "";
 
-        // Calculate initial HP
-        let hpConMod = this.formData.actor.system.abilities.con.mod;
-        if (hpConMod < 1) hpConMod = 1;
-        this.formData.actor.system.attributes.hp.max = hpConMod;
-        this.formData.actor.system.attributes.hp.value = hpConMod;
+        // Set level and calculate initial HP based on level
+        if (this.formData.level0) {
+            this.formData.actor.system.level = { value: 0, xp: 0 };
+            let hpConMod = this.formData.actor.system.abilities.con.mod;
+            if (hpConMod < 1) hpConMod = 1;
+            this.formData.actor.system.attributes.hp.max = hpConMod;
+            this.formData.actor.system.attributes.hp.value = hpConMod;
+            this.formData.actor.system.attributes.hp.base = hpConMod;
+        } else {
+            this.formData.actor.system.level = { value: 1, xp: 0 };
+            const hitDie = this.formData.classHP || "1d6";
+            const hpRoll = await this._roll(hitDie);
+            let hpTotal = hpRoll + this.formData.actor.system.abilities.con.mod;
+            if (hpTotal < 1) hpTotal = 1;
+            this.formData.actor.system.attributes.hp.max = hpTotal;
+            this.formData.actor.system.attributes.hp.value = hpTotal;
+            this.formData.actor.system.attributes.hp.base = hpTotal;
+        }
 
         // Create the new spacer
         if (shadowdark.utils.canCreateCharacter()) {

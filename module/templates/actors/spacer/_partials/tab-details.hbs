@@ -79,7 +79,14 @@
             </div>
 
             <div class="ds-details-full-width">
-                {{> actors/player/details/languages }}
+                {{#> ui/ds-box header-label=(localize "SHADOWDARK.sheet.player.languages")}}
+                    <input
+                        name="system.languages"
+                        type="text"
+                        value="{{ languagesString }}"
+                        placeholder="Common, Binary, Spacer-Cant..."
+                    />
+                {{/ui/ds-box}}
             </div>
         </div>
     </div>

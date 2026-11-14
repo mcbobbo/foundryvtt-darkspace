@@ -10,12 +10,15 @@
             <div class="content">
                 <ol class="ds-item-list">
                     <li class="ds-item-header">
+                        <span class="ds-item-img-placeholder"></span>
                         <span class="ds-item-name">{{localize "DARKSPACE.sheet.spacer.gear.item"}}</span>
                         <span class="ds-item-slots">{{localize "DARKSPACE.sheet.spacer.gear.slotsShort"}}</span>
                         <span class="ds-item-actions"></span>
+                        <span class="ds-item-chevron"></span>
                     </li>
                     {{#each inventory.equipped as |item|}}
-                    <li class="ds-item-row" data-item-id="{{item.id}}">
+                    <li class="ds-item-row ds-gear-row" data-item-id="{{item.id}}" data-action="toggle-item-description"
+                        {{#if item.system.description}}data-tooltip="{{item.system.description}}"{{/if}}>
                         <div class="ds-item-img" style="background-image:url('{{item.img}}')"></div>
                         <span class="ds-item-name">{{item.name}}</span>
                         <span class="ds-item-slots">{{item.system.slotsUsed}}</span>
@@ -25,6 +28,10 @@
                                 <i class="fas fa-user-shield" style="color:var(--primary)"></i>
                             </a>
                         </span>
+                        <span class="ds-item-chevron"><i class="fas fa-chevron-down"></i></span>
+                        <div class="ds-item-description" style="display: none;">
+                            {{#if item.system.description}}{{{item.system.description}}}{{else}}<span class="ds-unset">No description provided.</span>{{/if}}
+                        </div>
                     </li>
                     {{/each}}
                     {{#unless inventory.equipped.length}}
@@ -48,12 +55,15 @@
             <div class="content">
                 <ol class="ds-item-list">
                     <li class="ds-item-header">
+                        <span class="ds-item-img-placeholder"></span>
                         <span class="ds-item-name">{{localize "DARKSPACE.sheet.spacer.gear.item"}}</span>
                         <span class="ds-item-slots">{{localize "DARKSPACE.sheet.spacer.gear.slotsShort"}}</span>
                         <span class="ds-item-actions"></span>
+                        <span class="ds-item-chevron"></span>
                     </li>
                     {{#each inventory.carried as |item|}}
-                    <li class="ds-item-row" data-item-id="{{item.id}}">
+                    <li class="ds-item-row ds-gear-row" data-item-id="{{item.id}}" data-action="toggle-item-description"
+                        {{#if item.system.description}}data-tooltip="{{item.system.description}}"{{/if}}>
                         <div class="ds-item-img" style="background-image:url('{{item.img}}')"></div>
                         <span class="ds-item-name">{{item.name}}</span>
                         <span class="ds-item-slots">{{item.system.slotsUsed}}</span>
@@ -69,6 +79,10 @@
                                 <i class="fas fa-box"></i>
                             </a>
                         </span>
+                        <span class="ds-item-chevron"><i class="fas fa-chevron-down"></i></span>
+                        <div class="ds-item-description" style="display: none;">
+                            {{#if item.system.description}}{{{item.system.description}}}{{else}}<span class="ds-unset">No description provided.</span>{{/if}}
+                        </div>
                     </li>
                     {{/each}}
                     {{#unless inventory.carried.length}}
@@ -87,12 +101,15 @@
             <div class="content">
                 <ol class="ds-item-list">
                     <li class="ds-item-header">
+                        <span class="ds-item-img-placeholder"></span>
                         <span class="ds-item-name">{{localize "DARKSPACE.sheet.spacer.gear.item"}}</span>
                         <span class="ds-item-slots">{{localize "DARKSPACE.sheet.spacer.gear.slotsShort"}}</span>
                         <span class="ds-item-actions"></span>
+                        <span class="ds-item-chevron"></span>
                     </li>
                     {{#each inventory.stashed as |item|}}
-                    <li class="ds-item-row" data-item-id="{{item.id}}">
+                    <li class="ds-item-row ds-gear-row" data-item-id="{{item.id}}" data-action="toggle-item-description"
+                        {{#if item.system.description}}data-tooltip="{{item.system.description}}"{{/if}}>
                         <div class="ds-item-img" style="background-image:url('{{item.img}}')"></div>
                         <span class="ds-item-name">{{item.name}}</span>
                         <span class="ds-item-slots">{{item.system.slotsUsed}}</span>
@@ -102,6 +119,10 @@
                                 <i class="fas fa-box" style="color:var(--primary)"></i>
                             </a>
                         </span>
+                        <span class="ds-item-chevron"><i class="fas fa-chevron-down"></i></span>
+                        <div class="ds-item-description" style="display: none;">
+                            {{#if item.system.description}}{{{item.system.description}}}{{else}}<span class="ds-unset">No description provided.</span>{{/if}}
+                        </div>
                     </li>
                     {{/each}}
                     {{#unless inventory.stashed.length}}

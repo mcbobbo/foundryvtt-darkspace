@@ -32,6 +32,7 @@ export default class SpacerSheet extends HandlebarsApplicationMixin(ActorSheetV2
             "credits-to-ship": SpacerSheet.#onCreditsToShip,
             "ship-open":       SpacerSheet.#onShipOpen,
             "level-up":        SpacerSheet.#onLevelUp,
+            "toggle-item-description": SpacerSheet.#onToggleItemDescription,
         },
     };
 
@@ -84,9 +85,20 @@ export default class SpacerSheet extends HandlebarsApplicationMixin(ActorSheetV2
         context.editing      = this.editing;
         context.maxHp        = system.attributes?.hp?.max ?? 0;
 
-        // Shadowdark advancement: 10 XP per current level
-        context.xpNextLevel = system.level.value * 10;
-        context.levelUp     = system.level.xp >= context.xpNextLevel;
+        // Shadowdark advancement: 10 XP per current level (Level 0 requires 10 XP to reach Level 1)
+        const currentLevel = system.level?.value ?? 0;
+        context.xpNextLevel = currentLevel === 0 ? 10 : currentLevel * 10;
+        context.levelUp     = (system.level?.xp ?? 0) >= context.xpNextLevel;
+
+        // Languages: human-readable display list and comma-separated editable string
+        const rawLanguages = system.languages ?? [];
+        context.languagesList = rawLanguages.map(l => {
+            if (typeof l === "string" && (l.startsWith("Compendium.") || l.startsWith("Item."))) {
+                return fromUuidSync(l)?.name ?? l;
+            }
+            return l;
+        }).filter(Boolean);
+        context.languagesString = context.languagesList.join(", ");
 
         // Item lists
         const items         = actor.items.contents;
@@ -230,6 +242,21 @@ export default class SpacerSheet extends HandlebarsApplicationMixin(ActorSheetV2
         if (item.type === "Class")      return this.actor.system.addClass(item);
         if (item.type === "Background") return this.actor.system.addBackground(item);
 
+        // Language items add to spacer languages list
+        if (item.type === "Language") {
+            const current = (this.actor.system.languages ?? []).map(l => {
+                if (typeof l === "string" && (l.startsWith("Compendium.") || l.startsWith("Item."))) {
+                    return fromUuidSync(l)?.name ?? l;
+                }
+                return l;
+            });
+            if (!current.includes(item.name)) {
+                current.push(item.name);
+                return this.actor.update({ "system.languages": current });
+            }
+            return null;
+        }
+
         return super._onDropItem(event, item);
     }
 
@@ -238,6 +265,12 @@ export default class SpacerSheet extends HandlebarsApplicationMixin(ActorSheetV2
     // -----------------------------------------------
 
     static async #onSubmit(event, form, formData) {
+        if (typeof formData.object["system.languages"] === "string") {
+            formData.object["system.languages"] = formData.object["system.languages"]
+                .split(",")
+                .map(s => s.trim())
+                .filter(Boolean);
+        }
         await this.document.update(formData.object);
     }
 
@@ -276,6 +309,8 @@ export default class SpacerSheet extends HandlebarsApplicationMixin(ActorSheetV2
     }
 
     static #onItemAttack(event, target) {
+        event.preventDefault();
+        event.stopPropagation();
         const data = {
             skipPrompt: event.shiftKey, // skip roll prompt if shift clicked
         };
@@ -285,7 +320,25 @@ export default class SpacerSheet extends HandlebarsApplicationMixin(ActorSheetV2
         }
         const itemUuid = attackEl.dataset.itemUuid
             ?? this.actor.items.get(attackEl.dataset.itemId)?.uuid;
-        if (itemUuid) this.actor.system.rollAttack(itemUuid, data);
+        if (itemUuid) {
+            this.actor.system.rollAttack(itemUuid, data);
+        } else if (attackEl.dataset.itemId) {
+            this.actor.system.rollAttack(attackEl.dataset.itemId, data);
+        }
+    }
+
+    static #onToggleItemDescription(event, target) {
+        if (event.target.closest("a, button, input, select, .ds-item-description")) return;
+        event.stopPropagation();
+        const row = target.closest(".ds-item-row") ?? target;
+        const desc = row.querySelector(".ds-item-description");
+        if (!desc) return;
+        const isHidden = desc.style.display === "none";
+        desc.style.display = isHidden ? "block" : "none";
+        const chevron = row.querySelector(".ds-item-chevron i");
+        if (chevron) {
+            chevron.className = isHidden ? "fas fa-chevron-up" : "fas fa-chevron-down";
+        }
     }
 
     static #onItemCreate(event, target) {

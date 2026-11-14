@@ -4,6 +4,7 @@ export default class Spacer extends ActorBaseDS {
     static defineSchema() {
         const fields = foundry.data.fields;
         const schema = {
+            languages:     new fields.ArrayField(new fields.StringField({ initial: "" })),
             motivation:    new fields.StringField({ initial: "" }),
             shipUuid:      new fields.StringField({ initial: "" }),
             shipRoleUuids: new fields.ArrayField(new fields.StringField({ initial: "" })),

@@ -10,9 +10,14 @@
             <div class="content">
                 <ol class="ds-item-list">
                     {{#each talents.species as |item|}}
-                    <li class="ds-item-row" data-item-id="{{item.id}}">
+                    <li class="ds-item-row" data-item-id="{{item.id}}" data-action="toggle-item-description"
+                        {{#if item.system.description}}data-tooltip="{{item.system.description}}"{{/if}}>
                         <div class="ds-item-img" style="background-image:url('{{item.img}}')"></div>
                         <span class="ds-item-name">{{item.name}}</span>
+                        <span class="ds-item-chevron"><i class="fas fa-chevron-down"></i></span>
+                        <div class="ds-item-description" style="display: none;">
+                            {{#if item.system.description}}{{{item.system.description}}}{{else}}<span class="ds-unset">No description provided.</span>{{/if}}
+                        </div>
                     </li>
                     {{/each}}
                     {{#unless talents.species.length}}
@@ -31,9 +36,14 @@
             <div class="content">
                 <ol class="ds-item-list">
                     {{#each talents.archetype as |item|}}
-                    <li class="ds-item-row" data-item-id="{{item.id}}">
+                    <li class="ds-item-row" data-item-id="{{item.id}}" data-action="toggle-item-description"
+                        {{#if item.system.description}}data-tooltip="{{item.system.description}}"{{/if}}>
                         <div class="ds-item-img" style="background-image:url('{{item.img}}')"></div>
                         <span class="ds-item-name">{{item.name}}</span>
+                        <span class="ds-item-chevron"><i class="fas fa-chevron-down"></i></span>
+                        <div class="ds-item-description" style="display: none;">
+                            {{#if item.system.description}}{{{item.system.description}}}{{else}}<span class="ds-unset">No description provided.</span>{{/if}}
+                        </div>
                     </li>
                     {{/each}}
                     {{#unless talents.archetype.length}}
@@ -57,10 +67,15 @@
             <div class="content">
                 <ol class="ds-item-list">
                     {{#each talents.level as |item|}}
-                    <li class="ds-item-row" data-item-id="{{item.id}}">
+                    <li class="ds-item-row" data-item-id="{{item.id}}" data-action="toggle-item-description"
+                        {{#if item.system.description}}data-tooltip="{{item.system.description}}"{{/if}}>
                         <div class="ds-item-img" style="background-image:url('{{item.img}}')"></div>
                         <span class="ds-item-name">{{item.name}}</span>
                         <span class="ds-talent-level">{{item.system.level}}</span>
+                        <span class="ds-item-chevron"><i class="fas fa-chevron-down"></i></span>
+                        <div class="ds-item-description" style="display: none;">
+                            {{#if item.system.description}}{{{item.system.description}}}{{else}}<span class="ds-unset">No description provided.</span>{{/if}}
+                        </div>
                     </li>
                     {{/each}}
                     {{#unless talents.level.length}}

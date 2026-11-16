@@ -99,3 +99,7 @@ DARKSPACE.packs.macros: Macros
 DARKSPACE.packs.npcs: NPCs
 DARKSPACE.packs.stock-ships: Stock Ships
 DARKSPACE.packs.rollable-tables: Roll Tables
+
+DARKSPACE.dialog.ship_check.crew_member: Crew Member
+DARKSPACE.dialog.ship_check.no_crew: "— None (Ship Only) —"
+DARKSPACE.dialog.ship_check.crew_hint: Select the crew member making the check to add their stat modifier.

@@ -32,8 +32,8 @@ export default class ActorBaseDS extends PlayerSD {
      * Compatibility wrapper: Shadowdark v4 renamed rollStatCheck to rollAbilityCheck.
      */
     async rollStatCheck(abilityId, config={}) {
-        if (typeof super.rollAbilityCheck === "function") {
-            return super.rollAbilityCheck(abilityId, config);
+        if (typeof this.rollAbilityCheck === "function") {
+            return this.rollAbilityCheck(abilityId, config);
         }
         if (typeof super.rollStatCheck === "function") {
             return super.rollStatCheck(abilityId, config);

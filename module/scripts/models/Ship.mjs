@@ -145,66 +145,11 @@ export default class Ship extends ActorBaseDS {
     }
 
     /**
-     * Updates the roll dialog's formula input and hint live when the crew member
-     * dropdown selection changes.
-     * @param {HTMLSelectElement} selectEl
+     * Builds the list of crew member options and their modifier for the given ability.
+     * @param {string} ability
+     * @returns {Array<object>}
      */
-    static onCrewCheckChange(selectEl) {
-        const form = selectEl?.closest("form");
-        if (!form) return;
-
-        const opt = selectEl.selectedOptions?.[0];
-        const baseFormula = selectEl.dataset.baseFormula || "d20";
-        const formattedMod = opt?.dataset?.formattedMod || "";
-
-        const formulaInput = form.querySelector('input[name="mainRoll.formula"]');
-        if (formulaInput) {
-            formulaInput.value = `${baseFormula}${formattedMod}`;
-
-            const formGroup = formulaInput.closest(".form-group");
-            if (formGroup) {
-                const baseTooltips = selectEl.dataset.baseTooltips || "";
-                const crewTooltip = opt?.dataset?.tooltipEntry || "";
-                const combinedHint = [baseTooltips, crewTooltip].filter(Boolean).join(", ");
-
-                let hintEl = formGroup.querySelector(".hint");
-                if (!hintEl && combinedHint) {
-                    hintEl = document.createElement("p");
-                    hintEl.classList.add("hint");
-                    formGroup.appendChild(hintEl);
-                }
-                if (hintEl) {
-                    hintEl.textContent = combinedHint;
-                }
-            }
-        }
-
-        const appliedInput = form.querySelector('input[name="crewModApplied"]');
-        if (appliedInput) {
-            appliedInput.value = "1";
-        }
-    }
-
-    /**
-     * Ship stat checks prompt for which crew member is performing the check
-     * and add their corresponding ability modifier to the final formula.
-     * @override
-     */
-    async rollAbilityCheck(abilityId, config={}) {
-        const ability = abilityId?.toLowerCase();
-        if (!CONFIG.SHADOWDARK.ABILITY_KEYS.includes(ability)) return false;
-
-        config.type = "ability-check";
-        config.actorId = this.parent.id;
-        config.ability = ability;
-        config.title ??= game.i18n.localize("SHADOWDARK.dialog.ability_check.title");
-        config.heading ??= game.i18n.localize(`SHADOWDARK.dialog.ability_check.${ability}`);
-
-        this._generateAbilityCheckConfig(ability, config);
-        const shipBaseFormula = config.mainRoll.formula;
-        const shipBaseTooltips = config.mainRoll.tooltips ?? "";
-
-        // Crew members assigned to this ship; fallback to all Spacers if none assigned
+    _getCrewCheckChoices(ability) {
         const assignedCrew = this.getCrew();
         const crewActors = assignedCrew.length
             ? assignedCrew
@@ -212,136 +157,142 @@ export default class Ship extends ActorBaseDS {
         const shipRoles = (this.parent?.items ?? []).filter(i => i.type === "darkspace.ShipRole");
         const abilityShort = ability.toUpperCase();
 
-        const crewChoices = crewActors.map(spacer => {
+        return crewActors.map(spacer => {
             const baseMod = spacer.system?.abilities?.[ability]?.mod ?? 0;
-            const rollKey = typeof spacer.system?._getActiveEffectKeys === "function"
-                ? spacer.system._getActiveEffectKeys(`roll.${ability}.bonus`, baseMod)
-                : { value: baseMod };
-            const parsedMod = Number(rollKey?.value);
-            const mod = Number.isNaN(parsedMod) ? baseMod : parsedMod;
+            let mod = baseMod;
+            if (typeof spacer.system?._getActiveEffectKeys === "function") {
+                const rk = spacer.system._getActiveEffectKeys(`roll.stat.bonus.${ability}`, baseMod);
+                const parsed = Number(rk?.value);
+                if (!Number.isNaN(parsed)) mod = parsed;
+            }
             const signMod = mod >= 0 ? `+${mod}` : `${mod}`;
-            const formattedMod = ` ${signMod}`;
+            const formattedBonus = mod === 0
+                ? " + 0"
+                : shadowdark.dice.formatBonus(mod);
 
             const roleNames = shipRoles
                 .filter(r => (spacer.system?.shipRoleUuids ?? []).includes(r.uuid))
                 .map(r => r.name);
             const roleSuffix = roleNames.length ? ` [${roleNames.join(", ")}]` : "";
-            const optionLabel = `${spacer.name}${roleSuffix} (${abilityShort} ${signMod})`;
-            const tooltipEntry = `${spacer.name} (${signMod})`;
+            const label = `${spacer.name}${roleSuffix} (${abilityShort} ${signMod})`;
+            const tooltip = shadowdark.dice.createToolTip(spacer.name, mod);
 
             return {
                 uuid: spacer.uuid,
                 name: spacer.name,
                 mod,
                 signMod,
-                formattedMod,
-                optionLabel,
-                tooltipEntry,
+                formattedBonus,
+                label,
+                tooltip,
             };
         });
+    }
 
-        // Build Crew Member dropdown form group for the roll dialog
-        config.mainFormGroups ??= [];
-        const crewFormGroup = document.createElement("div");
-        crewFormGroup.classList.add("form-group");
+    /**
+     * @override
+     * Generates the stat check config for the Ship and appends the selected
+     * crew member's stat modifier to the roll formula and tooltips.
+     */
+    _generateStatCheckConfig(config) {
+        if (typeof super._generateStatCheckConfig === "function") {
+            super._generateStatCheckConfig(config);
+        }
+        const ability = config?.check?.stat;
+        if (!ability || !config?.mainRoll) return;
 
-        const crewLabel = document.createElement("label");
-        crewLabel.textContent = game.i18n.localize("DARKSPACE.dialog.ship_check.crew_member");
-        crewFormGroup.appendChild(crewLabel);
+        config.crewChoices = this._getCrewCheckChoices(ability);
 
-        const crewFields = document.createElement("div");
-        crewFields.classList.add("form-fields");
+        const selectedCrew = config.crewMemberUuid
+            ? config.crewChoices.find(c => c.uuid === config.crewMemberUuid)
+            : null;
 
-        const crewSelect = document.createElement("select");
-        crewSelect.name = "crewMemberUuid";
-        crewSelect.classList.add("ds-crew-check-select");
-        crewSelect.dataset.baseFormula = shipBaseFormula;
-        crewSelect.dataset.baseTooltips = shipBaseTooltips;
-        crewSelect.setAttribute("onchange", "globalThis.darkspace?.onShipCrewCheckChange?.(this)");
+        if (selectedCrew) {
+            config.mainRoll.formula = `${config.mainRoll.formula}${selectedCrew.formattedBonus}`;
+            config.mainRoll.tooltips = [config.mainRoll.tooltips, selectedCrew.tooltip]
+                .filter(Boolean)
+                .join(", ");
+            config.mainRoll.label = `${game.i18n.localize("SHADOWDARK.roll.check")} (${selectedCrew.name})`;
+        }
+    }
+
+    /** @override */
+    async rollStatCheck(abilityId, config={}) {
+        if (this.rollConfigGenerators) {
+            this.rollConfigGenerators.check = this._generateStatCheckConfig.bind(this);
+        }
+        return super.rollStatCheck(abilityId, config);
+    }
+
+    /**
+     * Injects the Crew Member dropdown into Shadowdark's RollDialogSD when
+     * rolling a stat check on a Ship.
+     * @param {ApplicationV2} dialog
+     */
+    static injectCrewSelect(dialog) {
+        if (!dialog?.config?.crewChoices || !dialog.element) return;
+        if (dialog.element.querySelector(".ds-crew-check-row")) return;
+
+        const row = document.createElement("div");
+        row.classList.add("roll-input", "flexrow", "ds-crew-check-row");
+
+        const label = document.createElement("label");
+        label.textContent = game.i18n.localize("DARKSPACE.dialog.ship_check.crew_member");
+        row.appendChild(label);
+
+        const select = document.createElement("select");
+        select.name = "crewMemberUuid";
+        select.classList.add("ds-crew-check-select");
+        select.style.flex = "1";
 
         const noneOpt = document.createElement("option");
         noneOpt.value = "";
         noneOpt.textContent = game.i18n.localize("DARKSPACE.dialog.ship_check.no_crew");
-        noneOpt.dataset.mod = "0";
-        noneOpt.dataset.formattedMod = "";
-        noneOpt.dataset.tooltipEntry = "";
-        crewSelect.appendChild(noneOpt);
+        select.appendChild(noneOpt);
 
-        for (const c of crewChoices) {
+        for (const c of dialog.config.crewChoices) {
             const opt = document.createElement("option");
             opt.value = c.uuid;
-            opt.textContent = c.optionLabel;
-            opt.dataset.mod = String(c.mod);
-            opt.dataset.formattedMod = c.formattedMod;
-            opt.dataset.crewName = c.name;
-            opt.dataset.tooltipEntry = c.tooltipEntry;
-            if (config.crewMemberUuid && config.crewMemberUuid === c.uuid) {
+            opt.textContent = c.label;
+            if (dialog.config.crewMemberUuid === c.uuid) {
                 opt.selected = true;
             }
-            crewSelect.appendChild(opt);
+            select.appendChild(opt);
         }
 
-        const appliedInput = document.createElement("input");
-        appliedInput.type = "hidden";
-        appliedInput.name = "crewModApplied";
-        appliedInput.value = "0";
+        const hint = document.createElement("p");
+        hint.classList.add("tooltips");
+        hint.textContent = game.i18n.localize("DARKSPACE.dialog.ship_check.crew_hint");
 
-        const preselectedCrew = config.crewMemberUuid
-            ? crewChoices.find(c => c.uuid === config.crewMemberUuid)
-            : null;
-        if (preselectedCrew) {
-            config.mainRoll.formula = `${shipBaseFormula}${preselectedCrew.formattedMod}`;
-            config.mainRoll.tooltips = [shipBaseTooltips, preselectedCrew.tooltipEntry].filter(Boolean).join(", ");
-            appliedInput.value = "1";
+        row.appendChild(select);
+        row.appendChild(hint);
+
+        const firstRollInput = dialog.element.querySelector(".roll-input");
+        if (firstRollInput) {
+            firstRollInput.before(row);
         }
 
-        crewFields.appendChild(crewSelect);
-        crewFields.appendChild(appliedInput);
-        crewFormGroup.appendChild(crewFields);
+        select.addEventListener("change", async event => {
+            const formData = new foundry.applications.ux.FormDataExtended(dialog.element).object;
+            const currentAdvantage = formData.advantage !== undefined
+                ? parseInt(formData.advantage, 10)
+                : undefined;
+            const currentRollMode = formData.rollMode;
 
-        const crewHint = document.createElement("p");
-        crewHint.classList.add("hint");
-        crewHint.textContent = game.i18n.localize("DARKSPACE.dialog.ship_check.crew_hint");
-        crewFormGroup.appendChild(crewHint);
+            dialog.config.crewMemberUuid = event.currentTarget.value;
 
-        config.mainFormGroups.push(crewFormGroup);
+            const actor = (dialog.config.actorUuid ? await fromUuid(dialog.config.actorUuid) : null)
+                ?? game.actors.get(dialog.config.actorId);
+            await actor?.system?.rollConfigGenerators?.[dialog.config.type]?.(dialog.config);
 
-        // Show roll prompt and end if closed
-        const prompt = await shadowdark.dice.rollDialog(config);
-        if (!prompt) return false;
-
-        // Recompute ship base check config in case situational AE checkboxes were toggled
-        const postShipConfig = { selected: config.selected };
-        this._generateAbilityCheckConfig(ability, postShipConfig);
-        const updatedShipFormula = postShipConfig.mainRoll.formula;
-        const updatedShipTooltips = postShipConfig.mainRoll.tooltips ?? "";
-
-        const selectedCrew = config.crewMemberUuid
-            ? crewChoices.find(c => c.uuid === config.crewMemberUuid)
-            : null;
-
-        if (selectedCrew) {
-            if (String(config.crewModApplied) !== "1") {
-                config.mainRoll.formula = `${config.mainRoll.formula}${selectedCrew.formattedMod}`;
-            } else if (updatedShipFormula !== shipBaseFormula) {
-                config.mainRoll.formula = `${updatedShipFormula}${selectedCrew.formattedMod}`;
+            if (currentAdvantage !== undefined && !Number.isNaN(currentAdvantage) && dialog.config.mainRoll) {
+                dialog.config.mainRoll.advantage = currentAdvantage;
             }
-            config.mainRoll.tooltips = [updatedShipTooltips, selectedCrew.tooltipEntry]
-                .filter(Boolean)
-                .join(", ");
-            config.mainRoll.label = `${game.i18n.localize("SHADOWDARK.dialog.roll")} (${selectedCrew.name})`;
-            config.heading = `${config.heading} — ${selectedCrew.name}`;
-        } else {
-            if (updatedShipFormula !== shipBaseFormula && config.mainRoll.formula === shipBaseFormula) {
-                config.mainRoll.formula = updatedShipFormula;
+            if (currentRollMode !== undefined) {
+                dialog.config.rollMode = currentRollMode;
             }
-            config.mainRoll.tooltips = updatedShipTooltips;
-        }
 
-        // Call Stat Check hooks and cancel if any return false
-        if (!await Hooks.call("SD-Stat-Check", config)) return false;
-
-        // Evaluate and roll the check
-        return await shadowdark.dice.rollFromConfig(config);
+            await dialog.render(true);
+        });
     }
 }

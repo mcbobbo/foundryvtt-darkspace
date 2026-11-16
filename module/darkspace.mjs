@@ -21,7 +21,6 @@ Hooks.on("init", () => {
         },
         models,
         sheets,
-        onShipCrewCheckChange: models.Ship.onCrewCheckChange,
     };
     CONFIG.darkspace = globalThis.darkspace;
 
@@ -221,21 +220,21 @@ Hooks.on("preCreateItem", (item, data) => {
 // -----------------------------------------------
 // Triggers once the module is fully loaded
 // -----------------------------------------------
-// Bind live formula updates when selecting a crew member in a Ship stat check dialog
-Hooks.on("renderDialogV2", (app, element) => {
-    const html = element instanceof HTMLElement ? element : element?.[0];
-    const selectEl = html?.querySelector?.("select.ds-crew-check-select");
-    if (selectEl && !selectEl.dataset.listenerBound) {
-        selectEl.dataset.listenerBound = "1";
-        selectEl.removeAttribute("onchange");
-        selectEl.addEventListener("change", event => {
-            models.Ship.onCrewCheckChange(event.currentTarget);
-        });
-    }
+// Inject Crew Member dropdown into RollDialogSD when rolling Ship stat checks
+Hooks.on("renderRollDialogSD", app => {
+    models.Ship.injectCrewSelect(app);
 });
 
 Hooks.on("ready", async () => {
     const dsModule = game.modules.get("darkspace");
+    if (shadowdark?.apps?.RollDialogSD && !shadowdark.apps.RollDialogSD.prototype._dsCrewWrapped) {
+        const _origOnRender = shadowdark.apps.RollDialogSD.prototype._onRender;
+        shadowdark.apps.RollDialogSD.prototype._onRender = function(context, options) {
+            _origOnRender?.call(this, context, options);
+            models.Ship.injectCrewSelect(this);
+        };
+        shadowdark.apps.RollDialogSD.prototype._dsCrewWrapped = true;
+    }
     if (dsModule) dsModule.api = globalThis.darkspace;
     if (!game.user.isGM) return;
 

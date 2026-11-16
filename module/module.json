@@ -2,7 +2,7 @@
     "id": "darkspace",
     "title": "DarkSpace",
     "description": "A sci-fi RPG module built on the Shadowdark RPG system.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "compatibility": {
         "minimum": "13",
         "verified": "14"
